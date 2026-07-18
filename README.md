@@ -3,9 +3,11 @@
 ---
 
 ### Ownership and License
-The contributors are listed in CONTRIB.TXT. 
+The contributors are listed in CONTRIB.TXT.
 
 ### Overview
+
+![3D model](Images/EEZ_DIB_AFE3plus.jpg)
 
 Multirange 4-channel Hi-voltage/Hi-current AFE for [MIO168+](https://github.com/eez-open/dib-mio168plus) module with two isolated inputs for voltage and current measurements.
 

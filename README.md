@@ -14,9 +14,9 @@ Multirange 4-channel Hi-voltage/Hi-current AFE for [MIO168+](https://github.com/
 ### Feature list
 * [ADS131E04](https://www.ti.com/product/ADS131E04) 24-bit 4-channel simultaneous sampling ADC with SPI
 * AIN#1: Hi-voltage isolated (floated) input featuring 2 measurement ranges (±50 V, ±450 V)
-* AIN#2: Hi-current isolated (floated) input featuring 2 measurement ranges (±1 A, ±10 A)
+* AIN#2: Hi-current isolated (floated) input featuring 2 measurement ranges (±1 A, ±5 A)
 * AIN#3: Hi-voltage input featuring 3 measurement ranges (±2.4 V, ±48 V, ±240 V)
-* AIN#4: Hi-current input featuring 3 measurement ranges (±24 mA, ±1.2 A, ±10 A), share common GND with AIN#3
+* AIN#4: Hi-current input featuring 3 measurement ranges (±24 mA, ±1.2 A, ±5 A), share common GND with AIN#3
 * Fused current inputs
 * On-board ±2.5 V low noise LDOs
 * Optional external voltage reference

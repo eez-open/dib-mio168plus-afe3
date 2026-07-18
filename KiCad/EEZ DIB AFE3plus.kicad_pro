@@ -1862,7 +1862,7 @@
         "uuid": "324c4880-14dd-4339-a8ef-63d64f49eee3"
       }
     ],
-    "used_designators": "IN1P1,TP1-3,IN2N1,JP1-4,R1-46,IN1N1,IN2P1,OK1-2,X1-2,IC1-12,K1-4,L1-5,Q1-2,C1-62,FM1-4,F1-4,#+12V_ISO1-3,LOGO1-7,#FLG1-11,#\\-5V_ISO1-2,#\\-2V5_ISO1-6,#\\-12V_ISO1-3,#+5V_ISO1-7,#+3V3_ISO1-8,#+2V5_ISO1-5,#SUPPLY1-36,D1-10",
+    "used_designators": "Q1-2,L1-5,K1-4,IC1-12,X1-2,OK1-2,IN2P1,IN1N1,IN2N1,TP1-3,R1-46,JP1-4,IN1P1,C1-62,D1-10,#SUPPLY1-36,#+2V5_ISO1-5,#+3V3_ISO1-8,#+5V_ISO1-7,#\\-12V_ISO1-3,#\\-2V5_ISO1-6,#\\-5V_ISO1-2,#FLG1-11,LOGO1-7,#+12V_ISO1-3,F1-4,FM1-4",
     "variants": []
   },
   "sheets": [

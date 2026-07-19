@@ -78,15 +78,15 @@
       ],
       "drc_exclusions": [
         [
-          "clearance|110731600|106676200|34c0cfea-38fa-4dc5-bd51-91d1f4c24bde|616f0648-b168-45e2-bcb1-e63cabefc714",
+          "clearance|110731600|106676200|616f0648-b168-45e2-bcb1-e63cabefc714|34c0cfea-38fa-4dc5-bd51-91d1f4c24bde",
           ""
         ],
         [
-          "clearance|110731600|123381000|74d33ea5-3afd-4f59-8419-11cc313480c8|be4e0740-4f80-4cf8-be3d-a0ad14d19f7c",
+          "clearance|110731600|123381000|be4e0740-4f80-4cf8-be3d-a0ad14d19f7c|74d33ea5-3afd-4f59-8419-11cc313480c8",
           ""
         ],
         [
-          "clearance|110731600|129306200|bd8a2514-50e2-46d4-b0c4-1c3c120ce019|58d18e49-dd04-4692-bfeb-b22d44406803",
+          "clearance|110731600|129306200|58d18e49-dd04-4692-bfeb-b22d44406803|bd8a2514-50e2-46d4-b0c4-1c3c120ce019",
           ""
         ],
         [
@@ -94,15 +94,15 @@
           ""
         ],
         [
-          "clearance|111671500|106347700|fbd0e4bf-aa28-47f6-aafe-8f3f79f29585|616f0648-b168-45e2-bcb1-e63cabefc714",
+          "clearance|111671500|106347700|616f0648-b168-45e2-bcb1-e63cabefc714|fbd0e4bf-aa28-47f6-aafe-8f3f79f29585",
           ""
         ],
         [
-          "clearance|111671500|106852300|7af7a672-bb1f-4a3c-9af0-548815e9e551|616f0648-b168-45e2-bcb1-e63cabefc714",
+          "clearance|111671500|106852300|616f0648-b168-45e2-bcb1-e63cabefc714|7af7a672-bb1f-4a3c-9af0-548815e9e551",
           ""
         ],
         [
-          "clearance|111671500|123052500|f8689117-1cb8-4efb-b7d9-bff621c30fa6|be4e0740-4f80-4cf8-be3d-a0ad14d19f7c",
+          "clearance|111671500|123052500|be4e0740-4f80-4cf8-be3d-a0ad14d19f7c|f8689117-1cb8-4efb-b7d9-bff621c30fa6",
           ""
         ],
         [
@@ -114,11 +114,11 @@
           ""
         ],
         [
-          "clearance|111671500|128977700|4fcb4227-b9f5-4b72-9af9-ff6bef42a1a0|58d18e49-dd04-4692-bfeb-b22d44406803",
+          "clearance|111671500|128977700|34542ade-dd3d-43ed-909a-745ed72b6461|4fcb4227-b9f5-4b72-9af9-ff6bef42a1a0",
           ""
         ],
         [
-          "clearance|111671500|129482300|34542ade-dd3d-43ed-909a-745ed72b6461|8e1e1415-d10c-4909-be83-61677a8a0e1f",
+          "clearance|111671500|128977700|58d18e49-dd04-4692-bfeb-b22d44406803|4fcb4227-b9f5-4b72-9af9-ff6bef42a1a0",
           ""
         ],
         [
@@ -142,11 +142,11 @@
           ""
         ],
         [
-          "clearance|115493500|128977700|dba1e2ff-1992-46d5-a3c4-7ba16af9922d|06c56afe-430b-4966-8642-92e0ab500275",
+          "clearance|115493500|128977700|06c56afe-430b-4966-8642-92e0ab500275|dba1e2ff-1992-46d5-a3c4-7ba16af9922d",
           ""
         ],
         [
-          "clearance|115493500|129482300|f9182d21-feec-4c2a-aab2-5f0b4b13e738|06c56afe-430b-4966-8642-92e0ab500275",
+          "clearance|115493500|129482300|06c56afe-430b-4966-8642-92e0ab500275|f9182d21-feec-4c2a-aab2-5f0b4b13e738",
           ""
         ],
         [
@@ -202,15 +202,15 @@
           ""
         ],
         [
+          "shorting_items|112662200|119880000|05141ecd-cb0a-49d6-8b30-637c079eb232|61f2130c-4a72-44eb-b0a0-c6a0926b70a1",
+          ""
+        ],
+        [
           "shorting_items|112662200|119880000|3d875e15-51bc-481d-8c3f-fa1643678007|e9e302e7-3f25-463a-938e-5f3dd433f81f",
           ""
         ],
         [
-          "shorting_items|112667000|119875200|61f2130c-4a72-44eb-b0a0-c6a0926b70a1|e9e302e7-3f25-463a-938e-5f3dd433f81f",
-          ""
-        ],
-        [
-          "shorting_items|112667000|119875200|c8993c72-506e-4289-acc2-f990e7332284|e9e302e7-3f25-463a-938e-5f3dd433f81f",
+          "shorting_items|112667000|119875200|05141ecd-cb0a-49d6-8b30-637c079eb232|c8993c72-506e-4289-acc2-f990e7332284",
           ""
         ],
         [
@@ -1691,7 +1691,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "Gerber files",
+      "plot": "../fabrication/gerbers/",
       "pos_files": "pos",
       "specctra_dsn": "",
       "step": "",
@@ -1706,7 +1706,7 @@
       "method": 0,
       "sort_order": 0
     },
-    "bom_export_filename": "bom/EEZ DIB AFE3plus.csv",
+    "bom_export_filename": "../fabrication/bom/EEZ DIB AFE3plus.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -1719,8 +1719,14 @@
     },
     "bom_presets": [],
     "bom_settings": {
-      "exclude_dnp": false,
+      "exclude_dnp": true,
       "fields_ordered": [
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": true
+        },
         {
           "group_by": false,
           "label": "Reference",
@@ -1755,12 +1761,6 @@
           "group_by": false,
           "label": "DNP",
           "name": "${DNP}",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "#",
-          "name": "${ITEM_NUMBER}",
           "show": false
         },
         {
@@ -1811,7 +1811,7 @@
       "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "${ITEM_NUMBER}"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
@@ -1862,7 +1862,7 @@
         "uuid": "324c4880-14dd-4339-a8ef-63d64f49eee3"
       }
     ],
-    "used_designators": "Q1-2,L1-5,K1-4,IC1-12,X1-2,OK1-2,IN2P1,IN1N1,IN2N1,TP1-3,R1-46,JP1-4,IN1P1,C1-62,D1-10,#SUPPLY1-36,#+2V5_ISO1-5,#+3V3_ISO1-8,#+5V_ISO1-7,#\\-12V_ISO1-3,#\\-2V5_ISO1-6,#\\-5V_ISO1-2,#FLG1-11,LOGO1-7,#+12V_ISO1-3,F1-4,FM1-4",
+    "used_designators": "Q1-2,L1-5,K1-4,IC1-12,X1-2,OK1-2,IN2P1,IN1N1,IN2N1,TP1-3,R1-47,JP1-4,IN1P1,C1-67,D1-10,#SUPPLY1-36,#+2V5_ISO1-5,#+3V3_ISO1-9,#+5V_ISO1-7,#\\-12V_ISO1-3,#\\-2V5_ISO1-6,#\\-5V_ISO1-2,#FLG1-11,LOGO1-7,#+12V_ISO1-3,F1-4,FM1-4",
     "variants": []
   },
   "sheets": [

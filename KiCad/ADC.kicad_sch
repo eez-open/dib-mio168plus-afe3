@@ -2354,6 +2354,264 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "PCM_EEZ_TI:REF50XX"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "IC"
+				(at -10.16 8.255 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "REF5025AIDR"
+				(at 2.54 -6.985 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right bottom)
+				)
+			)
+			(property "Footprint" "PCM_EEZ_SMD:SOIC127P600X173-8N"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Low-Noise, Very Low Drift, Precision Voltage Reference"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "DigiKey" "296-39165-1-ND"
+				(at 0 -12.7 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Mouser" "595-REF5025AIDR"
+				(at 0 -15.24 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "TME" "-"
+				(at 0 -17.78 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "REF50XX_1_0"
+				(pin no_connect line
+					(at -12.7 2.54 0)
+					(length 2.54)
+					(hide yes)
+					(name "DNC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 5.08 0)
+					(length 2.54)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 0 180)
+					(length 2.54)
+					(name "TEMP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -2.54 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 -2.54 180)
+					(length 2.54)
+					(name "TRIM/NR"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 5.08 180)
+					(length 2.54)
+					(name "VOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 12.7 2.54 180)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -12.7 0 0)
+					(length 2.54)
+					(hide yes)
+					(name "DNC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "REF50XX_1_1"
+				(rectangle
+					(start -10.16 7.62)
+					(end 10.16 -5.08)
+					(stroke
+						(width 0.4064)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "PCM_EEZ_TI:TPS71725DCKR"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -6507,7 +6765,7 @@
 	)
 	(text "+2.5 V voltage reference (optional)"
 		(exclude_from_sim no)
-		(at 127 17.78 0)
+		(at 124.46 17.78 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -6556,12 +6814,6 @@
 		(uuid "f9788b30-7934-444b-9710-b8f29fca956e")
 	)
 	(junction
-		(at 127 30.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "01be3e59-5647-4df4-bfbe-65a39315a579")
-	)
-	(junction
 		(at 274.32 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6574,43 +6826,49 @@
 		(uuid "06afe420-6d12-468d-9c75-c1b09bd7a2b6")
 	)
 	(junction
-		(at 116.84 60.96)
+		(at 114.3 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0bccd47d-9b81-43e2-9b26-b44a43a453b9")
 	)
 	(junction
-		(at 53.34 152.4)
+		(at 50.8 160.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1be8ff3e-f182-448f-852f-63468f7d6efc")
 	)
 	(junction
-		(at 53.34 78.74)
+		(at 50.8 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "207e8b8f-4c4c-4794-adbd-039ee2e47cbc")
 	)
 	(junction
-		(at 68.58 152.4)
+		(at 66.04 160.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "25665cc0-70ec-417d-af1f-d2ed5eaba881")
 	)
 	(junction
-		(at 45.72 86.36)
+		(at 114.3 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "27f97054-4cca-4f19-8bd7-e64c0cf8669a")
+	)
+	(junction
+		(at 43.18 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "288c1d95-42df-4b42-9ee2-e4d68225436e")
 	)
 	(junction
-		(at 68.58 147.32)
+		(at 66.04 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2b96edf6-533f-447c-b510-c2911e224df8")
 	)
 	(junction
-		(at 71.12 160.02)
+		(at 68.58 167.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2eab3818-b043-4ccc-860b-95779a588b02")
@@ -6622,16 +6880,16 @@
 		(uuid "2f3b88c8-49a0-49bd-bc3a-e0d5a0fb1110")
 	)
 	(junction
-		(at 139.7 162.56)
+		(at 157.48 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2f44162a-b818-4065-9005-2a51ad038d7a")
+	)
+	(junction
+		(at 137.16 170.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "35019556-d423-48da-8beb-741f1d556040")
-	)
-	(junction
-		(at 127 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "38398d68-6a5b-41d3-9844-bd95999fc405")
 	)
 	(junction
 		(at 203.2 58.42)
@@ -6640,25 +6898,19 @@
 		(uuid "388d41e0-70d0-4cfa-967c-42005ed6ae11")
 	)
 	(junction
-		(at 109.22 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4111dd22-b822-4de7-baed-027069bb6c25")
-	)
-	(junction
-		(at 152.4 165.1)
+		(at 149.86 172.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "44fc80dc-2f13-4f0e-a953-bbefec19b130")
 	)
 	(junction
-		(at 71.12 182.88)
+		(at 68.58 190.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "48630830-9c15-47d1-9d24-b4c477c55bb3")
 	)
 	(junction
-		(at 139.7 165.1)
+		(at 137.16 172.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4a34f67c-907e-4a8a-9d69-0c96c742952a")
@@ -6676,19 +6928,19 @@
 		(uuid "51da9a60-1d77-4e7d-8c2b-45ea8bfb3425")
 	)
 	(junction
-		(at 149.86 142.24)
+		(at 147.32 149.86)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "54d496db-aed6-4069-85cc-a273e4188085")
 	)
 	(junction
-		(at 45.72 129.54)
+		(at 43.18 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "551e4be3-2571-4674-8395-4d1db66198bf")
 	)
 	(junction
-		(at 71.12 157.48)
+		(at 68.58 165.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "556e96a5-9e06-45d7-98a9-d5b56cbf9f93")
@@ -6700,13 +6952,13 @@
 		(uuid "5a6a4ba3-c179-4257-a485-9156754bd825")
 	)
 	(junction
-		(at 152.4 170.18)
+		(at 149.86 177.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5f41a343-eb34-4158-af6a-f34201ef7626")
 	)
 	(junction
-		(at 109.22 55.88)
+		(at 106.68 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5f4f5714-5c32-4fc1-b065-9b8dfaf7e61d")
@@ -6718,13 +6970,13 @@
 		(uuid "653203a3-4ff3-4408-ae73-88cca17452f5")
 	)
 	(junction
-		(at 149.86 144.78)
+		(at 147.32 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6668c441-c298-459b-9b82-b30659f921b3")
 	)
 	(junction
-		(at 53.34 55.88)
+		(at 50.8 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "673118a1-90c4-497d-8841-694316645f36")
@@ -6736,19 +6988,31 @@
 		(uuid "6eeef040-997d-4840-8b62-37c425f46de3")
 	)
 	(junction
-		(at 116.84 55.88)
+		(at 114.3 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6f821547-7b12-46f2-ab01-28d772d4ebb1")
 	)
 	(junction
-		(at 53.34 86.36)
+		(at 124.46 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "717fca35-2c1b-4abf-8f2e-2619b18bdc1b")
+	)
+	(junction
+		(at 165.1 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "72389b99-2de9-42e7-851c-2ad3bf2cc369")
+	)
+	(junction
+		(at 50.8 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "74aa2c93-5e55-4216-bbe4-76a5a95120df")
 	)
 	(junction
-		(at 149.86 83.82)
+		(at 147.32 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "75042edd-9ec7-4817-b9be-6c42c706f234")
@@ -6760,37 +7024,37 @@
 		(uuid "755b3b13-64ec-4c7c-94be-46534fd05b69")
 	)
 	(junction
-		(at 53.34 63.5)
+		(at 50.8 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "76d5d0d8-8fd5-48a8-ab90-e4f275ccfc44")
 	)
 	(junction
-		(at 71.12 152.4)
+		(at 68.58 160.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "78ebd82e-5fa9-46ef-b3ef-9e0ed1977d2c")
 	)
 	(junction
-		(at 149.86 147.32)
+		(at 147.32 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7b01a8ea-0fbb-47c0-ab2d-a541ff5b8aee")
 	)
 	(junction
-		(at 68.58 162.56)
+		(at 66.04 170.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7bb4d71f-b5e4-44db-ba11-c5b9c661e0fb")
 	)
 	(junction
-		(at 139.7 160.02)
+		(at 137.16 167.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7fdf5855-0fd4-4836-9730-16b29fab557b")
 	)
 	(junction
-		(at 53.34 48.26)
+		(at 50.8 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "80502a01-801d-4a6f-ba39-29135a0921c5")
@@ -6802,79 +7066,79 @@
 		(uuid "828684c2-8e9b-48d5-95a8-ad4fba656ed0")
 	)
 	(junction
-		(at 68.58 144.78)
+		(at 66.04 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "87b38869-ead6-4fe9-8fcd-43925219f16c")
 	)
 	(junction
-		(at 137.16 170.18)
+		(at 134.62 177.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "87fbeb1e-1159-45a8-bca7-a05210eddcff")
 	)
 	(junction
-		(at 66.04 172.72)
+		(at 63.5 180.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8939b50f-9835-4c84-98c9-c001ba7c4ada")
 	)
 	(junction
-		(at 45.72 71.12)
+		(at 43.18 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "920a948f-070d-4648-b9f2-831c8708d45a")
 	)
 	(junction
-		(at 149.86 104.14)
+		(at 147.32 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "93a6f7ff-2aa6-4501-b61f-835982b6f617")
 	)
 	(junction
-		(at 68.58 142.24)
+		(at 66.04 149.86)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "98dec0c7-65e2-4ca9-bed9-16f0603858db")
 	)
 	(junction
-		(at 160.02 30.48)
+		(at 157.48 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "990c76e7-c84b-4af5-9ddc-391db56735f7")
 	)
 	(junction
-		(at 53.34 172.72)
+		(at 50.8 180.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9a80d9c6-9dd3-4f50-ba67-5db5582413f3")
 	)
 	(junction
-		(at 83.82 40.64)
+		(at 81.28 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9ab09152-86cf-4471-8270-5cee3f786ea7")
 	)
 	(junction
-		(at 83.82 45.72)
+		(at 81.28 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9c7ba4a2-767a-4b72-9c9e-714fefa2fa43")
 	)
 	(junction
-		(at 68.58 132.08)
+		(at 66.04 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9e4d03cc-563a-48fe-b7aa-ae578a48a4fa")
 	)
 	(junction
-		(at 83.82 50.8)
+		(at 81.28 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9e529578-517d-4ac5-ba82-dad99a6d7cb4")
 	)
 	(junction
-		(at 137.16 172.72)
+		(at 134.62 180.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9f0c8c95-4bba-4ff4-bcae-7c9c7f87bd90")
@@ -6886,31 +7150,37 @@
 		(uuid "a1956e87-3f29-42d4-89c3-3716393784c1")
 	)
 	(junction
-		(at 53.34 71.12)
+		(at 50.8 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a2bc78f2-55e6-429e-888b-c2c1204dac7b")
 	)
 	(junction
-		(at 109.22 60.96)
+		(at 106.68 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a3a19932-efb5-4454-9892-33a0950b1bc1")
 	)
 	(junction
-		(at 71.12 154.94)
+		(at 68.58 162.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a3d5741e-c09b-4e22-8115-ab2f7721671e")
 	)
 	(junction
-		(at 142.24 43.18)
+		(at 81.28 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a4e6b68f-ab52-464d-90fe-3ebb37a1c3f6")
+	)
+	(junction
+		(at 139.7 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a54ad931-a2d5-4813-97fb-227ac00d3044")
 	)
 	(junction
-		(at 45.72 63.5)
+		(at 43.18 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a928b499-f2ce-4eb0-9dc4-02fa8956c4be")
@@ -6922,7 +7192,7 @@
 		(uuid "aaae60f3-00ae-4898-ac9f-839bb70eb9b2")
 	)
 	(junction
-		(at 149.86 86.36)
+		(at 147.32 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aae08278-d340-41b0-8ef1-e2c5962ff154")
@@ -6934,7 +7204,19 @@
 		(uuid "ae5d1d71-1ae4-4e65-87ff-c12a870057f5")
 	)
 	(junction
-		(at 45.72 48.26)
+		(at 106.68 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b2c5d1a1-a666-4f49-ade8-320f0f5c6523")
+	)
+	(junction
+		(at 124.46 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b95a012f-32fd-46e1-a2dd-d561cf8d1911")
+	)
+	(junction
+		(at 43.18 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b9d1619a-6767-4954-ba92-8eb4f90a403c")
@@ -6946,31 +7228,31 @@
 		(uuid "c18e02aa-161c-4686-8a0a-01377fe55981")
 	)
 	(junction
-		(at 144.78 43.18)
+		(at 142.24 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "caa7792d-ecc3-447f-89ef-8b412b98ca11")
 	)
 	(junction
-		(at 68.58 157.48)
+		(at 66.04 165.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cd2fb056-23ba-4f4b-b5e7-048e90fc3745")
 	)
 	(junction
-		(at 149.86 149.86)
+		(at 147.32 157.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cdaeed43-b1f9-4c4b-9be7-43ab6a2e6cca")
 	)
 	(junction
-		(at 83.82 55.88)
+		(at 81.28 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d030c3e5-2501-42c0-8c51-ae50bd1bd83b")
 	)
 	(junction
-		(at 68.58 167.64)
+		(at 66.04 175.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d21d8d01-eee2-440b-9de7-da500349d190")
@@ -6982,31 +7264,31 @@
 		(uuid "d25d5e48-1079-4b43-9beb-c589abed14da")
 	)
 	(junction
-		(at 68.58 137.16)
+		(at 66.04 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d2960c5c-7244-40f7-a729-4a36039e9645")
 	)
 	(junction
-		(at 83.82 35.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d3213a2b-7922-4ad0-8a4b-745781aee704")
-	)
-	(junction
-		(at 53.34 142.24)
+		(at 50.8 149.86)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d3677c3f-bd07-4212-81cc-bec7b809d022")
 	)
 	(junction
-		(at 96.52 45.72)
+		(at 165.1 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d57904b7-f3bf-456c-bf6b-0be2b20d1aee")
+	)
+	(junction
+		(at 93.98 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d5ae9551-9bc9-4212-a6b5-a2393a885519")
 	)
 	(junction
-		(at 53.34 137.16)
+		(at 50.8 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d7ba27ba-1d6c-4b4c-8409-f65b5f8c3a4b")
@@ -7018,28 +7300,28 @@
 		(uuid "da78a5e7-b0bf-4ea5-8bba-e4bf6bdfe638")
 	)
 	(junction
-		(at 53.34 147.32)
+		(at 50.8 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dc435fe5-9b83-4a5d-92ee-b712da2c0d3e")
 	)
 	(junction
-		(at 53.34 157.48)
+		(at 50.8 165.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dc4bb867-4a07-4439-9bbc-9f6f2e10fb81")
 	)
 	(junction
-		(at 167.64 30.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dd13cd8d-596a-45c2-82d3-8965b72426a4")
-	)
-	(junction
-		(at 116.84 53.34)
+		(at 114.3 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "def49c41-30b6-4858-9c5f-80e30e6cd887")
+	)
+	(junction
+		(at 137.16 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e0c7eb24-402a-477d-a66e-0fc2ee1aac8d")
 	)
 	(junction
 		(at 226.06 147.32)
@@ -7048,7 +7330,7 @@
 		(uuid "e24efc1c-a495-478f-be54-e82120327cd1")
 	)
 	(junction
-		(at 58.42 165.1)
+		(at 55.88 172.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e76166b5-9a4a-4278-9edc-e448ea3ce61f")
@@ -7060,19 +7342,25 @@
 		(uuid "e8a05e4c-b0ab-47a7-914e-d62b20d6ffc4")
 	)
 	(junction
-		(at 137.16 175.26)
+		(at 137.16 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ec5343a7-c699-4b6b-bd19-473f707bdda3")
+	)
+	(junction
+		(at 134.62 182.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eef1c85a-c421-4669-871f-56b7d2bf6d0a")
 	)
 	(junction
-		(at 71.12 172.72)
+		(at 68.58 180.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ef3fa534-a00a-412a-8542-cd6e0e422067")
 	)
 	(junction
-		(at 68.58 139.7)
+		(at 66.04 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "efddbc9c-f75e-45ae-a970-ec02924d18ba")
@@ -7084,13 +7372,7 @@
 		(uuid "f8be0f39-9f38-4469-b05c-8620b0bdba89")
 	)
 	(junction
-		(at 139.7 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f8ec3a68-02a3-4dce-bb34-91b43d091da9")
-	)
-	(junction
-		(at 45.72 172.72)
+		(at 43.18 180.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f9de6ff1-5ba6-4bb4-875f-ef30541a490e")
@@ -7108,15 +7390,19 @@
 		(uuid "14c98ffa-e685-4300-a333-6b0c62d986a5")
 	)
 	(no_connect
-		(at 73.66 129.54)
+		(at 71.12 137.16)
 		(uuid "1fa4fcd3-96c5-4d95-a82c-ec0faa53f245")
 	)
 	(no_connect
-		(at 73.66 119.38)
+		(at 129.54 58.42)
+		(uuid "2163c0cf-0227-4d7c-9b69-aeb348998bc9")
+	)
+	(no_connect
+		(at 71.12 127)
 		(uuid "23c13318-a4fc-4a38-ba80-87d3cea46e58")
 	)
 	(no_connect
-		(at 73.66 106.68)
+		(at 71.12 114.3)
 		(uuid "39937aaf-27da-46b8-aecc-2b9baf7aad32")
 	)
 	(no_connect
@@ -7124,7 +7410,7 @@
 		(uuid "44dab7d3-263b-45b2-adbf-65bb8de71e00")
 	)
 	(no_connect
-		(at 73.66 114.3)
+		(at 71.12 121.92)
 		(uuid "466c69d9-5dd7-46ba-9883-3cae005c3300")
 	)
 	(no_connect
@@ -7132,7 +7418,7 @@
 		(uuid "4a66c8cf-9b24-4bb3-b6c4-8de0681dcadf")
 	)
 	(no_connect
-		(at 73.66 127)
+		(at 71.12 134.62)
 		(uuid "5639da65-6e70-4634-9b43-55a5ef9315f9")
 	)
 	(no_connect
@@ -7144,40 +7430,40 @@
 		(uuid "6e007bd8-4692-4a12-bce3-89fa8e312186")
 	)
 	(no_connect
-		(at 109.22 180.34)
+		(at 106.68 187.96)
 		(uuid "743eaece-6581-4c74-857b-c2b3ffb68651")
 	)
 	(no_connect
-		(at 73.66 121.92)
+		(at 71.12 129.54)
 		(uuid "92f336c0-98b5-4b16-9ef1-edf641e24f36")
 	)
 	(no_connect
-		(at 101.6 180.34)
+		(at 99.06 187.96)
 		(uuid "93e22c95-5e4f-4eb3-8373-b99b50e88537")
 	)
 	(no_connect
-		(at 134.62 116.84)
+		(at 132.08 124.46)
 		(uuid "97ea31ae-6942-4b4f-a6bb-ed513d45db2a")
 	)
 	(no_connect
-		(at 134.62 119.38)
+		(at 132.08 127)
 		(uuid "a2d5f523-250e-4eb4-a9f1-6dc693a6560c")
 	)
 	(no_connect
-		(at 73.66 104.14)
+		(at 71.12 111.76)
 		(uuid "b134dd4b-5f87-487e-9e5b-7916167ce161")
 	)
 	(no_connect
-		(at 114.3 180.34)
+		(at 111.76 187.96)
 		(uuid "c058f728-7bb4-4118-a068-f84f839714e1")
 	)
 	(no_connect
-		(at 73.66 111.76)
+		(at 71.12 119.38)
 		(uuid "d5050529-2a6f-4ea3-bf62-8fbda6e6b5f8")
 	)
 	(wire
 		(pts
-			(xy 43.18 71.12) (xy 45.72 71.12)
+			(xy 40.64 78.74) (xy 43.18 78.74)
 		)
 		(stroke
 			(width 0.1524)
@@ -7187,7 +7473,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 147.32) (xy 53.34 152.4)
+			(xy 50.8 154.94) (xy 50.8 160.02)
 		)
 		(stroke
 			(width 0.1524)
@@ -7197,23 +7483,13 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 81.28) (xy 73.66 81.28)
+			(xy 63.5 88.9) (xy 71.12 88.9)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
 		(uuid "02062e66-d3c4-4531-99b9-eaa12625073e")
-	)
-	(wire
-		(pts
-			(xy 116.84 27.94) (xy 116.84 53.34)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "032a6de0-1da2-4e6b-b895-d7a1589c74dd")
 	)
 	(wire
 		(pts
@@ -7267,7 +7543,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 165.1) (xy 58.42 165.1)
+			(xy 53.34 172.72) (xy 55.88 172.72)
 		)
 		(stroke
 			(width 0)
@@ -7297,7 +7573,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 86.36) (xy 149.86 86.36)
+			(xy 144.78 93.98) (xy 147.32 93.98)
 		)
 		(stroke
 			(width 0)
@@ -7317,7 +7593,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 88.9) (xy 30.48 88.9)
+			(xy 71.12 96.52) (xy 27.94 96.52)
 		)
 		(stroke
 			(width 0.1524)
@@ -7327,7 +7603,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 137.16) (xy 53.34 142.24)
+			(xy 50.8 144.78) (xy 50.8 149.86)
 		)
 		(stroke
 			(width 0.1524)
@@ -7337,7 +7613,17 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 172.72) (xy 53.34 172.72)
+			(xy 154.94 53.34) (xy 165.1 53.34)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "0b67893b-b77d-4063-a509-8371bd35cae9")
+	)
+	(wire
+		(pts
+			(xy 43.18 180.34) (xy 50.8 180.34)
 		)
 		(stroke
 			(width 0.1524)
@@ -7357,7 +7643,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 137.16) (xy 58.42 137.16)
+			(xy 50.8 144.78) (xy 55.88 144.78)
 		)
 		(stroke
 			(width 0.1524)
@@ -7377,7 +7663,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 137.16) (xy 68.58 137.16)
+			(xy 71.12 144.78) (xy 66.04 144.78)
 		)
 		(stroke
 			(width 0.1524)
@@ -7387,7 +7673,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 101.6) (xy 152.4 101.6)
+			(xy 132.08 109.22) (xy 149.86 109.22)
 		)
 		(stroke
 			(width 0.1524)
@@ -7407,7 +7693,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 63.5) (xy 43.18 63.5)
+			(xy 43.18 71.12) (xy 40.64 71.12)
 		)
 		(stroke
 			(width 0.1524)
@@ -7417,7 +7703,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 30.48) (xy 160.02 27.94)
+			(xy 157.48 27.94) (xy 157.48 25.4)
 		)
 		(stroke
 			(width 0.1524)
@@ -7427,13 +7713,23 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 160.02) (xy 139.7 157.48)
+			(xy 137.16 167.64) (xy 137.16 165.1)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
 		(uuid "12b0ac38-e869-4d04-a7a8-6649fcfb8be3")
+	)
+	(wire
+		(pts
+			(xy 165.1 27.94) (xy 165.1 53.34)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "1330cb14-651c-4dde-a6e7-939d856ce02b")
 	)
 	(wire
 		(pts
@@ -7487,7 +7783,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 172.72) (xy 66.04 175.26)
+			(xy 63.5 180.34) (xy 63.5 182.88)
 		)
 		(stroke
 			(width 0.1524)
@@ -7497,7 +7793,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 63.5) (xy 30.48 63.5)
+			(xy 30.48 71.12) (xy 27.94 71.12)
 		)
 		(stroke
 			(width 0.1524)
@@ -7507,7 +7803,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 165.1) (xy 152.4 165.1)
+			(xy 147.32 172.72) (xy 149.86 172.72)
 		)
 		(stroke
 			(width 0.1524)
@@ -7517,7 +7813,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 83.82) (xy 73.66 83.82)
+			(xy 63.5 91.44) (xy 71.12 91.44)
 		)
 		(stroke
 			(width 0.1524)
@@ -7527,7 +7823,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 78.74) (xy 60.96 78.74)
+			(xy 50.8 86.36) (xy 58.42 86.36)
 		)
 		(stroke
 			(width 0)
@@ -7537,7 +7833,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 165.1) (xy 139.7 162.56)
+			(xy 137.16 172.72) (xy 137.16 170.18)
 		)
 		(stroke
 			(width 0.1524)
@@ -7557,7 +7853,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 48.26) (xy 139.7 43.18)
+			(xy 137.16 45.72) (xy 137.16 40.64)
 		)
 		(stroke
 			(width 0.1524)
@@ -7567,7 +7863,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 167.64) (xy 68.58 167.64)
+			(xy 71.12 175.26) (xy 66.04 175.26)
 		)
 		(stroke
 			(width 0.1524)
@@ -7577,7 +7873,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 27.94) (xy 116.84 27.94)
+			(xy 129.54 25.4) (xy 114.3 25.4)
 		)
 		(stroke
 			(width 0.1524)
@@ -7587,7 +7883,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 144.78) (xy 149.86 147.32)
+			(xy 147.32 152.4) (xy 147.32 154.94)
 		)
 		(stroke
 			(width 0)
@@ -7597,7 +7893,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 88.9) (xy 149.86 88.9)
+			(xy 132.08 96.52) (xy 147.32 96.52)
 		)
 		(stroke
 			(width 0)
@@ -7607,7 +7903,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 144.78) (xy 149.86 144.78)
+			(xy 144.78 152.4) (xy 147.32 152.4)
 		)
 		(stroke
 			(width 0)
@@ -7617,7 +7913,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 147.32) (xy 66.04 147.32)
+			(xy 66.04 154.94) (xy 63.5 154.94)
 		)
 		(stroke
 			(width 0.1524)
@@ -7627,7 +7923,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 167.64) (xy 55.88 165.1)
+			(xy 53.34 175.26) (xy 53.34 172.72)
 		)
 		(stroke
 			(width 0)
@@ -7637,7 +7933,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 142.24) (xy 66.04 142.24)
+			(xy 66.04 149.86) (xy 63.5 149.86)
 		)
 		(stroke
 			(width 0.1524)
@@ -7647,7 +7943,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 96.52) (xy 73.66 96.52)
+			(xy 27.94 104.14) (xy 71.12 104.14)
 		)
 		(stroke
 			(width 0.1524)
@@ -7657,7 +7953,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 53.34) (xy 116.84 55.88)
+			(xy 114.3 60.96) (xy 114.3 63.5)
 		)
 		(stroke
 			(width 0.1524)
@@ -7698,7 +7994,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 157.48) (xy 71.12 157.48)
+			(xy 71.12 165.1) (xy 68.58 165.1)
 		)
 		(stroke
 			(width 0.1524)
@@ -7728,7 +8024,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 147.32) (xy 149.86 147.32)
+			(xy 144.78 154.94) (xy 147.32 154.94)
 		)
 		(stroke
 			(width 0)
@@ -7738,7 +8034,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 172.72) (xy 45.72 172.72)
+			(xy 40.64 180.34) (xy 43.18 180.34)
 		)
 		(stroke
 			(width 0.1524)
@@ -7748,13 +8044,13 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 43.18) (xy 167.64 40.64)
+			(xy 81.28 45.72) (xy 81.28 48.26)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
-		(uuid "2a77b77a-ef79-414d-b994-20338df1fbe5")
+		(uuid "2a6b4db0-1af3-4e98-a709-783dd5c3e424")
 	)
 	(wire
 		(pts
@@ -7768,7 +8064,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 147.32) (xy 137.16 147.32)
+			(xy 132.08 154.94) (xy 134.62 154.94)
 		)
 		(stroke
 			(width 0)
@@ -7808,7 +8104,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 48.26) (xy 53.34 48.26)
+			(xy 68.58 55.88) (xy 50.8 55.88)
 		)
 		(stroke
 			(width 0.1524)
@@ -7818,7 +8114,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 91.44) (xy 152.4 91.44)
+			(xy 132.08 99.06) (xy 149.86 99.06)
 		)
 		(stroke
 			(width 0.1524)
@@ -7838,7 +8134,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 154.94) (xy 71.12 154.94)
+			(xy 71.12 162.56) (xy 68.58 162.56)
 		)
 		(stroke
 			(width 0.1524)
@@ -7848,7 +8144,17 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 40.64) (xy 83.82 45.72)
+			(xy 127 71.12) (xy 157.48 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3148fce9-858f-478d-8f3d-cd8c53ecd3fa")
+	)
+	(wire
+		(pts
+			(xy 81.28 48.26) (xy 81.28 53.34)
 		)
 		(stroke
 			(width 0.1524)
@@ -7858,7 +8164,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 45.72) (xy 86.36 45.72)
+			(xy 81.28 53.34) (xy 83.82 53.34)
 		)
 		(stroke
 			(width 0.1524)
@@ -7868,7 +8174,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 60.96) (xy 83.82 60.96)
+			(xy 83.82 68.58) (xy 81.28 68.58)
 		)
 		(stroke
 			(width 0.1524)
@@ -7878,7 +8184,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 50.8) (xy 45.72 48.26)
+			(xy 43.18 58.42) (xy 43.18 55.88)
 		)
 		(stroke
 			(width 0)
@@ -7888,7 +8194,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 172.72) (xy 137.16 172.72)
+			(xy 132.08 180.34) (xy 134.62 180.34)
 		)
 		(stroke
 			(width 0.1524)
@@ -7898,7 +8204,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 96.52) (xy 152.4 96.52)
+			(xy 132.08 104.14) (xy 149.86 104.14)
 		)
 		(stroke
 			(width 0.1524)
@@ -7918,7 +8224,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 152.4) (xy 68.58 157.48)
+			(xy 66.04 160.02) (xy 66.04 165.1)
 		)
 		(stroke
 			(width 0.1524)
@@ -7928,7 +8234,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 53.34) (xy 119.38 50.8)
+			(xy 114.3 60.96) (xy 116.84 58.42)
 		)
 		(stroke
 			(width 0.1524)
@@ -7948,7 +8254,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 111.76) (xy 144.78 111.76)
+			(xy 132.08 119.38) (xy 142.24 119.38)
 		)
 		(stroke
 			(width 0.1524)
@@ -7958,7 +8264,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 104.14) (xy 149.86 104.14)
+			(xy 144.78 111.76) (xy 147.32 111.76)
 		)
 		(stroke
 			(width 0.1524)
@@ -7978,7 +8284,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 78.74) (xy 149.86 83.82)
+			(xy 147.32 86.36) (xy 147.32 91.44)
 		)
 		(stroke
 			(width 0)
@@ -7988,13 +8294,23 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 71.12) (xy 66.04 71.12)
+			(xy 43.18 78.74) (xy 63.5 78.74)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
 		(uuid "3af132e3-ba2e-4461-a634-2f74987a60ba")
+	)
+	(wire
+		(pts
+			(xy 114.3 53.34) (xy 114.3 60.96)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "3c498483-24bb-4a1a-ad2a-5cbab726e897")
 	)
 	(wire
 		(pts
@@ -8008,7 +8324,17 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 35.56) (xy 83.82 35.56)
+			(xy 157.48 60.96) (xy 165.1 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e639df6-ae46-4c43-9554-73f4c3310994")
+	)
+	(wire
+		(pts
+			(xy 106.68 45.72) (xy 81.28 45.72)
 		)
 		(stroke
 			(width 0.1524)
@@ -8028,7 +8354,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 129.54) (xy 149.86 132.08)
+			(xy 147.32 137.16) (xy 147.32 139.7)
 		)
 		(stroke
 			(width 0)
@@ -8038,7 +8364,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 43.18) (xy 147.32 43.18)
+			(xy 142.24 40.64) (xy 144.78 40.64)
 		)
 		(stroke
 			(width 0.1524)
@@ -8048,7 +8374,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 160.02) (xy 152.4 165.1)
+			(xy 149.86 167.64) (xy 149.86 172.72)
 		)
 		(stroke
 			(width 0.1524)
@@ -8068,7 +8394,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 142.24) (xy 149.86 142.24)
+			(xy 144.78 149.86) (xy 147.32 149.86)
 		)
 		(stroke
 			(width 0)
@@ -8088,17 +8414,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 48.26) (xy 109.22 35.56)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "44276f9f-ac0b-44a2-a952-d040685e541b")
-	)
-	(wire
-		(pts
-			(xy 149.86 160.02) (xy 152.4 160.02)
+			(xy 147.32 167.64) (xy 149.86 167.64)
 		)
 		(stroke
 			(width 0.1524)
@@ -8108,7 +8424,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 48.26) (xy 43.18 48.26)
+			(xy 43.18 55.88) (xy 40.64 55.88)
 		)
 		(stroke
 			(width 0.1524)
@@ -8128,7 +8444,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 99.06) (xy 152.4 99.06)
+			(xy 132.08 106.68) (xy 149.86 106.68)
 		)
 		(stroke
 			(width 0.1524)
@@ -8138,7 +8454,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 114.3) (xy 149.86 111.76)
+			(xy 147.32 121.92) (xy 147.32 119.38)
 		)
 		(stroke
 			(width 0)
@@ -8148,7 +8464,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 172.72) (xy 66.04 172.72)
+			(xy 50.8 180.34) (xy 63.5 180.34)
 		)
 		(stroke
 			(width 0.1524)
@@ -8158,7 +8474,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 139.7) (xy 149.86 142.24)
+			(xy 147.32 147.32) (xy 147.32 149.86)
 		)
 		(stroke
 			(width 0)
@@ -8168,7 +8484,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 147.32) (xy 68.58 147.32)
+			(xy 71.12 154.94) (xy 66.04 154.94)
 		)
 		(stroke
 			(width 0.1524)
@@ -8178,7 +8494,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 60.96) (xy 109.22 55.88)
+			(xy 106.68 68.58) (xy 106.68 63.5)
 		)
 		(stroke
 			(width 0.1524)
@@ -8198,7 +8514,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 91.44) (xy 73.66 91.44)
+			(xy 27.94 99.06) (xy 71.12 99.06)
 		)
 		(stroke
 			(width 0.1524)
@@ -8208,7 +8524,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 104.14) (xy 149.86 106.68)
+			(xy 147.32 111.76) (xy 147.32 114.3)
 		)
 		(stroke
 			(width 0)
@@ -8218,7 +8534,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 78.74) (xy 149.86 78.74)
+			(xy 132.08 86.36) (xy 147.32 86.36)
 		)
 		(stroke
 			(width 0.1524)
@@ -8228,7 +8544,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 35.56) (xy 76.2 35.56)
+			(xy 81.28 45.72) (xy 76.2 45.72)
 		)
 		(stroke
 			(width 0.1524)
@@ -8238,7 +8554,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 48.26) (xy 30.48 48.26)
+			(xy 30.48 55.88) (xy 27.94 55.88)
 		)
 		(stroke
 			(width 0.1524)
@@ -8258,7 +8574,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 71.12) (xy 33.02 71.12)
+			(xy 27.94 78.74) (xy 30.48 78.74)
 		)
 		(stroke
 			(width 0.1524)
@@ -8278,7 +8594,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 83.82) (xy 149.86 78.74)
+			(xy 147.32 91.44) (xy 147.32 86.36)
 		)
 		(stroke
 			(width 0.1524)
@@ -8288,7 +8604,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 182.88) (xy 71.12 182.88)
+			(xy 63.5 190.5) (xy 68.58 190.5)
 		)
 		(stroke
 			(width 0)
@@ -8308,7 +8624,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 152.4) (xy 71.12 152.4)
+			(xy 71.12 160.02) (xy 68.58 160.02)
 		)
 		(stroke
 			(width 0.1524)
@@ -8318,7 +8634,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 142.24) (xy 53.34 147.32)
+			(xy 50.8 149.86) (xy 50.8 154.94)
 		)
 		(stroke
 			(width 0.1524)
@@ -8328,7 +8644,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 55.88) (xy 60.96 55.88)
+			(xy 50.8 63.5) (xy 58.42 63.5)
 		)
 		(stroke
 			(width 0)
@@ -8348,7 +8664,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 40.64) (xy 144.78 43.18)
+			(xy 142.24 38.1) (xy 142.24 40.64)
 		)
 		(stroke
 			(width 0)
@@ -8378,7 +8694,17 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 154.94) (xy 71.12 157.48)
+			(xy 137.16 45.72) (xy 157.48 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d7725bd-49ff-4c7a-9238-bf4507e5449e")
+	)
+	(wire
+		(pts
+			(xy 68.58 162.56) (xy 68.58 165.1)
 		)
 		(stroke
 			(width 0.1524)
@@ -8388,7 +8714,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 167.64) (xy 137.16 170.18)
+			(xy 134.62 175.26) (xy 134.62 177.8)
 		)
 		(stroke
 			(width 0.1524)
@@ -8398,7 +8724,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 43.18) (xy 144.78 43.18)
+			(xy 139.7 40.64) (xy 142.24 40.64)
 		)
 		(stroke
 			(width 0.1524)
@@ -8408,7 +8734,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 162.56) (xy 139.7 162.56)
+			(xy 132.08 170.18) (xy 137.16 170.18)
 		)
 		(stroke
 			(width 0.1524)
@@ -8428,7 +8754,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 48.26) (xy 45.72 48.26)
+			(xy 50.8 55.88) (xy 43.18 55.88)
 		)
 		(stroke
 			(width 0.1524)
@@ -8448,7 +8774,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 172.72) (xy 71.12 172.72)
+			(xy 63.5 180.34) (xy 68.58 180.34)
 		)
 		(stroke
 			(width 0.1524)
@@ -8458,7 +8784,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 86.36) (xy 66.04 86.36)
+			(xy 43.18 93.98) (xy 63.5 93.98)
 		)
 		(stroke
 			(width 0.1524)
@@ -8468,7 +8794,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 132.08) (xy 68.58 137.16)
+			(xy 66.04 139.7) (xy 66.04 144.78)
 		)
 		(stroke
 			(width 0.1524)
@@ -8478,7 +8804,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 152.4) (xy 68.58 152.4)
+			(xy 63.5 160.02) (xy 66.04 160.02)
 		)
 		(stroke
 			(width 0.1524)
@@ -8508,7 +8834,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 157.48) (xy 68.58 162.56)
+			(xy 66.04 165.1) (xy 66.04 170.18)
 		)
 		(stroke
 			(width 0.1524)
@@ -8548,7 +8874,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 172.72) (xy 71.12 172.72)
+			(xy 71.12 180.34) (xy 68.58 180.34)
 		)
 		(stroke
 			(width 0.1524)
@@ -8558,7 +8884,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 55.88) (xy 83.82 55.88)
+			(xy 83.82 63.5) (xy 81.28 63.5)
 		)
 		(stroke
 			(width 0.1524)
@@ -8578,7 +8904,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 63.5) (xy 68.58 63.5)
+			(xy 50.8 71.12) (xy 66.04 71.12)
 		)
 		(stroke
 			(width 0.1524)
@@ -8588,7 +8914,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 165.1) (xy 142.24 165.1)
+			(xy 137.16 172.72) (xy 139.7 172.72)
 		)
 		(stroke
 			(width 0.1524)
@@ -8598,7 +8924,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 60.96) (xy 116.84 55.88)
+			(xy 114.3 68.58) (xy 114.3 63.5)
 		)
 		(stroke
 			(width 0.1524)
@@ -8608,7 +8934,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 162.56) (xy 68.58 167.64)
+			(xy 66.04 170.18) (xy 66.04 175.26)
 		)
 		(stroke
 			(width 0.1524)
@@ -8618,7 +8944,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 40.64) (xy 86.36 40.64)
+			(xy 81.28 48.26) (xy 83.82 48.26)
 		)
 		(stroke
 			(width 0.1524)
@@ -8628,7 +8954,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 170.18) (xy 139.7 165.1)
+			(xy 137.16 177.8) (xy 137.16 172.72)
 		)
 		(stroke
 			(width 0.1524)
@@ -8638,7 +8964,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 129.54) (xy 68.58 129.54)
+			(xy 43.18 137.16) (xy 66.04 137.16)
 		)
 		(stroke
 			(width 0.1524)
@@ -8658,7 +8984,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 129.54) (xy 45.72 129.54)
+			(xy 40.64 137.16) (xy 43.18 137.16)
 		)
 		(stroke
 			(width 0.1524)
@@ -8668,7 +8994,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 83.82) (xy 66.04 86.36)
+			(xy 63.5 91.44) (xy 63.5 93.98)
 		)
 		(stroke
 			(width 0.1524)
@@ -8678,7 +9004,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 60.96) (xy 71.12 48.26)
+			(xy 68.58 68.58) (xy 68.58 55.88)
 		)
 		(stroke
 			(width 0.1524)
@@ -8688,7 +9014,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 50.8) (xy 96.52 50.8)
+			(xy 91.44 58.42) (xy 93.98 58.42)
 		)
 		(stroke
 			(width 0.1524)
@@ -8698,7 +9024,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 129.54) (xy 68.58 132.08)
+			(xy 66.04 137.16) (xy 66.04 139.7)
 		)
 		(stroke
 			(width 0.1524)
@@ -8718,7 +9044,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 60.96) (xy 71.12 73.66)
+			(xy 68.58 68.58) (xy 68.58 81.28)
 		)
 		(stroke
 			(width 0)
@@ -8728,7 +9054,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 139.7) (xy 68.58 142.24)
+			(xy 66.04 147.32) (xy 66.04 149.86)
 		)
 		(stroke
 			(width 0.1524)
@@ -8738,7 +9064,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 30.48) (xy 132.08 30.48)
+			(xy 124.46 27.94) (xy 129.54 27.94)
 		)
 		(stroke
 			(width 0.1524)
@@ -8758,7 +9084,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 149.86) (xy 137.16 149.86)
+			(xy 132.08 157.48) (xy 134.62 157.48)
 		)
 		(stroke
 			(width 0)
@@ -8768,7 +9094,17 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 27.94) (xy 160.02 27.94)
+			(xy 114.3 53.34) (xy 129.54 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82e610fd-d330-48a8-b409-790fb52e11b2")
+	)
+	(wire
+		(pts
+			(xy 154.94 25.4) (xy 157.48 25.4)
 		)
 		(stroke
 			(width 0.1524)
@@ -8778,7 +9114,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 175.26) (xy 152.4 170.18)
+			(xy 149.86 182.88) (xy 149.86 177.8)
 		)
 		(stroke
 			(width 0.1524)
@@ -8808,7 +9144,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 73.66) (xy 45.72 71.12)
+			(xy 43.18 81.28) (xy 43.18 78.74)
 		)
 		(stroke
 			(width 0)
@@ -8818,7 +9154,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 152.4) (xy 71.12 154.94)
+			(xy 68.58 160.02) (xy 68.58 162.56)
 		)
 		(stroke
 			(width 0.1524)
@@ -8828,7 +9164,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 170.18) (xy 152.4 170.18)
+			(xy 147.32 177.8) (xy 149.86 177.8)
 		)
 		(stroke
 			(width 0.1524)
@@ -8838,7 +9174,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 104.14) (xy 137.16 104.14)
+			(xy 132.08 111.76) (xy 134.62 111.76)
 		)
 		(stroke
 			(width 0.1524)
@@ -8848,7 +9184,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 137.16) (xy 68.58 139.7)
+			(xy 66.04 144.78) (xy 66.04 147.32)
 		)
 		(stroke
 			(width 0.1524)
@@ -8858,7 +9194,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 172.72) (xy 71.12 175.26)
+			(xy 68.58 180.34) (xy 68.58 182.88)
 		)
 		(stroke
 			(width 0.1524)
@@ -8868,7 +9204,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 99.06) (xy 73.66 99.06)
+			(xy 27.94 106.68) (xy 71.12 106.68)
 		)
 		(stroke
 			(width 0.1524)
@@ -8878,7 +9214,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 160.02) (xy 71.12 172.72)
+			(xy 68.58 167.64) (xy 68.58 180.34)
 		)
 		(stroke
 			(width 0.1524)
@@ -8898,7 +9234,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 30.48) (xy 119.38 30.48)
+			(xy 124.46 27.94) (xy 116.84 27.94)
 		)
 		(stroke
 			(width 0.1524)
@@ -8928,13 +9264,23 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 139.7) (xy 68.58 139.7)
+			(xy 71.12 147.32) (xy 66.04 147.32)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
 		(uuid "91e86be1-956f-4c19-8339-a3090e63a091")
+	)
+	(wire
+		(pts
+			(xy 127 68.58) (xy 127 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "927d35a9-ad46-4761-a039-f7b77585131b")
 	)
 	(wire
 		(pts
@@ -8948,7 +9294,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 162.56) (xy 68.58 162.56)
+			(xy 63.5 170.18) (xy 66.04 170.18)
 		)
 		(stroke
 			(width 0)
@@ -8958,7 +9304,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 170.18) (xy 137.16 172.72)
+			(xy 134.62 177.8) (xy 134.62 180.34)
 		)
 		(stroke
 			(width 0.1524)
@@ -8968,7 +9314,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 149.86) (xy 71.12 152.4)
+			(xy 68.58 157.48) (xy 68.58 160.02)
 		)
 		(stroke
 			(width 0.1524)
@@ -8978,7 +9324,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 119.38) (xy 144.78 111.76)
+			(xy 142.24 127) (xy 142.24 119.38)
 		)
 		(stroke
 			(width 0.1524)
@@ -8988,7 +9334,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 30.48) (xy 157.48 30.48)
+			(xy 157.48 27.94) (xy 154.94 27.94)
 		)
 		(stroke
 			(width 0.1524)
@@ -8998,7 +9344,7 @@
 	)
 	(polyline
 		(pts
-			(xy 124.46 15.24) (xy 124.46 63.5)
+			(xy 121.92 15.24) (xy 121.92 73.66)
 		)
 		(stroke
 			(width 0.1524)
@@ -9009,7 +9355,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 142.24) (xy 58.42 142.24)
+			(xy 50.8 149.86) (xy 55.88 149.86)
 		)
 		(stroke
 			(width 0.1524)
@@ -9019,7 +9365,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 137.16) (xy 68.58 137.16)
+			(xy 63.5 144.78) (xy 66.04 144.78)
 		)
 		(stroke
 			(width 0.1524)
@@ -9029,13 +9375,23 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 55.88) (xy 99.06 55.88)
+			(xy 91.44 63.5) (xy 96.52 63.5)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
 		(uuid "9a0a41d2-4248-4cc6-9437-bfd3cf9d5b67")
+	)
+	(wire
+		(pts
+			(xy 129.54 60.96) (xy 127 60.96)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "9a6e6958-ba08-4371-bdd5-f962192eedd4")
 	)
 	(wire
 		(pts
@@ -9049,7 +9405,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 40.64) (xy 142.24 43.18)
+			(xy 139.7 38.1) (xy 139.7 40.64)
 		)
 		(stroke
 			(width 0)
@@ -9079,7 +9435,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 162.56) (xy 58.42 165.1)
+			(xy 55.88 170.18) (xy 55.88 172.72)
 		)
 		(stroke
 			(width 0)
@@ -9089,7 +9445,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 83.82) (xy 154.94 83.82)
+			(xy 147.32 91.44) (xy 152.4 91.44)
 		)
 		(stroke
 			(width 0.1524)
@@ -9099,7 +9455,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 86.36) (xy 137.16 86.36)
+			(xy 132.08 93.98) (xy 134.62 93.98)
 		)
 		(stroke
 			(width 0)
@@ -9109,7 +9465,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 129.54) (xy 33.02 129.54)
+			(xy 27.94 137.16) (xy 30.48 137.16)
 		)
 		(stroke
 			(width 0.1524)
@@ -9129,7 +9485,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 55.88) (xy 83.82 50.8)
+			(xy 81.28 63.5) (xy 81.28 58.42)
 		)
 		(stroke
 			(width 0.1524)
@@ -9139,7 +9495,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 104.14) (xy 160.02 104.14)
+			(xy 147.32 111.76) (xy 157.48 111.76)
 		)
 		(stroke
 			(width 0.1524)
@@ -9149,7 +9505,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 149.86) (xy 149.86 149.86)
+			(xy 144.78 157.48) (xy 147.32 157.48)
 		)
 		(stroke
 			(width 0)
@@ -9159,7 +9515,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 129.54) (xy 48.26 129.54)
+			(xy 43.18 137.16) (xy 45.72 137.16)
 		)
 		(stroke
 			(width 0)
@@ -9189,7 +9545,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 132.08) (xy 53.34 137.16)
+			(xy 50.8 139.7) (xy 50.8 144.78)
 		)
 		(stroke
 			(width 0.1524)
@@ -9199,7 +9555,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 30.48) (xy 160.02 30.48)
+			(xy 165.1 27.94) (xy 157.48 27.94)
 		)
 		(stroke
 			(width 0.1524)
@@ -9209,7 +9565,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 40.64) (xy 104.14 40.64)
+			(xy 91.44 48.26) (xy 101.6 48.26)
 		)
 		(stroke
 			(width 0.1524)
@@ -9219,7 +9575,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 147.32) (xy 68.58 152.4)
+			(xy 66.04 154.94) (xy 66.04 160.02)
 		)
 		(stroke
 			(width 0.1524)
@@ -9239,7 +9595,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 149.86) (xy 71.12 149.86)
+			(xy 71.12 157.48) (xy 68.58 157.48)
 		)
 		(stroke
 			(width 0.1524)
@@ -9249,7 +9605,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 63.5) (xy 68.58 76.2)
+			(xy 66.04 71.12) (xy 66.04 83.82)
 		)
 		(stroke
 			(width 0)
@@ -9259,7 +9615,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 63.5) (xy 53.34 63.5)
+			(xy 43.18 71.12) (xy 50.8 71.12)
 		)
 		(stroke
 			(width 0.1524)
@@ -9279,7 +9635,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 45.72) (xy 101.6 45.72)
+			(xy 93.98 53.34) (xy 99.06 53.34)
 		)
 		(stroke
 			(width 0.1524)
@@ -9289,7 +9645,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 152.4) (xy 53.34 157.48)
+			(xy 50.8 160.02) (xy 50.8 165.1)
 		)
 		(stroke
 			(width 0.1524)
@@ -9299,7 +9655,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 121.92) (xy 165.1 121.92)
+			(xy 147.32 129.54) (xy 162.56 129.54)
 		)
 		(stroke
 			(width 0)
@@ -9319,7 +9675,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 40.64) (xy 104.14 66.04)
+			(xy 101.6 48.26) (xy 101.6 73.66)
 		)
 		(stroke
 			(width 0.1524)
@@ -9329,7 +9685,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 157.48) (xy 71.12 160.02)
+			(xy 68.58 165.1) (xy 68.58 167.64)
 		)
 		(stroke
 			(width 0.1524)
@@ -9349,7 +9705,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 139.7) (xy 149.86 139.7)
+			(xy 132.08 147.32) (xy 147.32 147.32)
 		)
 		(stroke
 			(width 0)
@@ -9379,7 +9735,17 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 144.78) (xy 68.58 142.24)
+			(xy 154.94 60.96) (xy 157.48 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8be0a7a-1ff8-403d-82e1-f660bc74f47e")
+	)
+	(wire
+		(pts
+			(xy 66.04 152.4) (xy 66.04 149.86)
 		)
 		(stroke
 			(width 0.1524)
@@ -9399,7 +9765,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 58.42) (xy 45.72 63.5)
+			(xy 43.18 66.04) (xy 43.18 71.12)
 		)
 		(stroke
 			(width 0.1524)
@@ -9409,7 +9775,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 160.02) (xy 139.7 160.02)
+			(xy 132.08 167.64) (xy 137.16 167.64)
 		)
 		(stroke
 			(width 0.1524)
@@ -9419,7 +9785,17 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 144.78) (xy 68.58 147.32)
+			(xy 157.48 45.72) (xy 157.48 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb300af0-bae2-4bf5-a5fc-cf19ea02ba05")
+	)
+	(wire
+		(pts
+			(xy 66.04 152.4) (xy 66.04 154.94)
 		)
 		(stroke
 			(width 0.1524)
@@ -9429,7 +9805,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 142.24) (xy 137.16 142.24)
+			(xy 132.08 149.86) (xy 134.62 149.86)
 		)
 		(stroke
 			(width 0)
@@ -9449,7 +9825,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 40.64) (xy 147.32 43.18)
+			(xy 144.78 38.1) (xy 144.78 40.64)
 		)
 		(stroke
 			(width 0)
@@ -9459,7 +9835,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 45.72) (xy 101.6 66.04)
+			(xy 99.06 53.34) (xy 99.06 73.66)
 		)
 		(stroke
 			(width 0.1524)
@@ -9469,7 +9845,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 157.48) (xy 68.58 157.48)
+			(xy 63.5 165.1) (xy 66.04 165.1)
 		)
 		(stroke
 			(width 0.1524)
@@ -9479,7 +9855,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 144.78) (xy 137.16 144.78)
+			(xy 132.08 152.4) (xy 134.62 152.4)
 		)
 		(stroke
 			(width 0)
@@ -9489,7 +9865,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 71.12) (xy 66.04 81.28)
+			(xy 63.5 78.74) (xy 63.5 88.9)
 		)
 		(stroke
 			(width 0.1524)
@@ -9499,7 +9875,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 27.94) (xy 167.64 30.48)
+			(xy 165.1 25.4) (xy 165.1 27.94)
 		)
 		(stroke
 			(width 0.1524)
@@ -9509,7 +9885,17 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 132.08) (xy 58.42 132.08)
+			(xy 114.3 25.4) (xy 114.3 53.34)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "c33866a9-b90f-4735-8dbb-dd60b231261c")
+	)
+	(wire
+		(pts
+			(xy 50.8 139.7) (xy 55.88 139.7)
 		)
 		(stroke
 			(width 0.1524)
@@ -9529,7 +9915,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 172.72) (xy 53.34 172.72)
+			(xy 43.18 180.34) (xy 50.8 180.34)
 		)
 		(stroke
 			(width 0)
@@ -9539,7 +9925,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 45.72) (xy 83.82 50.8)
+			(xy 81.28 53.34) (xy 81.28 58.42)
 		)
 		(stroke
 			(width 0.1524)
@@ -9549,7 +9935,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 121.92) (xy 149.86 124.46)
+			(xy 147.32 129.54) (xy 147.32 132.08)
 		)
 		(stroke
 			(width 0)
@@ -9569,7 +9955,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 170.18) (xy 139.7 170.18)
+			(xy 139.7 177.8) (xy 137.16 177.8)
 		)
 		(stroke
 			(width 0.1524)
@@ -9579,7 +9965,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 142.24) (xy 68.58 142.24)
+			(xy 71.12 149.86) (xy 66.04 149.86)
 		)
 		(stroke
 			(width 0.1524)
@@ -9589,7 +9975,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 73.66) (xy 73.66 73.66)
+			(xy 68.58 81.28) (xy 71.12 81.28)
 		)
 		(stroke
 			(width 0)
@@ -9609,17 +9995,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 35.56) (xy 83.82 40.64)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "ccc0a44c-f80d-418d-a172-8a083558accc")
-	)
-	(wire
-		(pts
-			(xy 71.12 160.02) (xy 73.66 160.02)
+			(xy 68.58 167.64) (xy 71.12 167.64)
 		)
 		(stroke
 			(width 0.1524)
@@ -9629,7 +10005,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 81.28) (xy 45.72 86.36)
+			(xy 43.18 88.9) (xy 43.18 93.98)
 		)
 		(stroke
 			(width 0)
@@ -9649,7 +10025,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 55.88) (xy 99.06 66.04)
+			(xy 96.52 63.5) (xy 96.52 73.66)
 		)
 		(stroke
 			(width 0.1524)
@@ -9659,7 +10035,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 50.8) (xy 119.38 30.48)
+			(xy 116.84 58.42) (xy 116.84 27.94)
 		)
 		(stroke
 			(width 0.1524)
@@ -9676,6 +10052,16 @@
 			(type default)
 		)
 		(uuid "d48499cf-35e7-4c6f-bbee-7c7652056e06")
+	)
+	(wire
+		(pts
+			(xy 157.48 60.96) (xy 157.48 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d531b92f-3f8e-45e9-bedd-d3ea2fbf2427")
 	)
 	(wire
 		(pts
@@ -9699,7 +10085,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 48.26) (xy 139.7 48.26)
+			(xy 124.46 45.72) (xy 137.16 45.72)
 		)
 		(stroke
 			(width 0.1524)
@@ -9709,7 +10095,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 119.38) (xy 144.78 127)
+			(xy 142.24 127) (xy 142.24 134.62)
 		)
 		(stroke
 			(width 0)
@@ -9730,7 +10116,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 40.64) (xy 139.7 43.18)
+			(xy 137.16 38.1) (xy 137.16 40.64)
 		)
 		(stroke
 			(width 0)
@@ -9740,7 +10126,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 157.48) (xy 53.34 172.72)
+			(xy 50.8 165.1) (xy 50.8 180.34)
 		)
 		(stroke
 			(width 0.1524)
@@ -9750,7 +10136,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 109.22) (xy 147.32 109.22)
+			(xy 132.08 116.84) (xy 144.78 116.84)
 		)
 		(stroke
 			(width 0.1524)
@@ -9770,7 +10156,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 60.96) (xy 83.82 55.88)
+			(xy 81.28 68.58) (xy 81.28 63.5)
 		)
 		(stroke
 			(width 0.1524)
@@ -9790,7 +10176,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 170.18) (xy 137.16 170.18)
+			(xy 132.08 177.8) (xy 134.62 177.8)
 		)
 		(stroke
 			(width 0.1524)
@@ -9800,7 +10186,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 93.98) (xy 152.4 93.98)
+			(xy 132.08 101.6) (xy 149.86 101.6)
 		)
 		(stroke
 			(width 0.1524)
@@ -9810,7 +10196,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 167.64) (xy 137.16 167.64)
+			(xy 132.08 175.26) (xy 134.62 175.26)
 		)
 		(stroke
 			(width 0.1524)
@@ -9820,7 +10206,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 48.26) (xy 127 48.26)
+			(xy 106.68 45.72) (xy 124.46 45.72)
 		)
 		(stroke
 			(width 0.1524)
@@ -9830,7 +10216,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 160.02) (xy 142.24 160.02)
+			(xy 137.16 167.64) (xy 139.7 167.64)
 		)
 		(stroke
 			(width 0.1524)
@@ -9840,7 +10226,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 66.04) (xy 109.22 60.96)
+			(xy 106.68 73.66) (xy 106.68 68.58)
 		)
 		(stroke
 			(width 0.1524)
@@ -9850,7 +10236,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 55.88) (xy 109.22 48.26)
+			(xy 106.68 45.72) (xy 106.68 63.5)
 		)
 		(stroke
 			(width 0.1524)
@@ -9860,7 +10246,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 76.2) (xy 73.66 76.2)
+			(xy 66.04 83.82) (xy 71.12 83.82)
 		)
 		(stroke
 			(width 0)
@@ -9870,7 +10256,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 157.48) (xy 58.42 157.48)
+			(xy 50.8 165.1) (xy 55.88 165.1)
 		)
 		(stroke
 			(width 0.1524)
@@ -9880,7 +10266,7 @@
 	)
 	(polyline
 		(pts
-			(xy 124.46 63.5) (xy 175.26 63.5)
+			(xy 121.92 73.66) (xy 175.26 73.66)
 		)
 		(stroke
 			(width 0.1524)
@@ -9891,7 +10277,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 127) (xy 147.32 127)
+			(xy 142.24 134.62) (xy 144.78 134.62)
 		)
 		(stroke
 			(width 0)
@@ -9901,7 +10287,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 165.1) (xy 152.4 170.18)
+			(xy 149.86 172.72) (xy 149.86 177.8)
 		)
 		(stroke
 			(width 0.1524)
@@ -9911,7 +10297,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 60.96) (xy 96.52 66.04)
+			(xy 93.98 68.58) (xy 93.98 73.66)
 		)
 		(stroke
 			(width 0.1524)
@@ -9921,7 +10307,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 30.48) (xy 167.64 33.02)
+			(xy 157.48 27.94) (xy 157.48 30.48)
 		)
 		(stroke
 			(width 0.1524)
@@ -9931,7 +10317,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 175.26) (xy 152.4 175.26)
+			(xy 134.62 182.88) (xy 149.86 182.88)
 		)
 		(stroke
 			(width 0.1524)
@@ -9941,7 +10327,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 165.1) (xy 58.42 167.64)
+			(xy 55.88 172.72) (xy 55.88 175.26)
 		)
 		(stroke
 			(width 0)
@@ -9951,7 +10337,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 167.64) (xy 68.58 167.64)
+			(xy 63.5 175.26) (xy 66.04 175.26)
 		)
 		(stroke
 			(width 0)
@@ -9961,7 +10347,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 86.36) (xy 33.02 86.36)
+			(xy 27.94 93.98) (xy 30.48 93.98)
 		)
 		(stroke
 			(width 0.1524)
@@ -9971,7 +10357,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 86.36) (xy 149.86 88.9)
+			(xy 147.32 93.98) (xy 147.32 96.52)
 		)
 		(stroke
 			(width 0)
@@ -9981,7 +10367,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 83.82) (xy 149.86 86.36)
+			(xy 147.32 91.44) (xy 147.32 93.98)
 		)
 		(stroke
 			(width 0)
@@ -9991,7 +10377,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 132.08) (xy 68.58 132.08)
+			(xy 63.5 139.7) (xy 66.04 139.7)
 		)
 		(stroke
 			(width 0.1524)
@@ -10001,7 +10387,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 86.36) (xy 45.72 86.36)
+			(xy 40.64 93.98) (xy 43.18 93.98)
 		)
 		(stroke
 			(width 0.1524)
@@ -10022,7 +10408,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 152.4) (xy 58.42 152.4)
+			(xy 50.8 160.02) (xy 55.88 160.02)
 		)
 		(stroke
 			(width 0.1524)
@@ -10032,7 +10418,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 172.72) (xy 33.02 172.72)
+			(xy 27.94 180.34) (xy 30.48 180.34)
 		)
 		(stroke
 			(width 0.1524)
@@ -10042,7 +10428,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 147.32) (xy 149.86 149.86)
+			(xy 147.32 154.94) (xy 147.32 157.48)
 		)
 		(stroke
 			(width 0)
@@ -10052,7 +10438,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 175.26) (xy 137.16 172.72)
+			(xy 134.62 182.88) (xy 134.62 180.34)
 		)
 		(stroke
 			(width 0.1524)
@@ -10062,7 +10448,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 50.8) (xy 96.52 45.72)
+			(xy 93.98 58.42) (xy 93.98 53.34)
 		)
 		(stroke
 			(width 0.1524)
@@ -10072,7 +10458,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 147.32) (xy 58.42 147.32)
+			(xy 50.8 154.94) (xy 55.88 154.94)
 		)
 		(stroke
 			(width 0)
@@ -10082,7 +10468,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 50.8) (xy 83.82 50.8)
+			(xy 83.82 58.42) (xy 81.28 58.42)
 		)
 		(stroke
 			(width 0.1524)
@@ -10092,7 +10478,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 66.04) (xy 116.84 60.96)
+			(xy 114.3 73.66) (xy 114.3 68.58)
 		)
 		(stroke
 			(width 0.1524)
@@ -10102,7 +10488,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 43.18) (xy 142.24 43.18)
+			(xy 137.16 40.64) (xy 139.7 40.64)
 		)
 		(stroke
 			(width 0.1524)
@@ -10112,7 +10498,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 60.96) (xy 96.52 60.96)
+			(xy 91.44 68.58) (xy 93.98 68.58)
 		)
 		(stroke
 			(width 0.1524)
@@ -10122,7 +10508,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 142.24) (xy 149.86 144.78)
+			(xy 147.32 149.86) (xy 147.32 152.4)
 		)
 		(stroke
 			(width 0)
@@ -10143,7 +10529,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 45.72) (xy 93.98 45.72)
+			(xy 93.98 53.34) (xy 91.44 53.34)
 		)
 		(stroke
 			(width 0.1524)
@@ -10153,7 +10539,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 144.78) (xy 68.58 144.78)
+			(xy 71.12 152.4) (xy 66.04 152.4)
 		)
 		(stroke
 			(width 0.1524)
@@ -10183,7 +10569,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 162.56) (xy 139.7 160.02)
+			(xy 137.16 170.18) (xy 137.16 167.64)
 		)
 		(stroke
 			(width 0.1524)
@@ -10202,7 +10588,7 @@
 		(uuid "fe681980-84df-43e1-8657-78b1407a5f2b")
 	)
 	(label "ISO_AFE_EXT_CLK"
-		(at 165.1 121.92 180)
+		(at 162.56 129.54 180)
 		(effects
 			(font
 				(size 0.889 0.889)
@@ -10222,7 +10608,7 @@
 		(uuid "46b585fe-3dc0-4e54-806a-86629f6b55f9")
 	)
 	(label "AVSS"
-		(at 76.2 35.56 0)
+		(at 76.2 45.72 0)
 		(effects
 			(font
 				(size 0.889 0.889)
@@ -10252,7 +10638,7 @@
 		(uuid "ac18eef3-2d36-412a-8815-97b767ce16fa")
 	)
 	(label "AVDD"
-		(at 48.26 129.54 0)
+		(at 45.72 137.16 0)
 		(effects
 			(font
 				(size 0.889 0.889)
@@ -10262,7 +10648,7 @@
 		(uuid "bfd619ef-beda-462e-bbec-626a7fb30da5")
 	)
 	(label "AVSS"
-		(at 48.26 172.72 0)
+		(at 45.72 180.34 0)
 		(effects
 			(font
 				(size 0.889 0.889)
@@ -10293,7 +10679,7 @@
 	)
 	(global_label "ISO_AFE_SCK"
 		(shape input)
-		(at 152.4 93.98 0)
+		(at 149.86 101.6 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10303,7 +10689,7 @@
 		)
 		(uuid "0dd7d4c9-aa21-48d0-9721-a8219252e436")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 162.9984 93.98 0)
+			(at 160.4584 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10365,7 +10751,7 @@
 	)
 	(global_label "ISO_AFE_MISO"
 		(shape output)
-		(at 152.4 99.06 0)
+		(at 149.86 106.68 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10375,7 +10761,7 @@
 		)
 		(uuid "2bf90d8e-e90e-4353-9e2c-b1d8149087cc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 163.591 99.06 0)
+			(at 161.051 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10413,7 +10799,7 @@
 	)
 	(global_label "IN3N"
 		(shape input)
-		(at 30.48 91.44 180)
+		(at 27.94 99.06 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10423,7 +10809,7 @@
 		)
 		(uuid "4e73bea4-b3fe-4eb5-93ab-db1f623b3ef3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 25.2579 91.44 0)
+			(at 22.7179 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10557,7 +10943,7 @@
 	)
 	(global_label "IN1P"
 		(shape input)
-		(at 30.48 48.26 180)
+		(at 27.94 55.88 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10567,7 +10953,7 @@
 		)
 		(uuid "6d16e926-e47f-4ed0-90a6-275c61ca0911")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 25.3002 48.26 0)
+			(at 22.7602 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10629,7 +11015,7 @@
 	)
 	(global_label "IN3P"
 		(shape input)
-		(at 30.48 88.9 180)
+		(at 27.94 96.52 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10639,7 +11025,7 @@
 		)
 		(uuid "794c6ce6-2308-49eb-be52-e8ee891aced9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 25.3002 88.9 0)
+			(at 22.7602 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10653,7 +11039,7 @@
 	)
 	(global_label "~{ISO_RESET}"
 		(shape input)
-		(at 152.4 101.6 0)
+		(at 149.86 109.22 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10663,7 +11049,7 @@
 		)
 		(uuid "79c7f27d-e3cd-405a-9809-dfcd1dc853bc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 161.3897 101.6 0)
+			(at 158.8497 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10725,7 +11111,7 @@
 	)
 	(global_label "IN4P"
 		(shape input)
-		(at 30.48 96.52 180)
+		(at 27.94 104.14 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10735,7 +11121,7 @@
 		)
 		(uuid "89ffd199-7d11-498c-b0dd-f45acaa5120b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 25.3002 96.52 0)
+			(at 22.7602 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10749,7 +11135,7 @@
 	)
 	(global_label "IN4N"
 		(shape input)
-		(at 30.48 99.06 180)
+		(at 27.94 106.68 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10759,7 +11145,7 @@
 		)
 		(uuid "8ea7b958-1340-495d-bca3-b780b9442c77")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 25.2579 99.06 0)
+			(at 22.7179 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10773,7 +11159,7 @@
 	)
 	(global_label "~{ADC_CS}"
 		(shape input)
-		(at 152.4 91.44 0)
+		(at 149.86 99.06 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10783,7 +11169,7 @@
 		)
 		(uuid "8ef0d5d7-9225-4a08-9a88-8d467db337a1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 159.4425 91.44 0)
+			(at 156.9025 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10797,7 +11183,7 @@
 	)
 	(global_label "ISO_AFE_MOSI"
 		(shape input)
-		(at 152.4 96.52 0)
+		(at 149.86 104.14 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10807,7 +11193,7 @@
 		)
 		(uuid "93a309a5-e8e5-4845-b865-28f33bf75738")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 163.591 96.52 0)
+			(at 161.051 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10965,7 +11351,7 @@
 	)
 	(global_label "IN1N"
 		(shape input)
-		(at 30.48 63.5 180)
+		(at 27.94 71.12 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10975,7 +11361,7 @@
 		)
 		(uuid "cd7e31e7-8c7e-423d-b2c2-e287834c6504")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 25.2579 63.5 0)
+			(at 22.7179 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11037,7 +11423,7 @@
 	)
 	(global_label "IN2P"
 		(shape input)
-		(at 30.48 71.12 180)
+		(at 27.94 78.74 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11047,7 +11433,7 @@
 		)
 		(uuid "ec4b4d99-94e8-40a4-a068-c6fe928b3716")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 25.3002 71.12 0)
+			(at 22.7602 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11085,7 +11471,7 @@
 	)
 	(global_label "IN2N"
 		(shape input)
-		(at 30.48 86.36 180)
+		(at 27.94 93.98 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11095,7 +11481,7 @@
 		)
 		(uuid "f49c9132-5f07-472b-a6b8-d47bb8fea8ec")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 25.2579 86.36 0)
+			(at 22.7179 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11119,7 +11505,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "09f361bf-4c8b-48d1-84fc-c398c4b5ceb1")
-		(property "Reference" "C30"
+		(property "Reference" "C32"
 			(at 215.646 106.934 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11238,7 +11624,7 @@
 		(instances
 			(project "EEZ DIB AFE3plus"
 				(path "/324c4880-14dd-4339-a8ef-63d64f49eee3/6bbff170-0b54-43f4-9039-15e1a13ed0de"
-					(reference "C30")
+					(reference "C32")
 					(unit 1)
 				)
 			)
@@ -11255,7 +11641,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0a2b222c-3967-41af-be35-2a7b734b5d63")
-		(property "Reference" "IC3"
+		(property "Reference" "IC4"
 			(at 198.12 144.145 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -11372,7 +11758,7 @@
 		(instances
 			(project "EEZ DIB AFE3plus"
 				(path "/324c4880-14dd-4339-a8ef-63d64f49eee3/6bbff170-0b54-43f4-9039-15e1a13ed0de"
-					(reference "IC3")
+					(reference "IC4")
 					(unit 1)
 				)
 			)
@@ -11458,7 +11844,7 @@
 	)
 	(symbol
 		(lib_id "PCM_EEZ_symbols:GND")
-		(at 71.12 185.42 0)
+		(at 68.58 193.04 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11468,7 +11854,7 @@
 		(dnp no)
 		(uuid "0b579262-877a-4a28-a029-9a44218602e5")
 		(property "Reference" "#SUPPLY04"
-			(at 71.12 185.42 0)
+			(at 68.58 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11479,7 +11865,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 71.12 187.325 0)
+			(at 68.58 194.945 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11490,7 +11876,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 71.12 185.42 0)
+			(at 68.58 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11501,7 +11887,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 71.12 185.42 0)
+			(at 68.58 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11512,7 +11898,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 71.12 185.42 0)
+			(at 68.58 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11537,7 +11923,7 @@
 	(symbol
 		(lib_name "R-EU_4")
 		(lib_id "PCM_EEZ_passives:R-EU")
-		(at 38.1 86.36 90)
+		(at 35.56 93.98 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11547,7 +11933,7 @@
 		(dnp no)
 		(uuid "0cad70a5-4e3d-4203-bcf9-d9129444db4d")
 		(property "Reference" "R4"
-			(at 38.1 85.09 90)
+			(at 35.56 92.71 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11558,7 +11944,7 @@
 			)
 		)
 		(property "Value" "49R9"
-			(at 38.1 87.63 90)
+			(at 35.56 95.25 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11569,7 +11955,7 @@
 			)
 		)
 		(property "Footprint" "PCM_EEZ_passives:R_0603_1608Metric"
-			(at 38.1 86.36 90)
+			(at 35.56 93.98 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11580,7 +11966,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 38.1 86.36 90)
+			(at 35.56 93.98 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11591,7 +11977,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 38.1 86.36 90)
+			(at 35.56 93.98 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11602,7 +11988,7 @@
 			)
 		)
 		(property "Comment" ""
-			(at 38.1 86.36 0)
+			(at 35.56 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11613,7 +11999,7 @@
 			)
 		)
 		(property "DigiKey" "311-49.9HRCT-ND"
-			(at 38.1 86.36 0)
+			(at 35.56 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11624,7 +12010,7 @@
 			)
 		)
 		(property "Mouser" "603-RC0603FR-0749R9L"
-			(at 38.1 86.36 0)
+			(at 35.56 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11635,7 +12021,7 @@
 			)
 		)
 		(property "TME" "SMD0603-49R9-1%"
-			(at 38.1 86.36 0)
+			(at 35.56 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11646,7 +12032,7 @@
 			)
 		)
 		(property "LCSC" "C114625"
-			(at 38.1 86.36 0)
+			(at 35.56 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11673,7 +12059,7 @@
 	)
 	(symbol
 		(lib_id "PCM_EEZ_passives:C-EU")
-		(at 53.34 76.2 180)
+		(at 50.8 83.82 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11683,7 +12069,7 @@
 		(dnp no)
 		(uuid "0efa42ed-b4d0-4673-8d12-a662c55a7428")
 		(property "Reference" "C5"
-			(at 53.975 73.025 0)
+			(at 51.435 80.645 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11694,7 +12080,7 @@
 			)
 		)
 		(property "Value" "3p3"
-			(at 53.975 76.835 0)
+			(at 51.435 84.455 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11705,7 +12091,7 @@
 			)
 		)
 		(property "Footprint" "PCM_EEZ_passives:C_0603_1608Metric"
-			(at 53.34 78.74 0)
+			(at 50.8 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11716,7 +12102,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 78.74 0)
+			(at 50.8 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11727,7 +12113,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 53.34 76.2 0)
+			(at 50.8 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11738,7 +12124,7 @@
 			)
 		)
 		(property "Comment" ""
-			(at 53.34 76.2 0)
+			(at 50.8 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11749,7 +12135,7 @@
 			)
 		)
 		(property "DigiKey" "1276-6549-1-ND"
-			(at 53.34 76.2 0)
+			(at 50.8 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11760,7 +12146,7 @@
 			)
 		)
 		(property "Mouser" "187-CL10C3R3CB81PNC"
-			(at 53.34 76.2 0)
+			(at 50.8 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11771,7 +12157,7 @@
 			)
 		)
 		(property "TME" "CC0603CRNPO93R3"
-			(at 53.34 76.2 0)
+			(at 50.8 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11782,7 +12168,7 @@
 			)
 		)
 		(property "LCSC" "C472794"
-			(at 53.34 76.2 0)
+			(at 50.8 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12023,7 +12409,7 @@
 	)
 	(symbol
 		(lib_id "PCM_EEZ_passives:C-EU")
-		(at 53.34 60.96 180)
+		(at 50.8 68.58 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12033,7 +12419,7 @@
 		(dnp no)
 		(uuid "15aa9c7d-e5b2-43d7-9122-cecc9e82647c")
 		(property "Reference" "C4"
-			(at 53.975 57.785 0)
+			(at 51.435 65.405 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12044,7 +12430,7 @@
 			)
 		)
 		(property "Value" "3p3"
-			(at 53.975 61.595 0)
+			(at 51.435 69.215 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12055,7 +12441,7 @@
 			)
 		)
 		(property "Footprint" "PCM_EEZ_passives:C_0603_1608Metric"
-			(at 53.34 63.5 0)
+			(at 50.8 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12066,7 +12452,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 63.5 0)
+			(at 50.8 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12077,7 +12463,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 53.34 60.96 0)
+			(at 50.8 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12088,7 +12474,7 @@
 			)
 		)
 		(property "Comment" ""
-			(at 53.34 60.96 0)
+			(at 50.8 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12099,7 +12485,7 @@
 			)
 		)
 		(property "DigiKey" "1276-6549-1-ND"
-			(at 53.34 60.96 0)
+			(at 50.8 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12110,7 +12496,7 @@
 			)
 		)
 		(property "Mouser" "187-CL10C3R3CB81PNC"
-			(at 53.34 60.96 0)
+			(at 50.8 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12121,7 +12507,7 @@
 			)
 		)
 		(property "TME" "CC0603CRNPO93R3"
-			(at 53.34 60.96 0)
+			(at 50.8 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12132,7 +12518,7 @@
 			)
 		)
 		(property "LCSC" "C472794"
-			(at 53.34 60.96 0)
+			(at 50.8 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12236,42 +12622,40 @@
 		)
 	)
 	(symbol
-		(lib_name "R-EU_2")
-		(lib_id "PCM_EEZ_passives:R-EU")
-		(at 142.24 144.78 270)
-		(mirror x)
+		(lib_id "PCM_EEZ_passives:C-EU")
+		(at 165.1 55.88 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
-		(uuid "19bf0d74-b487-463e-a401-e01f33aaff43")
-		(property "Reference" "R11"
-			(at 139.7 144.78 90)
+		(dnp yes)
+		(uuid "18e4be88-ba75-4647-842b-9fb524fb328f")
+		(property "Reference" "C30"
+			(at 165.608 56.0324 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right top)
+				(justify left bottom)
 			)
 		)
-		(property "Value" "10K"
-			(at 144.78 144.78 90)
+		(property "Value" "10u"
+			(at 165.735 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
+				(justify left bottom)
 			)
 		)
-		(property "Footprint" "PCM_EEZ_passives:R_0603_1608Metric"
-			(at 142.24 144.78 90)
+		(property "Footprint" "PCM_EEZ_passives:C_0603_1608Metric"
+			(at 165.1 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12282,7 +12666,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 142.24 144.78 90)
+			(at 165.1 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12293,7 +12677,134 @@
 			)
 		)
 		(property "Description" ""
-			(at 142.24 144.78 90)
+			(at 165.1 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" "490-12538-1-ND"
+			(at 165.1 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" "81-GRM188R60J106KE7D"
+			(at 165.1 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME" "GRM188C80J106MEA6D"
+			(at 165.1 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C576469"
+			(at 165.1 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "3e0325e5-fd9d-4a24-bb53-8d7dde816708")
+		)
+		(pin "1"
+			(uuid "58981e5f-c0db-40ad-8400-4bb85591bd64")
+		)
+		(instances
+			(project "EEZ DIB AFE3plus"
+				(path "/324c4880-14dd-4339-a8ef-63d64f49eee3/6bbff170-0b54-43f4-9039-15e1a13ed0de"
+					(reference "C30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "R-EU_2")
+		(lib_id "PCM_EEZ_passives:R-EU")
+		(at 139.7 152.4 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "19bf0d74-b487-463e-a401-e01f33aaff43")
+		(property "Reference" "R11"
+			(at 137.16 152.4 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
+			)
+		)
+		(property "Value" "10K"
+			(at 142.24 152.4 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "PCM_EEZ_passives:R_0603_1608Metric"
+			(at 139.7 152.4 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 152.4 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 152.4 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12304,7 +12815,7 @@
 			)
 		)
 		(property "Comment" ""
-			(at 142.24 144.78 0)
+			(at 139.7 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12315,7 +12826,7 @@
 			)
 		)
 		(property "DigiKey" "1712-CRGH0603F10KCT-ND"
-			(at 142.24 144.78 0)
+			(at 139.7 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12326,7 +12837,7 @@
 			)
 		)
 		(property "Mouser" "756-WCR0603-10KFI"
-			(at 142.24 144.78 0)
+			(at 139.7 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12337,7 +12848,7 @@
 			)
 		)
 		(property "TME" "SMD0603-10K-1%"
-			(at 142.24 144.78 0)
+			(at 139.7 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12348,7 +12859,7 @@
 			)
 		)
 		(property "LCSC" "C25804"
-			(at 142.24 144.78 0)
+			(at 139.7 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12375,7 +12886,7 @@
 	)
 	(symbol
 		(lib_id "PCM_EEZ_passives:C-EU")
-		(at 45.72 55.88 180)
+		(at 43.18 63.5 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12385,7 +12896,7 @@
 		(dnp no)
 		(uuid "1a97656f-7f6a-4de3-9849-e9ca6a05fcc0")
 		(property "Reference" "C1"
-			(at 46.355 52.705 0)
+			(at 43.815 60.325 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12396,7 +12907,7 @@
 			)
 		)
 		(property "Value" "33p"
-			(at 46.355 56.515 0)
+			(at 43.815 64.135 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12407,7 +12918,7 @@
 			)
 		)
 		(property "Footprint" "PCM_EEZ_passives:C_0603_1608Metric"
-			(at 45.72 58.42 0)
+			(at 43.18 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12418,7 +12929,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 45.72 58.42 0)
+			(at 43.18 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12429,7 +12940,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 45.72 55.88 0)
+			(at 43.18 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12440,7 +12951,7 @@
 			)
 		)
 		(property "Comment" ""
-			(at 45.72 55.88 0)
+			(at 43.18 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12451,7 +12962,7 @@
 			)
 		)
 		(property "DigiKey" "1276-2264-1-ND"
-			(at 45.72 55.88 0)
+			(at 43.18 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12462,7 +12973,7 @@
 			)
 		)
 		(property "Mouser" "187-CL10C330JB81PNC"
-			(at 45.72 55.88 0)
+			(at 43.18 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12473,7 +12984,7 @@
 			)
 		)
 		(property "TME" "CL10C330JB81PNC"
-			(at 45.72 55.88 0)
+			(at 43.18 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12484,7 +12995,7 @@
 			)
 		)
 		(property "LCSC" "C346212"
-			(at 45.72 55.88 0)
+			(at 43.18 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12511,7 +13022,7 @@
 	)
 	(symbol
 		(lib_id "PCM_EEZ_symbols:GND")
-		(at 149.86 134.62 0)
+		(at 147.32 142.24 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12521,7 +13032,7 @@
 		(dnp no)
 		(uuid "1ad27f34-0cc1-40d8-8be5-6fca0c1b0069")
 		(property "Reference" "#SUPPLY08"
-			(at 149.86 134.62 0)
+			(at 147.32 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12532,7 +13043,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 151.765 135.255 0)
+			(at 149.225 142.875 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12543,7 +13054,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 149.86 134.62 0)
+			(at 147.32 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12554,7 +13065,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.86 134.62 0)
+			(at 147.32 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12565,7 +13076,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 149.86 134.62 0)
+			(at 147.32 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12598,7 +13109,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1d24d621-b3af-43f1-afe0-2582ba850f6f")
-		(property "Reference" "IC5"
+		(property "Reference" "IC6"
 			(at 251.46 144.145 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12728,7 +13239,7 @@
 		(instances
 			(project "EEZ DIB AFE3plus"
 				(path "/324c4880-14dd-4339-a8ef-63d64f49eee3/6bbff170-0b54-43f4-9039-15e1a13ed0de"
-					(reference "IC5")
+					(reference "IC6")
 					(unit 1)
 				)
 			)
@@ -12737,7 +13248,7 @@
 	(symbol
 		(lib_name "R-EU_3")
 		(lib_id "PCM_EEZ_passives:R-EU")
-		(at 142.24 104.14 270)
+		(at 139.7 111.76 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -12748,7 +13259,7 @@
 		(dnp no)
 		(uuid "1db03b48-f557-4c6e-9e40-70853e5a3ed8")
 		(property "Reference" "R9"
-			(at 142.24 102.87 90)
+			(at 139.7 110.49 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12759,7 +13270,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 142.24 105.41 90)
+			(at 139.7 113.03 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12770,7 +13281,7 @@
 			)
 		)
 		(property "Footprint" "PCM_EEZ_passives:R_0603_1608Metric"
-			(at 142.24 104.14 90)
+			(at 139.7 111.76 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12781,7 +13292,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 142.24 104.14 90)
+			(at 139.7 111.76 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12792,7 +13303,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 142.24 104.14 90)
+			(at 139.7 111.76 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12803,7 +13314,7 @@
 			)
 		)
 		(property "Comment" ""
-			(at 142.24 104.14 0)
+			(at 139.7 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12814,7 +13325,7 @@
 			)
 		)
 		(property "DigiKey" "1712-CRGH0603F10KCT-ND"
-			(at 142.24 104.14 0)
+			(at 139.7 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12825,7 +13336,7 @@
 			)
 		)
 		(property "Mouser" "756-WCR0603-10KFI"
-			(at 142.24 104.14 0)
+			(at 139.7 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12836,7 +13347,7 @@
 			)
 		)
 		(property "TME" "SMD0603-10K-1%"
-			(at 142.24 104.14 0)
+			(at 139.7 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12847,7 +13358,7 @@
 			)
 		)
 		(property "LCSC" "C25804"
-			(at 142.24 104.14 0)
+			(at 139.7 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12874,7 +13385,7 @@
 	)
 	(symbol
 		(lib_id "PCM_EEZ_passives:C-EU")
-		(at 63.5 137.16 270)
+		(at 60.96 144.78 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12884,7 +13395,7 @@
 		(dnp no)
 		(uuid "1f803d0a-29fe-4a66-bbab-6761fe5d538e")
 		(property "Reference" "C10"
-			(at 65.405 135.89 90)
+			(at 62.865 143.51 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12894,7 +13405,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 64.77 138.43 90)
+			(at 62.23 146.05 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12904,7 +13415,7 @@
 			)
 		)
 		(property "Footprint" "PCM_EEZ_passives:C_0603_1608Metric"
-			(at 66.04 137.16 0)
+			(at 63.5 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12915,7 +13426,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 66.04 137.16 0)
+			(at 63.5 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12926,7 +13437,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 63.5 137.16 0)
+			(at 60.96 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12937,7 +13448,7 @@
 			)
 		)
 		(property "Comment" ""
-			(at 63.5 137.16 0)
+			(at 60.96 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12948,7 +13459,7 @@
 			)
 		)
 		(property "DigiKey" "1276-1019-1-ND"
-			(at 63.5 137.16 0)
+			(at 60.96 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12959,7 +13470,7 @@
 			)
 		)
 		(property "Mouser" "187-CL10A105KB8NNNC "
-			(at 63.5 137.16 0)
+			(at 60.96 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12970,7 +13481,7 @@
 			)
 		)
 		(property "TME" "CL10A105KB8NNNC "
-			(at 63.5 137.16 0)
+			(at 60.96 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12981,7 +13492,7 @@
 			)
 		)
 		(property "LCSC" "C15849"
-			(at 63.5 137.16 0)
+			(at 60.96 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13165,7 +13676,7 @@
 	)
 	(symbol
 		(lib_id "PCM_EEZ_passives:C-EU")
-		(at 114.3 55.88 270)
+		(at 111.76 63.5 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13175,7 +13686,7 @@
 		(dnp no)
 		(uuid "27a78f49-0df2-47c3-a7e9-f837c94a1eff")
 		(property "Reference" "C22"
-			(at 116.205 54.61 90)
+			(at 113.665 62.23 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13185,7 +13696,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 116.84 57.15 90)
+			(at 114.3 64.77 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13195,7 +13706,7 @@
 			)
 		)
 		(property "Footprint" "PCM_EEZ_passives:C_0603_1608Metric"
-			(at 116.84 55.88 0)
+			(at 114.3 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13206,7 +13717,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 55.88 0)
+			(at 114.3 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13217,7 +13728,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 114.3 55.88 0)
+			(at 111.76 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13228,7 +13739,7 @@
 			)
 		)
 		(property "Comment" ""
-			(at 114.3 55.88 0)
+			(at 111.76 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13239,7 +13750,7 @@
 			)
 		)
 		(property "DigiKey" "490-4774-1-ND"
-			(at 114.3 55.88 0)
+			(at 111.76 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13250,7 +13761,7 @@
 			)
 		)
 		(property "Mouser" "80-C0603C104M4R"
-			(at 114.3 55.88 0)
+			(at 111.76 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13261,7 +13772,7 @@
 			)
 		)
 		(property "TME" "CL10B104KA8NNNC"
-			(at 114.3 55.88 0)
+			(at 111.76 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13272,7 +13783,7 @@
 			)
 		)
 		(property "LCSC" "C14663"
-			(at 114.3 55.88 90)
+			(at 111.76 63.5 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13299,7 +13810,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 45.72 129.54 0)
+		(at 43.18 137.16 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13309,7 +13820,7 @@
 		(dnp no)
 		(uuid "2ce27c0b-425c-4a58-980e-03e47ed94ada")
 		(property "Reference" "#FLG01"
-			(at 45.72 127.635 0)
+			(at 43.18 135.255 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13320,7 +13831,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 45.72 126.365 0)
+			(at 43.18 133.985 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13331,7 +13842,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 45.72 129.54 0)
+			(at 43.18 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13342,7 +13853,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 45.72 129.54 0)
+			(at 43.18 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13353,7 +13864,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 45.72 129.54 0)
+			(at 43.18 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13456,7 +13967,7 @@
 	(symbol
 		(lib_name "R-EU_2")
 		(lib_id "PCM_EEZ_passives:R-EU")
-		(at 142.24 149.86 270)
+		(at 139.7 157.48 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -13467,7 +13978,7 @@
 		(dnp no)
 		(uuid "359f8599-353d-4680-8d65-46aafd0a770c")
 		(property "Reference" "R13"
-			(at 139.7 149.86 90)
+			(at 137.16 157.48 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13478,7 +13989,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 144.78 149.86 90)
+			(at 142.24 157.48 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13489,7 +14000,7 @@
 			)
 		)
 		(property "Footprint" "PCM_EEZ_passives:R_0603_1608Metric"
-			(at 142.24 149.86 90)
+			(at 139.7 157.48 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13500,7 +14011,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 142.24 149.86 90)
+			(at 139.7 157.48 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13511,7 +14022,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 142.24 149.86 90)
+			(at 139.7 157.48 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13522,7 +14033,7 @@
 			)
 		)
 		(property "Comment" ""
-			(at 142.24 149.86 0)
+			(at 139.7 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13533,7 +14044,7 @@
 			)
 		)
 		(property "DigiKey" "1712-CRGH0603F10KCT-ND"
-			(at 142.24 149.86 0)
+			(at 139.7 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13544,7 +14055,7 @@
 			)
 		)
 		(property "Mouser" "756-WCR0603-10KFI"
-			(at 142.24 149.86 0)
+			(at 139.7 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13555,7 +14066,7 @@
 			)
 		)
 		(property "TME" "SMD0603-10K-1%"
-			(at 142.24 149.86 0)
+			(at 139.7 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13566,7 +14077,7 @@
 			)
 		)
 		(property "LCSC" "C25804"
-			(at 142.24 149.86 0)
+			(at 139.7 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13602,7 +14113,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3645abcb-51e1-4bc1-9c21-b8c7febb093f")
-		(property "Reference" "#SUPPLY012"
+		(property "Reference" "#SUPPLY013"
 			(at 220.98 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -13663,7 +14174,7 @@
 		(instances
 			(project "EEZ DIB AFE3plus"
 				(path "/324c4880-14dd-4339-a8ef-63d64f49eee3/6bbff170-0b54-43f4-9039-15e1a13ed0de"
-					(reference "#SUPPLY012")
+					(reference "#SUPPLY013")
 					(unit 1)
 				)
 			)
@@ -13671,7 +14182,7 @@
 	)
 	(symbol
 		(lib_id "PCM_EEZ_passives:C-EU")
-		(at 63.5 167.64 270)
+		(at 60.96 175.26 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13681,7 +14192,7 @@
 		(dnp no)
 		(uuid "3c756953-2e25-47df-8294-63a23dd01ad3")
 		(property "Reference" "C14"
-			(at 63.5 166.37 90)
+			(at 60.96 173.99 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13692,7 +14203,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 66.04 168.91 90)
+			(at 63.5 176.53 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13702,7 +14213,7 @@
 			)
 		)
 		(property "Footprint" "PCM_EEZ_passives:C_0603_1608Metric"
-			(at 66.04 167.64 0)
+			(at 63.5 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13713,7 +14224,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 66.04 167.64 0)
+			(at 63.5 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13724,7 +14235,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 63.5 167.64 0)
+			(at 60.96 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13735,7 +14246,7 @@
 			)
 		)
 		(property "Comment" ""
-			(at 63.5 167.64 0)
+			(at 60.96 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13746,7 +14257,7 @@
 			)
 		)
 		(property "DigiKey" "490-4774-1-ND"
-			(at 63.5 167.64 0)
+			(at 60.96 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13757,7 +14268,7 @@
 			)
 		)
 		(property "Mouser" "80-C0603C104M4R"
-			(at 63.5 167.64 0)
+			(at 60.96 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13768,7 +14279,7 @@
 			)
 		)
 		(property "TME" "CL10B104KA8NNNC"
-			(at 63.5 167.64 0)
+			(at 60.96 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13779,7 +14290,7 @@
 			)
 		)
 		(property "LCSC" "C14663"
-			(at 63.5 167.64 90)
+			(at 60.96 175.26 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13806,7 +14317,7 @@
 	)
 	(symbol
 		(lib_id "PCM_EEZ_passives:C-EU")
-		(at 147.32 165.1 270)
+		(at 144.78 172.72 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13815,8 +14326,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "434f7cf5-7cbb-4d0e-bd19-a501d52c78c9")
-		(property "Reference" "C26"
-			(at 149.225 163.83 90)
+		(property "Reference" "C27"
+			(at 146.685 171.45 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13826,7 +14337,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 149.86 166.37 90)
+			(at 147.32 173.99 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13836,7 +14347,7 @@
 			)
 		)
 		(property "Footprint" "PCM_EEZ_passives:C_0603_1608Metric"
-			(at 149.86 165.1 0)
+			(at 147.32 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13847,7 +14358,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.86 165.1 0)
+			(at 147.32 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13858,7 +14369,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 147.32 165.1 0)
+			(at 144.78 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13869,7 +14380,7 @@
 			)
 		)
 		(property "Comment" ""
-			(at 147.32 165.1 0)
+			(at 144.78 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13880,7 +14391,7 @@
 			)
 		)
 		(property "DigiKey" "490-4774-1-ND"
-			(at 147.32 165.1 0)
+			(at 144.78 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13891,7 +14402,7 @@
 			)
 		)
 		(property "Mouser" "80-C0603C104M4R"
-			(at 147.32 165.1 0)
+			(at 144.78 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13902,7 +14413,7 @@
 			)
 		)
 		(property "TME" "CL10B104KA8NNNC"
-			(at 147.32 165.1 0)
+			(at 144.78 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13913,7 +14424,7 @@
 			)
 		)
 		(property "LCSC" "C14663"
-			(at 147.32 165.1 90)
+			(at 144.78 172.72 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13932,7 +14443,7 @@
 		(instances
 			(project "EEZ DIB AFE3plus"
 				(path "/324c4880-14dd-4339-a8ef-63d64f49eee3/6bbff170-0b54-43f4-9039-15e1a13ed0de"
-					(reference "C26")
+					(reference "C27")
 					(unit 1)
 				)
 			)
@@ -13940,7 +14451,7 @@
 	)
 	(symbol
 		(lib_id "PCM_EEZ_passives:C-EU")
-		(at 53.34 83.82 180)
+		(at 50.8 91.44 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13950,7 +14461,7 @@
 		(dnp no)
 		(uuid "43f48922-a0e6-4da7-b4ed-e5474f6d4571")
 		(property "Reference" "C6"
-			(at 53.975 80.645 0)
+			(at 51.435 88.265 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13961,7 +14472,7 @@
 			)
 		)
 		(property "Value" "3p3"
-			(at 53.975 84.455 0)
+			(at 51.435 92.075 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13972,7 +14483,7 @@
 			)
 		)
 		(property "Footprint" "PCM_EEZ_passives:C_0603_1608Metric"
-			(at 53.34 86.36 0)
+			(at 50.8 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13983,7 +14494,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 86.36 0)
+			(at 50.8 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13994,7 +14505,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 53.34 83.82 0)
+			(at 50.8 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14005,7 +14516,7 @@
 			)
 		)
 		(property "Comment" ""
-			(at 53.34 83.82 0)
+			(at 50.8 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14016,7 +14527,7 @@
 			)
 		)
 		(property "DigiKey" "1276-6549-1-ND"
-			(at 53.34 83.82 0)
+			(at 50.8 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14027,7 +14538,7 @@
 			)
 		)
 		(property "Mouser" "187-CL10C3R3CB81PNC"
-			(at 53.34 83.82 0)
+			(at 50.8 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14038,7 +14549,7 @@
 			)
 		)
 		(property "TME" "CC0603CRNPO93R3"
-			(at 53.34 83.82 0)
+			(at 50.8 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14049,7 +14560,7 @@
 			)
 		)
 		(property "LCSC" "C472794"
-			(at 53.34 83.82 0)
+			(at 50.8 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14076,7 +14587,7 @@
 	)
 	(symbol
 		(lib_id "PCM_EEZ_symbols:-2V5_ISO")
-		(at 167.64 43.18 180)
+		(at 157.48 38.1 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14086,7 +14597,7 @@
 		(dnp no)
 		(uuid "46554c23-394c-4d36-8625-950270e32634")
 		(property "Reference" "#-2V5_ISO02"
-			(at 167.64 43.18 0)
+			(at 157.48 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14097,7 +14608,7 @@
 			)
 		)
 		(property "Value" "-2V5_ISO"
-			(at 167.64 46.355 0)
+			(at 157.48 41.275 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14108,7 +14619,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 167.64 43.18 0)
+			(at 157.48 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14119,7 +14630,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 43.18 0)
+			(at 157.48 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14130,7 +14641,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 167.64 43.18 0)
+			(at 157.48 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14154,7 +14665,7 @@
 	)
 	(symbol
 		(lib_id "PCM_EEZ_unsorted:JP3 shorted")
-		(at 149.86 109.22 180)
+		(at 147.32 116.84 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14164,7 +14675,7 @@
 		(dnp no)
 		(uuid "4c708cfb-771c-4861-a4fa-3078bcdf3e3c")
 		(property "Reference" "JP1"
-			(at 150.495 109.22 0)
+			(at 147.955 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14175,7 +14686,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 149.86 109.22 0)
+			(at 147.32 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14186,7 +14697,7 @@
 			)
 		)
 		(property "Footprint" "PCM_EEZ_SMD:JP3 shorted (0603)"
-			(at 149.86 104.14 0)
+			(at 147.32 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14197,7 +14708,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.86 109.22 0)
+			(at 147.32 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14208,7 +14719,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 149.86 109.22 0)
+			(at 147.32 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14219,7 +14730,7 @@
 			)
 		)
 		(property "DigiKey" ""
-			(at 149.86 109.22 0)
+			(at 147.32 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14230,7 +14741,7 @@
 			)
 		)
 		(property "Mouser" ""
-			(at 149.86 109.22 0)
+			(at 147.32 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14241,7 +14752,7 @@
 			)
 		)
 		(property "TME" ""
-			(at 149.86 109.22 0)
+			(at 147.32 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14252,7 +14763,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 149.86 109.22 0)
+			(at 147.32 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14282,7 +14793,7 @@
 	)
 	(symbol
 		(lib_id "PCM_EEZ_symbols:GND")
-		(at 154.94 86.36 0)
+		(at 152.4 93.98 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -14292,8 +14803,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4e3082f0-59d2-4650-af70-711c0ce91807")
-		(property "Reference" "#SUPPLY09"
-			(at 154.94 86.36 0)
+		(property "Reference" "#SUPPLY010"
+			(at 152.4 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14304,7 +14815,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 154.94 88.265 0)
+			(at 152.4 95.885 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14315,7 +14826,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 154.94 86.36 0)
+			(at 152.4 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14326,7 +14837,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 154.94 86.36 0)
+			(at 152.4 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14337,7 +14848,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 154.94 86.36 0)
+			(at 152.4 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14353,7 +14864,7 @@
 		(instances
 			(project "EEZ DIB AFE3plus"
 				(path "/324c4880-14dd-4339-a8ef-63d64f49eee3/6bbff170-0b54-43f4-9039-15e1a13ed0de"
-					(reference "#SUPPLY09")
+					(reference "#SUPPLY010")
 					(unit 1)
 				)
 			)
@@ -14568,7 +15079,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "50ccf05b-7317-47d5-a942-3918f3ad8e5c")
-		(property "Reference" "#+3V3_ISO09"
+		(property "Reference" "#+3V3_ISO06"
 			(at 246.38 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -14629,7 +15140,7 @@
 		(instances
 			(project "EEZ DIB AFE3plus"
 				(path "/324c4880-14dd-4339-a8ef-63d64f49eee3/6bbff170-0b54-43f4-9039-15e1a13ed0de"
-					(reference "#+3V3_ISO09")
+					(reference "#+3V3_ISO06")
 					(unit 1)
 				)
 			)
@@ -14646,7 +15157,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "533b5be8-82ec-4707-b734-c0d1e3310391")
-		(property "Reference" "#SUPPLY015"
+		(property "Reference" "#SUPPLY016"
 			(at 236.22 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -14707,7 +15218,7 @@
 		(instances
 			(project "EEZ DIB AFE3plus"
 				(path "/324c4880-14dd-4339-a8ef-63d64f49eee3/6bbff170-0b54-43f4-9039-15e1a13ed0de"
-					(reference "#SUPPLY015")
+					(reference "#SUPPLY016")
 					(unit 1)
 				)
 			)
@@ -14716,7 +15227,7 @@
 	(symbol
 		(lib_name "R-EU_4")
 		(lib_id "PCM_EEZ_passives:R-EU")
-		(at 38.1 129.54 90)
+		(at 35.56 137.16 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14726,7 +15237,7 @@
 		(dnp no)
 		(uuid "54627d63-8aa9-425f-8d03-80937b64bef3")
 		(property "Reference" "R5"
-			(at 38.1 128.27 90)
+			(at 35.56 135.89 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14737,7 +15248,7 @@
 			)
 		)
 		(property "Value" "10R"
-			(at 38.1 130.81 90)
+			(at 35.56 138.43 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14748,7 +15259,7 @@
 			)
 		)
 		(property "Footprint" "PCM_EEZ_passives:R_0603_1608Metric"
-			(at 38.1 129.54 90)
+			(at 35.56 137.16 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14759,7 +15270,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 38.1 129.54 90)
+			(at 35.56 137.16 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14770,7 +15281,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 38.1 129.54 90)
+			(at 35.56 137.16 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14781,7 +15292,7 @@
 			)
 		)
 		(property "Comment" ""
-			(at 38.1 129.54 0)
+			(at 35.56 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14792,7 +15303,7 @@
 			)
 		)
 		(property "DigiKey" "YAG1291CT-ND"
-			(at 38.1 129.54 0)
+			(at 35.56 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14803,7 +15314,7 @@
 			)
 		)
 		(property "Mouser" "603-RC0603FR-0710RP"
-			(at 38.1 129.54 0)
+			(at 35.56 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14814,7 +15325,7 @@
 			)
 		)
 		(property "TME" "RC0603FR-0710R"
-			(at 38.1 129.54 0)
+			(at 35.56 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14825,7 +15336,7 @@
 			)
 		)
 		(property "LCSC" "C2092177"
-			(at 38.1 129.54 0)
+			(at 35.56 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14930,7 +15441,7 @@
 	)
 	(symbol
 		(lib_id "PCM_EEZ_passives:C-EU")
-		(at 88.9 45.72 90)
+		(at 86.36 53.34 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14940,7 +15451,7 @@
 		(dnp no)
 		(uuid "54de6d2b-2f16-474c-b5db-a56d8b6d1f9a")
 		(property "Reference" "C18"
-			(at 93.345 44.45 90)
+			(at 90.805 52.07 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14950,7 +15461,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 92.71 46.99 90)
+			(at 90.17 54.61 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14960,7 +15471,7 @@
 			)
 		)
 		(property "Footprint" "PCM_EEZ_passives:C_0603_1608Metric"
-			(at 86.36 45.72 0)
+			(at 83.82 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14971,7 +15482,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 45.72 0)
+			(at 83.82 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14982,7 +15493,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 88.9 45.72 0)
+			(at 86.36 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14993,7 +15504,7 @@
 			)
 		)
 		(property "Comment" ""
-			(at 88.9 45.72 0)
+			(at 86.36 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15004,7 +15515,7 @@
 			)
 		)
 		(property "DigiKey" "1276-1019-1-ND"
-			(at 88.9 45.72 0)
+			(at 86.36 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15015,7 +15526,7 @@
 			)
 		)
 		(property "Mouser" "187-CL10A105KB8NNNC "
-			(at 88.9 45.72 0)
+			(at 86.36 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15026,7 +15537,7 @@
 			)
 		)
 		(property "TME" "CL10A105KB8NNNC "
-			(at 88.9 45.72 0)
+			(at 86.36 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15037,7 +15548,7 @@
 			)
 		)
 		(property "LCSC" "C15849"
-			(at 88.9 45.72 90)
+			(at 86.36 53.34 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15064,7 +15575,7 @@
 	)
 	(symbol
 		(lib_id "PCM_EEZ_passives:C-EU")
-		(at 63.5 142.24 270)
+		(at 60.96 149.86 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15074,7 +15585,7 @@
 		(dnp no)
 		(uuid "5a99902f-17f1-44a6-aa0d-0f7b451f1ae7")
 		(property "Reference" "C11"
-			(at 65.405 140.97 90)
+			(at 62.865 148.59 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15084,7 +15595,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 64.77 143.51 90)
+			(at 62.23 151.13 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15094,7 +15605,7 @@
 			)
 		)
 		(property "Footprint" "PCM_EEZ_passives:C_0603_1608Metric"
-			(at 66.04 142.24 0)
+			(at 63.5 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15105,7 +15616,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 66.04 142.24 0)
+			(at 63.5 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15116,7 +15627,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 63.5 142.24 0)
+			(at 60.96 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15127,7 +15638,7 @@
 			)
 		)
 		(property "Comment" ""
-			(at 63.5 142.24 0)
+			(at 60.96 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15138,7 +15649,7 @@
 			)
 		)
 		(property "DigiKey" "1276-1019-1-ND"
-			(at 63.5 142.24 0)
+			(at 60.96 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15149,7 +15660,7 @@
 			)
 		)
 		(property "Mouser" "187-CL10A105KB8NNNC "
-			(at 63.5 142.24 0)
+			(at 60.96 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15160,7 +15671,7 @@
 			)
 		)
 		(property "TME" "CL10A105KB8NNNC "
-			(at 63.5 142.24 0)
+			(at 60.96 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15171,7 +15682,7 @@
 			)
 		)
 		(property "LCSC" "C15849"
-			(at 63.5 142.24 0)
+			(at 60.96 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15198,7 +15709,7 @@
 	)
 	(symbol
 		(lib_id "PCM_EEZ_passives:C-EU")
-		(at 53.34 53.34 180)
+		(at 50.8 60.96 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15208,7 +15719,7 @@
 		(dnp no)
 		(uuid "5b015a7c-d825-4680-a9c5-7ecf852e792a")
 		(property "Reference" "C3"
-			(at 53.975 50.165 0)
+			(at 51.435 57.785 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15219,7 +15730,7 @@
 			)
 		)
 		(property "Value" "3p3"
-			(at 53.975 53.975 0)
+			(at 51.435 61.595 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15230,7 +15741,7 @@
 			)
 		)
 		(property "Footprint" "PCM_EEZ_passives:C_0603_1608Metric"
-			(at 53.34 55.88 0)
+			(at 50.8 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15241,7 +15752,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 55.88 0)
+			(at 50.8 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15252,7 +15763,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 53.34 53.34 0)
+			(at 50.8 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15263,7 +15774,7 @@
 			)
 		)
 		(property "Comment" ""
-			(at 53.34 53.34 0)
+			(at 50.8 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15274,7 +15785,7 @@
 			)
 		)
 		(property "DigiKey" "1276-6549-1-ND"
-			(at 53.34 53.34 0)
+			(at 50.8 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15285,7 +15796,7 @@
 			)
 		)
 		(property "Mouser" "187-CL10C3R3CB81PNC"
-			(at 53.34 53.34 0)
+			(at 50.8 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15296,7 +15807,7 @@
 			)
 		)
 		(property "TME" "CC0603CRNPO93R3"
-			(at 53.34 53.34 0)
+			(at 50.8 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15307,7 +15818,7 @@
 			)
 		)
 		(property "LCSC" "C472794"
-			(at 53.34 53.34 0)
+			(at 50.8 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15334,7 +15845,7 @@
 	)
 	(symbol
 		(lib_id "PCM_EEZ_passives:C-EU")
-		(at 66.04 177.8 0)
+		(at 63.5 185.42 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15344,7 +15855,7 @@
 		(dnp no)
 		(uuid "66d21c6b-3676-40f8-aab8-3fd99a799ea0")
 		(property "Reference" "C15"
-			(at 64.135 177.165 0)
+			(at 61.595 184.785 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15354,7 +15865,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 63.5 180.975 0)
+			(at 60.96 188.595 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15364,7 +15875,7 @@
 			)
 		)
 		(property "Footprint" "PCM_EEZ_passives:C_0603_1608Metric"
-			(at 66.04 175.26 0)
+			(at 63.5 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15375,7 +15886,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 66.04 175.26 0)
+			(at 63.5 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15386,7 +15897,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 66.04 177.8 0)
+			(at 63.5 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15397,7 +15908,7 @@
 			)
 		)
 		(property "Comment" ""
-			(at 66.04 177.8 0)
+			(at 63.5 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15408,7 +15919,7 @@
 			)
 		)
 		(property "DigiKey" "490-4774-1-ND"
-			(at 66.04 177.8 0)
+			(at 63.5 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15419,7 +15930,7 @@
 			)
 		)
 		(property "Mouser" "80-C0603C104M4R"
-			(at 66.04 177.8 0)
+			(at 63.5 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15430,7 +15941,7 @@
 			)
 		)
 		(property "TME" "CL10B104KA8NNNC"
-			(at 66.04 177.8 0)
+			(at 63.5 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15441,7 +15952,7 @@
 			)
 		)
 		(property "LCSC" "C14663"
-			(at 66.04 177.8 0)
+			(at 63.5 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15468,7 +15979,7 @@
 	)
 	(symbol
 		(lib_id "PCM_EEZ_passives:C-EU")
-		(at 63.5 147.32 270)
+		(at 60.96 154.94 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15478,7 +15989,7 @@
 		(dnp no)
 		(uuid "68cb14b2-678a-42a8-b7d9-a427307c9698")
 		(property "Reference" "C12"
-			(at 65.405 146.05 90)
+			(at 62.865 153.67 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15488,7 +15999,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 64.77 148.59 90)
+			(at 62.23 156.21 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15498,7 +16009,7 @@
 			)
 		)
 		(property "Footprint" "PCM_EEZ_passives:C_0603_1608Metric"
-			(at 66.04 147.32 0)
+			(at 63.5 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15509,7 +16020,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 66.04 147.32 0)
+			(at 63.5 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15520,7 +16031,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 63.5 147.32 0)
+			(at 60.96 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15531,7 +16042,7 @@
 			)
 		)
 		(property "Comment" ""
-			(at 63.5 147.32 0)
+			(at 60.96 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15542,7 +16053,7 @@
 			)
 		)
 		(property "DigiKey" "1276-1019-1-ND"
-			(at 63.5 147.32 0)
+			(at 60.96 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15553,7 +16064,7 @@
 			)
 		)
 		(property "Mouser" "187-CL10A105KB8NNNC "
-			(at 63.5 147.32 0)
+			(at 60.96 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15564,7 +16075,7 @@
 			)
 		)
 		(property "TME" "CL10A105KB8NNNC "
-			(at 63.5 147.32 0)
+			(at 60.96 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15575,7 +16086,7 @@
 			)
 		)
 		(property "LCSC" "C15849"
-			(at 63.5 147.32 0)
+			(at 60.96 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15602,7 +16113,7 @@
 	)
 	(symbol
 		(lib_id "PCM_EEZ_passives:C-EU")
-		(at 91.44 50.8 270)
+		(at 88.9 58.42 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -15613,7 +16124,7 @@
 		(dnp no)
 		(uuid "6a41c11e-3e9b-4ce1-b895-c15ded4ad6a2")
 		(property "Reference" "C21"
-			(at 93.345 49.53 90)
+			(at 90.805 57.15 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15623,7 +16134,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 93.98 52.07 90)
+			(at 91.44 59.69 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15633,7 +16144,7 @@
 			)
 		)
 		(property "Footprint" "PCM_EEZ_passives:C_0603_1608Metric"
-			(at 93.98 50.8 0)
+			(at 91.44 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15644,7 +16155,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.98 50.8 0)
+			(at 91.44 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15655,7 +16166,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 91.44 50.8 0)
+			(at 88.9 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15666,7 +16177,7 @@
 			)
 		)
 		(property "Comment" ""
-			(at 91.44 50.8 0)
+			(at 88.9 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15677,7 +16188,7 @@
 			)
 		)
 		(property "DigiKey" "490-4774-1-ND"
-			(at 91.44 50.8 0)
+			(at 88.9 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15688,7 +16199,7 @@
 			)
 		)
 		(property "Mouser" "80-C0603C104M4R"
-			(at 91.44 50.8 0)
+			(at 88.9 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15699,7 +16210,7 @@
 			)
 		)
 		(property "TME" "CL10B104KA8NNNC"
-			(at 91.44 50.8 0)
+			(at 88.9 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15710,7 +16221,7 @@
 			)
 		)
 		(property "LCSC" "C14663"
-			(at 91.44 50.8 90)
+			(at 88.9 58.42 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15737,7 +16248,7 @@
 	)
 	(symbol
 		(lib_id "PCM_EEZ_ICs:LTC6655BHMS8")
-		(at 144.78 33.02 0)
+		(at 142.24 30.48 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -15748,29 +16259,31 @@
 		(dnp yes)
 		(uuid "71024f6d-5bae-43c5-a3a1-de5517a597be")
 		(property "Reference" "IC2"
-			(at 134.62 24.765 0)
+			(at 132.08 20.955 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
 				)
 				(justify right bottom)
 			)
 		)
-		(property "Value" "N.C."
-			(at 148.59 38.735 0)
+		(property "Value" "LTC6655BHMS8-2.5#PBF"
+			(at 132.08 22.225 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
-				(justify right top)
+				(justify right bottom)
 			)
 		)
 		(property "Footprint" "PCM_EEZ_SMD:MSOP-8_MS_LIT"
-			(at 144.78 43.18 0)
+			(at 142.24 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15781,7 +16294,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 144.78 33.02 0)
+			(at 142.24 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15792,7 +16305,7 @@
 			)
 		)
 		(property "Description" "0.25ppm Noise, Low Drift Precision Reference"
-			(at 144.78 33.02 0)
+			(at 142.24 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15803,7 +16316,7 @@
 			)
 		)
 		(property "DigiKey" "505-LTC6655BHMS8-2.5#TRPBFTR-ND"
-			(at 144.78 45.72 0)
+			(at 142.24 43.18 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -15814,7 +16327,7 @@
 			)
 		)
 		(property "Mouser" "584-C6655BHMS8-2.5PF"
-			(at 144.78 48.26 0)
+			(at 142.24 45.72 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -15825,7 +16338,7 @@
 			)
 		)
 		(property "TME" "-"
-			(at 144.78 50.8 0)
+			(at 142.24 48.26 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -15836,7 +16349,7 @@
 			)
 		)
 		(property "Comment" ""
-			(at 144.78 33.02 0)
+			(at 142.24 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15847,7 +16360,7 @@
 			)
 		)
 		(property "LCSC" "C107983"
-			(at 144.78 33.02 0)
+			(at 142.24 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15901,7 +16414,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "720073f1-9099-4f87-991e-a1433010fc5a")
-		(property "Reference" "#SUPPLY011"
+		(property "Reference" "#SUPPLY012"
 			(at 203.2 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -15962,7 +16475,7 @@
 		(instances
 			(project "EEZ DIB AFE3plus"
 				(path "/324c4880-14dd-4339-a8ef-63d64f49eee3/6bbff170-0b54-43f4-9039-15e1a13ed0de"
-					(reference "#SUPPLY011")
+					(reference "#SUPPLY012")
 					(unit 1)
 				)
 			)
@@ -15970,7 +16483,7 @@
 	)
 	(symbol
 		(lib_id "PCM_EEZ_passives:C-EU")
-		(at 60.96 162.56 90)
+		(at 58.42 170.18 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15980,7 +16493,7 @@
 		(dnp no)
 		(uuid "7709f764-4764-429f-8d87-b484c3cbf6be")
 		(property "Reference" "C9"
-			(at 63.5 161.29 90)
+			(at 60.96 168.91 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15991,7 +16504,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 64.77 163.83 90)
+			(at 62.23 171.45 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16001,7 +16514,7 @@
 			)
 		)
 		(property "Footprint" "PCM_EEZ_passives:C_0603_1608Metric"
-			(at 58.42 162.56 0)
+			(at 55.88 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16012,7 +16525,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 162.56 0)
+			(at 55.88 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16023,7 +16536,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 60.96 162.56 0)
+			(at 58.42 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16034,7 +16547,7 @@
 			)
 		)
 		(property "Comment" ""
-			(at 60.96 162.56 0)
+			(at 58.42 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16045,7 +16558,7 @@
 			)
 		)
 		(property "DigiKey" "1276-1019-1-ND"
-			(at 60.96 162.56 0)
+			(at 58.42 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16056,7 +16569,7 @@
 			)
 		)
 		(property "Mouser" "187-CL10A105KB8NNNC "
-			(at 60.96 162.56 0)
+			(at 58.42 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16067,7 +16580,7 @@
 			)
 		)
 		(property "TME" "CL10A105KB8NNNC "
-			(at 60.96 162.56 0)
+			(at 58.42 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16078,7 +16591,7 @@
 			)
 		)
 		(property "LCSC" "C15849"
-			(at 60.96 162.56 90)
+			(at 58.42 170.18 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16105,7 +16618,7 @@
 	)
 	(symbol
 		(lib_id "PCM_EEZ_passives:C-EU")
-		(at 88.9 55.88 90)
+		(at 86.36 63.5 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16115,7 +16628,7 @@
 		(dnp no)
 		(uuid "770beab0-2c3b-473f-972e-5139ea6f69b9")
 		(property "Reference" "C19"
-			(at 93.345 54.61 90)
+			(at 90.805 62.23 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16125,7 +16638,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 92.71 57.15 90)
+			(at 90.17 64.77 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16135,7 +16648,7 @@
 			)
 		)
 		(property "Footprint" "PCM_EEZ_passives:C_0603_1608Metric"
-			(at 86.36 55.88 0)
+			(at 83.82 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16146,7 +16659,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 55.88 0)
+			(at 83.82 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16157,7 +16670,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 88.9 55.88 0)
+			(at 86.36 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16168,7 +16681,7 @@
 			)
 		)
 		(property "Comment" ""
-			(at 88.9 55.88 0)
+			(at 86.36 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16179,7 +16692,7 @@
 			)
 		)
 		(property "DigiKey" "1276-1019-1-ND"
-			(at 88.9 55.88 0)
+			(at 86.36 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16190,7 +16703,7 @@
 			)
 		)
 		(property "Mouser" "187-CL10A105KB8NNNC "
-			(at 88.9 55.88 0)
+			(at 86.36 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16201,7 +16714,7 @@
 			)
 		)
 		(property "TME" "CL10A105KB8NNNC "
-			(at 88.9 55.88 0)
+			(at 86.36 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16212,7 +16725,7 @@
 			)
 		)
 		(property "LCSC" "C15849"
-			(at 88.9 55.88 90)
+			(at 86.36 63.5 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16239,7 +16752,7 @@
 	)
 	(symbol
 		(lib_id "PCM_EEZ_passives:C-EU")
-		(at 60.96 157.48 90)
+		(at 58.42 165.1 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16249,7 +16762,7 @@
 		(dnp no)
 		(uuid "77b1bb48-5eae-4c31-b9cb-e73a16a46570")
 		(property "Reference" "C8"
-			(at 63.5 156.21 90)
+			(at 60.96 163.83 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16260,7 +16773,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 64.77 158.75 90)
+			(at 62.23 166.37 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16270,7 +16783,7 @@
 			)
 		)
 		(property "Footprint" "PCM_EEZ_passives:C_0603_1608Metric"
-			(at 58.42 157.48 0)
+			(at 55.88 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16281,7 +16794,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 157.48 0)
+			(at 55.88 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16292,7 +16805,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 60.96 157.48 0)
+			(at 58.42 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16303,7 +16816,7 @@
 			)
 		)
 		(property "Comment" ""
-			(at 60.96 157.48 0)
+			(at 58.42 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16314,7 +16827,7 @@
 			)
 		)
 		(property "DigiKey" "1276-1019-1-ND"
-			(at 60.96 157.48 0)
+			(at 58.42 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16325,7 +16838,7 @@
 			)
 		)
 		(property "Mouser" "187-CL10A105KB8NNNC "
-			(at 60.96 157.48 0)
+			(at 58.42 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16336,7 +16849,7 @@
 			)
 		)
 		(property "TME" "CL10A105KB8NNNC "
-			(at 60.96 157.48 0)
+			(at 58.42 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16347,7 +16860,7 @@
 			)
 		)
 		(property "LCSC" "C15849"
-			(at 60.96 157.48 90)
+			(at 58.42 165.1 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16384,7 +16897,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "789a6562-5dd9-4956-8e52-8be9d70bcb06")
-		(property "Reference" "C31"
+		(property "Reference" "C33"
 			(at 228.219 152.654 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16503,7 +17016,7 @@
 		(instances
 			(project "EEZ DIB AFE3plus"
 				(path "/324c4880-14dd-4339-a8ef-63d64f49eee3/6bbff170-0b54-43f4-9039-15e1a13ed0de"
-					(reference "C31")
+					(reference "C33")
 					(unit 1)
 				)
 			)
@@ -16512,7 +17025,7 @@
 	(symbol
 		(lib_name "R-EU_2")
 		(lib_id "PCM_EEZ_passives:R-EU")
-		(at 142.24 142.24 270)
+		(at 139.7 149.86 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -16523,7 +17036,7 @@
 		(dnp no)
 		(uuid "79090877-58b9-4a4c-a1c1-d1c59e9df362")
 		(property "Reference" "R10"
-			(at 139.7 142.24 90)
+			(at 137.16 149.86 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16534,7 +17047,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 144.78 142.24 90)
+			(at 142.24 149.86 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16545,7 +17058,7 @@
 			)
 		)
 		(property "Footprint" "PCM_EEZ_passives:R_0603_1608Metric"
-			(at 142.24 142.24 90)
+			(at 139.7 149.86 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16556,7 +17069,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 142.24 142.24 90)
+			(at 139.7 149.86 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16567,7 +17080,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 142.24 142.24 90)
+			(at 139.7 149.86 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16578,7 +17091,7 @@
 			)
 		)
 		(property "Comment" ""
-			(at 142.24 142.24 0)
+			(at 139.7 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16589,7 +17102,7 @@
 			)
 		)
 		(property "DigiKey" "1712-CRGH0603F10KCT-ND"
-			(at 142.24 142.24 0)
+			(at 139.7 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16600,7 +17113,7 @@
 			)
 		)
 		(property "Mouser" "756-WCR0603-10KFI"
-			(at 142.24 142.24 0)
+			(at 139.7 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16611,7 +17124,7 @@
 			)
 		)
 		(property "TME" "SMD0603-10K-1%"
-			(at 142.24 142.24 0)
+			(at 139.7 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16622,7 +17135,7 @@
 			)
 		)
 		(property "LCSC" "C25804"
-			(at 142.24 142.24 0)
+			(at 139.7 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16648,40 +17161,41 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_EEZ_symbols:GND")
-		(at 55.88 170.18 0)
+		(lib_id "PCM_EEZ_passives:C-EU")
+		(at 127 63.5 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
-		(uuid "8068d4b5-efcb-444f-aa76-7b9eb362aebb")
-		(property "Reference" "#SUPPLY01"
-			(at 55.88 170.18 0)
-			(hide yes)
+		(dnp yes)
+		(uuid "7c1934e5-f5eb-42ef-9608-d3d52e359633")
+		(property "Reference" "C25"
+			(at 127 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right top)
 			)
 		)
-		(property "Value" "GND"
-			(at 59.69 170.18 0)
+		(property "Value" "N.C."
+			(at 127 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify top)
+				(justify right top)
 			)
 		)
-		(property "Footprint" ""
-			(at 55.88 170.18 0)
+		(property "Footprint" "PCM_EEZ_passives:C_0603_1608Metric"
+			(at 127 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16692,7 +17206,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 55.88 170.18 0)
+			(at 127 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16703,7 +17217,132 @@
 			)
 		)
 		(property "Description" ""
-			(at 55.88 170.18 0)
+			(at 127 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" ""
+			(at 127 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 127 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME" ""
+			(at 127 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 127 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6dedc2c9-eaa7-4ff9-b1cb-94bea3848f6b")
+		)
+		(pin "2"
+			(uuid "45554791-c12e-4e05-b9b7-277f78cb13dc")
+		)
+		(instances
+			(project "EEZ DIB AFE3plus"
+				(path "/324c4880-14dd-4339-a8ef-63d64f49eee3/6bbff170-0b54-43f4-9039-15e1a13ed0de"
+					(reference "C25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_EEZ_symbols:GND")
+		(at 53.34 177.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8068d4b5-efcb-444f-aa76-7b9eb362aebb")
+		(property "Reference" "#SUPPLY01"
+			(at 53.34 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 57.15 177.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+			)
+		)
+		(property "Footprint" ""
+			(at 53.34 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 53.34 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16727,7 +17366,7 @@
 	)
 	(symbol
 		(lib_id "PCM_EEZ_symbols:GND")
-		(at 137.16 177.8 0)
+		(at 134.62 185.42 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16736,8 +17375,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "811c1eb4-5bad-4ecb-8c33-f9f7752578f2")
-		(property "Reference" "#SUPPLY05"
-			(at 137.16 177.8 0)
+		(property "Reference" "#SUPPLY06"
+			(at 134.62 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16748,7 +17387,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 137.16 179.705 0)
+			(at 134.62 187.325 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16759,7 +17398,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 137.16 177.8 0)
+			(at 134.62 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16770,7 +17409,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 137.16 177.8 0)
+			(at 134.62 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16781,7 +17420,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 137.16 177.8 0)
+			(at 134.62 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16797,7 +17436,7 @@
 		(instances
 			(project "EEZ DIB AFE3plus"
 				(path "/324c4880-14dd-4339-a8ef-63d64f49eee3/6bbff170-0b54-43f4-9039-15e1a13ed0de"
-					(reference "#SUPPLY05")
+					(reference "#SUPPLY06")
 					(unit 1)
 				)
 			)
@@ -16806,7 +17445,7 @@
 	(symbol
 		(lib_name "R-EU_2")
 		(lib_id "PCM_EEZ_passives:R-EU")
-		(at 142.24 147.32 270)
+		(at 139.7 154.94 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -16817,7 +17456,7 @@
 		(dnp no)
 		(uuid "82ad07bb-a6c2-4e37-8dac-cb9a8bf238f2")
 		(property "Reference" "R12"
-			(at 139.7 147.32 90)
+			(at 137.16 154.94 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16828,7 +17467,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 144.78 147.32 90)
+			(at 142.24 154.94 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16839,7 +17478,7 @@
 			)
 		)
 		(property "Footprint" "PCM_EEZ_passives:R_0603_1608Metric"
-			(at 142.24 147.32 90)
+			(at 139.7 154.94 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16850,7 +17489,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 142.24 147.32 90)
+			(at 139.7 154.94 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16861,7 +17500,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 142.24 147.32 90)
+			(at 139.7 154.94 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16872,7 +17511,7 @@
 			)
 		)
 		(property "Comment" ""
-			(at 142.24 147.32 0)
+			(at 139.7 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16883,7 +17522,7 @@
 			)
 		)
 		(property "DigiKey" "1712-CRGH0603F10KCT-ND"
-			(at 142.24 147.32 0)
+			(at 139.7 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16894,7 +17533,7 @@
 			)
 		)
 		(property "Mouser" "756-WCR0603-10KFI"
-			(at 142.24 147.32 0)
+			(at 139.7 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16905,7 +17544,7 @@
 			)
 		)
 		(property "TME" "SMD0603-10K-1%"
-			(at 142.24 147.32 0)
+			(at 139.7 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16916,7 +17555,7 @@
 			)
 		)
 		(property "LCSC" "C25804"
-			(at 142.24 147.32 0)
+			(at 139.7 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16943,7 +17582,7 @@
 	)
 	(symbol
 		(lib_id "PCM_EEZ_TI:ADS131E0XIPAG")
-		(at 76.2 68.58 0)
+		(at 73.66 76.2 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16953,7 +17592,7 @@
 		(dnp no)
 		(uuid "834dc4da-0de3-4989-9dd8-aa5b88fbc849")
 		(property "Reference" "IC1"
-			(at 76.2 67.945 0)
+			(at 73.66 75.565 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16964,7 +17603,7 @@
 			)
 		)
 		(property "Value" "ADS131E04IPAGR"
-			(at 76.2 178.435 0)
+			(at 73.66 186.055 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16975,7 +17614,7 @@
 			)
 		)
 		(property "Footprint" "PCM_EEZ_SMD:PAG64"
-			(at 76.2 180.34 0)
+			(at 73.66 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16986,7 +17625,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 68.58 0)
+			(at 73.66 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16997,7 +17636,7 @@
 			)
 		)
 		(property "Description" "4-, 6-, 8-Channel, Simultaneously-Sampling, 24-Bit, Delta-Sigma ADC"
-			(at 76.2 190.5 0)
+			(at 73.66 198.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17008,7 +17647,7 @@
 			)
 		)
 		(property "DigiKey" "296-34885-1-ND"
-			(at 76.2 182.88 0)
+			(at 73.66 190.5 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -17019,7 +17658,7 @@
 			)
 		)
 		(property "Mouser" "595-ADS131E04IPAGR"
-			(at 76.2 185.42 0)
+			(at 73.66 193.04 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -17030,7 +17669,7 @@
 			)
 		)
 		(property "TME" "-"
-			(at 76.2 187.96 0)
+			(at 73.66 195.58 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -17041,7 +17680,7 @@
 			)
 		)
 		(property "Comment" ""
-			(at 76.2 68.58 0)
+			(at 73.66 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17052,7 +17691,7 @@
 			)
 		)
 		(property "LCSC" "C2859566"
-			(at 76.2 68.58 0)
+			(at 73.66 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17275,7 +17914,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "862610df-054f-4b8f-908b-c195c53aed30")
-		(property "Reference" "C33"
+		(property "Reference" "C35"
 			(at 274.955 149.86 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17394,7 +18033,7 @@
 		(instances
 			(project "EEZ DIB AFE3plus"
 				(path "/324c4880-14dd-4339-a8ef-63d64f49eee3/6bbff170-0b54-43f4-9039-15e1a13ed0de"
-					(reference "C33")
+					(reference "C35")
 					(unit 1)
 				)
 			)
@@ -17411,7 +18050,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "891d0957-e954-4c83-9d8a-d8c11f485168")
-		(property "Reference" "IC4"
+		(property "Reference" "IC5"
 			(at 226.06 75.565 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17588,7 +18227,7 @@
 		(instances
 			(project "EEZ DIB AFE3plus"
 				(path "/324c4880-14dd-4339-a8ef-63d64f49eee3/6bbff170-0b54-43f4-9039-15e1a13ed0de"
-					(reference "IC4")
+					(reference "IC5")
 					(unit 1)
 				)
 			)
@@ -17596,7 +18235,7 @@
 	)
 	(symbol
 		(lib_id "PCM_EEZ_symbols:GND")
-		(at 60.96 81.28 0)
+		(at 58.42 88.9 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17606,7 +18245,7 @@
 		(dnp no)
 		(uuid "8b1080d2-35c4-431c-b255-2667085f3d5b")
 		(property "Reference" "#SUPPLY03"
-			(at 60.96 81.28 0)
+			(at 58.42 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17617,7 +18256,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 60.96 83.185 0)
+			(at 58.42 90.805 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17628,7 +18267,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 60.96 81.28 0)
+			(at 58.42 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17639,7 +18278,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 60.96 81.28 0)
+			(at 58.42 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17650,7 +18289,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 60.96 81.28 0)
+			(at 58.42 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17675,7 +18314,7 @@
 	(symbol
 		(lib_name "R-EU_4")
 		(lib_id "PCM_EEZ_passives:R-EU")
-		(at 38.1 63.5 90)
+		(at 35.56 71.12 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17685,7 +18324,7 @@
 		(dnp no)
 		(uuid "8b1e62ac-0d60-4df6-8806-a9efd7ba5506")
 		(property "Reference" "R2"
-			(at 38.1 62.23 90)
+			(at 35.56 69.85 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17696,7 +18335,7 @@
 			)
 		)
 		(property "Value" "49R9"
-			(at 38.1 64.77 90)
+			(at 35.56 72.39 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17707,7 +18346,7 @@
 			)
 		)
 		(property "Footprint" "PCM_EEZ_passives:R_0603_1608Metric"
-			(at 38.1 63.5 90)
+			(at 35.56 71.12 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17718,7 +18357,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 38.1 63.5 90)
+			(at 35.56 71.12 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17729,7 +18368,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 38.1 63.5 90)
+			(at 35.56 71.12 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17740,7 +18379,7 @@
 			)
 		)
 		(property "Comment" ""
-			(at 38.1 63.5 0)
+			(at 35.56 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17751,7 +18390,7 @@
 			)
 		)
 		(property "DigiKey" "311-49.9HRCT-ND"
-			(at 38.1 63.5 0)
+			(at 35.56 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17762,7 +18401,7 @@
 			)
 		)
 		(property "Mouser" "603-RC0603FR-0749R9L"
-			(at 38.1 63.5 0)
+			(at 35.56 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17773,7 +18412,7 @@
 			)
 		)
 		(property "TME" "SMD0603-49R9-1%"
-			(at 38.1 63.5 0)
+			(at 35.56 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17784,7 +18423,7 @@
 			)
 		)
 		(property "LCSC" "C114625"
-			(at 38.1 63.5 0)
+			(at 35.56 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17811,7 +18450,7 @@
 	)
 	(symbol
 		(lib_id "PCM_EEZ_passives:C-EU")
-		(at 60.96 132.08 90)
+		(at 58.42 139.7 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17821,7 +18460,7 @@
 		(dnp no)
 		(uuid "8c2c5b71-fcc8-4630-be5e-0e2881079429")
 		(property "Reference" "C7"
-			(at 63.5 130.81 90)
+			(at 60.96 138.43 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17832,7 +18471,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 64.77 133.35 90)
+			(at 62.23 140.97 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17842,7 +18481,7 @@
 			)
 		)
 		(property "Footprint" "PCM_EEZ_passives:C_0603_1608Metric"
-			(at 58.42 132.08 0)
+			(at 55.88 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17853,7 +18492,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 132.08 0)
+			(at 55.88 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17864,7 +18503,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 60.96 132.08 0)
+			(at 58.42 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17875,7 +18514,7 @@
 			)
 		)
 		(property "Comment" ""
-			(at 60.96 132.08 0)
+			(at 58.42 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17886,7 +18525,7 @@
 			)
 		)
 		(property "DigiKey" "1276-1019-1-ND"
-			(at 60.96 132.08 0)
+			(at 58.42 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17897,7 +18536,7 @@
 			)
 		)
 		(property "Mouser" "187-CL10A105KB8NNNC "
-			(at 60.96 132.08 0)
+			(at 58.42 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17908,7 +18547,7 @@
 			)
 		)
 		(property "TME" "CL10A105KB8NNNC "
-			(at 60.96 132.08 0)
+			(at 58.42 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17919,7 +18558,7 @@
 			)
 		)
 		(property "LCSC" "C15849"
-			(at 60.96 132.08 90)
+			(at 58.42 139.7 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17946,7 +18585,7 @@
 	)
 	(symbol
 		(lib_id "PCM_EEZ_symbols:+3V3_ISO")
-		(at 160.02 104.14 270)
+		(at 157.48 111.76 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17956,7 +18595,7 @@
 		(dnp no)
 		(uuid "9153e26f-de79-4836-ad7b-082b21c6052d")
 		(property "Reference" "#+3V3_ISO02"
-			(at 160.02 104.14 0)
+			(at 157.48 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17967,7 +18606,7 @@
 			)
 		)
 		(property "Value" "+3V3_ISO"
-			(at 163.195 104.14 90)
+			(at 160.655 111.76 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17978,7 +18617,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 160.02 104.14 0)
+			(at 157.48 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17989,7 +18628,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 160.02 104.14 0)
+			(at 157.48 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18000,7 +18639,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 160.02 104.14 0)
+			(at 157.48 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18025,7 +18664,7 @@
 	(symbol
 		(lib_name "R-EU_2")
 		(lib_id "PCM_EEZ_passives:R-EU")
-		(at 142.24 86.36 270)
+		(at 139.7 93.98 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -18036,7 +18675,7 @@
 		(dnp no)
 		(uuid "933047a0-894f-4ba4-90c1-7675ea9dc1a4")
 		(property "Reference" "R8"
-			(at 142.24 85.09 90)
+			(at 139.7 92.71 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18047,7 +18686,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 142.24 87.63 90)
+			(at 139.7 95.25 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18058,7 +18697,7 @@
 			)
 		)
 		(property "Footprint" "PCM_EEZ_passives:R_0603_1608Metric"
-			(at 142.24 86.36 90)
+			(at 139.7 93.98 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18069,7 +18708,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 142.24 86.36 90)
+			(at 139.7 93.98 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18080,7 +18719,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 142.24 86.36 90)
+			(at 139.7 93.98 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18091,7 +18730,7 @@
 			)
 		)
 		(property "Comment" ""
-			(at 142.24 86.36 0)
+			(at 139.7 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18102,7 +18741,7 @@
 			)
 		)
 		(property "DigiKey" "1712-CRGH0603F10KCT-ND"
-			(at 142.24 86.36 0)
+			(at 139.7 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18113,7 +18752,7 @@
 			)
 		)
 		(property "Mouser" "756-WCR0603-10KFI"
-			(at 142.24 86.36 0)
+			(at 139.7 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18124,7 +18763,7 @@
 			)
 		)
 		(property "TME" "SMD0603-10K-1%"
-			(at 142.24 86.36 0)
+			(at 139.7 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18135,7 +18774,7 @@
 			)
 		)
 		(property "LCSC" "C25804"
-			(at 142.24 86.36 0)
+			(at 139.7 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18161,40 +18800,41 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_EEZ_symbols:+2V5_ISO")
-		(at 30.48 129.54 90)
+		(lib_id "PCM_EEZ_TI:REF50XX")
+		(at 142.24 58.42 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
-		(uuid "a334a5aa-b62a-4f3e-bd60-68c042c70f8d")
-		(property "Reference" "#+2V5_ISO01"
-			(at 30.48 129.54 0)
-			(hide yes)
+		(dnp yes)
+		(uuid "a3042de6-497c-4ca3-9285-fe9937fb3b72")
+		(property "Reference" "IC3"
+			(at 132.08 50.165 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right bottom)
 			)
 		)
-		(property "Value" "+2V5_ISO"
-			(at 27.305 129.54 90)
+		(property "Value" "REF5025AIDR"
+			(at 132.08 64.135 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right top)
 			)
 		)
-		(property "Footprint" ""
-			(at 30.48 129.54 0)
+		(property "Footprint" "PCM_EEZ_SMD:SOIC127P600X173-8N"
+			(at 142.24 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18205,7 +18845,150 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 30.48 129.54 0)
+			(at 142.24 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Low-Noise, Very Low Drift, Precision Voltage Reference"
+			(at 142.24 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" "296-39165-1-ND"
+			(at 142.24 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" "595-REF5025AIDR"
+			(at 142.24 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME" "-"
+			(at 142.24 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C11341"
+			(at 142.24 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "6e34822a-9c3c-4239-ab12-cb65a0358546")
+		)
+		(pin "3"
+			(uuid "ee355424-3399-4967-8e1c-ccdd067d0b73")
+		)
+		(pin "4"
+			(uuid "2ed258f6-6442-4ea5-bc05-463451f3cf88")
+		)
+		(pin "5"
+			(uuid "7f7a67b3-a336-48c3-bab3-513e0cf9a1e6")
+		)
+		(pin "6"
+			(uuid "58906cb3-fa84-44a3-a57a-c1072cd08ace")
+		)
+		(pin "1"
+			(uuid "d24508bc-c2c0-4ae6-8a0d-88f82e4f1f8b")
+		)
+		(pin "7"
+			(uuid "5bace645-1d3c-4ef3-8e40-2246e1f732db")
+		)
+		(pin "8"
+			(uuid "9a8b2b92-f3d7-4e4b-badd-f593f62d18d5")
+		)
+		(instances
+			(project "EEZ DIB AFE3plus"
+				(path "/324c4880-14dd-4339-a8ef-63d64f49eee3/6bbff170-0b54-43f4-9039-15e1a13ed0de"
+					(reference "IC3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_EEZ_symbols:+2V5_ISO")
+		(at 27.94 137.16 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a334a5aa-b62a-4f3e-bd60-68c042c70f8d")
+		(property "Reference" "#+2V5_ISO01"
+			(at 27.94 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+2V5_ISO"
+			(at 24.765 137.16 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 27.94 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 27.94 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18216,7 +18999,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 30.48 129.54 0)
+			(at 27.94 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18240,7 +19023,7 @@
 	)
 	(symbol
 		(lib_id "PCM_EEZ_passives:C-EU")
-		(at 127 45.72 180)
+		(at 124.46 43.18 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18250,7 +19033,7 @@
 		(dnp yes)
 		(uuid "aa83c252-7e43-4ff4-8fc3-4af226051ab8")
 		(property "Reference" "C24"
-			(at 129.54 43.815 0)
+			(at 127 41.275 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18261,7 +19044,7 @@
 			)
 		)
 		(property "Value" "N.C."
-			(at 129.54 45.72 0)
+			(at 127 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18272,7 +19055,7 @@
 			)
 		)
 		(property "Footprint" "PCM_EEZ_passives:C_0603_1608Metric"
-			(at 127 48.26 0)
+			(at 124.46 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18283,7 +19066,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 48.26 0)
+			(at 124.46 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18294,7 +19077,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 127 45.72 0)
+			(at 124.46 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18305,7 +19088,7 @@
 			)
 		)
 		(property "DigiKey" "-"
-			(at 127 45.72 0)
+			(at 124.46 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18316,7 +19099,7 @@
 			)
 		)
 		(property "Mouser" "-"
-			(at 127 45.72 0)
+			(at 124.46 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18327,7 +19110,7 @@
 			)
 		)
 		(property "TME" "-"
-			(at 127 45.72 0)
+			(at 124.46 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18338,7 +19121,7 @@
 			)
 		)
 		(property "Comment" ""
-			(at 127 45.72 0)
+			(at 124.46 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18349,7 +19132,7 @@
 			)
 		)
 		(property "LCSC" "-"
-			(at 127 45.72 0)
+			(at 124.46 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18376,7 +19159,7 @@
 	)
 	(symbol
 		(lib_id "PCM_EEZ_passives:C-EU")
-		(at 88.9 60.96 90)
+		(at 86.36 68.58 90)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -18387,7 +19170,7 @@
 		(dnp no)
 		(uuid "ab9410b3-f2df-41ae-bd1d-2bc9a363ba3b")
 		(property "Reference" "C20"
-			(at 93.345 59.69 90)
+			(at 90.805 67.31 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18397,7 +19180,7 @@
 			)
 		)
 		(property "Value" "22u"
-			(at 93.345 62.23 90)
+			(at 90.805 69.85 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18407,7 +19190,7 @@
 			)
 		)
 		(property "Footprint" "PCM_EEZ_passives:C_0805_2012Metric"
-			(at 86.36 60.96 0)
+			(at 83.82 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18418,7 +19201,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 60.96 0)
+			(at 83.82 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18429,7 +19212,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 88.9 60.96 0)
+			(at 86.36 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18440,7 +19223,7 @@
 			)
 		)
 		(property "Comment" ""
-			(at 88.9 60.96 0)
+			(at 86.36 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18451,7 +19234,7 @@
 			)
 		)
 		(property "DigiKey" "1276-1100-1-ND"
-			(at 88.9 60.96 0)
+			(at 86.36 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18462,7 +19245,7 @@
 			)
 		)
 		(property "Mouser" "187-CL21A226MQQNNNE"
-			(at 88.9 60.96 0)
+			(at 86.36 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18473,7 +19256,7 @@
 			)
 		)
 		(property "TME" "CL21A226MQQNNNE"
-			(at 88.9 60.96 0)
+			(at 86.36 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18484,7 +19267,7 @@
 			)
 		)
 		(property "LCSC" "C45783"
-			(at 88.9 60.96 0)
+			(at 86.36 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18667,7 +19450,7 @@
 	)
 	(symbol
 		(lib_id "PCM_EEZ_passives:C-EU")
-		(at 114.3 60.96 270)
+		(at 111.76 68.58 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -18678,7 +19461,7 @@
 		(dnp no)
 		(uuid "b54ae5ba-06be-4bf7-ab7a-b4e9e60b875a")
 		(property "Reference" "C23"
-			(at 116.205 59.69 90)
+			(at 113.665 67.31 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18688,7 +19471,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 116.205 62.23 90)
+			(at 113.665 69.85 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18698,7 +19481,7 @@
 			)
 		)
 		(property "Footprint" "PCM_EEZ_passives:C_0603_1608Metric"
-			(at 116.84 60.96 0)
+			(at 114.3 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18709,7 +19492,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 60.96 0)
+			(at 114.3 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18720,7 +19503,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 114.3 60.96 0)
+			(at 111.76 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18731,7 +19514,7 @@
 			)
 		)
 		(property "Comment" ""
-			(at 114.3 60.96 0)
+			(at 111.76 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18742,7 +19525,7 @@
 			)
 		)
 		(property "DigiKey" "490-12538-1-ND"
-			(at 114.3 60.96 0)
+			(at 111.76 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18753,7 +19536,7 @@
 			)
 		)
 		(property "Mouser" "81-GRM188R60J106KE7D"
-			(at 114.3 60.96 0)
+			(at 111.76 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18764,7 +19547,7 @@
 			)
 		)
 		(property "TME" "GRM188C80J106MEA6D"
-			(at 114.3 60.96 0)
+			(at 111.76 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18775,7 +19558,7 @@
 			)
 		)
 		(property "LCSC" "C576469"
-			(at 114.3 60.96 90)
+			(at 111.76 68.58 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18803,7 +19586,7 @@
 	(symbol
 		(lib_name "R-EU_4")
 		(lib_id "PCM_EEZ_passives:R-EU")
-		(at 38.1 48.26 90)
+		(at 35.56 55.88 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18813,7 +19596,7 @@
 		(dnp no)
 		(uuid "b84447d1-694f-4077-9178-371243dc6823")
 		(property "Reference" "R1"
-			(at 38.1 46.99 90)
+			(at 35.56 54.61 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18824,7 +19607,7 @@
 			)
 		)
 		(property "Value" "49R9"
-			(at 38.1 49.53 90)
+			(at 35.56 57.15 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18835,7 +19618,7 @@
 			)
 		)
 		(property "Footprint" "PCM_EEZ_passives:R_0603_1608Metric"
-			(at 38.1 48.26 90)
+			(at 35.56 55.88 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18846,7 +19629,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 38.1 48.26 90)
+			(at 35.56 55.88 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18857,7 +19640,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 38.1 48.26 90)
+			(at 35.56 55.88 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18868,7 +19651,7 @@
 			)
 		)
 		(property "Comment" ""
-			(at 38.1 48.26 0)
+			(at 35.56 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18879,7 +19662,7 @@
 			)
 		)
 		(property "DigiKey" "311-49.9HRCT-ND"
-			(at 38.1 48.26 0)
+			(at 35.56 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18890,7 +19673,7 @@
 			)
 		)
 		(property "Mouser" "603-RC0603FR-0749R9L"
-			(at 38.1 48.26 0)
+			(at 35.56 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18901,7 +19684,7 @@
 			)
 		)
 		(property "TME" "SMD0603-49R9-1%"
-			(at 38.1 48.26 0)
+			(at 35.56 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18912,7 +19695,7 @@
 			)
 		)
 		(property "LCSC" "C114625"
-			(at 38.1 48.26 0)
+			(at 35.56 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18939,7 +19722,7 @@
 	)
 	(symbol
 		(lib_id "PCM_EEZ_passives:C-EU")
-		(at 167.64 35.56 0)
+		(at 157.48 33.02 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18948,8 +19731,8 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "b88ce42f-3ed3-4454-aa3d-a086468f2a95")
-		(property "Reference" "C28"
-			(at 170.18 34.925 0)
+		(property "Reference" "C29"
+			(at 160.02 32.385 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18959,7 +19742,7 @@
 			)
 		)
 		(property "Value" "N.C."
-			(at 170.18 38.735 0)
+			(at 160.02 36.195 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18969,7 +19752,7 @@
 			)
 		)
 		(property "Footprint" "PCM_EEZ_passives:C_0603_1608Metric"
-			(at 167.64 33.02 0)
+			(at 157.48 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18980,7 +19763,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 33.02 0)
+			(at 157.48 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18991,7 +19774,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 167.64 35.56 0)
+			(at 157.48 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19002,7 +19785,7 @@
 			)
 		)
 		(property "DigiKey" "-"
-			(at 167.64 35.56 0)
+			(at 157.48 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19013,7 +19796,7 @@
 			)
 		)
 		(property "Mouser" "-"
-			(at 167.64 35.56 0)
+			(at 157.48 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19024,7 +19807,7 @@
 			)
 		)
 		(property "TME" "-"
-			(at 167.64 35.56 0)
+			(at 157.48 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19035,7 +19818,7 @@
 			)
 		)
 		(property "Comment" ""
-			(at 167.64 35.56 0)
+			(at 157.48 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19046,7 +19829,7 @@
 			)
 		)
 		(property "LCSC" "-"
-			(at 167.64 35.56 0)
+			(at 157.48 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19065,7 +19848,7 @@
 		(instances
 			(project "EEZ DIB AFE3plus"
 				(path "/324c4880-14dd-4339-a8ef-63d64f49eee3/6bbff170-0b54-43f4-9039-15e1a13ed0de"
-					(reference "C28")
+					(reference "C29")
 					(unit 1)
 				)
 			)
@@ -19073,7 +19856,7 @@
 	)
 	(symbol
 		(lib_id "PCM_EEZ_passives:C-EU")
-		(at 144.78 160.02 90)
+		(at 142.24 167.64 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19082,8 +19865,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b8dc1aa6-a083-4f1c-8517-63bc03d86b40")
-		(property "Reference" "C25"
-			(at 149.225 158.75 90)
+		(property "Reference" "C26"
+			(at 146.685 166.37 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19093,7 +19876,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 148.59 161.29 90)
+			(at 146.05 168.91 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19103,7 +19886,7 @@
 			)
 		)
 		(property "Footprint" "PCM_EEZ_passives:C_0603_1608Metric"
-			(at 142.24 160.02 0)
+			(at 139.7 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19114,7 +19897,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 142.24 160.02 0)
+			(at 139.7 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19125,7 +19908,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 144.78 160.02 0)
+			(at 142.24 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19136,7 +19919,7 @@
 			)
 		)
 		(property "Comment" ""
-			(at 144.78 160.02 0)
+			(at 142.24 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19147,7 +19930,7 @@
 			)
 		)
 		(property "DigiKey" "1276-1019-1-ND"
-			(at 144.78 160.02 0)
+			(at 142.24 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19158,7 +19941,7 @@
 			)
 		)
 		(property "Mouser" "187-CL10A105KB8NNNC "
-			(at 144.78 160.02 0)
+			(at 142.24 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19169,7 +19952,7 @@
 			)
 		)
 		(property "TME" "CL10A105KB8NNNC "
-			(at 144.78 160.02 0)
+			(at 142.24 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19180,7 +19963,7 @@
 			)
 		)
 		(property "LCSC" "C15849"
-			(at 144.78 160.02 90)
+			(at 142.24 167.64 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19199,7 +19982,7 @@
 		(instances
 			(project "EEZ DIB AFE3plus"
 				(path "/324c4880-14dd-4339-a8ef-63d64f49eee3/6bbff170-0b54-43f4-9039-15e1a13ed0de"
-					(reference "C25")
+					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -19207,7 +19990,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 45.72 172.72 0)
+		(at 43.18 180.34 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19217,7 +20000,7 @@
 		(dnp no)
 		(uuid "bb1f4c29-7f1a-4f53-861c-064f44032b93")
 		(property "Reference" "#FLG02"
-			(at 45.72 170.815 0)
+			(at 43.18 178.435 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19228,7 +20011,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 45.72 169.545 0)
+			(at 43.18 177.165 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19239,7 +20022,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 45.72 172.72 0)
+			(at 43.18 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19250,7 +20033,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 45.72 172.72 0)
+			(at 43.18 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19261,7 +20044,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 45.72 172.72 0)
+			(at 43.18 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19294,7 +20077,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bbf004f2-a5e8-4596-a75b-d492845c9d25")
-		(property "Reference" "#SUPPLY016"
+		(property "Reference" "#SUPPLY017"
 			(at 274.32 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -19355,7 +20138,7 @@
 		(instances
 			(project "EEZ DIB AFE3plus"
 				(path "/324c4880-14dd-4339-a8ef-63d64f49eee3/6bbff170-0b54-43f4-9039-15e1a13ed0de"
-					(reference "#SUPPLY016")
+					(reference "#SUPPLY017")
 					(unit 1)
 				)
 			)
@@ -19363,7 +20146,7 @@
 	)
 	(symbol
 		(lib_id "PCM_EEZ_passives:C-EU")
-		(at 45.72 78.74 180)
+		(at 43.18 86.36 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19373,7 +20156,7 @@
 		(dnp no)
 		(uuid "bed0cc0a-4b46-421e-a8e7-03fbdd643778")
 		(property "Reference" "C2"
-			(at 46.355 75.565 0)
+			(at 43.815 83.185 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19384,7 +20167,7 @@
 			)
 		)
 		(property "Value" "33p"
-			(at 46.355 79.375 0)
+			(at 43.815 86.995 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19395,7 +20178,7 @@
 			)
 		)
 		(property "Footprint" "PCM_EEZ_passives:C_0603_1608Metric"
-			(at 45.72 81.28 0)
+			(at 43.18 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19406,7 +20189,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 45.72 81.28 0)
+			(at 43.18 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19417,7 +20200,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 45.72 78.74 0)
+			(at 43.18 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19428,7 +20211,7 @@
 			)
 		)
 		(property "Comment" ""
-			(at 45.72 78.74 0)
+			(at 43.18 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19439,7 +20222,7 @@
 			)
 		)
 		(property "DigiKey" "1276-2264-1-ND"
-			(at 45.72 78.74 0)
+			(at 43.18 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19450,7 +20233,7 @@
 			)
 		)
 		(property "Mouser" "187-CL10C330JB81PNC"
-			(at 45.72 78.74 0)
+			(at 43.18 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19461,7 +20244,7 @@
 			)
 		)
 		(property "TME" "CL10C330JB81PNC"
-			(at 45.72 78.74 0)
+			(at 43.18 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19472,7 +20255,7 @@
 			)
 		)
 		(property "LCSC" "C346212"
-			(at 45.72 78.74 0)
+			(at 43.18 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19577,7 +20360,7 @@
 	)
 	(symbol
 		(lib_id "PCM_EEZ_passives:C-EU")
-		(at 147.32 170.18 270)
+		(at 144.78 177.8 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19586,8 +20369,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c1301981-d897-449d-87e2-95560a67fd44")
-		(property "Reference" "C27"
-			(at 149.225 168.91 90)
+		(property "Reference" "C28"
+			(at 146.685 176.53 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19597,7 +20380,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 149.86 171.45 90)
+			(at 147.32 179.07 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19607,7 +20390,7 @@
 			)
 		)
 		(property "Footprint" "PCM_EEZ_passives:C_0603_1608Metric"
-			(at 149.86 170.18 0)
+			(at 147.32 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19618,7 +20401,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.86 170.18 0)
+			(at 147.32 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19629,7 +20412,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 147.32 170.18 0)
+			(at 144.78 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19640,7 +20423,7 @@
 			)
 		)
 		(property "Comment" ""
-			(at 147.32 170.18 0)
+			(at 144.78 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19651,7 +20434,7 @@
 			)
 		)
 		(property "DigiKey" "490-4774-1-ND"
-			(at 147.32 170.18 0)
+			(at 144.78 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19662,7 +20445,7 @@
 			)
 		)
 		(property "Mouser" "80-C0603C104M4R"
-			(at 147.32 170.18 0)
+			(at 144.78 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19673,7 +20456,7 @@
 			)
 		)
 		(property "TME" "CL10B104KA8NNNC"
-			(at 147.32 170.18 0)
+			(at 144.78 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19684,7 +20467,7 @@
 			)
 		)
 		(property "LCSC" "C14663"
-			(at 147.32 170.18 90)
+			(at 144.78 177.8 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19703,7 +20486,7 @@
 		(instances
 			(project "EEZ DIB AFE3plus"
 				(path "/324c4880-14dd-4339-a8ef-63d64f49eee3/6bbff170-0b54-43f4-9039-15e1a13ed0de"
-					(reference "C27")
+					(reference "C28")
 					(unit 1)
 				)
 			)
@@ -19711,7 +20494,7 @@
 	)
 	(symbol
 		(lib_id "PCM_EEZ_symbols:GND")
-		(at 60.96 58.42 0)
+		(at 58.42 66.04 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19721,7 +20504,7 @@
 		(dnp no)
 		(uuid "c8919f6e-c74e-407c-900b-b0ee36fcb52b")
 		(property "Reference" "#SUPPLY02"
-			(at 60.96 58.42 0)
+			(at 58.42 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19732,7 +20515,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 60.96 60.325 0)
+			(at 58.42 67.945 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19743,7 +20526,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 60.96 58.42 0)
+			(at 58.42 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19754,7 +20537,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 60.96 58.42 0)
+			(at 58.42 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19765,7 +20548,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 60.96 58.42 0)
+			(at 58.42 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19789,7 +20572,7 @@
 	)
 	(symbol
 		(lib_id "PCM_EEZ_unsorted:JP3 shorted")
-		(at 149.86 127 0)
+		(at 147.32 134.62 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -19800,7 +20583,7 @@
 		(dnp no)
 		(uuid "c8a05df7-dde6-43d4-94a6-baeb8f47eb61")
 		(property "Reference" "JP2"
-			(at 150.495 127 0)
+			(at 147.955 134.62 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19811,7 +20594,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 149.86 127 0)
+			(at 147.32 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19822,7 +20605,7 @@
 			)
 		)
 		(property "Footprint" "PCM_EEZ_SMD:JP3 shorted (0603)"
-			(at 149.86 132.08 0)
+			(at 147.32 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19833,7 +20616,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.86 127 0)
+			(at 147.32 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19844,7 +20627,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 149.86 127 0)
+			(at 147.32 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19855,7 +20638,7 @@
 			)
 		)
 		(property "DigiKey" ""
-			(at 149.86 127 0)
+			(at 147.32 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19866,7 +20649,7 @@
 			)
 		)
 		(property "Mouser" ""
-			(at 149.86 127 0)
+			(at 147.32 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19877,7 +20660,7 @@
 			)
 		)
 		(property "TME" ""
-			(at 149.86 127 0)
+			(at 147.32 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19888,7 +20671,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 149.86 127 0)
+			(at 147.32 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19918,7 +20701,7 @@
 	)
 	(symbol
 		(lib_id "PCM_EEZ_passives:C-EU")
-		(at 63.5 152.4 270)
+		(at 60.96 160.02 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19928,7 +20711,7 @@
 		(dnp no)
 		(uuid "c92ea2c7-33fa-4d58-8739-4c988d80cbf9")
 		(property "Reference" "C13"
-			(at 65.405 151.13 90)
+			(at 62.865 158.75 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19938,7 +20721,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 64.77 153.67 90)
+			(at 62.23 161.29 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19948,7 +20731,7 @@
 			)
 		)
 		(property "Footprint" "PCM_EEZ_passives:C_0603_1608Metric"
-			(at 66.04 152.4 0)
+			(at 63.5 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19959,7 +20742,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 66.04 152.4 0)
+			(at 63.5 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19970,7 +20753,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 63.5 152.4 0)
+			(at 60.96 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19981,7 +20764,7 @@
 			)
 		)
 		(property "Comment" ""
-			(at 63.5 152.4 0)
+			(at 60.96 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19992,7 +20775,7 @@
 			)
 		)
 		(property "DigiKey" "1276-1019-1-ND"
-			(at 63.5 152.4 0)
+			(at 60.96 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20003,7 +20786,7 @@
 			)
 		)
 		(property "Mouser" "187-CL10A105KB8NNNC "
-			(at 63.5 152.4 0)
+			(at 60.96 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20014,7 +20797,7 @@
 			)
 		)
 		(property "TME" "CL10A105KB8NNNC "
-			(at 63.5 152.4 0)
+			(at 60.96 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20025,7 +20808,7 @@
 			)
 		)
 		(property "LCSC" "C15849"
-			(at 63.5 152.4 0)
+			(at 60.96 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20053,7 +20836,7 @@
 	(symbol
 		(lib_name "R-EU_4")
 		(lib_id "PCM_EEZ_passives:R-EU")
-		(at 38.1 71.12 90)
+		(at 35.56 78.74 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20063,7 +20846,7 @@
 		(dnp no)
 		(uuid "ca4e459f-49d8-4a1f-a0cb-4af8e4d56823")
 		(property "Reference" "R3"
-			(at 38.1 69.85 90)
+			(at 35.56 77.47 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20074,7 +20857,7 @@
 			)
 		)
 		(property "Value" "49R9"
-			(at 38.1 72.39 90)
+			(at 35.56 80.01 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20085,7 +20868,7 @@
 			)
 		)
 		(property "Footprint" "PCM_EEZ_passives:R_0603_1608Metric"
-			(at 38.1 71.12 90)
+			(at 35.56 78.74 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20096,7 +20879,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 38.1 71.12 90)
+			(at 35.56 78.74 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20107,7 +20890,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 38.1 71.12 90)
+			(at 35.56 78.74 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20118,7 +20901,7 @@
 			)
 		)
 		(property "Comment" ""
-			(at 38.1 71.12 0)
+			(at 35.56 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20129,7 +20912,7 @@
 			)
 		)
 		(property "DigiKey" "311-49.9HRCT-ND"
-			(at 38.1 71.12 0)
+			(at 35.56 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20140,7 +20923,7 @@
 			)
 		)
 		(property "Mouser" "603-RC0603FR-0749R9L"
-			(at 38.1 71.12 0)
+			(at 35.56 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20151,7 +20934,7 @@
 			)
 		)
 		(property "TME" "SMD0603-49R9-1%"
-			(at 38.1 71.12 0)
+			(at 35.56 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20162,7 +20945,7 @@
 			)
 		)
 		(property "LCSC" "C114625"
-			(at 38.1 71.12 0)
+			(at 35.56 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20198,7 +20981,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cb312642-2f14-4e45-a0c1-c5f3bfe88326")
-		(property "Reference" "C29"
+		(property "Reference" "C31"
 			(at 187.96 145.415 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20317,7 +21100,7 @@
 		(instances
 			(project "EEZ DIB AFE3plus"
 				(path "/324c4880-14dd-4339-a8ef-63d64f49eee3/6bbff170-0b54-43f4-9039-15e1a13ed0de"
-					(reference "C29")
+					(reference "C31")
 					(unit 1)
 				)
 			)
@@ -20413,7 +21196,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d1f5e30b-8ea0-40e0-b9d2-c9f57c4f9666")
-		(property "Reference" "#SUPPLY014"
+		(property "Reference" "#SUPPLY015"
 			(at 226.06 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -20474,7 +21257,7 @@
 		(instances
 			(project "EEZ DIB AFE3plus"
 				(path "/324c4880-14dd-4339-a8ef-63d64f49eee3/6bbff170-0b54-43f4-9039-15e1a13ed0de"
-					(reference "#SUPPLY014")
+					(reference "#SUPPLY015")
 					(unit 1)
 				)
 			)
@@ -20482,7 +21265,7 @@
 	)
 	(symbol
 		(lib_id "PCM_EEZ_passives:C-EU")
-		(at 71.12 177.8 0)
+		(at 68.58 185.42 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -20493,7 +21276,7 @@
 		(dnp no)
 		(uuid "d3a8258d-fd56-492c-9f70-fb928cba8669")
 		(property "Reference" "C16"
-			(at 73.025 177.165 0)
+			(at 70.485 184.785 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20503,7 +21286,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 72.39 180.975 0)
+			(at 69.85 188.595 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20513,7 +21296,7 @@
 			)
 		)
 		(property "Footprint" "PCM_EEZ_passives:C_0603_1608Metric"
-			(at 71.12 175.26 0)
+			(at 68.58 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20524,7 +21307,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 71.12 175.26 0)
+			(at 68.58 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20535,7 +21318,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 71.12 177.8 0)
+			(at 68.58 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20546,7 +21329,7 @@
 			)
 		)
 		(property "Comment" ""
-			(at 71.12 177.8 0)
+			(at 68.58 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20557,7 +21340,7 @@
 			)
 		)
 		(property "DigiKey" "1276-1019-1-ND"
-			(at 71.12 177.8 0)
+			(at 68.58 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20568,7 +21351,7 @@
 			)
 		)
 		(property "Mouser" "187-CL10A105KB8NNNC "
-			(at 71.12 177.8 0)
+			(at 68.58 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20579,7 +21362,7 @@
 			)
 		)
 		(property "TME" "CL10A105KB8NNNC "
-			(at 71.12 177.8 0)
+			(at 68.58 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20590,7 +21373,7 @@
 			)
 		)
 		(property "LCSC" "C15849"
-			(at 71.12 177.8 0)
+			(at 68.58 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20617,7 +21400,7 @@
 	)
 	(symbol
 		(lib_id "PCM_EEZ_passives:C-EU")
-		(at 88.9 40.64 90)
+		(at 86.36 48.26 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20627,7 +21410,7 @@
 		(dnp no)
 		(uuid "d843d6ae-d11f-4f6d-b2e6-487714a2ae96")
 		(property "Reference" "C17"
-			(at 93.345 39.37 90)
+			(at 90.805 46.99 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20637,7 +21420,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 92.71 41.91 90)
+			(at 90.17 49.53 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20647,7 +21430,7 @@
 			)
 		)
 		(property "Footprint" "PCM_EEZ_passives:C_0603_1608Metric"
-			(at 86.36 40.64 0)
+			(at 83.82 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20658,7 +21441,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 40.64 0)
+			(at 83.82 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20669,7 +21452,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 88.9 40.64 0)
+			(at 86.36 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20680,7 +21463,7 @@
 			)
 		)
 		(property "Comment" ""
-			(at 88.9 40.64 0)
+			(at 86.36 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20691,7 +21474,7 @@
 			)
 		)
 		(property "DigiKey" "1276-1019-1-ND"
-			(at 88.9 40.64 0)
+			(at 86.36 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20702,7 +21485,7 @@
 			)
 		)
 		(property "Mouser" "187-CL10A105KB8NNNC "
-			(at 88.9 40.64 0)
+			(at 86.36 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20713,7 +21496,7 @@
 			)
 		)
 		(property "TME" "CL10A105KB8NNNC "
-			(at 88.9 40.64 0)
+			(at 86.36 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20724,7 +21507,7 @@
 			)
 		)
 		(property "LCSC" "C15849"
-			(at 88.9 40.64 90)
+			(at 86.36 48.26 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20760,7 +21543,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d99f96be-0338-4dc8-b896-e5d67a0489f0")
-		(property "Reference" "#SUPPLY010"
+		(property "Reference" "#SUPPLY011"
 			(at 182.88 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -20821,7 +21604,7 @@
 		(instances
 			(project "EEZ DIB AFE3plus"
 				(path "/324c4880-14dd-4339-a8ef-63d64f49eee3/6bbff170-0b54-43f4-9039-15e1a13ed0de"
-					(reference "#SUPPLY010")
+					(reference "#SUPPLY011")
 					(unit 1)
 				)
 			)
@@ -20829,7 +21612,7 @@
 	)
 	(symbol
 		(lib_id "PCM_EEZ_symbols:GND")
-		(at 149.86 116.84 0)
+		(at 147.32 124.46 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20838,8 +21621,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dbc290df-cbe1-467e-ad9b-bf98dd679fc4")
-		(property "Reference" "#SUPPLY06"
-			(at 149.86 116.84 0)
+		(property "Reference" "#SUPPLY07"
+			(at 147.32 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20850,7 +21633,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 151.765 117.475 0)
+			(at 149.225 125.095 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20861,7 +21644,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 149.86 116.84 0)
+			(at 147.32 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20872,7 +21655,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.86 116.84 0)
+			(at 147.32 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20883,7 +21666,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 149.86 116.84 0)
+			(at 147.32 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20899,7 +21682,7 @@
 		(instances
 			(project "EEZ DIB AFE3plus"
 				(path "/324c4880-14dd-4339-a8ef-63d64f49eee3/6bbff170-0b54-43f4-9039-15e1a13ed0de"
-					(reference "#SUPPLY06")
+					(reference "#SUPPLY07")
 					(unit 1)
 				)
 			)
@@ -20907,7 +21690,7 @@
 	)
 	(symbol
 		(lib_id "PCM_EEZ_symbols:+5V_ISO")
-		(at 167.64 27.94 0)
+		(at 165.1 25.4 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20917,7 +21700,7 @@
 		(dnp no)
 		(uuid "e1df8559-4790-4cd0-b950-935edbd464cd")
 		(property "Reference" "#+5V_ISO01"
-			(at 167.64 27.94 0)
+			(at 165.1 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20928,7 +21711,7 @@
 			)
 		)
 		(property "Value" "+5V_ISO"
-			(at 167.64 24.13 0)
+			(at 165.1 21.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20939,7 +21722,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 167.64 27.94 0)
+			(at 165.1 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20950,7 +21733,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 27.94 0)
+			(at 165.1 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20961,7 +21744,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 167.64 27.94 0)
+			(at 165.1 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20985,7 +21768,7 @@
 	)
 	(symbol
 		(lib_id "PCM_EEZ_passives:R-EU")
-		(at 38.1 172.72 270)
+		(at 35.56 180.34 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20995,7 +21778,7 @@
 		(dnp no)
 		(uuid "e6cf83b4-4091-49b8-aee7-9b18c7109861")
 		(property "Reference" "R6"
-			(at 38.1 171.45 90)
+			(at 35.56 179.07 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21006,7 +21789,7 @@
 			)
 		)
 		(property "Value" "10R"
-			(at 38.1 173.99 90)
+			(at 35.56 181.61 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21017,7 +21800,7 @@
 			)
 		)
 		(property "Footprint" "PCM_EEZ_passives:R_0603_1608Metric"
-			(at 38.1 172.72 90)
+			(at 35.56 180.34 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21028,7 +21811,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 38.1 172.72 90)
+			(at 35.56 180.34 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21039,7 +21822,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 38.1 172.72 90)
+			(at 35.56 180.34 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21050,7 +21833,7 @@
 			)
 		)
 		(property "Comment" ""
-			(at 38.1 172.72 0)
+			(at 35.56 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21061,7 +21844,7 @@
 			)
 		)
 		(property "DigiKey" "YAG1291CT-ND"
-			(at 38.1 172.72 0)
+			(at 35.56 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21072,7 +21855,7 @@
 			)
 		)
 		(property "Mouser" "603-RC0603FR-0710RP"
-			(at 38.1 172.72 0)
+			(at 35.56 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21083,7 +21866,7 @@
 			)
 		)
 		(property "TME" "RC0603FR-0710R"
-			(at 38.1 172.72 0)
+			(at 35.56 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21094,7 +21877,7 @@
 			)
 		)
 		(property "LCSC" "C2092177"
-			(at 38.1 172.72 0)
+			(at 35.56 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21345,7 +22128,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ed98d053-d5e3-43c5-8715-41abed19993a")
-		(property "Reference" "C32"
+		(property "Reference" "C34"
 			(at 241.3 145.415 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21464,7 +22247,7 @@
 		(instances
 			(project "EEZ DIB AFE3plus"
 				(path "/324c4880-14dd-4339-a8ef-63d64f49eee3/6bbff170-0b54-43f4-9039-15e1a13ed0de"
-					(reference "C32")
+					(reference "C34")
 					(unit 1)
 				)
 			)
@@ -21481,7 +22264,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "eed4becc-9746-40da-b3b5-a21603a1537e")
-		(property "Reference" "#-2V5_ISO03"
+		(property "Reference" "#-2V5_ISO04"
 			(at 274.32 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -21542,7 +22325,7 @@
 		(instances
 			(project "EEZ DIB AFE3plus"
 				(path "/324c4880-14dd-4339-a8ef-63d64f49eee3/6bbff170-0b54-43f4-9039-15e1a13ed0de"
-					(reference "#-2V5_ISO03")
+					(reference "#-2V5_ISO04")
 					(unit 1)
 				)
 			)
@@ -21551,7 +22334,7 @@
 	(symbol
 		(lib_name "R-EU_1")
 		(lib_id "PCM_EEZ_passives:R-EU")
-		(at 127 35.56 0)
+		(at 124.46 33.02 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -21562,7 +22345,7 @@
 		(dnp yes)
 		(uuid "f0a52a30-07ba-4ae7-81c0-78ba858bac15")
 		(property "Reference" "R7"
-			(at 128.27 35.56 0)
+			(at 125.73 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21573,7 +22356,7 @@
 			)
 		)
 		(property "Value" "N.C."
-			(at 128.27 37.465 0)
+			(at 125.73 34.925 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21584,7 +22367,7 @@
 			)
 		)
 		(property "Footprint" "PCM_EEZ_passives:R_0603_1608Metric"
-			(at 127 35.56 90)
+			(at 124.46 33.02 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21595,7 +22378,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 35.56 90)
+			(at 124.46 33.02 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21606,7 +22389,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 127 35.56 90)
+			(at 124.46 33.02 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21617,7 +22400,7 @@
 			)
 		)
 		(property "DigiKey" "-"
-			(at 127 35.56 0)
+			(at 124.46 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21628,7 +22411,7 @@
 			)
 		)
 		(property "Mouser" "-"
-			(at 127 35.56 0)
+			(at 124.46 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21639,7 +22422,7 @@
 			)
 		)
 		(property "TME" "-"
-			(at 127 35.56 0)
+			(at 124.46 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21650,7 +22433,7 @@
 			)
 		)
 		(property "Comment" ""
-			(at 127 35.56 0)
+			(at 124.46 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21661,7 +22444,7 @@
 			)
 		)
 		(property "LCSC" "-"
-			(at 127 35.56 0)
+			(at 124.46 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21775,7 +22558,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f3f2668a-1d01-4708-89be-5afdc2f25377")
-		(property "Reference" "#SUPPLY013"
+		(property "Reference" "#SUPPLY014"
 			(at 220.98 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -21836,7 +22619,7 @@
 		(instances
 			(project "EEZ DIB AFE3plus"
 				(path "/324c4880-14dd-4339-a8ef-63d64f49eee3/6bbff170-0b54-43f4-9039-15e1a13ed0de"
-					(reference "#SUPPLY013")
+					(reference "#SUPPLY014")
 					(unit 1)
 				)
 			)
@@ -21844,7 +22627,7 @@
 	)
 	(symbol
 		(lib_id "PCM_EEZ_symbols:+3V3_ISO")
-		(at 139.7 157.48 0)
+		(at 137.16 165.1 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21854,7 +22637,7 @@
 		(dnp no)
 		(uuid "f60e5a03-7234-4688-bf41-c5fd7b05f51d")
 		(property "Reference" "#+3V3_ISO01"
-			(at 139.7 157.48 0)
+			(at 137.16 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21865,7 +22648,7 @@
 			)
 		)
 		(property "Value" "+3V3_ISO"
-			(at 139.7 154.305 0)
+			(at 137.16 161.925 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21876,7 +22659,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 139.7 157.48 0)
+			(at 137.16 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21887,7 +22670,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 139.7 157.48 0)
+			(at 137.16 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21898,7 +22681,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 139.7 157.48 0)
+			(at 137.16 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21922,7 +22705,7 @@
 	)
 	(symbol
 		(lib_id "PCM_EEZ_symbols:GND")
-		(at 149.86 152.4 0)
+		(at 147.32 160.02 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21931,8 +22714,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f8c18f3f-79b7-49c6-beed-3cd3f12750e1")
-		(property "Reference" "#SUPPLY07"
-			(at 149.86 152.4 0)
+		(property "Reference" "#SUPPLY09"
+			(at 147.32 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21943,7 +22726,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 151.765 153.035 0)
+			(at 149.225 160.655 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21954,7 +22737,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 149.86 152.4 0)
+			(at 147.32 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21965,7 +22748,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.86 152.4 0)
+			(at 147.32 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21976,7 +22759,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 149.86 152.4 0)
+			(at 147.32 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21992,7 +22775,7 @@
 		(instances
 			(project "EEZ DIB AFE3plus"
 				(path "/324c4880-14dd-4339-a8ef-63d64f49eee3/6bbff170-0b54-43f4-9039-15e1a13ed0de"
-					(reference "#SUPPLY07")
+					(reference "#SUPPLY09")
 					(unit 1)
 				)
 			)
@@ -22000,7 +22783,7 @@
 	)
 	(symbol
 		(lib_id "PCM_EEZ_symbols:-2V5_ISO")
-		(at 30.48 172.72 90)
+		(at 27.94 180.34 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -22010,7 +22793,7 @@
 		(dnp no)
 		(uuid "fc325695-f0cd-4dc4-ba05-37719474c437")
 		(property "Reference" "#-2V5_ISO01"
-			(at 30.48 172.72 0)
+			(at 27.94 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22021,7 +22804,7 @@
 			)
 		)
 		(property "Value" "-2V5_ISO"
-			(at 27.305 172.72 90)
+			(at 24.765 180.34 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22032,7 +22815,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 30.48 172.72 0)
+			(at 27.94 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22043,7 +22826,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 30.48 172.72 0)
+			(at 27.94 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22054,7 +22837,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 30.48 172.72 0)
+			(at 27.94 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

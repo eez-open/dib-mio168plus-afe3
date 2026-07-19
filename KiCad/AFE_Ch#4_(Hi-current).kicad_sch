@@ -4232,7 +4232,7 @@
 			(exclude_from_sim no)
 			(in_bom no)
 			(on_board yes)
-			(in_pos_files yes)
+			(in_pos_files no)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "TP"
 				(at 0 1.016 0)
@@ -10163,7 +10163,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "50b5a9d3-5391-4f0b-873c-4f2063ed98f0")
-		(property "Reference" "#SUPPLY035"
+		(property "Reference" "#SUPPLY034"
 			(at 45.72 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -10224,7 +10224,7 @@
 		(instances
 			(project "EEZ DIB AFE3plus"
 				(path "/324c4880-14dd-4339-a8ef-63d64f49eee3/13785374-ffa8-4fff-86e4-702f1a3b8cf6"
-					(reference "#SUPPLY035")
+					(reference "#SUPPLY034")
 					(unit 1)
 				)
 			)
@@ -10669,7 +10669,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "600cd106-7f1a-414c-8d5b-4b5778b7cc7f")
-		(property "Reference" "#SUPPLY034"
+		(property "Reference" "#SUPPLY033"
 			(at 33.02 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -10730,7 +10730,7 @@
 		(instances
 			(project "EEZ DIB AFE3plus"
 				(path "/324c4880-14dd-4339-a8ef-63d64f49eee3/13785374-ffa8-4fff-86e4-702f1a3b8cf6"
-					(reference "#SUPPLY034")
+					(reference "#SUPPLY033")
 					(unit 1)
 				)
 			)
@@ -10962,7 +10962,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "69f72ca8-c49e-4e4c-9218-03fddebce155")
-		(property "Reference" "#SUPPLY037"
+		(property "Reference" "#SUPPLY036"
 			(at 129.54 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -11023,7 +11023,7 @@
 		(instances
 			(project "EEZ DIB AFE3plus"
 				(path "/324c4880-14dd-4339-a8ef-63d64f49eee3/13785374-ffa8-4fff-86e4-702f1a3b8cf6"
-					(reference "#SUPPLY037")
+					(reference "#SUPPLY036")
 					(unit 1)
 				)
 			)
@@ -11041,7 +11041,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7163f8a4-1923-4391-a499-46c4fc405d9d")
-		(property "Reference" "#SUPPLY033"
+		(property "Reference" "#SUPPLY032"
 			(at 30.48 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -11102,7 +11102,7 @@
 		(instances
 			(project "EEZ DIB AFE3plus"
 				(path "/324c4880-14dd-4339-a8ef-63d64f49eee3/13785374-ffa8-4fff-86e4-702f1a3b8cf6"
-					(reference "#SUPPLY033")
+					(reference "#SUPPLY032")
 					(unit 1)
 				)
 			)
@@ -11297,7 +11297,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C844594"
+		(property "LCSC" "C149504"
 			(at 20.32 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -11768,7 +11768,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a1e34524-5120-4982-aa22-29a8e2a3ee07")
-		(property "Reference" "#-2V5_ISO07"
+		(property "Reference" "#-2V5_ISO06"
 			(at 73.66 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -11829,7 +11829,7 @@
 		(instances
 			(project "EEZ DIB AFE3plus"
 				(path "/324c4880-14dd-4339-a8ef-63d64f49eee3/13785374-ffa8-4fff-86e4-702f1a3b8cf6"
-					(reference "#-2V5_ISO07")
+					(reference "#-2V5_ISO06")
 					(unit 1)
 				)
 			)
@@ -11846,7 +11846,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a30c9911-2daa-4423-a8a5-21bd3bbe6fea")
-		(property "Reference" "#SUPPLY036"
+		(property "Reference" "#SUPPLY035"
 			(at 88.9 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -11907,7 +11907,7 @@
 		(instances
 			(project "EEZ DIB AFE3plus"
 				(path "/324c4880-14dd-4339-a8ef-63d64f49eee3/13785374-ffa8-4fff-86e4-702f1a3b8cf6"
-					(reference "#SUPPLY036")
+					(reference "#SUPPLY035")
 					(unit 1)
 				)
 			)
@@ -11922,28 +11922,27 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "adcb861f-47f7-464a-83cf-ea13cbe9397b")
-		(property "Reference" "TP2"
-			(at 66.675 144.78 0)
+		(property "Reference" "TP6"
+			(at 68.58 143.764 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify left bottom)
 			)
 		)
-		(property "Value" "PCB_TEST_TABSHIELD"
+		(property "Value" "Test"
 			(at 68.58 147.32 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 1.27 1.27)
 				)
 				(justify left bottom)
 			)
@@ -11998,7 +11997,7 @@
 		(instances
 			(project "EEZ DIB AFE3plus"
 				(path "/324c4880-14dd-4339-a8ef-63d64f49eee3/13785374-ffa8-4fff-86e4-702f1a3b8cf6"
-					(reference "TP2")
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -12739,28 +12738,27 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "cc4e88e3-51c8-47ce-89e9-7b350acbda7b")
-		(property "Reference" "TP3"
-			(at 66.675 160.02 0)
+		(property "Reference" "TP7"
+			(at 68.58 161.036 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify left bottom)
 			)
 		)
-		(property "Value" "PCB_TEST_TABSHIELD"
+		(property "Value" "Test"
 			(at 68.58 157.48 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 1.27 1.27)
 				)
 				(justify left bottom)
 			)
@@ -12815,7 +12813,7 @@
 		(instances
 			(project "EEZ DIB AFE3plus"
 				(path "/324c4880-14dd-4339-a8ef-63d64f49eee3/13785374-ffa8-4fff-86e4-702f1a3b8cf6"
-					(reference "TP3")
+					(reference "TP7")
 					(unit 1)
 				)
 			)

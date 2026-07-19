@@ -21,7 +21,7 @@
 			(exclude_from_sim no)
 			(in_bom no)
 			(on_board yes)
-			(in_pos_files yes)
+			(in_pos_files no)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "LOGO"
 				(at 0 2.3532 0)
@@ -140,7 +140,7 @@
 			(exclude_from_sim no)
 			(in_bom no)
 			(on_board yes)
-			(in_pos_files yes)
+			(in_pos_files no)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "LOGO"
 				(at 0 2.3478 0)
@@ -372,7 +372,7 @@
 			(exclude_from_sim no)
 			(in_bom no)
 			(on_board yes)
-			(in_pos_files yes)
+			(in_pos_files no)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "LOGO"
 				(at 0 1.996 0)
@@ -587,7 +587,7 @@
 			(exclude_from_sim no)
 			(in_bom no)
 			(on_board yes)
-			(in_pos_files yes)
+			(in_pos_files no)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "FM"
 				(at 1.524 3.556 0)
@@ -911,7 +911,7 @@
 			(exclude_from_sim no)
 			(in_bom no)
 			(on_board yes)
-			(in_pos_files yes)
+			(in_pos_files no)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "LOGO"
 				(at 5.08 -10.3584 0)
@@ -1707,7 +1707,7 @@
 			(exclude_from_sim no)
 			(in_bom no)
 			(on_board yes)
-			(in_pos_files yes)
+			(in_pos_files no)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "LOGO"
 				(at 0 2.3416 0)
@@ -1820,7 +1820,7 @@
 			(exclude_from_sim no)
 			(in_bom no)
 			(on_board yes)
-			(in_pos_files yes)
+			(in_pos_files no)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "LOGO"
 				(at 0 3.6245 0)
@@ -2357,11 +2357,11 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "0a3fb30b-2db5-443e-ba07-bef1bab6174e")
 		(property "Reference" "FM2"
-			(at 109.22 190.5 0)
+			(at 110.744 186.944 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2443,11 +2443,11 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "43380669-13dd-48a6-a8a0-4a689118b71f")
 		(property "Reference" "FM1"
-			(at 101.6 190.5 0)
+			(at 103.124 186.944 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2529,7 +2529,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "464179cd-933d-4394-8de6-35e0e9a4748f")
@@ -2649,7 +2649,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5f989c3c-e384-468b-96e7-16e8a290b9ff")
@@ -2725,11 +2725,11 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "78a7e69c-daba-4f7c-b0a3-4882a8e1c641")
 		(property "Reference" "FM3"
-			(at 116.84 190.5 0)
+			(at 118.364 186.944 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2811,7 +2811,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "83ff45aa-8040-4e80-99f8-e1e5d9825683")
@@ -2898,7 +2898,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "933d31f8-f0a0-4577-abe5-7695e7f5a9c1")
@@ -2913,7 +2913,7 @@
 				)
 			)
 		)
-		(property "Value" "CR logo"
+		(property "Value" "CE logo"
 			(at 20.32 192.8532 0)
 			(hide yes)
 			(show_name no)
@@ -3001,6 +3001,17 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 20.32 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
 		(instances
 			(project "EEZ DIB AFE3plus"
 				(path "/324c4880-14dd-4339-a8ef-63d64f49eee3"
@@ -3018,7 +3029,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9c20fa23-0931-4f5f-a4b1-968586b15c64")
@@ -3181,11 +3192,11 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "cb90eb72-46f7-4d19-86e6-8abacb968790")
 		(property "Reference" "FM4"
-			(at 124.46 190.5 0)
+			(at 125.984 186.944 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3267,7 +3278,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d4db1b44-b147-4ae6-a9d1-3b4d5e85776c")
@@ -3282,7 +3293,7 @@
 				)
 			)
 		)
-		(property "Value" "Open HW logo"
+		(property "Value" "Open hardware logo"
 			(at 30.48 192.8416 0)
 			(hide yes)
 			(show_name no)
@@ -3334,6 +3345,50 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" ""
+			(at 30.48 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 30.48 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "TME" ""
+			(at 30.48 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 30.48 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
 				)
 			)
 		)

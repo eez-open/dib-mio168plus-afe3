@@ -5355,7 +5355,7 @@
 			(exclude_from_sim no)
 			(in_bom no)
 			(on_board yes)
-			(in_pos_files yes)
+			(in_pos_files no)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "TP"
 				(at 0 1.016 0)
@@ -10824,11 +10824,11 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "07453924-4fc6-4311-81a1-95b12848f4be")
-		(property "Reference" "IN1P1"
-			(at 250.825 62.23 90)
+		(property "Reference" "TP2"
+			(at 242.824 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10838,14 +10838,13 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "PCB_TEST_TABSHIELD"
+		(property "Value" "Test"
 			(at 246.38 63.5 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 1.27 1.27)
 				)
 				(justify left bottom)
 			)
@@ -10944,7 +10943,7 @@
 		(instances
 			(project "EEZ DIB AFE3plus"
 				(path "/324c4880-14dd-4339-a8ef-63d64f49eee3/e97c32bf-f406-4294-8a3d-45b0aae2e3e8"
-					(reference "IN1P1")
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -11193,7 +11192,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C153794"
+		(property "LCSC" "C1588"
 			(at 154.94 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -11531,7 +11530,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "171dbd7f-ec40-4279-a85b-a1bf5ee992be")
-		(property "Reference" "#SUPPLY019"
+		(property "Reference" "#SUPPLY018"
 			(at 63.5 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -11592,7 +11591,7 @@
 		(instances
 			(project "EEZ DIB AFE3plus"
 				(path "/324c4880-14dd-4339-a8ef-63d64f49eee3/e97c32bf-f406-4294-8a3d-45b0aae2e3e8"
-					(reference "#SUPPLY019")
+					(reference "#SUPPLY018")
 					(unit 1)
 				)
 			)
@@ -11998,7 +11997,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C153794"
+		(property "LCSC" "C1588"
 			(at 154.94 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -12186,11 +12185,11 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "47be050a-8393-4096-98a4-8d38196700de")
 		(property "Reference" "TP1"
-			(at 241.3 29.21 0)
+			(at 243.84 29.464 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12200,14 +12199,13 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "PCB_TEST_TABSHIELD"
+		(property "Value" "Test"
 			(at 243.84 33.02 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 1.27 1.27)
 				)
 				(justify left bottom)
 			)
@@ -12465,11 +12463,11 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "4edec6ac-8b37-4445-8a4d-1b7bcfca3093")
-		(property "Reference" "IN2P1"
-			(at 250.825 123.19 90)
+		(property "Reference" "TP4"
+			(at 242.824 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12479,14 +12477,13 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "PCB_TEST_TABSHIELD"
+		(property "Value" "Test"
 			(at 246.38 124.46 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 1.27 1.27)
 				)
 				(justify left bottom)
 			)
@@ -12541,7 +12538,7 @@
 		(instances
 			(project "EEZ DIB AFE3plus"
 				(path "/324c4880-14dd-4339-a8ef-63d64f49eee3/e97c32bf-f406-4294-8a3d-45b0aae2e3e8"
-					(reference "IN2P1")
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -13475,11 +13472,11 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "693007e7-8461-4779-b2aa-be4ccbb6e811")
-		(property "Reference" "IN2N1"
-			(at 245.11 135.89 90)
+		(property "Reference" "TP5"
+			(at 244.856 134.62 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13489,14 +13486,13 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "PCB_TEST_TABSHIELD"
+		(property "Value" "Test"
 			(at 241.3 134.62 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 1.27 1.27)
 				)
 				(justify left bottom)
 			)
@@ -13551,7 +13547,7 @@
 		(instances
 			(project "EEZ DIB AFE3plus"
 				(path "/324c4880-14dd-4339-a8ef-63d64f49eee3/e97c32bf-f406-4294-8a3d-45b0aae2e3e8"
-					(reference "IN2N1")
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -13856,7 +13852,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6fa6308b-e07a-4f49-9840-545ec62520c4")
-		(property "Reference" "#SUPPLY018"
+		(property "Reference" "#SUPPLY017"
 			(at 50.8 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -13917,7 +13913,7 @@
 		(instances
 			(project "EEZ DIB AFE3plus"
 				(path "/324c4880-14dd-4339-a8ef-63d64f49eee3/e97c32bf-f406-4294-8a3d-45b0aae2e3e8"
-					(reference "#SUPPLY018")
+					(reference "#SUPPLY017")
 					(unit 1)
 				)
 			)
@@ -14069,7 +14065,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "739d9934-9ced-4532-a820-7395f9b54ed9")
-		(property "Reference" "#SUPPLY021"
+		(property "Reference" "#SUPPLY020"
 			(at 91.44 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -14130,7 +14126,7 @@
 		(instances
 			(project "EEZ DIB AFE3plus"
 				(path "/324c4880-14dd-4339-a8ef-63d64f49eee3/e97c32bf-f406-4294-8a3d-45b0aae2e3e8"
-					(reference "#SUPPLY021")
+					(reference "#SUPPLY020")
 					(unit 1)
 				)
 			)
@@ -14244,7 +14240,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C153794"
+		(property "LCSC" "C1588"
 			(at 152.4 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -14690,7 +14686,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "93593f95-326f-4490-82fd-7a44ec62db40")
-		(property "Reference" "#SUPPLY022"
+		(property "Reference" "#SUPPLY021"
 			(at 99.06 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -14751,7 +14747,7 @@
 		(instances
 			(project "EEZ DIB AFE3plus"
 				(path "/324c4880-14dd-4339-a8ef-63d64f49eee3/e97c32bf-f406-4294-8a3d-45b0aae2e3e8"
-					(reference "#SUPPLY022")
+					(reference "#SUPPLY021")
 					(unit 1)
 				)
 			)
@@ -15144,7 +15140,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2092177"
+		(property "LCSC" "C22859"
 			(at 127 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -15181,7 +15177,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a3c845d6-6cea-4121-a4c4-47b53e5398d2")
-		(property "Reference" "#SUPPLY025"
+		(property "Reference" "#SUPPLY024"
 			(at 238.76 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -15242,7 +15238,7 @@
 		(instances
 			(project "EEZ DIB AFE3plus"
 				(path "/324c4880-14dd-4339-a8ef-63d64f49eee3/e97c32bf-f406-4294-8a3d-45b0aae2e3e8"
-					(reference "#SUPPLY025")
+					(reference "#SUPPLY024")
 					(unit 1)
 				)
 			)
@@ -15359,7 +15355,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C114625"
+		(property "LCSC" "C23185"
 			(at 55.88 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -15494,7 +15490,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2168794"
+		(property "LCSC" "C1322360"
 			(at 134.62 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -16397,7 +16393,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2092177"
+		(property "LCSC" "C22859"
 			(at 127 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -16535,7 +16531,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C863826"
+		(property "LCSC" "C23179"
 			(at 111.76 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -16650,7 +16646,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bed8f529-ce72-46be-b231-d364a2faf419")
-		(property "Reference" "#SUPPLY020"
+		(property "Reference" "#SUPPLY019"
 			(at 88.9 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -16711,7 +16707,7 @@
 		(instances
 			(project "EEZ DIB AFE3plus"
 				(path "/324c4880-14dd-4339-a8ef-63d64f49eee3/e97c32bf-f406-4294-8a3d-45b0aae2e3e8"
-					(reference "#SUPPLY020")
+					(reference "#SUPPLY019")
 					(unit 1)
 				)
 			)
@@ -16825,7 +16821,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C153794"
+		(property "LCSC" "C1588"
 			(at 233.68 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -16862,7 +16858,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c0c0534c-67cc-425e-8823-781d9f081727")
-		(property "Reference" "#SUPPLY023"
+		(property "Reference" "#SUPPLY022"
 			(at 238.76 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -16923,7 +16919,7 @@
 		(instances
 			(project "EEZ DIB AFE3plus"
 				(path "/324c4880-14dd-4339-a8ef-63d64f49eee3/e97c32bf-f406-4294-8a3d-45b0aae2e3e8"
-					(reference "#SUPPLY023")
+					(reference "#SUPPLY022")
 					(unit 1)
 				)
 			)
@@ -17192,7 +17188,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C153794"
+		(property "LCSC" "C1588"
 			(at 233.68 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -17304,11 +17300,11 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "c733975e-00cf-4c65-bfc1-093b1eb766f7")
-		(property "Reference" "IN1N1"
-			(at 245.11 74.93 90)
+		(property "Reference" "TP3"
+			(at 244.856 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17318,14 +17314,13 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "PCB_TEST_TABSHIELD"
+		(property "Value" "Test"
 			(at 241.3 73.66 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.778 1.5113)
+					(size 1.27 1.27)
 				)
 				(justify left bottom)
 			)
@@ -17380,7 +17375,7 @@
 		(instances
 			(project "EEZ DIB AFE3plus"
 				(path "/324c4880-14dd-4339-a8ef-63d64f49eee3/e97c32bf-f406-4294-8a3d-45b0aae2e3e8"
-					(reference "IN1N1")
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -17911,7 +17906,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C576469"
+		(property "LCSC" "C19702"
 			(at 91.44 162.56 90)
 			(hide yes)
 			(show_name no)
@@ -18082,7 +18077,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e47ab6db-92c6-4442-a133-963577d19a7f")
-		(property "Reference" "#SUPPLY024"
+		(property "Reference" "#SUPPLY023"
 			(at 238.76 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -18143,7 +18138,7 @@
 		(instances
 			(project "EEZ DIB AFE3plus"
 				(path "/324c4880-14dd-4339-a8ef-63d64f49eee3/e97c32bf-f406-4294-8a3d-45b0aae2e3e8"
-					(reference "#SUPPLY024")
+					(reference "#SUPPLY023")
 					(unit 1)
 				)
 			)
@@ -18628,7 +18623,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C153794"
+		(property "LCSC" "C1588"
 			(at 152.4 93.98 0)
 			(hide yes)
 			(show_name no)

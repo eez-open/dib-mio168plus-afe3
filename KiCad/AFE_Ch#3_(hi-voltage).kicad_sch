@@ -8139,7 +8139,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0110845c-0b71-4b3b-bb1d-8e39d5a90fdb")
-		(property "Reference" "#SUPPLY028"
+		(property "Reference" "#SUPPLY027"
 			(at 63.5 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -8200,7 +8200,7 @@
 		(instances
 			(project "EEZ DIB AFE3plus"
 				(path "/324c4880-14dd-4339-a8ef-63d64f49eee3/50163daa-9396-4aa9-ac6d-00f765a20bd3"
-					(reference "#SUPPLY028")
+					(reference "#SUPPLY027")
 					(unit 1)
 				)
 			)
@@ -8726,7 +8726,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "13b84ca6-8f8b-4c5c-87b5-ee7a7eb3b4fb")
-		(property "Reference" "#SUPPLY029"
+		(property "Reference" "#SUPPLY028"
 			(at 101.6 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -8787,7 +8787,7 @@
 		(instances
 			(project "EEZ DIB AFE3plus"
 				(path "/324c4880-14dd-4339-a8ef-63d64f49eee3/50163daa-9396-4aa9-ac6d-00f765a20bd3"
-					(reference "#SUPPLY029")
+					(reference "#SUPPLY028")
 					(unit 1)
 				)
 			)
@@ -9047,7 +9047,7 @@
 				(justify top)
 			)
 		)
-		(property "Footprint" "PCM_EEZ_passives:R_0805_2012Metric"
+		(property "Footprint" "PCM_EEZ_passives:R_0603_1608Metric"
 			(at 157.48 83.82 90)
 			(hide yes)
 			(show_name no)
@@ -9091,7 +9091,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "13-RT0805FRD0749K9LCT-ND"
+		(property "DigiKey" "13-RC0603FR-1349K9LCT-ND"
 			(at 157.48 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -9102,7 +9102,7 @@
 				)
 			)
 		)
-		(property "Mouser" "603-RT0805FRD0749K9L"
+		(property "Mouser" "603-RC0603FR-1349K9L"
 			(at 157.48 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -9113,7 +9113,7 @@
 				)
 			)
 		)
-		(property "TME" "SMD0805-49K9-1%"
+		(property "TME" "SMD0603-49.9K-1%"
 			(at 157.48 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -9124,7 +9124,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C869097"
+		(property "LCSC" "C23184"
 			(at 157.48 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -9678,7 +9678,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "455766a6-3b2e-49b9-bb26-1dfb38074a80")
-		(property "Reference" "#SUPPLY026"
+		(property "Reference" "#SUPPLY025"
 			(at 45.72 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -9739,7 +9739,7 @@
 		(instances
 			(project "EEZ DIB AFE3plus"
 				(path "/324c4880-14dd-4339-a8ef-63d64f49eee3/50163daa-9396-4aa9-ac6d-00f765a20bd3"
-					(reference "#SUPPLY026")
+					(reference "#SUPPLY025")
 					(unit 1)
 				)
 			)
@@ -9756,7 +9756,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4a9b75a7-95f8-4c9f-9252-a3de024da73f")
-		(property "Reference" "#SUPPLY032"
+		(property "Reference" "#SUPPLY031"
 			(at 220.98 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -9817,7 +9817,7 @@
 		(instances
 			(project "EEZ DIB AFE3plus"
 				(path "/324c4880-14dd-4339-a8ef-63d64f49eee3/50163daa-9396-4aa9-ac6d-00f765a20bd3"
-					(reference "#SUPPLY032")
+					(reference "#SUPPLY031")
 					(unit 1)
 				)
 			)
@@ -10346,7 +10346,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C863826"
+		(property "LCSC" "C23179"
 			(at 180.34 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -10521,7 +10521,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7024db65-1c86-4b77-8ec9-516e6c22136e")
-		(property "Reference" "#SUPPLY031"
+		(property "Reference" "#SUPPLY030"
 			(at 157.48 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -10582,7 +10582,7 @@
 		(instances
 			(project "EEZ DIB AFE3plus"
 				(path "/324c4880-14dd-4339-a8ef-63d64f49eee3/50163daa-9396-4aa9-ac6d-00f765a20bd3"
-					(reference "#SUPPLY031")
+					(reference "#SUPPLY030")
 					(unit 1)
 				)
 			)
@@ -11018,7 +11018,7 @@
 				(justify top)
 			)
 		)
-		(property "Footprint" "PCM_EEZ_passives:R_0805_2012Metric"
+		(property "Footprint" "PCM_EEZ_passives:R_0603_1608Metric"
 			(at 144.78 83.82 90)
 			(hide yes)
 			(show_name no)
@@ -11062,7 +11062,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "13-RT0805FRD0749K9LCT-ND"
+		(property "DigiKey" "13-RC0603FR-1349K9LCT-ND"
 			(at 144.78 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -11073,7 +11073,7 @@
 				)
 			)
 		)
-		(property "Mouser" "603-RT0805FRD0749K9L"
+		(property "Mouser" "603-RC0603FR-1349K9L"
 			(at 144.78 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -11084,7 +11084,7 @@
 				)
 			)
 		)
-		(property "TME" "SMD0805-49K9-1%"
+		(property "TME" "SMD0603-49.9K-1%"
 			(at 144.78 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -11095,7 +11095,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C869097"
+		(property "LCSC" "C23184"
 			(at 144.78 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -11132,7 +11132,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "90f6929d-4a2a-471d-84b2-8713f876e81a")
-		(property "Reference" "#-2V5_ISO05"
+		(property "Reference" "#-2V5_ISO04"
 			(at 86.36 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -11193,7 +11193,7 @@
 		(instances
 			(project "EEZ DIB AFE3plus"
 				(path "/324c4880-14dd-4339-a8ef-63d64f49eee3/50163daa-9396-4aa9-ac6d-00f765a20bd3"
-					(reference "#-2V5_ISO05")
+					(reference "#-2V5_ISO04")
 					(unit 1)
 				)
 			)
@@ -11210,7 +11210,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9130576c-90b2-4384-b34e-3ed5cadf1565")
-		(property "Reference" "#SUPPLY030"
+		(property "Reference" "#SUPPLY029"
 			(at 121.92 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -11271,7 +11271,7 @@
 		(instances
 			(project "EEZ DIB AFE3plus"
 				(path "/324c4880-14dd-4339-a8ef-63d64f49eee3/50163daa-9396-4aa9-ac6d-00f765a20bd3"
-					(reference "#SUPPLY030")
+					(reference "#SUPPLY029")
 					(unit 1)
 				)
 			)
@@ -11694,7 +11694,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a44f1563-55e3-47f1-824f-e2ea099d9377")
-		(property "Reference" "#-2V5_ISO06"
+		(property "Reference" "#-2V5_ISO05"
 			(at 165.1 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -11755,7 +11755,7 @@
 		(instances
 			(project "EEZ DIB AFE3plus"
 				(path "/324c4880-14dd-4339-a8ef-63d64f49eee3/50163daa-9396-4aa9-ac6d-00f765a20bd3"
-					(reference "#-2V5_ISO06")
+					(reference "#-2V5_ISO05")
 					(unit 1)
 				)
 			)
@@ -12939,7 +12939,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "deb4f5db-675c-4aca-a503-3b19e588ebc5")
-		(property "Reference" "#SUPPLY027"
+		(property "Reference" "#SUPPLY026"
 			(at 45.72 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -13000,7 +13000,7 @@
 		(instances
 			(project "EEZ DIB AFE3plus"
 				(path "/324c4880-14dd-4339-a8ef-63d64f49eee3/50163daa-9396-4aa9-ac6d-00f765a20bd3"
-					(reference "#SUPPLY027")
+					(reference "#SUPPLY026")
 					(unit 1)
 				)
 			)
@@ -13843,7 +13843,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C844594"
+		(property "LCSC" "C149504"
 			(at 35.56 106.68 0)
 			(hide yes)
 			(show_name no)

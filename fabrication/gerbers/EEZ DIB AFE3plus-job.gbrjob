@@ -5,13 +5,13 @@
       "Application": "Pcbnew",
       "Version": "10.0.4-10.0.4~ubuntu24.04.1"
     },
-    "CreationDate": "2026-07-19T11:47:03+02:00"
+    "CreationDate": "2026-07-20T17:33:24+02:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "EEZ DIB AFE3plus",
       "GUID": "45455a20-4449-4422-9041-464533706c75",
-      "Revision": "rev?"
+      "Revision": "r1B1"
     },
     "Size": {
       "X": 126.0533,

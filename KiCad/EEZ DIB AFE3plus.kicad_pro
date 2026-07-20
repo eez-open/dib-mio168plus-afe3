@@ -78,11 +78,11 @@
       ],
       "drc_exclusions": [
         [
-          "clearance|110731600|106676200|616f0648-b168-45e2-bcb1-e63cabefc714|34c0cfea-38fa-4dc5-bd51-91d1f4c24bde",
+          "clearance|110731600|106676200|34c0cfea-38fa-4dc5-bd51-91d1f4c24bde|616f0648-b168-45e2-bcb1-e63cabefc714",
           ""
         ],
         [
-          "clearance|110731600|123381000|be4e0740-4f80-4cf8-be3d-a0ad14d19f7c|74d33ea5-3afd-4f59-8419-11cc313480c8",
+          "clearance|110731600|123381000|74d33ea5-3afd-4f59-8419-11cc313480c8|be4e0740-4f80-4cf8-be3d-a0ad14d19f7c",
           ""
         ],
         [
@@ -90,7 +90,7 @@
           ""
         ],
         [
-          "clearance|110731600|99476200|04bded6d-c31d-4c89-b764-3c36d3f01252|06d910e6-cc1c-4f2c-8b47-4a5552eb5c74",
+          "clearance|110731600|99476200|06d910e6-cc1c-4f2c-8b47-4a5552eb5c74|04bded6d-c31d-4c89-b764-3c36d3f01252",
           ""
         ],
         [
@@ -98,7 +98,7 @@
           ""
         ],
         [
-          "clearance|111671500|106852300|616f0648-b168-45e2-bcb1-e63cabefc714|7af7a672-bb1f-4a3c-9af0-548815e9e551",
+          "clearance|111671500|106852300|7af7a672-bb1f-4a3c-9af0-548815e9e551|616f0648-b168-45e2-bcb1-e63cabefc714",
           ""
         ],
         [
@@ -106,11 +106,11 @@
           ""
         ],
         [
-          "clearance|111671500|123557100|93ae8b70-46e1-4ad8-b5e1-863301d1237b|be4e0740-4f80-4cf8-be3d-a0ad14d19f7c",
+          "clearance|111671500|123557100|93ae8b70-46e1-4ad8-b5e1-863301d1237b|d0950c2c-57f2-470a-8db9-89d2b0901a7c",
           ""
         ],
         [
-          "clearance|111671500|123557100|93ae8b70-46e1-4ad8-b5e1-863301d1237b|d0950c2c-57f2-470a-8db9-89d2b0901a7c",
+          "clearance|111671500|123557100|be4e0740-4f80-4cf8-be3d-a0ad14d19f7c|93ae8b70-46e1-4ad8-b5e1-863301d1237b",
           ""
         ],
         [
@@ -126,11 +126,11 @@
           ""
         ],
         [
-          "clearance|111671500|99147700|04bded6d-c31d-4c89-b764-3c36d3f01252|8ff8a6b4-737e-44c6-9ea3-0b028399838b",
+          "clearance|111671500|99147700|8ff8a6b4-737e-44c6-9ea3-0b028399838b|04bded6d-c31d-4c89-b764-3c36d3f01252",
           ""
         ],
         [
-          "clearance|111671500|99652300|04bded6d-c31d-4c89-b764-3c36d3f01252|3f0789a7-a07a-4c71-9b55-3b29bdee0e6d",
+          "clearance|111671500|99652300|3f0789a7-a07a-4c71-9b55-3b29bdee0e6d|04bded6d-c31d-4c89-b764-3c36d3f01252",
           ""
         ],
         [
@@ -138,15 +138,15 @@
           ""
         ],
         [
-          "clearance|115493500|106852300|f9d5a294-8c37-49e3-8447-d864af65157f|dc5b97f1-ed07-466e-a447-b6fd0bf92a37",
+          "clearance|115493500|106852300|dc5b97f1-ed07-466e-a447-b6fd0bf92a37|f9d5a294-8c37-49e3-8447-d864af65157f",
           ""
         ],
         [
-          "clearance|115493500|128977700|06c56afe-430b-4966-8642-92e0ab500275|dba1e2ff-1992-46d5-a3c4-7ba16af9922d",
+          "clearance|115493500|128977700|dba1e2ff-1992-46d5-a3c4-7ba16af9922d|06c56afe-430b-4966-8642-92e0ab500275",
           ""
         ],
         [
-          "clearance|115493500|129482300|06c56afe-430b-4966-8642-92e0ab500275|f9182d21-feec-4c2a-aab2-5f0b4b13e738",
+          "clearance|115493500|129482300|f9182d21-feec-4c2a-aab2-5f0b4b13e738|06c56afe-430b-4966-8642-92e0ab500275",
           ""
         ],
         [
@@ -202,10 +202,6 @@
           ""
         ],
         [
-          "shorting_items|112662200|119880000|05141ecd-cb0a-49d6-8b30-637c079eb232|61f2130c-4a72-44eb-b0a0-c6a0926b70a1",
-          ""
-        ],
-        [
           "shorting_items|112662200|119880000|b556a8d4-be2a-4b59-a0d6-7132dbb6aa53|e9e302e7-3f25-463a-938e-5f3dd433f81f",
           ""
         ],
@@ -214,11 +210,15 @@
           ""
         ],
         [
-          "shorting_items|112743200|119799000|05141ecd-cb0a-49d6-8b30-637c079eb232|e9e302e7-3f25-463a-938e-5f3dd433f81f",
+          "shorting_items|112743200|119799000|e9e302e7-3f25-463a-938e-5f3dd433f81f|05141ecd-cb0a-49d6-8b30-637c079eb232",
           ""
         ],
         [
           "shorting_items|115493500|129482300|b77d99f5-e2a5-4482-9a3a-c2dc363b0a7c|f9182d21-feec-4c2a-aab2-5f0b4b13e738",
+          ""
+        ],
+        [
+          "tracks_crossing|112664600|119877600|354ba518-6a1b-4040-942c-6ea06cd97787|61f2130c-4a72-44eb-b0a0-c6a0926b70a1",
           ""
         ]
       ],
@@ -1893,7 +1893,7 @@
     "project_license": "Licensed under the TAPR Open Hardware License (www.tapr.org/OHL)",
     "project_name": "EEZ DIB AFE3+",
     "project_url": "https://www.envox.eu",
-    "project_version": "r2B1"
+    "project_version": "r1B1"
   },
   "tuning_profiles": {
     "meta": {

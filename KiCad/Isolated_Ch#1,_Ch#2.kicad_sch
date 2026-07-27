@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "${project_name}")
-		(date "2026-07-20")
+		(date "2026-07-27")
 		(rev "${project_version}")
 		(company "${project_creator}")
 		(comment 1 "${project_license}")
@@ -8242,6 +8242,10 @@
 		(uuid "7ca70ff5-b463-4710-92ec-06e8c98b88a2")
 	)
 	(no_connect
+		(at 66.04 182.88)
+		(uuid "ab661d4b-9c62-4cfd-8689-36ec60b1f8be")
+	)
+	(no_connect
 		(at 55.88 101.6)
 		(uuid "e5618c17-de75-4f6e-a1f0-d705cc8ea743")
 	)
@@ -10009,16 +10013,6 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 182.88) (xy 66.04 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ed845725-b761-4c61-be95-ffb6e292ad5a")
-	)
-	(wire
-		(pts
 			(xy 233.68 73.66) (xy 238.76 73.66)
 		)
 		(stroke
@@ -10248,30 +10242,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-	)
-	(global_label "~{ISO_RESET}"
-		(shape input)
-		(at 58.42 182.88 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 0.889 0.889)
-			)
-			(justify right)
-		)
-		(uuid "0972b04f-ed27-43c0-b979-58f351996da9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 49.4303 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 	)

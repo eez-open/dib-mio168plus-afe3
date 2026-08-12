@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "${project_name}")
-		(date "2026-08-07")
+		(date "2026-08-12")
 		(rev "${project_version}")
 		(company "${project_creator}")
 		(comment 1 "${project_license}")
@@ -8064,6 +8064,16 @@
 	)
 	(wire
 		(pts
+			(xy 50.8 182.88) (xy 50.8 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bf2eeee-f84d-4bd9-ad9a-96eeff8c4da3")
+	)
+	(wire
+		(pts
 			(xy 220.98 30.48) (xy 220.98 43.18)
 		)
 		(stroke
@@ -10005,6 +10015,16 @@
 	)
 	(wire
 		(pts
+			(xy 50.8 182.88) (xy 50.8 180.34)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "cdf283cf-fbef-4497-8a4b-355e5a6e40e3")
+	)
+	(wire
+		(pts
 			(xy 68.58 167.64) (xy 71.12 167.64)
 		)
 		(stroke
@@ -10728,7 +10748,7 @@
 		(uuid "cc0ebde4-62d4-4f8c-b412-a86190d07124")
 	)
 	(label "AVSS"
-		(at 45.72 180.34 0)
+		(at 50.8 182.88 0)
 		(effects
 			(font
 				(size 0.889 0.889)

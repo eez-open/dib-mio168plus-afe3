@@ -2270,7 +2270,7 @@
 				)
 			)
 		)
-		(property "Mouser" "603-RC0603FR-0710RP"
+		(property "Mouser" "603-RT0603FRE1010RL"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2482,7 +2482,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "R200"
+		(property "Value" "R200 1%"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(uuid "e8b0626a-1919-4597-9c5b-f464f698b0de")
@@ -3228,7 +3228,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "R010"
+		(property "Value" "R010 1%"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "c45fb078-83b8-443c-bda0-1535b2c315c4")
@@ -5848,7 +5848,7 @@
 				)
 			)
 		)
-		(property "Mouser" "603-RC0603FR-0710RP"
+		(property "Mouser" "603-RT0603FRE1010RL"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8329,7 +8329,7 @@
 				)
 			)
 		)
-		(property "Mouser" "603-RC0603FR-0710RP"
+		(property "Mouser" "603-RT0603FRE1010RL"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21100,7 +21100,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "R200"
+		(property "Value" "R200 1%"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(uuid "1ad4cdc6-5a0a-40dc-b7d1-b7a206b7751a")
@@ -27154,7 +27154,7 @@
 				)
 			)
 		)
-		(property "Mouser" "603-RC0603FR-0710RP"
+		(property "Mouser" "603-RT0603FRE1010RL"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -37178,7 +37178,7 @@
 				)
 			)
 		)
-		(property "Value" "33R"
+		(property "Value" "33R 1%"
 			(at 0 0.762 0)
 			(layer "F.Fab")
 			(uuid "641bb18f-0307-4e46-83c1-dde537508cff")
@@ -56757,7 +56757,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "R022"
+		(property "Value" "R022 1%"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(uuid "e9eafc8e-d99b-438e-ab6d-73d50c255436")
@@ -58463,7 +58463,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "4921,26"
+		(gr_text "125"
 			(at 154.5 137.65 0)
 			(layer "Dwgs.User")
 			(uuid "788cce7f-11b4-49d9-a2c8-8383ff11a59c")
@@ -58501,7 +58501,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "1771,65"
+		(gr_text "45"
 			(at 87.65 111.5 90)
 			(layer "Dwgs.User")
 			(uuid "bdd93b72-6e34-4db1-bcf1-57d746d94776")

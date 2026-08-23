@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "${project_name}")
-		(date "2026-08-12")
+		(date "2026-08-23")
 		(rev "${project_version}")
 		(company "${project_creator}")
 		(comment 1 "${project_license}")
@@ -7914,7 +7914,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "R200"
+		(property "Value" "R200 1%"
 			(at 100.33 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10554,7 +10554,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "33R"
+		(property "Value" "33R 1%"
 			(at 100.33 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12182,7 +12182,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "R010"
+		(property "Value" "R010 1%"
 			(at 105.41 93.345 0)
 			(show_name no)
 			(do_not_autoplace no)

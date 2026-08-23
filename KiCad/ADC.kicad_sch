@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "${project_name}")
-		(date "2026-08-12")
+		(date "2026-08-23")
 		(rev "${project_version}")
 		(company "${project_creator}")
 		(comment 1 "${project_license}")
@@ -15251,7 +15251,7 @@
 				)
 			)
 		)
-		(property "Mouser" "603-RC0603FR-0710RP"
+		(property "Mouser" "603-RT0603FRE1010RL"
 			(at 35.56 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -21792,7 +21792,7 @@
 				)
 			)
 		)
-		(property "Mouser" "603-RC0603FR-0710RP"
+		(property "Mouser" "603-RT0603FRE1010RL"
 			(at 35.56 180.34 0)
 			(hide yes)
 			(show_name no)

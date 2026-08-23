@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "${project_name}")
-		(date "2026-08-07")
+		(date "2026-08-23")
 		(rev "${project_version}")
 		(company "${project_creator}")
 		(comment 1 "${project_license}")
@@ -14924,7 +14924,7 @@
 				)
 			)
 		)
-		(property "Mouser" "603-RC0603FR-0710RP"
+		(property "Mouser" "603-RT0603FRE1010RL"
 			(at 127 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -15811,7 +15811,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "R022"
+		(property "Value" "R022 1%"
 			(at 77.47 131.445 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16177,7 +16177,7 @@
 				)
 			)
 		)
-		(property "Mouser" "603-RC0603FR-0710RP"
+		(property "Mouser" "603-RT0603FRE1010RL"
 			(at 127 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -17405,7 +17405,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "R200"
+		(property "Value" "R200 1%"
 			(at 77.47 117.475 0)
 			(show_name no)
 			(do_not_autoplace no)

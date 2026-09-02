@@ -8837,7 +8837,7 @@
 				(justify top)
 			)
 		)
-		(property "Value" "3561(KTR) x2"
+		(property "Value" "3561KTR x2"
 			(at 167.64 50.165 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8892,7 +8892,7 @@
 				(justify top)
 			)
 		)
-		(property "DigiKey" "36-3561-ND"
+		(property "DigiKey" "36-3561KCT-ND"
 			(at 167.64 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -8903,7 +8903,7 @@
 				)
 			)
 		)
-		(property "Mouser" "534-3561"
+		(property "Mouser" "534-3561KTR "
 			(at 167.64 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -8914,7 +8914,7 @@
 				)
 			)
 		)
-		(property "TME" "KEYS3561"
+		(property "TME" "-"
 			(at 167.64 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -8925,7 +8925,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C3205274"
+		(property "LCSC" "C3205939"
 			(at 167.64 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -12464,7 +12464,7 @@
 				(justify top)
 			)
 		)
-		(property "Value" "3561(KTR) x2"
+		(property "Value" "3561KTR x2"
 			(at 167.64 37.465 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12519,7 +12519,7 @@
 				(justify top)
 			)
 		)
-		(property "DigiKey" "36-3561-ND"
+		(property "DigiKey" "36-3561KCT-ND"
 			(at 167.64 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -12530,7 +12530,7 @@
 				)
 			)
 		)
-		(property "Mouser" "534-3561"
+		(property "Mouser" "534-3561KTR "
 			(at 167.64 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -12541,7 +12541,7 @@
 				)
 			)
 		)
-		(property "TME" "KEYS3561"
+		(property "TME" "-"
 			(at 167.64 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -12552,7 +12552,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C3205274"
+		(property "LCSC" "C3205939"
 			(at 167.64 35.56 0)
 			(hide yes)
 			(show_name no)

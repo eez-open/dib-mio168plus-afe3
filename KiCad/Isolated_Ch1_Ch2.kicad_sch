@@ -10674,7 +10674,7 @@
 				(justify left top)
 			)
 		)
-		(property "Value" "3561(KTR) x2"
+		(property "Value" "3561KTR x2"
 			(at 80.645 92.075 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10729,7 +10729,7 @@
 				(justify left top)
 			)
 		)
-		(property "DigiKey" "36-3561-ND"
+		(property "DigiKey" "36-3561KCT-ND"
 			(at 78.74 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -10740,7 +10740,7 @@
 				)
 			)
 		)
-		(property "Mouser" "534-3561"
+		(property "Mouser" "534-3561KTR "
 			(at 78.74 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -10751,7 +10751,7 @@
 				)
 			)
 		)
-		(property "TME" "KEYS3561"
+		(property "TME" "-"
 			(at 78.74 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -10762,7 +10762,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C3205274"
+		(property "LCSC" "C3205939"
 			(at 78.74 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -10800,18 +10800,19 @@
 		(dnp no)
 		(uuid "07453924-4fc6-4311-81a1-95b12848f4be")
 		(property "Reference" "TP2"
-			(at 242.824 63.5 0)
+			(at 243.84 61.595 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify top)
 			)
 		)
 		(property "Value" "Test"
 			(at 246.38 63.5 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11198,9 +11199,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp yes)
 		(uuid "0ca85c95-e474-4705-80de-4dd2f9bf3fb6")
 		(property "Reference" "R25"
@@ -12295,18 +12296,19 @@
 		(dnp no)
 		(uuid "4edec6ac-8b37-4445-8a4d-1b7bcfca3093")
 		(property "Reference" "TP4"
-			(at 242.824 124.46 0)
+			(at 243.84 122.555 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify top)
 			)
 		)
 		(property "Value" "Test"
 			(at 246.38 124.46 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12357,6 +12359,50 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" ""
+			(at 243.84 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 243.84 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "TME" ""
+			(at 243.84 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 243.84 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
 				)
 			)
 		)
@@ -12629,7 +12675,7 @@
 				(justify left top)
 			)
 		)
-		(property "Value" "3561(KTR) x2"
+		(property "Value" "3561KTR x2"
 			(at 57.785 92.075 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12684,7 +12730,7 @@
 				(justify left top)
 			)
 		)
-		(property "DigiKey" "36-3561-ND"
+		(property "DigiKey" "36-3561KCT-ND"
 			(at 55.88 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -12695,7 +12741,7 @@
 				)
 			)
 		)
-		(property "Mouser" "534-3561"
+		(property "Mouser" "534-3561KTR "
 			(at 55.88 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -12706,7 +12752,7 @@
 				)
 			)
 		)
-		(property "TME" "KEYS3561"
+		(property "TME" "-"
 			(at 55.88 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -12717,7 +12763,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C3205274"
+		(property "LCSC" "C3205939"
 			(at 55.88 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -13304,18 +13350,19 @@
 		(dnp no)
 		(uuid "693007e7-8461-4779-b2aa-be4ccbb6e811")
 		(property "Reference" "TP5"
-			(at 244.856 134.62 0)
+			(at 243.84 136.525 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify top)
 			)
 		)
 		(property "Value" "Test"
 			(at 241.3 134.62 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13366,6 +13413,50 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" ""
+			(at 243.84 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 243.84 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "TME" ""
+			(at 243.84 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 243.84 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
 				)
 			)
 		)
@@ -17054,18 +17145,19 @@
 		(dnp no)
 		(uuid "c733975e-00cf-4c65-bfc1-093b1eb766f7")
 		(property "Reference" "TP3"
-			(at 244.856 73.66 0)
+			(at 243.84 75.565 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify top)
 			)
 		)
 		(property "Value" "Test"
 			(at 241.3 73.66 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17116,6 +17208,50 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" ""
+			(at 243.84 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 243.84 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "TME" ""
+			(at 243.84 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 243.84 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
 				)
 			)
 		)
@@ -18407,9 +18543,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp yes)
 		(uuid "fa7db40e-3d30-4786-9e35-fa7e641b194c")
 		(property "Reference" "R26"

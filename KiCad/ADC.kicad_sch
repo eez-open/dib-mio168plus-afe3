@@ -18609,7 +18609,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp yes)
 		(uuid "933047a0-894f-4ba4-90c1-7675ea9dc1a4")
 		(property "Reference" "R8"
@@ -22277,9 +22277,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp yes)
 		(uuid "f0a52a30-07ba-4ae7-81c0-78ba858bac15")
 		(property "Reference" "R7"

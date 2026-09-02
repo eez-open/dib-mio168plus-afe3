@@ -160,11 +160,6 @@
 	(property "project_name" "EEZ DIB AFE3+")
 	(property "project_url" "https://www.envox.eu")
 	(property "project_version" "r1B1")
-	(variants
-		(variant
-			(name "Ethernet PHY no xtal")
-		)
-	)
 	(footprint "PCM_EEZ_SMD:SODFL3718X130N"
 		(layer "F.Cu")
 		(uuid "00f6bf54-7c86-4e98-a2b7-abe7b1c10abc")
@@ -283,7 +278,7 @@
 		)
 		(path "/13785374-ffa8-4fff-86e4-702f1a3b8cf6/e8fe1c96-7476-4c9b-903b-5f682176252b")
 		(sheetname "/AFE Ch#4 (Hi-current)/")
-		(sheetfile "AFE_Ch#4_(Hi-current).kicad_sch")
+		(sheetfile "AFE_Ch4_(Hi-current).kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -649,7 +644,7 @@
 		)
 		(path "/13785374-ffa8-4fff-86e4-702f1a3b8cf6/3e47bdd0-09e4-4790-96cd-5497c7185c98")
 		(sheetname "/AFE Ch#4 (Hi-current)/")
-		(sheetfile "AFE_Ch#4_(Hi-current).kicad_sch")
+		(sheetfile "AFE_Ch4_(Hi-current).kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -1015,7 +1010,7 @@
 		)
 		(path "/e97c32bf-f406-4294-8a3d-45b0aae2e3e8/c8968246-ea8f-4786-819c-6c9a289e86c4")
 		(sheetname "/Isolated Ch#1, Ch#2/")
-		(sheetfile "Isolated_Ch#1,_Ch#2.kicad_sch")
+		(sheetfile "Isolated_Ch1_Ch2.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -1501,7 +1496,7 @@
 		)
 		(path "/13785374-ffa8-4fff-86e4-702f1a3b8cf6/743f7462-1744-41c4-aa4b-4aae92d4939f")
 		(sheetname "/AFE Ch#4 (Hi-current)/")
-		(sheetfile "AFE_Ch#4_(Hi-current).kicad_sch")
+		(sheetfile "AFE_Ch4_(Hi-current).kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -2311,7 +2306,7 @@
 		)
 		(path "/e97c32bf-f406-4294-8a3d-45b0aae2e3e8/a2cada87-4e05-450c-81b7-f6f4d417e493")
 		(sheetname "/Isolated Ch#1, Ch#2/")
-		(sheetfile "Isolated_Ch#1,_Ch#2.kicad_sch")
+		(sheetfile "Isolated_Ch1_Ch2.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -2582,7 +2577,7 @@
 		)
 		(path "/13785374-ffa8-4fff-86e4-702f1a3b8cf6/086f5941-8f24-4fe8-90a3-688ca62148fc")
 		(sheetname "/AFE Ch#4 (Hi-current)/")
-		(sheetfile "AFE_Ch#4_(Hi-current).kicad_sch")
+		(sheetfile "AFE_Ch4_(Hi-current).kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -2910,7 +2905,7 @@
 		)
 		(path "/e97c32bf-f406-4294-8a3d-45b0aae2e3e8/5eb1d3df-eddd-4fb8-b8ef-291c7383faba")
 		(sheetname "/Isolated Ch#1, Ch#2/")
-		(sheetfile "Isolated_Ch#1,_Ch#2.kicad_sch")
+		(sheetfile "Isolated_Ch1_Ch2.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -3328,7 +3323,7 @@
 		)
 		(path "/13785374-ffa8-4fff-86e4-702f1a3b8cf6/be33718e-3fad-4309-a1df-1e8ec7b1fcfb")
 		(sheetname "/AFE Ch#4 (Hi-current)/")
-		(sheetfile "AFE_Ch#4_(Hi-current).kicad_sch")
+		(sheetfile "AFE_Ch4_(Hi-current).kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -3655,7 +3650,7 @@
 		)
 		(path "/13785374-ffa8-4fff-86e4-702f1a3b8cf6/4266c665-e5fa-4bee-9b99-b4ae8af5e0ae")
 		(sheetname "/AFE Ch#4 (Hi-current)/")
-		(sheetfile "AFE_Ch#4_(Hi-current).kicad_sch")
+		(sheetfile "AFE_Ch4_(Hi-current).kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -4197,7 +4192,7 @@
 		(property ki_fp_filters "Inductor_* L_* *Ferrite*")
 		(path "/50163daa-9396-4aa9-ac6d-00f765a20bd3/0b595dee-ebcc-4a36-a69d-159171bfb36b")
 		(sheetname "/AFE Ch#3 (hi-voltage)/")
-		(sheetfile "AFE_Ch#3_(hi-voltage).kicad_sch")
+		(sheetfile "AFE_Ch3_(hi-voltage).kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -4683,7 +4678,7 @@
 		)
 		(path "/e97c32bf-f406-4294-8a3d-45b0aae2e3e8/fdd494c1-c02c-4e45-b108-f093ba431076")
 		(sheetname "/Isolated Ch#1, Ch#2/")
-		(sheetfile "Isolated_Ch#1,_Ch#2.kicad_sch")
+		(sheetfile "Isolated_Ch1_Ch2.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -5731,9 +5726,61 @@
 				)
 			)
 		)
+		(property "DigiKey" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7cfa5962-e936-498b-9246-8d96a1663684")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c941f6ef-a1fb-457f-af2d-c380a269ba30")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TME" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fe02884b-a921-4846-972c-642a73cc7bce")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "308ef1b4-7155-4a21-8f2c-6e59fa65dce1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/e97c32bf-f406-4294-8a3d-45b0aae2e3e8/c733975e-00cf-4c65-bfc1-093b1eb766f7")
 		(sheetname "/Isolated Ch#1, Ch#2/")
-		(sheetfile "Isolated_Ch#1,_Ch#2.kicad_sch")
+		(sheetfile "Isolated_Ch1_Ch2.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -5889,7 +5936,7 @@
 		)
 		(path "/e97c32bf-f406-4294-8a3d-45b0aae2e3e8/bcae8973-5a7e-47c6-a8e0-286dac8fa871")
 		(sheetname "/Isolated Ch#1, Ch#2/")
-		(sheetfile "Isolated_Ch#1,_Ch#2.kicad_sch")
+		(sheetfile "Isolated_Ch1_Ch2.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -6617,7 +6664,7 @@
 		)
 		(path "/50163daa-9396-4aa9-ac6d-00f765a20bd3/01e0d935-c2ac-4a41-887e-70fce93de84a")
 		(sheetname "/AFE Ch#3 (hi-voltage)/")
-		(sheetfile "AFE_Ch#3_(hi-voltage).kicad_sch")
+		(sheetfile "AFE_Ch3_(hi-voltage).kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -6890,7 +6937,7 @@
 		)
 		(path "/e97c32bf-f406-4294-8a3d-45b0aae2e3e8/c472fed6-8e36-49e1-8dfc-08754aa4065c")
 		(sheetname "/Isolated Ch#1, Ch#2/")
-		(sheetfile "Isolated_Ch#1,_Ch#2.kicad_sch")
+		(sheetfile "Isolated_Ch1_Ch2.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -7618,7 +7665,7 @@
 		)
 		(path "/e97c32bf-f406-4294-8a3d-45b0aae2e3e8/63402d0e-a158-4685-9b23-8886e902cd6f")
 		(sheetname "/Isolated Ch#1, Ch#2/")
-		(sheetfile "Isolated_Ch#1,_Ch#2.kicad_sch")
+		(sheetfile "Isolated_Ch1_Ch2.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -8095,7 +8142,7 @@
 		)
 		(path "/e97c32bf-f406-4294-8a3d-45b0aae2e3e8/abae0112-1985-454c-aec4-a9188b520a90")
 		(sheetname "/Isolated Ch#1, Ch#2/")
-		(sheetfile "Isolated_Ch#1,_Ch#2.kicad_sch")
+		(sheetfile "Isolated_Ch1_Ch2.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -9230,7 +9277,7 @@
 		)
 		(path "/50163daa-9396-4aa9-ac6d-00f765a20bd3/9e7bfff2-2c4d-41b2-a84b-1dfd89c48510")
 		(sheetname "/AFE Ch#3 (hi-voltage)/")
-		(sheetfile "AFE_Ch#3_(hi-voltage).kicad_sch")
+		(sheetfile "AFE_Ch3_(hi-voltage).kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -9502,7 +9549,7 @@
 		)
 		(path "/13785374-ffa8-4fff-86e4-702f1a3b8cf6/cda0ee3a-fcaa-494e-9b30-8a09dd346a81")
 		(sheetname "/AFE Ch#4 (Hi-current)/")
-		(sheetfile "AFE_Ch#4_(Hi-current).kicad_sch")
+		(sheetfile "AFE_Ch4_(Hi-current).kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -10191,7 +10238,7 @@
 		)
 		(path "/e97c32bf-f406-4294-8a3d-45b0aae2e3e8/a87d3449-2906-4e9d-affd-7dfc8f7d97b0")
 		(sheetname "/Isolated Ch#1, Ch#2/")
-		(sheetfile "Isolated_Ch#1,_Ch#2.kicad_sch")
+		(sheetfile "Isolated_Ch1_Ch2.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -11563,7 +11610,7 @@
 		)
 		(path "/50163daa-9396-4aa9-ac6d-00f765a20bd3/e87b9747-fdad-4767-bff8-1e3c66c2c7d3")
 		(sheetname "/AFE Ch#3 (hi-voltage)/")
-		(sheetfile "AFE_Ch#3_(hi-voltage).kicad_sch")
+		(sheetfile "AFE_Ch3_(hi-voltage).kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -11838,7 +11885,7 @@
 		)
 		(path "/e97c32bf-f406-4294-8a3d-45b0aae2e3e8/d0351246-5bc3-4a7e-975c-281e3a3215da")
 		(sheetname "/Isolated Ch#1, Ch#2/")
-		(sheetfile "Isolated_Ch#1,_Ch#2.kicad_sch")
+		(sheetfile "Isolated_Ch1_Ch2.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -12113,7 +12160,7 @@
 		)
 		(path "/50163daa-9396-4aa9-ac6d-00f765a20bd3/291a5fe4-2a4d-49df-8b39-951ad7feb81c")
 		(sheetname "/AFE Ch#3 (hi-voltage)/")
-		(sheetfile "AFE_Ch#3_(hi-voltage).kicad_sch")
+		(sheetfile "AFE_Ch3_(hi-voltage).kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -12374,7 +12421,7 @@
 		)
 		(path "/50163daa-9396-4aa9-ac6d-00f765a20bd3/3a0d4257-8dce-4407-a0e8-fb71591ab2cd")
 		(sheetname "/AFE Ch#3 (hi-voltage)/")
-		(sheetfile "AFE_Ch#3_(hi-voltage).kicad_sch")
+		(sheetfile "AFE_Ch3_(hi-voltage).kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -13043,7 +13090,7 @@
 		)
 		(path "/50163daa-9396-4aa9-ac6d-00f765a20bd3/599d37d9-d230-4e9c-9e22-2e3b213f2afd")
 		(sheetname "/AFE Ch#3 (hi-voltage)/")
-		(sheetfile "AFE_Ch#3_(hi-voltage).kicad_sch")
+		(sheetfile "AFE_Ch3_(hi-voltage).kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -13318,7 +13365,7 @@
 		)
 		(path "/50163daa-9396-4aa9-ac6d-00f765a20bd3/6abafea3-d1d3-4b5c-ae7b-2bc0188351ba")
 		(sheetname "/AFE Ch#3 (hi-voltage)/")
-		(sheetfile "AFE_Ch#3_(hi-voltage).kicad_sch")
+		(sheetfile "AFE_Ch3_(hi-voltage).kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -13591,7 +13638,7 @@
 		)
 		(path "/13785374-ffa8-4fff-86e4-702f1a3b8cf6/ccc8b3c0-2d84-4f66-9b57-501f19f28343")
 		(sheetname "/AFE Ch#4 (Hi-current)/")
-		(sheetfile "AFE_Ch#4_(Hi-current).kicad_sch")
+		(sheetfile "AFE_Ch4_(Hi-current).kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -13861,7 +13908,7 @@
 		)
 		(path "/e97c32bf-f406-4294-8a3d-45b0aae2e3e8/98f42042-10e5-48f7-a139-2f0c26c92745")
 		(sheetname "/Isolated Ch#1, Ch#2/")
-		(sheetfile "Isolated_Ch#1,_Ch#2.kicad_sch")
+		(sheetfile "Isolated_Ch1_Ch2.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -14445,7 +14492,7 @@
 		)
 		(path "/50163daa-9396-4aa9-ac6d-00f765a20bd3/ceae3a2d-0f00-45a0-a746-6818da68ca74")
 		(sheetname "/AFE Ch#3 (hi-voltage)/")
-		(sheetfile "AFE_Ch#3_(hi-voltage).kicad_sch")
+		(sheetfile "AFE_Ch3_(hi-voltage).kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -15622,7 +15669,7 @@
 		)
 		(path "/13785374-ffa8-4fff-86e4-702f1a3b8cf6/2226d235-0090-4563-815b-075b22139c74")
 		(sheetname "/AFE Ch#4 (Hi-current)/")
-		(sheetfile "AFE_Ch#4_(Hi-current).kicad_sch")
+		(sheetfile "AFE_Ch4_(Hi-current).kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -15978,7 +16025,7 @@
 		)
 		(path "/13785374-ffa8-4fff-86e4-702f1a3b8cf6/dec21e50-0a1a-4225-bf98-b6140a5092bc")
 		(sheetname "/AFE Ch#4 (Hi-current)/")
-		(sheetfile "AFE_Ch#4_(Hi-current).kicad_sch")
+		(sheetfile "AFE_Ch4_(Hi-current).kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -16247,7 +16294,7 @@
 		)
 		(path "/50163daa-9396-4aa9-ac6d-00f765a20bd3/ae5e2f5c-8be3-4ea8-9795-996e959c6083")
 		(sheetname "/AFE Ch#3 (hi-voltage)/")
-		(sheetfile "AFE_Ch#3_(hi-voltage).kicad_sch")
+		(sheetfile "AFE_Ch3_(hi-voltage).kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -16522,7 +16569,7 @@
 		)
 		(path "/50163daa-9396-4aa9-ac6d-00f765a20bd3/be68f082-cdb1-4058-b6b5-32a7bb630323")
 		(sheetname "/AFE Ch#3 (hi-voltage)/")
-		(sheetfile "AFE_Ch#3_(hi-voltage).kicad_sch")
+		(sheetfile "AFE_Ch3_(hi-voltage).kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -17064,7 +17111,7 @@
 		)
 		(path "/e97c32bf-f406-4294-8a3d-45b0aae2e3e8/730ece96-29f5-4b1d-9132-01c8d2861f2f")
 		(sheetname "/Isolated Ch#1, Ch#2/")
-		(sheetfile "Isolated_Ch#1,_Ch#2.kicad_sch")
+		(sheetfile "Isolated_Ch1_Ch2.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -17286,7 +17333,7 @@
 		)
 		(path "/13785374-ffa8-4fff-86e4-702f1a3b8cf6/cc4e88e3-51c8-47ce-89e9-7b350acbda7b")
 		(sheetname "/AFE Ch#4 (Hi-current)/")
-		(sheetfile "AFE_Ch#4_(Hi-current).kicad_sch")
+		(sheetfile "AFE_Ch4_(Hi-current).kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -17442,7 +17489,7 @@
 		)
 		(path "/50163daa-9396-4aa9-ac6d-00f765a20bd3/54a5e707-82a9-4102-a1d5-7418254b2d62")
 		(sheetname "/AFE Ch#3 (hi-voltage)/")
-		(sheetfile "AFE_Ch#3_(hi-voltage).kicad_sch")
+		(sheetfile "AFE_Ch3_(hi-voltage).kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -17664,7 +17711,7 @@
 		)
 		(path "/13785374-ffa8-4fff-86e4-702f1a3b8cf6/adcb861f-47f7-464a-83cf-ea13cbe9397b")
 		(sheetname "/AFE Ch#4 (Hi-current)/")
-		(sheetfile "AFE_Ch#4_(Hi-current).kicad_sch")
+		(sheetfile "AFE_Ch4_(Hi-current).kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -17816,7 +17863,7 @@
 		)
 		(path "/13785374-ffa8-4fff-86e4-702f1a3b8cf6/3fda7a35-c350-4ff1-9c04-5d25601b95db")
 		(sheetname "/AFE Ch#4 (Hi-current)/")
-		(sheetfile "AFE_Ch#4_(Hi-current).kicad_sch")
+		(sheetfile "AFE_Ch4_(Hi-current).kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -18444,7 +18491,7 @@
 		)
 		(path "/e97c32bf-f406-4294-8a3d-45b0aae2e3e8/c0128967-d490-45b1-baf3-4626e1ad84ee")
 		(sheetname "/Isolated Ch#1, Ch#2/")
-		(sheetfile "Isolated_Ch#1,_Ch#2.kicad_sch")
+		(sheetfile "Isolated_Ch1_Ch2.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -18715,7 +18762,7 @@
 		)
 		(path "/e97c32bf-f406-4294-8a3d-45b0aae2e3e8/76b80c1f-9b42-450b-9083-4a018dc16d45")
 		(sheetname "/Isolated Ch#1, Ch#2/")
-		(sheetfile "Isolated_Ch#1,_Ch#2.kicad_sch")
+		(sheetfile "Isolated_Ch1_Ch2.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -18990,7 +19037,7 @@
 		)
 		(path "/50163daa-9396-4aa9-ac6d-00f765a20bd3/f1e3890e-be24-4b99-93b3-8b8fff465f4f")
 		(sheetname "/AFE Ch#3 (hi-voltage)/")
-		(sheetfile "AFE_Ch#3_(hi-voltage).kicad_sch")
+		(sheetfile "AFE_Ch3_(hi-voltage).kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -20385,7 +20432,7 @@
 		)
 		(path "/50163daa-9396-4aa9-ac6d-00f765a20bd3/94940209-8663-411e-a45d-3311075d0ce7")
 		(sheetname "/AFE Ch#3 (hi-voltage)/")
-		(sheetfile "AFE_Ch#3_(hi-voltage).kicad_sch")
+		(sheetfile "AFE_Ch3_(hi-voltage).kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -21204,7 +21251,7 @@
 		)
 		(path "/e97c32bf-f406-4294-8a3d-45b0aae2e3e8/d4fcdc31-8556-44ec-bb64-3cd808d7ca3b")
 		(sheetname "/Isolated Ch#1, Ch#2/")
-		(sheetfile "Isolated_Ch#1,_Ch#2.kicad_sch")
+		(sheetfile "Isolated_Ch1_Ch2.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -21806,7 +21853,7 @@
 		)
 		(path "/13785374-ffa8-4fff-86e4-702f1a3b8cf6/76d37dd2-d3bb-4351-8076-9a7f31e73b57")
 		(sheetname "/AFE Ch#4 (Hi-current)/")
-		(sheetfile "AFE_Ch#4_(Hi-current).kicad_sch")
+		(sheetfile "AFE_Ch4_(Hi-current).kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -22079,7 +22126,7 @@
 		)
 		(path "/e97c32bf-f406-4294-8a3d-45b0aae2e3e8/0c31a55c-abfa-48ef-a5a1-3763f25dbca7")
 		(sheetname "/Isolated Ch#1, Ch#2/")
-		(sheetfile "Isolated_Ch#1,_Ch#2.kicad_sch")
+		(sheetfile "Isolated_Ch1_Ch2.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -22354,14 +22401,14 @@
 		)
 		(path "/e97c32bf-f406-4294-8a3d-45b0aae2e3e8/0ca85c95-e474-4705-80de-4dd2f9bf3fb6")
 		(sheetname "/Isolated Ch#1, Ch#2/")
-		(sheetfile "Isolated_Ch#1,_Ch#2.kicad_sch")
+		(sheetfile "Isolated_Ch1_Ch2.kicad_sch")
 		(units
 			(unit
 				(name "A")
 				(pins "2" "1")
 			)
 		)
-		(attr smd dnp)
+		(attr smd exclude_from_pos_files exclude_from_bom dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.237258 0.5225)
@@ -22627,7 +22674,7 @@
 		)
 		(path "/13785374-ffa8-4fff-86e4-702f1a3b8cf6/fa1cea85-c78d-453b-aaf5-fa84ee688e63")
 		(sheetname "/AFE Ch#4 (Hi-current)/")
-		(sheetfile "AFE_Ch#4_(Hi-current).kicad_sch")
+		(sheetfile "AFE_Ch4_(Hi-current).kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -22898,7 +22945,7 @@
 		)
 		(path "/13785374-ffa8-4fff-86e4-702f1a3b8cf6/f0a2505e-6d92-4027-b115-41a4cce7145e")
 		(sheetname "/AFE Ch#4 (Hi-current)/")
-		(sheetfile "AFE_Ch#4_(Hi-current).kicad_sch")
+		(sheetfile "AFE_Ch4_(Hi-current).kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -23522,7 +23569,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "36-3561-ND"
+		(property "DigiKey" "36-3561KCT-ND"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23535,7 +23582,7 @@
 				)
 			)
 		)
-		(property "Mouser" "534-3561"
+		(property "Mouser" "534-3561KTR "
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23548,7 +23595,7 @@
 				)
 			)
 		)
-		(property "TME" "KEYS3561"
+		(property "TME" "-"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23561,7 +23608,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C3205274"
+		(property "LCSC" "C3205939"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23576,7 +23623,7 @@
 		)
 		(path "/13785374-ffa8-4fff-86e4-702f1a3b8cf6/c117fc45-b43e-49d5-b64f-844227b5476e")
 		(sheetname "/AFE Ch#4 (Hi-current)/")
-		(sheetfile "AFE_Ch#4_(Hi-current).kicad_sch")
+		(sheetfile "AFE_Ch4_(Hi-current).kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -23804,7 +23851,7 @@
 		)
 		(path "/13785374-ffa8-4fff-86e4-702f1a3b8cf6/66ee7311-8104-449d-b371-a8e36417cd2b")
 		(sheetname "/AFE Ch#4 (Hi-current)/")
-		(sheetfile "AFE_Ch#4_(Hi-current).kicad_sch")
+		(sheetfile "AFE_Ch4_(Hi-current).kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -24174,7 +24221,7 @@
 		)
 		(path "/e97c32bf-f406-4294-8a3d-45b0aae2e3e8/a44aa2be-01f0-4606-9a0b-3a2f962f4b19")
 		(sheetname "/Isolated Ch#1, Ch#2/")
-		(sheetfile "Isolated_Ch#1,_Ch#2.kicad_sch")
+		(sheetfile "Isolated_Ch1_Ch2.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -24449,7 +24496,7 @@
 		)
 		(path "/50163daa-9396-4aa9-ac6d-00f765a20bd3/9506e79f-e86b-4208-b448-b1352f879c81")
 		(sheetname "/AFE Ch#3 (hi-voltage)/")
-		(sheetfile "AFE_Ch#3_(hi-voltage).kicad_sch")
+		(sheetfile "AFE_Ch3_(hi-voltage).kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -24708,7 +24755,7 @@
 		)
 		(path "/e97c32bf-f406-4294-8a3d-45b0aae2e3e8/11bbe042-85dd-40a7-a6e9-7dc47f810ded")
 		(sheetname "/Isolated Ch#1, Ch#2/")
-		(sheetfile "Isolated_Ch#1,_Ch#2.kicad_sch")
+		(sheetfile "Isolated_Ch1_Ch2.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -26219,7 +26266,7 @@
 		)
 		(path "/50163daa-9396-4aa9-ac6d-00f765a20bd3/ebe2b594-28c6-4bf8-93f3-59318ee29a47")
 		(sheetname "/AFE Ch#3 (hi-voltage)/")
-		(sheetfile "AFE_Ch#3_(hi-voltage).kicad_sch")
+		(sheetfile "AFE_Ch3_(hi-voltage).kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -26494,7 +26541,7 @@
 		)
 		(path "/e97c32bf-f406-4294-8a3d-45b0aae2e3e8/bdb47181-027b-4625-af13-0a8f3ad38cd3")
 		(sheetname "/Isolated Ch#1, Ch#2/")
-		(sheetfile "Isolated_Ch#1,_Ch#2.kicad_sch")
+		(sheetfile "Isolated_Ch1_Ch2.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -26768,7 +26815,7 @@
 		)
 		(path "/e97c32bf-f406-4294-8a3d-45b0aae2e3e8/07453924-4fc6-4311-81a1-95b12848f4be")
 		(sheetname "/Isolated Ch#1, Ch#2/")
-		(sheetfile "Isolated_Ch#1,_Ch#2.kicad_sch")
+		(sheetfile "Isolated_Ch1_Ch2.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -26920,7 +26967,7 @@
 		)
 		(path "/13785374-ffa8-4fff-86e4-702f1a3b8cf6/342b8521-1592-4c3c-80be-f2ed3006c7ad")
 		(sheetname "/AFE Ch#4 (Hi-current)/")
-		(sheetfile "AFE_Ch#4_(Hi-current).kicad_sch")
+		(sheetfile "AFE_Ch4_(Hi-current).kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -28021,7 +28068,7 @@
 				(pins "2" "1")
 			)
 		)
-		(attr smd dnp)
+		(attr smd exclude_from_pos_files exclude_from_bom dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.237258 0.5225)
@@ -28234,9 +28281,61 @@
 				)
 			)
 		)
+		(property "DigiKey" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d29ac55a-4661-4aee-b26f-48418eda4a55")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e64f93e2-8803-435f-be32-7a9678d01a81")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TME" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eff10f30-599d-49f7-8c76-abeb3afd24ef")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "55c93bf2-d4cf-4eea-95f6-8ad624dd7a5f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/e97c32bf-f406-4294-8a3d-45b0aae2e3e8/693007e7-8461-4779-b2aa-be4ccbb6e811")
 		(sheetname "/Isolated Ch#1, Ch#2/")
-		(sheetfile "Isolated_Ch#1,_Ch#2.kicad_sch")
+		(sheetfile "Isolated_Ch1_Ch2.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -29192,7 +29291,7 @@
 		)
 		(path "/13785374-ffa8-4fff-86e4-702f1a3b8cf6/47be050a-8393-4096-98a4-8d38196700de")
 		(sheetname "/AFE Ch#4 (Hi-current)/")
-		(sheetfile "AFE_Ch#4_(Hi-current).kicad_sch")
+		(sheetfile "AFE_Ch4_(Hi-current).kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -29345,7 +29444,7 @@
 		)
 		(path "/e97c32bf-f406-4294-8a3d-45b0aae2e3e8/e5694923-f6a3-4900-b46c-73d5ce6b42a1")
 		(sheetname "/Isolated Ch#1, Ch#2/")
-		(sheetfile "Isolated_Ch#1,_Ch#2.kicad_sch")
+		(sheetfile "Isolated_Ch1_Ch2.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -29713,7 +29812,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "36-3561-ND"
+		(property "DigiKey" "36-3561KCT-ND"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -29726,7 +29825,7 @@
 				)
 			)
 		)
-		(property "Mouser" "534-3561"
+		(property "Mouser" "534-3561KTR "
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -29739,7 +29838,7 @@
 				)
 			)
 		)
-		(property "TME" "KEYS3561"
+		(property "TME" "-"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -29752,7 +29851,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C3205274"
+		(property "LCSC" "C3205939"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -29767,7 +29866,7 @@
 		)
 		(path "/e97c32bf-f406-4294-8a3d-45b0aae2e3e8/016717b9-9652-47f8-b9ad-c01b9b872697")
 		(sheetname "/Isolated Ch#1, Ch#2/")
-		(sheetfile "Isolated_Ch#1,_Ch#2.kicad_sch")
+		(sheetfile "Isolated_Ch1_Ch2.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -29996,7 +30095,7 @@
 		)
 		(path "/13785374-ffa8-4fff-86e4-702f1a3b8cf6/36a31771-838f-45ad-9301-6ae25b5acb4d")
 		(sheetname "/AFE Ch#4 (Hi-current)/")
-		(sheetfile "AFE_Ch#4_(Hi-current).kicad_sch")
+		(sheetfile "AFE_Ch4_(Hi-current).kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -30688,7 +30787,7 @@
 		)
 		(path "/50163daa-9396-4aa9-ac6d-00f765a20bd3/fe138051-ed8a-4ed5-85c5-e02d9f38383a")
 		(sheetname "/AFE Ch#3 (hi-voltage)/")
-		(sheetfile "AFE_Ch#3_(hi-voltage).kicad_sch")
+		(sheetfile "AFE_Ch3_(hi-voltage).kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -32246,14 +32345,14 @@
 		)
 		(path "/e97c32bf-f406-4294-8a3d-45b0aae2e3e8/fa7db40e-3d30-4786-9e35-fa7e641b194c")
 		(sheetname "/Isolated Ch#1, Ch#2/")
-		(sheetfile "Isolated_Ch#1,_Ch#2.kicad_sch")
+		(sheetfile "Isolated_Ch1_Ch2.kicad_sch")
 		(units
 			(unit
 				(name "A")
 				(pins "2" "1")
 			)
 		)
-		(attr smd dnp)
+		(attr smd exclude_from_pos_files exclude_from_bom dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.237258 0.5225)
@@ -32511,7 +32610,7 @@
 		)
 		(path "/13785374-ffa8-4fff-86e4-702f1a3b8cf6/bfcf0ab7-8b55-469f-8f73-9fe35adb21b7")
 		(sheetname "/AFE Ch#4 (Hi-current)/")
-		(sheetfile "AFE_Ch#4_(Hi-current).kicad_sch")
+		(sheetfile "AFE_Ch4_(Hi-current).kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -32967,7 +33066,7 @@
 		)
 		(path "/50163daa-9396-4aa9-ac6d-00f765a20bd3/82adc5f4-508c-4352-a65f-2406ed67cf8e")
 		(sheetname "/AFE Ch#3 (hi-voltage)/")
-		(sheetfile "AFE_Ch#3_(hi-voltage).kicad_sch")
+		(sheetfile "AFE_Ch3_(hi-voltage).kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -33509,7 +33608,7 @@
 		)
 		(path "/13785374-ffa8-4fff-86e4-702f1a3b8cf6/d4b2d7b8-270c-4ef1-9a9c-d53a0bd46ec4")
 		(sheetname "/AFE Ch#4 (Hi-current)/")
-		(sheetfile "AFE_Ch#4_(Hi-current).kicad_sch")
+		(sheetfile "AFE_Ch4_(Hi-current).kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -34005,7 +34104,7 @@
 				(pins "2" "1")
 			)
 		)
-		(attr smd exclude_from_bom dnp)
+		(attr smd exclude_from_pos_files exclude_from_bom dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.237258 -0.5225)
@@ -34269,7 +34368,7 @@
 		)
 		(path "/50163daa-9396-4aa9-ac6d-00f765a20bd3/59b1967f-105b-4044-9ed1-47fd3d1eafa4")
 		(sheetname "/AFE Ch#3 (hi-voltage)/")
-		(sheetfile "AFE_Ch#3_(hi-voltage).kicad_sch")
+		(sheetfile "AFE_Ch3_(hi-voltage).kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -34639,7 +34738,7 @@
 		)
 		(path "/50163daa-9396-4aa9-ac6d-00f765a20bd3/ecb52da1-399e-4c5e-af5f-ca998493a72b")
 		(sheetname "/AFE Ch#3 (hi-voltage)/")
-		(sheetfile "AFE_Ch#3_(hi-voltage).kicad_sch")
+		(sheetfile "AFE_Ch3_(hi-voltage).kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -36500,7 +36599,7 @@
 		)
 		(path "/e97c32bf-f406-4294-8a3d-45b0aae2e3e8/dc0bb3d2-8af8-45a4-abb2-c2655fc0180f")
 		(sheetname "/Isolated Ch#1, Ch#2/")
-		(sheetfile "Isolated_Ch#1,_Ch#2.kicad_sch")
+		(sheetfile "Isolated_Ch1_Ch2.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -36721,7 +36820,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "36-3561-ND"
+		(property "DigiKey" "36-3561KCT-ND"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -36734,7 +36833,7 @@
 				)
 			)
 		)
-		(property "Mouser" "534-3561"
+		(property "Mouser" "534-3561KTR "
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -36747,7 +36846,7 @@
 				)
 			)
 		)
-		(property "TME" "KEYS3561"
+		(property "TME" "-"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -36760,7 +36859,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C3205274"
+		(property "LCSC" "C3205939"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -36775,7 +36874,7 @@
 		)
 		(path "/e97c32bf-f406-4294-8a3d-45b0aae2e3e8/5f9ec69a-3d98-4823-90f5-9d9ba351b9a8")
 		(sheetname "/Isolated Ch#1, Ch#2/")
-		(sheetfile "Isolated_Ch#1,_Ch#2.kicad_sch")
+		(sheetfile "Isolated_Ch1_Ch2.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -37007,7 +37106,7 @@
 		)
 		(path "/e97c32bf-f406-4294-8a3d-45b0aae2e3e8/ec890a1f-87dc-4fde-af8b-1799f32ff552")
 		(sheetname "/Isolated Ch#1, Ch#2/")
-		(sheetfile "Isolated_Ch#1,_Ch#2.kicad_sch")
+		(sheetfile "Isolated_Ch1_Ch2.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -37283,7 +37382,7 @@
 		)
 		(path "/13785374-ffa8-4fff-86e4-702f1a3b8cf6/52f7aa3e-0cc3-4137-bed4-559c2c0096e7")
 		(sheetname "/AFE Ch#4 (Hi-current)/")
-		(sheetfile "AFE_Ch#4_(Hi-current).kicad_sch")
+		(sheetfile "AFE_Ch4_(Hi-current).kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -37707,7 +37806,7 @@
 		)
 		(path "/13785374-ffa8-4fff-86e4-702f1a3b8cf6/e4424cb5-48a0-4a36-a959-ea880b8d8b7b")
 		(sheetname "/AFE Ch#4 (Hi-current)/")
-		(sheetfile "AFE_Ch#4_(Hi-current).kicad_sch")
+		(sheetfile "AFE_Ch4_(Hi-current).kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -38814,7 +38913,7 @@
 		)
 		(path "/e97c32bf-f406-4294-8a3d-45b0aae2e3e8/8affde9f-06ef-4902-a231-5bd03b819219")
 		(sheetname "/Isolated Ch#1, Ch#2/")
-		(sheetfile "Isolated_Ch#1,_Ch#2.kicad_sch")
+		(sheetfile "Isolated_Ch1_Ch2.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -39482,7 +39581,7 @@
 		)
 		(path "/e97c32bf-f406-4294-8a3d-45b0aae2e3e8/09828c89-6252-46bb-92f4-a7e465208eda")
 		(sheetname "/Isolated Ch#1, Ch#2/")
-		(sheetfile "Isolated_Ch#1,_Ch#2.kicad_sch")
+		(sheetfile "Isolated_Ch1_Ch2.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -39749,7 +39848,7 @@
 		)
 		(path "/50163daa-9396-4aa9-ac6d-00f765a20bd3/b0956eee-7994-4523-8326-f5cf4290026b")
 		(sheetname "/AFE Ch#3 (hi-voltage)/")
-		(sheetfile "AFE_Ch#3_(hi-voltage).kicad_sch")
+		(sheetfile "AFE_Ch3_(hi-voltage).kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -40762,7 +40861,7 @@
 		)
 		(path "/e97c32bf-f406-4294-8a3d-45b0aae2e3e8/d8ac1b7e-41ca-4189-8feb-d5961a73f4ec")
 		(sheetname "/Isolated Ch#1, Ch#2/")
-		(sheetfile "Isolated_Ch#1,_Ch#2.kicad_sch")
+		(sheetfile "Isolated_Ch1_Ch2.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -41312,7 +41411,7 @@
 		)
 		(path "/13785374-ffa8-4fff-86e4-702f1a3b8cf6/09f7775d-3f2f-4b8b-8cfe-17636007eced")
 		(sheetname "/AFE Ch#4 (Hi-current)/")
-		(sheetfile "AFE_Ch#4_(Hi-current).kicad_sch")
+		(sheetfile "AFE_Ch4_(Hi-current).kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -45218,9 +45317,61 @@
 				)
 			)
 		)
+		(property "DigiKey" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "87d61d68-bfe7-4f1b-b994-97ebd262d00c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bdc89718-323a-461a-88a9-dbeb8b8dff17")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TME" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "38401a83-b487-4a6d-99ae-593f2bfa2263")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "094546e8-044f-4866-8a94-67770ad164bd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/e97c32bf-f406-4294-8a3d-45b0aae2e3e8/4edec6ac-8b37-4445-8a4d-1b7bcfca3093")
 		(sheetname "/Isolated Ch#1, Ch#2/")
-		(sheetfile "Isolated_Ch#1,_Ch#2.kicad_sch")
+		(sheetfile "Isolated_Ch1_Ch2.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -45918,7 +46069,7 @@
 		)
 		(path "/e97c32bf-f406-4294-8a3d-45b0aae2e3e8/a1dee138-a449-4364-96b4-43886062c70a")
 		(sheetname "/Isolated Ch#1, Ch#2/")
-		(sheetfile "Isolated_Ch#1,_Ch#2.kicad_sch")
+		(sheetfile "Isolated_Ch1_Ch2.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -46189,7 +46340,7 @@
 		)
 		(path "/e97c32bf-f406-4294-8a3d-45b0aae2e3e8/f6c79238-e3a4-4583-a870-2c8bc562a104")
 		(sheetname "/Isolated Ch#1, Ch#2/")
-		(sheetfile "Isolated_Ch#1,_Ch#2.kicad_sch")
+		(sheetfile "Isolated_Ch1_Ch2.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -46409,7 +46560,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "36-3561-ND"
+		(property "DigiKey" "36-3561KCT-ND"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -46422,7 +46573,7 @@
 				)
 			)
 		)
-		(property "Mouser" "534-3561"
+		(property "Mouser" "534-3561KTR "
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -46435,7 +46586,7 @@
 				)
 			)
 		)
-		(property "TME" "KEYS3561"
+		(property "TME" "-"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -46448,7 +46599,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C3205274"
+		(property "LCSC" "C3205939"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -46463,7 +46614,7 @@
 		)
 		(path "/13785374-ffa8-4fff-86e4-702f1a3b8cf6/28bf83f0-5008-4602-a1cb-316cf645425c")
 		(sheetname "/AFE Ch#4 (Hi-current)/")
-		(sheetfile "AFE_Ch#4_(Hi-current).kicad_sch")
+		(sheetfile "AFE_Ch4_(Hi-current).kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -46956,7 +47107,7 @@
 		)
 		(path "/13785374-ffa8-4fff-86e4-702f1a3b8cf6/55a9235d-52dc-44e0-8c05-e44cc28b7021")
 		(sheetname "/AFE Ch#4 (Hi-current)/")
-		(sheetfile "AFE_Ch#4_(Hi-current).kicad_sch")
+		(sheetfile "AFE_Ch4_(Hi-current).kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -47687,7 +47838,7 @@
 		)
 		(path "/13785374-ffa8-4fff-86e4-702f1a3b8cf6/e50b3f65-e07f-4801-9718-9e0e0a31e5f8")
 		(sheetname "/AFE Ch#4 (Hi-current)/")
-		(sheetfile "AFE_Ch#4_(Hi-current).kicad_sch")
+		(sheetfile "AFE_Ch4_(Hi-current).kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -48864,7 +49015,7 @@
 		)
 		(path "/50163daa-9396-4aa9-ac6d-00f765a20bd3/3f19d54f-6283-4c74-b5e9-127aaf2597ea")
 		(sheetname "/AFE Ch#3 (hi-voltage)/")
-		(sheetfile "AFE_Ch#3_(hi-voltage).kicad_sch")
+		(sheetfile "AFE_Ch3_(hi-voltage).kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -49137,7 +49288,7 @@
 		)
 		(path "/e97c32bf-f406-4294-8a3d-45b0aae2e3e8/65c1830e-7fa7-4a08-baf4-4e0c24dd1901")
 		(sheetname "/Isolated Ch#1, Ch#2/")
-		(sheetfile "Isolated_Ch#1,_Ch#2.kicad_sch")
+		(sheetfile "Isolated_Ch1_Ch2.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -49409,7 +49560,7 @@
 		)
 		(path "/13785374-ffa8-4fff-86e4-702f1a3b8cf6/99e850a2-f91e-4c85-9d1e-9602b3d1c4cd")
 		(sheetname "/AFE Ch#4 (Hi-current)/")
-		(sheetfile "AFE_Ch#4_(Hi-current).kicad_sch")
+		(sheetfile "AFE_Ch4_(Hi-current).kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -50270,7 +50421,7 @@
 		(property ki_fp_filters "Inductor_* L_* *Ferrite*")
 		(path "/e97c32bf-f406-4294-8a3d-45b0aae2e3e8/7dc70694-38b8-4b52-9612-7060efd1e014")
 		(sheetname "/Isolated Ch#1, Ch#2/")
-		(sheetfile "Isolated_Ch#1,_Ch#2.kicad_sch")
+		(sheetfile "Isolated_Ch1_Ch2.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -50777,7 +50928,7 @@
 		)
 		(path "/50163daa-9396-4aa9-ac6d-00f765a20bd3/e1e8b513-6d44-4d11-a2c6-8f46608c121c")
 		(sheetname "/AFE Ch#3 (hi-voltage)/")
-		(sheetfile "AFE_Ch#3_(hi-voltage).kicad_sch")
+		(sheetfile "AFE_Ch3_(hi-voltage).kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -51050,7 +51201,7 @@
 		)
 		(path "/e97c32bf-f406-4294-8a3d-45b0aae2e3e8/495fdc93-70d5-407e-b392-f96c1d2bc435")
 		(sheetname "/Isolated Ch#1, Ch#2/")
-		(sheetfile "Isolated_Ch#1,_Ch#2.kicad_sch")
+		(sheetfile "Isolated_Ch1_Ch2.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -51595,7 +51746,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/e97c32bf-f406-4294-8a3d-45b0aae2e3e8/4446eab3-89a2-4dda-9bc9-09b28e61ed7c")
 		(sheetname "/Isolated Ch#1, Ch#2/")
-		(sheetfile "Isolated_Ch#1,_Ch#2.kicad_sch")
+		(sheetfile "Isolated_Ch1_Ch2.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -51893,7 +52044,7 @@
 		)
 		(path "/e97c32bf-f406-4294-8a3d-45b0aae2e3e8/6054b6b5-71c3-4345-a512-e02718db872b")
 		(sheetname "/Isolated Ch#1, Ch#2/")
-		(sheetfile "Isolated_Ch#1,_Ch#2.kicad_sch")
+		(sheetfile "Isolated_Ch1_Ch2.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -53451,7 +53602,7 @@
 		)
 		(path "/e97c32bf-f406-4294-8a3d-45b0aae2e3e8/76d4b377-3207-49e4-bd45-e1d53efa4168")
 		(sheetname "/Isolated Ch#1, Ch#2/")
-		(sheetfile "Isolated_Ch#1,_Ch#2.kicad_sch")
+		(sheetfile "Isolated_Ch1_Ch2.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -54265,7 +54416,7 @@
 		)
 		(path "/50163daa-9396-4aa9-ac6d-00f765a20bd3/1828f79a-7eb1-449c-809c-58aba9db5b6c")
 		(sheetname "/AFE Ch#3 (hi-voltage)/")
-		(sheetfile "AFE_Ch#3_(hi-voltage).kicad_sch")
+		(sheetfile "AFE_Ch3_(hi-voltage).kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -54574,7 +54725,7 @@
 		)
 		(path "/50163daa-9396-4aa9-ac6d-00f765a20bd3/b989486f-6234-4b7b-b354-022bddbe230e")
 		(sheetname "/AFE Ch#3 (hi-voltage)/")
-		(sheetfile "AFE_Ch#3_(hi-voltage).kicad_sch")
+		(sheetfile "AFE_Ch3_(hi-voltage).kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -55215,7 +55366,7 @@
 		)
 		(path "/e97c32bf-f406-4294-8a3d-45b0aae2e3e8/327fddc7-d423-4b77-8624-cbef58622eb0")
 		(sheetname "/Isolated Ch#1, Ch#2/")
-		(sheetfile "Isolated_Ch#1,_Ch#2.kicad_sch")
+		(sheetfile "Isolated_Ch1_Ch2.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -55490,7 +55641,7 @@
 		)
 		(path "/e97c32bf-f406-4294-8a3d-45b0aae2e3e8/2da433f3-4c6f-424b-a2de-140ba0fd45f2")
 		(sheetname "/Isolated Ch#1, Ch#2/")
-		(sheetfile "Isolated_Ch#1,_Ch#2.kicad_sch")
+		(sheetfile "Isolated_Ch1_Ch2.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -55765,7 +55916,7 @@
 		)
 		(path "/e97c32bf-f406-4294-8a3d-45b0aae2e3e8/5faa8905-1128-4ea1-93fe-06ed7b0cab1f")
 		(sheetname "/Isolated Ch#1, Ch#2/")
-		(sheetfile "Isolated_Ch#1,_Ch#2.kicad_sch")
+		(sheetfile "Isolated_Ch1_Ch2.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -56315,7 +56466,7 @@
 		)
 		(path "/50163daa-9396-4aa9-ac6d-00f765a20bd3/905356e3-0d56-4ee5-8477-86fb15acef5e")
 		(sheetname "/AFE Ch#3 (hi-voltage)/")
-		(sheetfile "AFE_Ch#3_(hi-voltage).kicad_sch")
+		(sheetfile "AFE_Ch3_(hi-voltage).kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -56586,7 +56737,7 @@
 		)
 		(path "/e97c32bf-f406-4294-8a3d-45b0aae2e3e8/6da88d7d-9532-475f-96f0-be63c8f8adcd")
 		(sheetname "/Isolated Ch#1, Ch#2/")
-		(sheetfile "Isolated_Ch#1,_Ch#2.kicad_sch")
+		(sheetfile "Isolated_Ch1_Ch2.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -56857,7 +57008,7 @@
 		)
 		(path "/e97c32bf-f406-4294-8a3d-45b0aae2e3e8/ad1fe5b3-7bc4-4d76-86b4-0a51a5cc2665")
 		(sheetname "/Isolated Ch#1, Ch#2/")
-		(sheetfile "Isolated_Ch#1,_Ch#2.kicad_sch")
+		(sheetfile "Isolated_Ch1_Ch2.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -57184,7 +57335,7 @@
 		)
 		(path "/e97c32bf-f406-4294-8a3d-45b0aae2e3e8/a7f97b94-1a71-44f3-af7c-376752c5c83f")
 		(sheetname "/Isolated Ch#1, Ch#2/")
-		(sheetfile "Isolated_Ch#1,_Ch#2.kicad_sch")
+		(sheetfile "Isolated_Ch1_Ch2.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -57459,7 +57610,7 @@
 		)
 		(path "/50163daa-9396-4aa9-ac6d-00f765a20bd3/63345a7f-7843-4651-a1ea-cf91b51b68bb")
 		(sheetname "/AFE Ch#3 (hi-voltage)/")
-		(sheetfile "AFE_Ch#3_(hi-voltage).kicad_sch")
+		(sheetfile "AFE_Ch3_(hi-voltage).kicad_sch")
 		(units
 			(unit
 				(name "A")

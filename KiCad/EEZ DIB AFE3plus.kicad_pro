@@ -102,15 +102,15 @@
           ""
         ],
         [
-          "clearance|111671500|123052500|be4e0740-4f80-4cf8-be3d-a0ad14d19f7c|f8689117-1cb8-4efb-b7d9-bff621c30fa6",
+          "clearance|111671500|123052500|f8689117-1cb8-4efb-b7d9-bff621c30fa6|be4e0740-4f80-4cf8-be3d-a0ad14d19f7c",
+          ""
+        ],
+        [
+          "clearance|111671500|123557100|93ae8b70-46e1-4ad8-b5e1-863301d1237b|be4e0740-4f80-4cf8-be3d-a0ad14d19f7c",
           ""
         ],
         [
           "clearance|111671500|123557100|93ae8b70-46e1-4ad8-b5e1-863301d1237b|d0950c2c-57f2-470a-8db9-89d2b0901a7c",
-          ""
-        ],
-        [
-          "clearance|111671500|123557100|be4e0740-4f80-4cf8-be3d-a0ad14d19f7c|93ae8b70-46e1-4ad8-b5e1-863301d1237b",
           ""
         ],
         [
@@ -150,11 +150,11 @@
           ""
         ],
         [
-          "clearance|115682500|128977700|7a376c96-bf86-49d1-a022-db5ab0b52d43|dba1e2ff-1992-46d5-a3c4-7ba16af9922d",
+          "clearance|115682500|129482300|7a376c96-bf86-49d1-a022-db5ab0b52d43|f9182d21-feec-4c2a-aab2-5f0b4b13e738",
           ""
         ],
         [
-          "clearance|116350000|128977700|04ad68ef-af6f-4bb6-acc0-e0e007e6d200|dba1e2ff-1992-46d5-a3c4-7ba16af9922d",
+          "clearance|116340000|129482300|04ad68ef-af6f-4bb6-acc0-e0e007e6d200|f9182d21-feec-4c2a-aab2-5f0b4b13e738",
           ""
         ],
         [
@@ -214,7 +214,7 @@
           ""
         ],
         [
-          "shorting_items|115493500|128977700|b77d99f5-e2a5-4482-9a3a-c2dc363b0a7c|dba1e2ff-1992-46d5-a3c4-7ba16af9922d",
+          "shorting_items|115493500|129482300|b77d99f5-e2a5-4482-9a3a-c2dc363b0a7c|f9182d21-feec-4c2a-aab2-5f0b4b13e738",
           ""
         ],
         [
@@ -433,7 +433,7 @@
   "erc": {
     "erc_exclusions": [
       [
-        "pin_to_pin|1295400|254000|f3ad07b7-f071-4034-a6a6-915edc12e9f2|58906cb3-fa84-44a3-a57a-c1072cd08ace|/324c4880-14dd-4339-a8ef-63d64f49eee3/6bbff170-0b54-43f4-9039-15e1a13ed0de|/324c4880-14dd-4339-a8ef-63d64f49eee3/6bbff170-0b54-43f4-9039-15e1a13ed0de|/324c4880-14dd-4339-a8ef-63d64f49eee3/6bbff170-0b54-43f4-9039-15e1a13ed0de",
+        "pin_to_pin|1295400|254000|f3ad07b7-f071-4034-a6a6-915edc12e9f2|58906cb3-fa84-44a3-a57a-c1072cd08ace|||",
         ""
       ]
     ],
@@ -1871,7 +1871,7 @@
         "uuid": "324c4880-14dd-4339-a8ef-63d64f49eee3"
       }
     ],
-    "used_designators": "L1-5,K1-4,IC1-13,X1-2,OK1-2,IN2P1,IN1N1,IN2N1,TP1-7,JP1-4,R1-48,#P+2,IN1P1,Q1-2,C1-67,D1-10,#SUPPLY1-39,#+2V5_ISO1-5,#+3V3_ISO1-9,#+5V_ISO1-7,#\\-12V_ISO1-3,#\\-2V5_ISO1-7,#\\-5V_ISO1-2,#FLG1-11,LOGO1-8,#+12V_ISO1-3,F1-4,FM1-4",
+    "used_designators": "IN1P1,#P+2,R1-48,JP1-4,TP1-7,IN2N1,IN1N1,IN2P1,OK1-2,X1-2,IC1-13,K1-4,L1-5,Q1-2,C1-67,FM1-4,F1-4,#+12V_ISO1-3,LOGO1-8,#FLG1-11,#\\-5V_ISO1-2,#\\-2V5_ISO1-7,#\\-12V_ISO1-3,#+5V_ISO1-7,#+3V3_ISO1-9,#+2V5_ISO1-5,#SUPPLY1-39,D1-10",
     "variants": []
   },
   "sheets": [

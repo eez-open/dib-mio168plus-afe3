@@ -9,7 +9,7 @@
 	(paper "A4")
 	(title_block
 		(title "${project_name}")
-		(date "2026-08-12")
+		(date "2026-08-25")
 		(rev "${project_version}")
 		(company "${project_creator}")
 		(comment 1 "${project_license}")
@@ -2809,7 +2809,7 @@
 				)
 			)
 		)
-		(property "Value" "9-1462038-9"
+		(property "Value" "IM03DGR"
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -2882,7 +2882,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2154255"
+		(property "LCSC" "C22417769"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9401,7 +9401,7 @@
 				)
 			)
 		)
-		(property "Value" "1462039-4"
+		(property "Value" "IM03GR"
 			(at 0 0 90)
 			(layer "F.SilkS")
 			(hide yes)
@@ -9435,7 +9435,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "PB2037CT-ND"
+		(property "DigiKey" "PB1061CT-ND"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9448,7 +9448,7 @@
 				)
 			)
 		)
-		(property "Mouser" "655-1462039-4"
+		(property "Mouser" "655-IM03GR"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9474,7 +9474,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2154255"
+		(property "LCSC" "C2153100"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -24299,7 +24299,7 @@
 			(size 0.8 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(IC7-VDD)")
+			(net "Net-(IC7-IDLE)")
 			(pinfunction "1_1")
 			(pintype "passive")
 			(uuid "93fb0ba4-1e2b-4edb-9dfd-22653a4bf3a5")
@@ -24966,9 +24966,9 @@
 			(size 1.68 0.41)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.125)
-			(net "unconnected-(IC7-IDLE-Pad11)")
+			(net "Net-(IC7-IDLE)")
 			(pinfunction "IDLE_11")
-			(pintype "input+no_connect")
+			(pintype "input")
 			(solder_mask_margin 0.102)
 			(uuid "52ff05b1-3ed3-491c-b6b9-f5edb3850efe")
 		)
@@ -24999,7 +24999,7 @@
 			(size 1.68 0.41)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.125)
-			(net "Net-(IC7-VDD)")
+			(net "Net-(IC7-IDLE)")
 			(pinfunction "VDD_14")
 			(pintype "power_in")
 			(solder_mask_margin 0.102)
@@ -29244,7 +29244,7 @@
 				)
 			)
 		)
-		(property "Value" "1462039-4"
+		(property "Value" "IM03GR"
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -29278,7 +29278,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "PB2037CT-ND"
+		(property "DigiKey" "PB1061CT-ND"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -29291,7 +29291,7 @@
 				)
 			)
 		)
-		(property "Mouser" "655-1462039-4"
+		(property "Mouser" "655-IM03GR"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -29317,7 +29317,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2154255"
+		(property "LCSC" "C2153100"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -29895,7 +29895,7 @@
 				)
 			)
 		)
-		(property "Value" "9-1462038-9"
+		(property "Value" "IM03DGR"
 			(at 0 0 90)
 			(layer "F.SilkS")
 			(hide yes)
@@ -29968,7 +29968,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2154255"
+		(property "LCSC" "C22417769"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -51175,7 +51175,7 @@
 			(size 0.9 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(IC7-VDD)")
+			(net "Net-(IC7-IDLE)")
 			(pinfunction "1_1")
 			(pintype "passive")
 			(uuid "9ad51751-75de-4e52-8204-c6428ff177db")
@@ -58463,7 +58463,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "125"
+		(gr_text "4921,26"
 			(at 154.5 137.65 0)
 			(layer "Dwgs.User")
 			(uuid "788cce7f-11b4-49d9-a2c8-8383ff11a59c")
@@ -58501,7 +58501,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "45"
+		(gr_text "1771,65"
 			(at 87.65 111.5 90)
 			(layer "Dwgs.User")
 			(uuid "bdd93b72-6e34-4db1-bcf1-57d746d94776")
@@ -68900,19 +68900,43 @@
 		(uuid "4e6cb7c3-973b-4fdf-894d-c1cd1893aefc")
 	)
 	(segment
+		(start 174.435 95.33)
+		(end 175.43 95.33)
+		(width 0.2032)
+		(layer "F.Cu")
+		(net "Net-(IC7-IDLE)")
+		(uuid "231077c2-fc38-4d23-bbdf-d1aacbb4b37b")
+	)
+	(segment
+		(start 176.225 94.535)
+		(end 176.225 93.3)
+		(width 0.2032)
+		(layer "F.Cu")
+		(net "Net-(IC7-IDLE)")
+		(uuid "34856f24-f504-4293-b41c-4742a2d73c38")
+	)
+	(segment
 		(start 176.185 91.82)
 		(end 176.185 93.26)
 		(width 0.3048)
 		(layer "F.Cu")
-		(net "Net-(IC7-VDD)")
+		(net "Net-(IC7-IDLE)")
 		(uuid "45986cbc-fd08-478a-bd20-95d836b74aee")
+	)
+	(segment
+		(start 175.43 95.33)
+		(end 176.225 94.535)
+		(width 0.2032)
+		(layer "F.Cu")
+		(net "Net-(IC7-IDLE)")
+		(uuid "69c25ce2-6d21-48ec-9d2b-698fccc7ef50")
 	)
 	(segment
 		(start 176.145 93.38)
 		(end 176.225 93.3)
 		(width 0.3048)
 		(layer "F.Cu")
-		(net "Net-(IC7-VDD)")
+		(net "Net-(IC7-IDLE)")
 		(uuid "9276c3df-47c6-4f50-96ba-617e53516bbc")
 	)
 	(segment
@@ -68920,7 +68944,7 @@
 		(end 176.225 93.3)
 		(width 0.3048)
 		(layer "F.Cu")
-		(net "Net-(IC7-VDD)")
+		(net "Net-(IC7-IDLE)")
 		(uuid "ab186bc8-0a20-4d98-acd9-920509fb6df5")
 	)
 	(segment
@@ -68928,7 +68952,7 @@
 		(end 176.145 93.38)
 		(width 0.3048)
 		(layer "F.Cu")
-		(net "Net-(IC7-VDD)")
+		(net "Net-(IC7-IDLE)")
 		(uuid "ca334b08-5e14-415a-bc0a-f360e586da0b")
 	)
 	(segment
@@ -77233,7 +77257,7 @@
 		)
 	)
 	(group ""
-		(uuid "fefb65c7-438b-4dad-8b3a-57aa064f8e2e")
+		(uuid "aea204e5-057d-522d-8898-0244eaa25cf1")
 		(members "6fe2fba7-3562-4cd6-ae3c-f8b1bf416816")
 	)
 	(group ""

@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "${project_name}")
-		(date "2026-08-23")
+		(date "2026-09-02")
 		(rev "${project_version}")
 		(company "${project_creator}")
 		(comment 1 "${project_license}")
@@ -3216,9 +3216,6 @@
 				(path "/324c4880-14dd-4339-a8ef-63d64f49eee3"
 					(reference "LOGO8")
 					(unit 1)
-					(variant
-						(name "Ethernet PHY no xtal")
-					)
 				)
 			)
 		)
@@ -3765,7 +3762,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "AFE_Ch#4_(Hi-current).kicad_sch"
+		(property "Sheetfile" "AFE_Ch4_(Hi-current).kicad_sch"
 			(at 172.72 29.7946 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3811,7 +3808,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "AFE_Ch#3_(hi-voltage).kicad_sch"
+		(property "Sheetfile" "AFE_Ch3_(hi-voltage).kicad_sch"
 			(at 121.92 29.7946 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3903,7 +3900,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Isolated_Ch#1,_Ch#2.kicad_sch"
+		(property "Sheetfile" "Isolated_Ch1_Ch2.kicad_sch"
 			(at 76.2 29.7946 0)
 			(show_name no)
 			(do_not_autoplace no)

@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "${project_name}")
-		(date "2026-08-23")
+		(date "2026-09-02")
 		(rev "${project_version}")
 		(company "${project_creator}")
 		(comment 1 "${project_license}")
@@ -7964,6 +7964,12 @@
 		(uuid "35a65bd6-0abc-4bd5-b6e7-439219861109")
 	)
 	(junction
+		(at 63.5 167.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3621b8d7-be6d-486a-a6a9-9742d22015d7")
+	)
+	(junction
 		(at 147.32 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8240,10 +8246,6 @@
 	(no_connect
 		(at 73.66 101.6)
 		(uuid "7ca70ff5-b463-4710-92ec-06e8c98b88a2")
-	)
-	(no_connect
-		(at 66.04 182.88)
-		(uuid "ab661d4b-9c62-4cfd-8689-36ec60b1f8be")
 	)
 	(no_connect
 		(at 55.88 101.6)
@@ -9769,6 +9771,26 @@
 			(type solid)
 		)
 		(uuid "cd8717b6-c86b-4c4f-9ae0-ddbd2bf9d504")
+	)
+	(wire
+		(pts
+			(xy 63.5 167.64) (xy 63.5 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce16b1d0-014d-41e9-965e-72434e2aa792")
+	)
+	(wire
+		(pts
+			(xy 63.5 182.88) (xy 66.04 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce33774e-3fd2-4aef-ba2e-cf8c6d94346c")
 	)
 	(wire
 		(pts
@@ -11569,7 +11591,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "9-1462038-9"
+		(property "Value" "IM03DGR"
 			(at 67.945 110.49 90)
 			(hide yes)
 			(show_name no)
@@ -11647,7 +11669,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2154255"
+		(property "LCSC" "C22417769"
 			(at 66.04 129.54 0)
 			(hide yes)
 			(show_name yes)
@@ -12451,7 +12473,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "9-1462038-9"
+		(property "Value" "IM03DGR"
 			(at 60.325 110.49 90)
 			(hide yes)
 			(show_name no)
@@ -12529,7 +12551,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2154255"
+		(property "LCSC" "C22417769"
 			(at 58.42 129.54 0)
 			(hide yes)
 			(show_name yes)
@@ -13381,7 +13403,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1462039-4"
+		(property "Value" "IM03GR"
 			(at 111.76 165.735 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13425,7 +13447,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "PB2037CT-ND"
+		(property "DigiKey" "PB1061CT-ND"
 			(at 106.68 177.8 0)
 			(hide yes)
 			(show_name yes)
@@ -13436,7 +13458,7 @@
 				)
 			)
 		)
-		(property "Mouser" "655-1462039-4"
+		(property "Mouser" "655-IM03GR"
 			(at 106.68 180.34 0)
 			(hide yes)
 			(show_name yes)
@@ -13458,7 +13480,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2154255"
+		(property "LCSC" "C2153100"
 			(at 106.68 185.42 0)
 			(hide yes)
 			(show_name yes)
@@ -15656,7 +15678,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "9-1462038-9"
+		(property "Value" "IM03DGR"
 			(at 134.62 165.735 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15733,7 +15755,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2154255"
+		(property "LCSC" "C22417769"
 			(at 129.54 185.42 0)
 			(hide yes)
 			(show_name yes)
@@ -16675,7 +16697,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "1462039-4"
+		(property "Value" "IM03GR"
 			(at 97.79 122.555 90)
 			(hide yes)
 			(show_name no)
@@ -16720,7 +16742,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "PB2037CT-ND"
+		(property "DigiKey" "PB1061CT-ND"
 			(at 109.22 124.46 0)
 			(hide yes)
 			(show_name yes)
@@ -16731,7 +16753,7 @@
 				)
 			)
 		)
-		(property "Mouser" "655-1462039-4"
+		(property "Mouser" "655-IM03GR"
 			(at 111.76 124.46 0)
 			(hide yes)
 			(show_name yes)
@@ -16753,7 +16775,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2154255"
+		(property "LCSC" "C2153100"
 			(at 116.84 124.46 0)
 			(hide yes)
 			(show_name yes)
@@ -17894,7 +17916,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "1462039-4"
+		(property "Value" "IM03GR"
 			(at 78.105 110.49 90)
 			(hide yes)
 			(show_name no)
@@ -17939,7 +17961,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "PB2037CT-ND"
+		(property "DigiKey" "PB1061CT-ND"
 			(at 76.2 121.92 0)
 			(hide yes)
 			(show_name yes)
@@ -17950,7 +17972,7 @@
 				)
 			)
 		)
-		(property "Mouser" "655-1462039-4"
+		(property "Mouser" "655-IM03GR"
 			(at 76.2 124.46 0)
 			(hide yes)
 			(show_name yes)
@@ -17972,7 +17994,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2154255"
+		(property "LCSC" "C2153100"
 			(at 76.2 129.54 0)
 			(hide yes)
 			(show_name yes)

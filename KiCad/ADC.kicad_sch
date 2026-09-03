@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "${project_name}")
-		(date "2026-09-02")
+		(date "2026-09-03")
 		(rev "${project_version}")
 		(company "${project_creator}")
 		(comment 1 "${project_license}")
@@ -12567,7 +12567,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp yes)
 		(uuid "18e4be88-ba75-4647-842b-9fb524fb328f")
 		(property "Reference" "C30"
@@ -16191,9 +16191,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp yes)
 		(uuid "71024f6d-5bae-43c5-a3a1-de5517a597be")
 		(property "Reference" "IC2"
@@ -17107,7 +17107,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp yes)
 		(uuid "7c1934e5-f5eb-42ef-9608-d3d52e359633")
 		(property "Reference" "C25"
@@ -18746,7 +18746,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp yes)
 		(uuid "a3042de6-497c-4ca3-9285-fe9937fb3b72")
 		(property "Reference" "IC3"
@@ -18965,9 +18965,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp yes)
 		(uuid "aa83c252-7e43-4ff4-8fc3-4af226051ab8")
 		(property "Reference" "C24"
@@ -19664,9 +19664,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp yes)
 		(uuid "b88ce42f-3ed3-4454-aa3d-a086468f2a95")
 		(property "Reference" "C29"

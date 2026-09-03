@@ -1,12 +1,12 @@
-%TF.GenerationSoftware,KiCad,Pcbnew,10.0.5-10.0.5~ubuntu24.04.1*%
-%TF.CreationDate,2026-08-25T07:35:14+02:00*%
-%TF.ProjectId,EEZ DIB AFE3plus,45455a20-4449-4422-9041-464533706c75,r1B1*%
+%TF.GenerationSoftware,KiCad,Pcbnew,10.0.6-10.0.6~ubuntu24.04.1*%
+%TF.CreationDate,2026-09-03T10:56:54+02:00*%
+%TF.ProjectId,EEZ DIB AFE3plus,45455a20-4449-4422-9041-464533706c75,r1B2*%
 %TF.SameCoordinates,Original*%
 %TF.FileFunction,Copper,L2,Inr*%
 %TF.FilePolarity,Positive*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 10.0.5-10.0.5~ubuntu24.04.1) date 2026-08-25 07:35:14*
+G04 Created by KiCad (PCBNEW 10.0.6-10.0.6~ubuntu24.04.1) date 2026-09-03 10:56:54*
 %MOMM*%
 %LPD*%
 G01*
@@ -47,7 +47,7 @@ G04 Aperture macros list end*
 G04 APERTURE END LIST*
 D10*
 %TO.N,IN1N*%
-%TO.C,TP3*%
+%TO.C,TP2*%
 X179549768Y-114219751D03*
 %TD*%
 D11*
@@ -76,19 +76,19 @@ X200372604Y-126518773D03*
 X200372604Y-123790000D03*
 %TD*%
 %TO.N,IN1P*%
-%TO.C,TP2*%
+%TO.C,TP1*%
 X179549768Y-115805343D03*
 %TD*%
 %TO.N,IN2N*%
-%TO.C,TP5*%
+%TO.C,TP4*%
 X179549768Y-110605343D03*
 %TD*%
 %TO.N,GND*%
-%TO.C,TP1*%
+%TO.C,TP5*%
 X200372604Y-129247546D03*
 %TD*%
 %TO.N,IN2P*%
-%TO.C,TP4*%
+%TO.C,TP3*%
 X179549768Y-112225343D03*
 %TD*%
 D13*

@@ -9,7 +9,7 @@
 	(paper "A4")
 	(title_block
 		(title "${project_name}")
-		(date "2026-08-25")
+		(date "2026-09-03")
 		(rev "${project_version}")
 		(company "${project_creator}")
 		(comment 1 "${project_license}")
@@ -159,7 +159,7 @@
 	(property "project_license" "Licensed under the TAPR Open Hardware License (www.tapr.org/OHL)")
 	(property "project_name" "EEZ DIB AFE3+")
 	(property "project_url" "https://www.envox.eu")
-	(property "project_version" "r1B1")
+	(property "project_version" "r1B2")
 	(footprint "PCM_EEZ_SMD:SODFL3718X130N"
 		(layer "F.Cu")
 		(uuid "00f6bf54-7c86-4e98-a2b7-abe7b1c10abc")
@@ -889,6 +889,181 @@
 			)
 			(rotate
 				(xyz -0 -0 -0)
+			)
+		)
+	)
+	(footprint "PCM_EEZ_SMD:3561_PAD"
+		(layer "F.Cu")
+		(uuid "02f9211b-de38-4e88-a6cb-ad7ee70126a1")
+		(at 113.58 129.24 180)
+		(descr "Fuse holder SMT pad")
+		(tags "0031.8221 ")
+		(property "Reference" "FH7"
+			(at -9.5 -4.1 180)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "01675d2c-2da4-4ed2-b41e-8424238e604f")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Value" "3561KTR"
+			(at 0 1.27 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "4dc01db1-b91f-43ca-ab5c-1839ea75bee5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ed96196a-8e10-4d6e-83bc-0958753047e6")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "SMD fuse holder"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bc7cbb6a-b560-4604-9dad-a75a340860c6")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DigiKey" "36-3561KCT-ND"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a2a0246d-3a7f-4897-ba57-f08085f8309c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" "534-3561KTR"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4ff8ce53-cfd2-4419-8b4d-6c5ae6e0ef8c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TME" "-"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b8bf7bd0-dd3f-4cf2-89a8-a5ed6bdc0af1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C3205939"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "240a9bef-2fa5-4b1d-8eeb-01385541f275")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/13785374-ffa8-4fff-86e4-702f1a3b8cf6/713a0e73-3150-4de3-9a28-f845275519e5")
+		(sheetname "/AFE Ch#4 (Hi-current)/")
+		(sheetfile "AFE_Ch4_(Hi-current).kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_rect
+			(start -11.95 -3.4)
+			(end 11.95 3.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "e645a034-6624-41d5-b9bc-4da448c20f07")
+		)
+		(fp_circle
+			(center -8.500001 -1.905)
+			(end -8.119001 -1.905)
+			(stroke
+				(width 0.508)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "f9f0c8fb-68ca-47de-8000-f5413c18548f")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "cbee7b6a-d074-4c24-a2fc-fc8d942f5da1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -8.8 0 180)
+			(size 6 6)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.05)
+			(net "Net-(K4B-COM)")
+			(pinfunction "1_1")
+			(pintype "passive")
+			(uuid "a880d434-ee91-4cc7-a874-fa5dbec0acb0")
+		)
+		(embedded_fonts no)
+		(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_eez-open_eez-kicad-libraries/FUSE_3561.STEP"
+			(offset
+				(xyz -6.3 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 90)
 			)
 		)
 	)
@@ -1763,7 +1938,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd exclude_from_bom dnp)
+		(attr smd exclude_from_pos_files exclude_from_bom dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.14058 0.51)
@@ -2682,19 +2857,8 @@
 			(uuid "9af378c4-ef84-41d0-934e-694732eb5e78")
 		)
 		(pad "1" smd rect
-			(at -3.27 0 180)
-			(size 0.8382 0.508)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "Net-(R43-Pad1)")
-			(pinfunction "1_1")
-			(pintype "passive")
-			(solder_mask_margin 0.0762)
-			(thermal_bridge_angle 45)
-			(uuid "9eb1a920-7844-4461-a507-31a57f424905")
-		)
-		(pad "1" smd rect
-			(at -2.8 -0.9254 180)
-			(size 1.778 1.3462)
+			(at -3.28895 0 180)
+			(size 0.8001 0.5842)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "Net-(R43-Pad1)")
 			(pinfunction "1_1")
@@ -2704,8 +2868,19 @@
 			(uuid "7057d794-3f08-408c-ae04-c7d1684bcba0")
 		)
 		(pad "1" smd rect
-			(at -2.8 0.9254 180)
-			(size 1.778 1.3462)
+			(at -2.8 -0.9381 180)
+			(size 1.778 1.3081)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "Net-(R43-Pad1)")
+			(pinfunction "1_1")
+			(pintype "passive")
+			(solder_mask_margin 0.0762)
+			(thermal_bridge_angle 45)
+			(uuid "9eb1a920-7844-4461-a507-31a57f424905")
+		)
+		(pad "1" smd rect
+			(at -2.8 0.9381 180)
+			(size 1.778 1.3081)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "Net-(R43-Pad1)")
 			(pinfunction "1_1")
@@ -2728,8 +2903,8 @@
 			(uuid "a4868692-186e-4e4c-be2b-9d30fa1005cf")
 		)
 		(pad "2" smd rect
-			(at 2.8 -0.9254)
-			(size 1.778 1.3462)
+			(at 2.8 -0.9381)
+			(size 1.778 1.3081)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "Net-(Q2-S)")
 			(pinfunction "2_2")
@@ -2739,8 +2914,8 @@
 			(uuid "93ae8b70-46e1-4ad8-b5e1-863301d1237b")
 		)
 		(pad "2" smd rect
-			(at 2.8 0.9254)
-			(size 1.778 1.3462)
+			(at 2.8 0.9381)
+			(size 1.778 1.3081)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "Net-(Q2-S)")
 			(pinfunction "2_2")
@@ -2750,8 +2925,8 @@
 			(uuid "f8689117-1cb8-4efb-b7d9-bff621c30fa6")
 		)
 		(pad "2" smd rect
-			(at 3.27 0)
-			(size 0.8382 0.508)
+			(at 3.28895 0)
+			(size 0.8001 0.5842)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "Net-(Q2-S)")
 			(pinfunction "2_2")
@@ -2903,7 +3078,7 @@
 				)
 			)
 		)
-		(path "/e97c32bf-f406-4294-8a3d-45b0aae2e3e8/5eb1d3df-eddd-4fb8-b8ef-291c7383faba")
+		(path "/e97c32bf-f406-4294-8a3d-45b0aae2e3e8/ac571474-1e86-40f6-aa7d-e169fb26a7f2")
 		(sheetname "/Isolated Ch#1, Ch#2/")
 		(sheetfile "Isolated_Ch1_Ch2.kicad_sch")
 		(units
@@ -3260,7 +3435,7 @@
 				)
 			)
 		)
-		(property "Comment" "low TCR (max. ±25ppm/°C)"
+		(property "Comment" "low TCR (±25ppm/°C)"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3428,8 +3603,8 @@
 			(uuid "662e204f-4d54-40e3-860f-d75a754efdfb")
 		)
 		(pad "1" smd rect
-			(at -3.27 0)
-			(size 0.8382 0.508)
+			(at -3.28895 0)
+			(size 0.8001 0.5842)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "AIN4N")
 			(pinfunction "1_1")
@@ -3439,19 +3614,8 @@
 			(uuid "bd8a2514-50e2-46d4-b0c4-1c3c120ce019")
 		)
 		(pad "1" smd rect
-			(at -2.8 -0.9254)
-			(size 1.778 1.3462)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "AIN4N")
-			(pinfunction "1_1")
-			(pintype "passive")
-			(solder_mask_margin 0.0762)
-			(thermal_bridge_angle 45)
-			(uuid "4fcb4227-b9f5-4b72-9af9-ff6bef42a1a0")
-		)
-		(pad "1" smd rect
-			(at -2.8 0.9254)
-			(size 1.778 1.3462)
+			(at -2.8 -0.9381)
+			(size 1.778 1.3081)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "AIN4N")
 			(pinfunction "1_1")
@@ -3459,6 +3623,17 @@
 			(solder_mask_margin 0.0762)
 			(thermal_bridge_angle 45)
 			(uuid "8e1e1415-d10c-4909-be83-61677a8a0e1f")
+		)
+		(pad "1" smd rect
+			(at -2.8 0.9381)
+			(size 1.778 1.3081)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "AIN4N")
+			(pinfunction "1_1")
+			(pintype "passive")
+			(solder_mask_margin 0.0762)
+			(thermal_bridge_angle 45)
+			(uuid "4fcb4227-b9f5-4b72-9af9-ff6bef42a1a0")
 		)
 		(pad "1S" smd roundrect
 			(at -2.1 0)
@@ -3474,8 +3649,8 @@
 			(uuid "58d18e49-dd04-4692-bfeb-b22d44406803")
 		)
 		(pad "2" smd rect
-			(at 2.8 -0.9254 180)
-			(size 1.778 1.3462)
+			(at 2.8 -0.9381 180)
+			(size 1.778 1.3081)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "Net-(K4B-NC)")
 			(pinfunction "2_2")
@@ -3485,8 +3660,8 @@
 			(uuid "dba1e2ff-1992-46d5-a3c4-7ba16af9922d")
 		)
 		(pad "2" smd rect
-			(at 2.8 0.9254 180)
-			(size 1.778 1.3462)
+			(at 2.8 0.9381 180)
+			(size 1.778 1.3081)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "Net-(K4B-NC)")
 			(pinfunction "2_2")
@@ -3496,8 +3671,8 @@
 			(uuid "f9182d21-feec-4c2a-aab2-5f0b4b13e738")
 		)
 		(pad "2" smd rect
-			(at 3.27 0 180)
-			(size 0.8382 0.508)
+			(at 3.28895 0 180)
+			(size 0.8001 0.5842)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "Net-(K4B-NC)")
 			(pinfunction "2_2")
@@ -5663,7 +5838,7 @@
 		(layer "F.Cu")
 		(uuid "13332be6-5768-4bbe-9ed8-0432ee76da38")
 		(at 179.549768 114.219751 180)
-		(property "Reference" "TP3"
+		(property "Reference" "TP2"
 			(at 2.413 0 0)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -7361,6 +7536,183 @@
 			)
 		)
 	)
+	(footprint "PCM_EEZ_SMD:3561_OUTLINE"
+		(locked yes)
+		(layer "F.Cu")
+		(uuid "1d4b3313-099d-4615-95c9-352ba73d095e")
+		(at 113.58 129.24)
+		(descr "Fuse holder outline")
+		(tags "0031.8221 ")
+		(property "Reference" "F4"
+			(at -12.85 -2.83 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "33f2d024-408f-4c3b-8583-680a4c5e2ab6")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Value" "521.524"
+			(at 0 1.27 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "39c16ce5-2aae-4824-bbde-31a83a14b0e3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7f391e8a-36c9-4dd3-a60e-4c1eb5b31b98")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "fuse holder outline"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ce36043f-6344-4d3f-b627-56cd8b8b9d82")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DigiKey" "-"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "760bf6bd-bc23-4560-bb3b-b04e9d0200a6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" "-"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a83befb3-b546-45cb-ab5d-0e2acec73454")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TME" "ZCM-5A"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e4912269-df81-40f2-84ff-7be1d9293aab")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "-"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4344e81d-37b1-407c-944f-0e15c7342671")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Label" "5A"
+			(at 12.87 -0.03 90)
+			(unlocked yes)
+			(layer "F.SilkS" knockout)
+			(uuid "5ca0b369-8c9b-458b-9ae3-7659b64847e3")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(path "/13785374-ffa8-4fff-86e4-702f1a3b8cf6/ad3f3dcd-2af9-40a7-9145-904cbe11840b")
+		(sheetname "/AFE Ch#4 (Hi-current)/")
+		(sheetfile "AFE_Ch4_(Hi-current).kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins)
+			)
+		)
+		(attr smd exclude_from_pos_files)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_rect
+			(start -11.95 -3.4)
+			(end 11.95 3.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "6a44767b-d7f1-4a62-9777-d0ef5b7990b0")
+		)
+		(fp_rect
+			(start -11.95 -3.4)
+			(end 11.95 3.4)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "b7dbeb43-66c3-46ec-9d9e-108374af881d")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "605dce7a-15d0-4c59-8fd5-3804cf97a2b3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+		(model "${KICAD7_3RD_PARTY}/3dmodels/com_github_eez-open_eez-kicad-libraries/FUSE_20x5mm.step"
+			(offset
+				(xyz 0 0 2)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
+	)
 	(footprint "PCM_EEZ_unsorted:Hi voltage logo"
 		(layer "F.Cu")
 		(uuid "21b05c87-500a-4318-b005-0fd888050805")
@@ -9011,7 +9363,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd dnp)
+		(attr smd exclude_from_pos_files exclude_from_bom dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.14058 0.51)
@@ -12845,6 +13197,194 @@
 			)
 		)
 	)
+	(footprint "PCM_EEZ_SMD:3561_PAD"
+		(layer "F.Cu")
+		(uuid "349c33b2-5e80-4b9b-b407-05db20fe8d6c")
+		(at 113.5825 106.6)
+		(descr "Fuse holder SMT pad")
+		(tags "0031.8221 ")
+		(property "Reference" "FH2"
+			(at -9.5 -4.1 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "7b41d4d6-7307-4c5e-8892-e1854ed46dec")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Value" "3561KTR"
+			(at 0 1.27 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "783f2455-9e21-4bd7-a208-5e0e9ad01a0c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f5d02c7b-9510-485e-8d7d-1154ec96e9ac")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "SMD fuse holder"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f0dd3bfd-a759-4d97-8368-5b3eea0625a4")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DigiKey" "36-3561KCT-ND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ac773717-d4e6-4263-a694-c87a95036509")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" "534-3561KTR"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0b77c619-28ab-4ad1-bf32-516279178b4b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TME" "-"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bb0dff40-ccca-4b88-8928-ce5e4d89057d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C3205939"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b250a135-f69d-44c4-8117-a1761ca4eb20")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Designator" "F1"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0488c56a-a8b7-474d-9b1c-f2ff4076aec0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/e97c32bf-f406-4294-8a3d-45b0aae2e3e8/972cf837-0fa7-4694-98b9-dd948e8a04c5")
+		(sheetname "/Isolated Ch#1, Ch#2/")
+		(sheetfile "Isolated_Ch1_Ch2.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_rect
+			(start -11.95 -3.4)
+			(end 11.95 3.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "3da48a28-7e16-4842-a8b9-9fff870d0046")
+		)
+		(fp_circle
+			(center -8.500001 -1.905)
+			(end -8.119001 -1.905)
+			(stroke
+				(width 0.508)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "f06e552a-b88f-4020-aecb-cf4cc8a76093")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "9bf2f1dc-0f8b-45ab-a622-8de551ae6ace")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -8.8 0)
+			(size 6 6)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.05)
+			(net "/Isolated Ch#1, Ch#2/AIN2P")
+			(pinfunction "1_1")
+			(pintype "passive")
+			(uuid "3857808e-303e-4b5f-a27c-79f1ae8ea89b")
+		)
+		(embedded_fonts no)
+		(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_eez-open_eez-kicad-libraries/FUSE_3561.STEP"
+			(offset
+				(xyz -6.3 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 90)
+			)
+		)
+	)
 	(footprint "PCM_EEZ_SMD:Fiducial_0.75mm_Mask1.5mm"
 		(layer "F.Cu")
 		(uuid "35322a4b-1285-4b59-bab3-70cd2432b985")
@@ -14367,6 +14907,181 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "PCM_EEZ_SMD:3561_PAD"
+		(layer "F.Cu")
+		(uuid "39608dff-52c5-4507-b073-8b9309640d52")
+		(at 113.58 122.03 180)
+		(descr "Fuse holder SMT pad")
+		(tags "0031.8221 ")
+		(property "Reference" "FH6"
+			(at -9.5 -4.1 180)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "91eaccf5-ef3a-4138-a286-cb4cff12910d")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Value" "3561KTR"
+			(at 0 1.27 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "ee20c2a3-1618-459e-aa6c-8b0bf5405403")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "117e6ea5-5b3e-4434-a883-f19a45014ca4")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "SMD fuse holder"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "af7aa39a-2ae1-4fa3-b1d6-17f07ffd3278")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DigiKey" "36-3561KCT-ND"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "10cb6646-a2e4-43a3-a198-810b41410708")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" "534-3561KTR"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ba451439-4e2b-4dbb-b1f8-a942f6910682")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TME" "-"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "af212b71-b276-422a-80d9-73c094d3d49c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C3205939"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b076dee0-6b15-4272-8c93-f93e05ec850b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/13785374-ffa8-4fff-86e4-702f1a3b8cf6/d707caf8-c661-48e3-a3df-da8790a201a9")
+		(sheetname "/AFE Ch#4 (Hi-current)/")
+		(sheetfile "AFE_Ch4_(Hi-current).kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_rect
+			(start -11.95 -3.4)
+			(end 11.95 3.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "cf15e199-10d6-407c-98ac-6dc7414fd544")
+		)
+		(fp_circle
+			(center -8.500001 -1.905)
+			(end -8.119001 -1.905)
+			(stroke
+				(width 0.508)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "83297b15-23e0-4e7e-a450-f43278acd664")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "920793f2-1db0-4287-a1bf-0136ba0892b5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -8.8 0 180)
+			(size 6 6)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.05)
+			(net "Net-(K3B-COM)")
+			(pinfunction "1_1")
+			(pintype "passive")
+			(uuid "bec5aef9-8e9e-4362-a686-d01a220adeca")
+		)
+		(embedded_fonts no)
+		(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_eez-open_eez-kicad-libraries/FUSE_3561.STEP"
+			(offset
+				(xyz -6.3 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 90)
 			)
 		)
 	)
@@ -18225,7 +18940,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd exclude_from_bom dnp)
+		(attr smd exclude_from_pos_files exclude_from_bom dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.14058 0.51)
@@ -20712,7 +21427,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd dnp)
+		(attr smd exclude_from_pos_files exclude_from_bom dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.14058 0.51)
@@ -21356,19 +22071,8 @@
 			(uuid "49229cd2-d01a-4c0a-9b94-8130108e27f7")
 		)
 		(pad "1" smd rect
-			(at -3.27 0 180)
-			(size 0.8382 0.508)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "Net-(K1B-COM)")
-			(pinfunction "1_1")
-			(pintype "passive")
-			(solder_mask_margin 0.0762)
-			(thermal_bridge_angle 45)
-			(uuid "a709f1ce-5615-4d69-808e-4056679da30b")
-		)
-		(pad "1" smd rect
-			(at -2.8 -0.9254 180)
-			(size 1.778 1.3462)
+			(at -3.28895 0 180)
+			(size 0.8001 0.5842)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "Net-(K1B-COM)")
 			(pinfunction "1_1")
@@ -21378,8 +22082,19 @@
 			(uuid "52c27db0-3dcb-440c-9df6-7717f0ea9642")
 		)
 		(pad "1" smd rect
-			(at -2.8 0.9254 180)
-			(size 1.778 1.3462)
+			(at -2.8 -0.9381 180)
+			(size 1.778 1.3081)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "Net-(K1B-COM)")
+			(pinfunction "1_1")
+			(pintype "passive")
+			(solder_mask_margin 0.0762)
+			(thermal_bridge_angle 45)
+			(uuid "a709f1ce-5615-4d69-808e-4056679da30b")
+		)
+		(pad "1" smd rect
+			(at -2.8 0.9381 180)
+			(size 1.778 1.3081)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "Net-(K1B-COM)")
 			(pinfunction "1_1")
@@ -21402,8 +22117,8 @@
 			(uuid "61f473fb-ddd4-40e1-b75e-57e50e8dc621")
 		)
 		(pad "2" smd rect
-			(at 2.8 -0.9254)
-			(size 1.778 1.3462)
+			(at 2.8 -0.9381)
+			(size 1.778 1.3081)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "Net-(K2C-COM)")
 			(pinfunction "2_2")
@@ -21413,8 +22128,8 @@
 			(uuid "3f0789a7-a07a-4c71-9b55-3b29bdee0e6d")
 		)
 		(pad "2" smd rect
-			(at 2.8 0.9254)
-			(size 1.778 1.3462)
+			(at 2.8 0.9381)
+			(size 1.778 1.3081)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "Net-(K2C-COM)")
 			(pinfunction "2_2")
@@ -21424,8 +22139,8 @@
 			(uuid "8ff8a6b4-737e-44c6-9ea3-0b028399838b")
 		)
 		(pad "2" smd rect
-			(at 3.27 0)
-			(size 0.8382 0.508)
+			(at 3.28895 0)
+			(size 0.8001 0.5842)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "Net-(K2C-COM)")
 			(pinfunction "2_2")
@@ -21457,6 +22172,194 @@
 			)
 			(rotate
 				(xyz -90 0 0)
+			)
+		)
+	)
+	(footprint "PCM_EEZ_SMD:3561_PAD"
+		(layer "F.Cu")
+		(uuid "59cbd9a5-d78b-4914-9fe6-dabcfca6efcc")
+		(at 113.58 129.24)
+		(descr "Fuse holder SMT pad")
+		(tags "0031.8221 ")
+		(property "Reference" "FH8"
+			(at -9.5 -4.1 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "afd0ff2e-17cf-4321-ab97-ffd6f472a26b")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Value" "3561KTR"
+			(at 0 1.27 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "61e39f4a-fe1b-435a-ac71-958af4ec52ea")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "535fe669-9733-43ce-b228-27f2bcc9a12b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "SMD fuse holder"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f39a79b8-68cf-466f-964f-498169f318ba")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DigiKey" "36-3561KCT-ND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4a4a485f-58eb-4913-afb5-5d959bd7c124")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" "534-3561KTR"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7e7a52ba-deb6-4b38-bb5a-8692277ed9a4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TME" "-"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2031bb75-47c2-4147-8159-cca9967a965a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C3205939"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "de791c8d-0a58-4877-8795-a1abb1b9342c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Designator" "F2"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c454b582-b67a-4aa5-825c-3a4dd7d9fbdc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/13785374-ffa8-4fff-86e4-702f1a3b8cf6/e2076077-30dd-42a4-ba98-4433661a60e5")
+		(sheetname "/AFE Ch#4 (Hi-current)/")
+		(sheetfile "AFE_Ch4_(Hi-current).kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_rect
+			(start -11.95 -3.4)
+			(end 11.95 3.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "363998c8-94db-4828-89fb-da538cd2a634")
+		)
+		(fp_circle
+			(center -8.500001 -1.905)
+			(end -8.119001 -1.905)
+			(stroke
+				(width 0.508)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "c304a70d-1321-4dc6-a765-7ca317a9bd70")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "fed18764-1590-4094-8b92-48352a4edfa4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -8.8 0)
+			(size 6 6)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.05)
+			(net "AIN4P")
+			(pinfunction "1_1")
+			(pintype "passive")
+			(uuid "7f83896f-1fe3-4f70-b54e-d9afacd38b4a")
+		)
+		(embedded_fonts no)
+		(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_eez-open_eez-kicad-libraries/FUSE_3561.STEP"
+			(offset
+				(xyz -6.3 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 90)
 			)
 		)
 	)
@@ -22827,6 +23730,194 @@
 			)
 		)
 	)
+	(footprint "PCM_EEZ_SMD:3561_PAD"
+		(layer "F.Cu")
+		(uuid "63d4ff28-3637-410b-9ba9-21feb8d6e6c4")
+		(at 113.58 122.03)
+		(descr "Fuse holder SMT pad")
+		(tags "0031.8221 ")
+		(property "Reference" "FH5"
+			(at -9.5 -4.1 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "34945da8-9044-4e05-97e1-3733673c4f06")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Value" "3561KTR"
+			(at 0 1.27 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "62343cc9-b1f4-4911-901b-9e3f7b027c18")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cb6e1d71-5985-417d-95c5-9632b5a0e65c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "SMD fuse holder"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7d6f460e-e4f2-4e59-a75f-3ea5dfd78e72")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DigiKey" "36-3561KCT-ND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1d811afe-d892-4c79-8bc5-b49aa8a5db8c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" "534-3561KTR"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6b6e50c4-da4c-493b-9826-ce795031fba1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TME" "-"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "079bc027-8813-4ad2-a3b4-bf29556729ec")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C3205939"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9383fc50-bb87-4a56-88a1-e95571a75d2b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Designator" "F1"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f66267e6-d9b7-4902-a898-e0820f302ec9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/13785374-ffa8-4fff-86e4-702f1a3b8cf6/56667b23-2009-4d03-b228-3005b22b9936")
+		(sheetname "/AFE Ch#4 (Hi-current)/")
+		(sheetfile "AFE_Ch4_(Hi-current).kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_rect
+			(start -11.95 -3.4)
+			(end 11.95 3.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "db9ac19b-fae7-412b-b732-ecc1495dcdb8")
+		)
+		(fp_circle
+			(center -8.500001 -1.905)
+			(end -8.119001 -1.905)
+			(stroke
+				(width 0.508)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "2d3b072b-dff9-49e0-b554-0d308760ef3e")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "79290b8b-18a7-4b9b-98d9-93ac310bbba7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -8.8 0)
+			(size 6 6)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.05)
+			(net "AIN4P")
+			(pinfunction "1_1")
+			(pintype "passive")
+			(uuid "9df8c552-7958-4409-9036-64748ffe8ee8")
+		)
+		(embedded_fonts no)
+		(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_eez-open_eez-kicad-libraries/FUSE_3561.STEP"
+			(offset
+				(xyz -6.3 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 90)
+			)
+		)
+	)
 	(footprint "PCM_EEZ_SMD:SODFL3718X130N"
 		(layer "F.Cu")
 		(uuid "645a03f4-cb13-47a0-a6d4-f909ee5f3e5b")
@@ -23502,237 +24593,6 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "PCM_EEZ_SMD:3561"
-		(layer "F.Cu")
-		(uuid "68a9dd2a-fde3-4286-8d3a-ac90523773f8")
-		(at 113.5825 122.03 180)
-		(descr "Fuse holder")
-		(tags "0031.8221 ")
-		(property "Reference" "F3"
-			(at 12.9425 2.85 0)
-			(unlocked yes)
-			(layer "F.SilkS")
-			(uuid "2d12f47b-482e-4236-a1ac-246b6d887eff")
-			(effects
-				(font
-					(size 1.016 1.016)
-					(thickness 0.1524)
-				)
-			)
-		)
-		(property "Value" "3561(KTR) x2"
-			(at 0 1.27 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "8bfcbdd6-ac6c-47ca-9cbb-d1f8c365ee78")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 180)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ee290e37-c517-43cc-83ef-5cd51ee0e3da")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 180)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d90c2189-abf8-4c11-81ce-126a8e58244c")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Comment" "1.25A fuse"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a0f6cf12-87a3-41a8-a0c7-8ddeea8b2c80")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "DigiKey" "36-3561KCT-ND"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5bcfdb5b-d077-4c2a-9618-afd60c587b6e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Mouser" "534-3561KTR "
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9e6d9c7e-b690-43ca-b953-f36c0eae6adf")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "TME" "-"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "74c8cf88-c485-43b8-a6ee-5404bbc95b0c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC" "C3205939"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5afb83a3-c5d7-4687-bca2-f008fb2c68dc")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(path "/13785374-ffa8-4fff-86e4-702f1a3b8cf6/c117fc45-b43e-49d5-b64f-844227b5476e")
-		(sheetname "/AFE Ch#4 (Hi-current)/")
-		(sheetfile "AFE_Ch4_(Hi-current).kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
-		(attr smd)
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_rect
-			(start -11.95 -3.4)
-			(end 11.95 3.4)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.SilkS")
-			(uuid "aff430b7-db55-4cf9-920e-0840b61e4f22")
-		)
-		(fp_rect
-			(start -11.95 -3.4)
-			(end 11.95 3.4)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "d3ccf0d3-c7fc-419b-84fb-857616638e31")
-		)
-		(fp_circle
-			(center -8.500001 -1.905)
-			(end -8.119001 -1.905)
-			(stroke
-				(width 0.508)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.Fab")
-			(uuid "f75cb9ed-dddc-4e6c-902f-88366a22071a")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "74cae8fc-ddfa-49d5-a688-b24f1d8005d2")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" smd roundrect
-			(at -8.8 0 180)
-			(size 6 6)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.05)
-			(net "Net-(K3B-COM)")
-			(pinfunction "1_1")
-			(pintype "passive")
-			(uuid "98d798b4-72b6-4dbf-bf05-80ae525c4932")
-		)
-		(pad "2" smd roundrect
-			(at 8.8 0 180)
-			(size 6 6)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.05)
-			(net "AIN4P")
-			(pinfunction "2_2")
-			(pintype "passive")
-			(uuid "31c21ff4-73fb-4dfd-8c64-2a21af321705")
-		)
-		(embedded_fonts no)
-		(model "${KICAD7_3RD_PARTY}/3dmodels/com_github_eez-open_eez-kicad-libraries/FUSE_20x5mm.step"
-			(hide yes)
-			(offset
-				(xyz 0 0 2)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -0)
-			)
-		)
-		(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_eez-open_eez-kicad-libraries/FUSE_3561.STEP"
-			(offset
-				(xyz -6.3 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 -0 90)
-			)
-		)
-		(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_eez-open_eez-kicad-libraries/FUSE_3561.STEP"
-			(offset
-				(xyz 6.3 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 -0 -90)
-			)
-		)
-	)
 	(footprint "PCM_EEZ_SMD:SODFL3718X130N"
 		(layer "F.Cu")
 		(uuid "68b62985-b008-47ed-8935-aa946c103f2b")
@@ -23741,7 +24601,7 @@
 		(property "Reference" "D7"
 			(at 2.8812 -0.01 0)
 			(layer "F.SilkS")
-			(uuid "cb40caca-0c87-488b-9018-40663efd297c")
+			(uuid "fd4b848a-30bb-4bde-98c5-a0f5ddd54cc5")
 			(effects
 				(font
 					(size 0.8128 0.8128)
@@ -23753,7 +24613,7 @@
 		(property "Value" "SL1M"
 			(at 0 0 270)
 			(layer "F.Fab")
-			(uuid "d3b4ab15-cdf9-46c9-b87b-ce59f93c422e")
+			(uuid "a6030f73-9a1e-4667-82a7-1bae1e36029b")
 			(effects
 				(font
 					(size 0.6096 0.6096)
@@ -23766,7 +24626,7 @@
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a86dcfce-af91-4df1-81e7-c76ac1357fc9")
+			(uuid "eaab24b4-9954-4670-9d0e-8a6fc80fd7d5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23777,7 +24637,7 @@
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "de538673-8040-4671-b6cf-423c28585dab")
+			(uuid "9e668b06-290a-403a-9574-afd44a68d870")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26698,7 +27558,7 @@
 		(layer "F.Cu")
 		(uuid "73b5ca73-6166-423d-9a6f-79415af7485a")
 		(at 179.549768 115.805343 180)
-		(property "Reference" "TP2"
+		(property "Reference" "TP1"
 			(at 2.413 0 0)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -28218,7 +29078,7 @@
 		(layer "F.Cu")
 		(uuid "7b4d6007-1cd7-4c97-a5a9-ea758c3ebcfa")
 		(at 179.549768 110.605343 180)
-		(property "Reference" "TP5"
+		(property "Reference" "TP4"
 			(at 2.413 0 0)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -28368,6 +29228,181 @@
 			(uuid "04877862-be0d-4752-b353-4d789488eaee")
 		)
 		(embedded_fonts no)
+	)
+	(footprint "PCM_EEZ_SMD:3561_PAD"
+		(layer "F.Cu")
+		(uuid "7c698e0f-6720-4a5a-a8e0-eb0398972c8b")
+		(at 113.5825 106.6 180)
+		(descr "Fuse holder SMT pad")
+		(tags "0031.8221 ")
+		(property "Reference" "FH1"
+			(at -9.5 -4.1 180)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "41bd0c2e-7531-4676-b6df-fc26d1baa600")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Value" "3561KTR"
+			(at 0 1.27 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "b89b4454-3df7-4c51-94f1-bac90c63c118")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7f32e3a5-d641-4697-a544-b72328eb0890")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "SMD fuse holder"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fa818aa4-a21c-4c55-b4ec-1e991c1db104")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DigiKey" "36-3561KCT-ND"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "666aac31-c0b7-445c-964c-664ce0f71dfc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" "534-3561KTR"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "08aefa37-84b5-4f19-ac10-2ee3c1befd8d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TME" "-"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "22c8bf32-e261-4486-a62a-9058fe5a0678")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C3205939"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e2329c1c-b9ab-40ba-8729-3dea45a73327")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/e97c32bf-f406-4294-8a3d-45b0aae2e3e8/9471f690-1620-446c-bf57-8ba27c723bf9")
+		(sheetname "/Isolated Ch#1, Ch#2/")
+		(sheetfile "Isolated_Ch1_Ch2.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_rect
+			(start -11.95 -3.4)
+			(end 11.95 3.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "674c0159-fe92-4ea7-96da-c852f0ef04df")
+		)
+		(fp_circle
+			(center -8.500001 -1.905)
+			(end -8.119001 -1.905)
+			(stroke
+				(width 0.508)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "aba87556-ba7e-4c19-9510-2682c873baa1")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "60a741c9-11ca-4b8a-a798-327391bed778")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -8.8 0 180)
+			(size 6 6)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.05)
+			(net "Net-(K1B-NC)")
+			(pinfunction "1_1")
+			(pintype "passive")
+			(uuid "6ee98887-a43a-4252-a5ef-ff1ac6feca1c")
+		)
+		(embedded_fonts no)
+		(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_eez-open_eez-kicad-libraries/FUSE_3561.STEP"
+			(offset
+				(xyz -6.3 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 90)
+			)
+		)
 	)
 	(footprint "PCM_EEZ_passives:R_0603_1608Metric"
 		(layer "F.Cu")
@@ -29162,7 +30197,7 @@
 		(layer "F.Cu")
 		(uuid "82fe7705-1369-4009-8d32-ffc67b281e6a")
 		(at 200.372604 129.247546)
-		(property "Reference" "TP1"
+		(property "Reference" "TP5"
 			(at 1.773714 -0.096111 0)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -29741,238 +30776,6 @@
 			)
 			(rotate
 				(xyz -180 0 0)
-			)
-		)
-	)
-	(footprint "PCM_EEZ_SMD:3561"
-		(locked yes)
-		(layer "F.Cu")
-		(uuid "8425c067-b054-435d-ac4a-5f855a135ea4")
-		(at 113.5825 99.4 180)
-		(descr "Fuse holder")
-		(tags "0031.8221 ")
-		(property "Reference" "F2"
-			(at 12.912212 2.819234 0)
-			(unlocked yes)
-			(layer "F.SilkS")
-			(uuid "50f2b548-2e8e-43d4-bf3e-7573f8b36a9a")
-			(effects
-				(font
-					(size 1.016 1.016)
-					(thickness 0.1524)
-				)
-			)
-		)
-		(property "Value" "3561(KTR) x2"
-			(at 0 1.27 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "1b40621d-c69e-4fdd-a183-2b8d0ac6ef0b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d3cd339a-d835-48b7-a2d6-06c5c6200586")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8473fafb-da4f-481c-86b5-b255f6cd4516")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Comment" "1.25A fuse"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a239cd5d-2b7a-4412-8b1a-4443faccad5c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "DigiKey" "36-3561KCT-ND"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e08796f4-e81c-4ed4-9785-4c98ba242cf6")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Mouser" "534-3561KTR "
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ecfc5107-05f1-4370-af18-883947e26e32")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "TME" "-"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "4bcb1779-8793-4d20-93b7-419d0b8f94ef")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC" "C3205939"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "130e5e6a-5e66-4a12-b741-09d4b73c1a76")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(path "/e97c32bf-f406-4294-8a3d-45b0aae2e3e8/016717b9-9652-47f8-b9ad-c01b9b872697")
-		(sheetname "/Isolated Ch#1, Ch#2/")
-		(sheetfile "Isolated_Ch1_Ch2.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
-		(attr smd)
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_rect
-			(start -11.95 -3.4)
-			(end 11.95 3.4)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.SilkS")
-			(uuid "bac62e59-1b5c-4351-8ab3-e97efd8fc380")
-		)
-		(fp_rect
-			(start -11.95 -3.4)
-			(end 11.95 3.4)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "96736052-f390-4b16-acc9-f95817a371af")
-		)
-		(fp_circle
-			(center -8.500001 -1.905)
-			(end -8.119001 -1.905)
-			(stroke
-				(width 0.508)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.Fab")
-			(uuid "f679c334-82dd-4751-8754-efdbd19fe2dd")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "d0dbc0b0-9ce0-4c23-a22f-dabfc3e5b137")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" smd roundrect
-			(at -8.8 0 180)
-			(size 6 6)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.05)
-			(net "Net-(K2C-NC)")
-			(pinfunction "1_1")
-			(pintype "passive")
-			(uuid "3fdc9772-78a6-4e7d-88dd-8af72b38d9fd")
-		)
-		(pad "2" smd roundrect
-			(at 8.8 0 180)
-			(size 6 6)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.05)
-			(net "/Isolated Ch#1, Ch#2/AIN2P")
-			(pinfunction "2_2")
-			(pintype "passive")
-			(uuid "009cf95c-73b5-4d7b-a42a-79a4ff234fb0")
-		)
-		(embedded_fonts no)
-		(model "${KICAD7_3RD_PARTY}/3dmodels/com_github_eez-open_eez-kicad-libraries/FUSE_20x5mm.step"
-			(hide yes)
-			(offset
-				(xyz 0 0 2)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -0)
-			)
-		)
-		(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_eez-open_eez-kicad-libraries/FUSE_3561.STEP"
-			(offset
-				(xyz -6.3 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 -0 90)
-			)
-		)
-		(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_eez-open_eez-kicad-libraries/FUSE_3561.STEP"
-			(offset
-				(xyz 6.3 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 -0 -90)
 			)
 		)
 	)
@@ -31106,7 +31909,7 @@
 				(pins "2" "1" "3" "4" "5" "8" "7" "6")
 			)
 		)
-		(attr smd dnp)
+		(attr smd exclude_from_pos_files exclude_from_bom dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 1.6764 1.6764)
@@ -35488,7 +36291,7 @@
 				(pins "2" "1" "8" "4" "6" "7" "3" "5")
 			)
 		)
-		(attr smd exclude_from_bom dnp)
+		(attr smd exclude_from_pos_files exclude_from_bom dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.8716 2.4892)
@@ -36749,238 +37552,6 @@
 			)
 			(rotate
 				(xyz 0 0 0)
-			)
-		)
-	)
-	(footprint "PCM_EEZ_SMD:3561"
-		(locked yes)
-		(layer "F.Cu")
-		(uuid "a570ea75-8b20-4a50-acf7-d10b9d3ac229")
-		(at 113.5825 106.6 180)
-		(descr "Fuse holder")
-		(tags "0031.8221 ")
-		(property "Reference" "F1"
-			(at 12.879443 2.810103 0)
-			(unlocked yes)
-			(layer "F.SilkS")
-			(uuid "6eeb2553-0416-4982-80fc-d930b029e142")
-			(effects
-				(font
-					(size 1.016 1.016)
-					(thickness 0.1524)
-				)
-			)
-		)
-		(property "Value" "3561(KTR) x2"
-			(at 0 1.27 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "259f1630-a31d-43c1-979f-99c2d8ef3ecb")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ac56374d-308a-4c31-8d6c-3a09d069a411")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "14313713-188d-4b4d-8f9e-e704cb8f62ea")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Comment" "10A fuse"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "19ac39a1-bdac-4fee-9c4e-129e845e1966")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "DigiKey" "36-3561KCT-ND"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "85d72eff-90c6-453b-9ae9-0c5b7da0f311")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Mouser" "534-3561KTR "
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "558dcf0c-d62f-470f-a269-6aab8d5d5398")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "TME" "-"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f6c139c3-e1de-4ae9-bb95-1ee84474b323")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC" "C3205939"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d9d5de55-bae9-4f0d-9ee2-723443994f9c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(path "/e97c32bf-f406-4294-8a3d-45b0aae2e3e8/5f9ec69a-3d98-4823-90f5-9d9ba351b9a8")
-		(sheetname "/Isolated Ch#1, Ch#2/")
-		(sheetfile "Isolated_Ch1_Ch2.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
-		(attr smd)
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_rect
-			(start -11.95 -3.4)
-			(end 11.95 3.4)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.SilkS")
-			(uuid "6bdbecaf-2cc3-4d09-b86e-984f7d9b10ef")
-		)
-		(fp_rect
-			(start -11.95 -3.4)
-			(end 11.95 3.4)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "3bc3ffbf-3bc7-439f-b257-4a1b67f48e05")
-		)
-		(fp_circle
-			(center -8.500001 -1.905)
-			(end -8.119001 -1.905)
-			(stroke
-				(width 0.508)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.Fab")
-			(uuid "4deec695-af3c-4b35-8e0f-904499ffb77e")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "576b37a9-8fdc-426a-8d95-4a30dc210651")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" smd roundrect
-			(at -8.8 0 180)
-			(size 6 6)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.05)
-			(net "Net-(K1B-NC)")
-			(pinfunction "1_1")
-			(pintype "passive")
-			(uuid "24aa65ec-6ed9-47da-9b85-4b84f320b49f")
-		)
-		(pad "2" smd roundrect
-			(at 8.8 0 180)
-			(size 6 6)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.05)
-			(net "/Isolated Ch#1, Ch#2/AIN2P")
-			(pinfunction "2_2")
-			(pintype "passive")
-			(uuid "70941030-05e0-45fd-b9e7-8c1b7830d72d")
-		)
-		(embedded_fonts no)
-		(model "${KICAD7_3RD_PARTY}/3dmodels/com_github_eez-open_eez-kicad-libraries/FUSE_20x5mm.step"
-			(hide yes)
-			(offset
-				(xyz 0 0 2)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -0)
-			)
-		)
-		(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_eez-open_eez-kicad-libraries/FUSE_3561.STEP"
-			(offset
-				(xyz -6.3 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 -0 90)
-			)
-		)
-		(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_eez-open_eez-kicad-libraries/FUSE_3561.STEP"
-			(offset
-				(xyz 6.3 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 -0 -90)
 			)
 		)
 	)
@@ -39063,6 +39634,183 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "PCM_EEZ_SMD:3561_OUTLINE"
+		(locked yes)
+		(layer "F.Cu")
+		(uuid "b1cb80c7-3f62-422a-a2f3-b9eb57049090")
+		(at 113.5825 106.6)
+		(descr "Fuse holder outline")
+		(tags "0031.8221 ")
+		(property "Reference" "F1"
+			(at -12.86 -2.77 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "a8a173c7-2ae4-458e-bf65-f91d3ffaa0ed")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Value" "521.524"
+			(at 0 1.27 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "4a76d7bf-0250-4540-b470-adeb090925f1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a3281073-ef7c-4c2a-867d-ca2c3667b02e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "fuse holder outline"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6dc87e47-1d18-46f2-8f07-6d47c3e1ae2e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DigiKey" "-"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f33a8e84-8460-4da6-9704-c8974c2c7d52")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" "-"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ff2244bb-88d2-4b99-93c7-40f2498c99b1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TME" "ZCM-5A"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3cfdc689-b29b-4e3f-8155-60c4a2e8a94e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "-"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0964ff72-021c-47e2-9e6d-5b49262f85d7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Label" "5A"
+			(at 12.91 -0.02 90)
+			(unlocked yes)
+			(layer "F.SilkS" knockout)
+			(uuid "81291c4b-470f-424e-a937-3d2f8d4327a1")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(path "/e97c32bf-f406-4294-8a3d-45b0aae2e3e8/c680d54b-2428-40cb-adbd-fac216579733")
+		(sheetname "/Isolated Ch#1, Ch#2/")
+		(sheetfile "Isolated_Ch1_Ch2.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins)
+			)
+		)
+		(attr smd exclude_from_pos_files)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_rect
+			(start -11.95 -3.4)
+			(end 11.95 3.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "3afc556b-54be-4bd9-9d87-f612410c8b00")
+		)
+		(fp_rect
+			(start -11.95 -3.4)
+			(end 11.95 3.4)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "e9c10df7-c74b-4e35-957c-24333d3d26eb")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "24b821f2-c9de-453e-9ab6-59c3d1646862")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+		(model "${KICAD7_3RD_PARTY}/3dmodels/com_github_eez-open_eez-kicad-libraries/FUSE_20x5mm.step"
+			(offset
+				(xyz 0 0 2)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -45254,7 +46002,7 @@
 		(layer "F.Cu")
 		(uuid "bca0bede-1f54-46a9-bdb8-2a8ef78f3844")
 		(at 179.549768 112.225343 180)
-		(property "Reference" "TP4"
+		(property "Reference" "TP3"
 			(at 2.4765 0 0)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -46493,237 +47241,6 @@
 			)
 		)
 	)
-	(footprint "PCM_EEZ_SMD:3561"
-		(layer "F.Cu")
-		(uuid "c75cf075-6676-48c1-b8c0-1c8f40992658")
-		(at 113.5825 129.23 180)
-		(descr "Fuse holder")
-		(tags "0031.8221 ")
-		(property "Reference" "F4"
-			(at 12.9225 2.67 0)
-			(unlocked yes)
-			(layer "F.SilkS")
-			(uuid "0ff31376-91d1-4713-9eb4-8d75eb131070")
-			(effects
-				(font
-					(size 1.016 1.016)
-					(thickness 0.1524)
-				)
-			)
-		)
-		(property "Value" "3561(KTR) x2"
-			(at 0 1.27 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "e356d544-978d-4fb1-ac70-0297018b2df4")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 180)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9861636f-1207-43f8-915b-cad9885c5073")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 180)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "de41d743-0003-4628-b112-05d80160867b")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Comment" "10A fuse"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "6edf244f-9a24-41f8-b3ee-816a9dc5692f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "DigiKey" "36-3561KCT-ND"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d90e77cd-8c49-4afd-8374-597dc4966da5")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Mouser" "534-3561KTR "
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f114c539-a770-488a-80e4-ca990f89c5b3")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "TME" "-"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b393a7c1-b6c4-416d-b9a1-24e2ddd86212")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC" "C3205939"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b0c500f0-95f9-4cc3-b7bb-62222dca3cb8")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(path "/13785374-ffa8-4fff-86e4-702f1a3b8cf6/28bf83f0-5008-4602-a1cb-316cf645425c")
-		(sheetname "/AFE Ch#4 (Hi-current)/")
-		(sheetfile "AFE_Ch4_(Hi-current).kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
-		(attr smd)
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_rect
-			(start -11.95 -3.4)
-			(end 11.95 3.4)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.SilkS")
-			(uuid "172b3410-5700-44f1-961c-0510dccf8a41")
-		)
-		(fp_rect
-			(start -11.95 -3.4)
-			(end 11.95 3.4)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "146c02b7-1a46-4858-9ca8-fb6571a688e1")
-		)
-		(fp_circle
-			(center -8.500001 -1.905)
-			(end -8.119001 -1.905)
-			(stroke
-				(width 0.508)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.Fab")
-			(uuid "5e801d69-b476-4b56-9f5d-f7f636cdb087")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "ec0e18af-7b6c-4fac-8af3-0824dbb4d58b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" smd roundrect
-			(at -8.8 0 180)
-			(size 6 6)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.05)
-			(net "Net-(K4B-COM)")
-			(pinfunction "1_1")
-			(pintype "passive")
-			(uuid "5a057bbd-7100-4fa7-af10-ad93cf11ca65")
-		)
-		(pad "2" smd roundrect
-			(at 8.8 0 180)
-			(size 6 6)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.05)
-			(net "AIN4P")
-			(pinfunction "2_2")
-			(pintype "passive")
-			(uuid "71f3d746-b62c-4f96-8ede-b35c3f88dc1f")
-		)
-		(embedded_fonts no)
-		(model "${KICAD7_3RD_PARTY}/3dmodels/com_github_eez-open_eez-kicad-libraries/FUSE_20x5mm.step"
-			(hide yes)
-			(offset
-				(xyz 0 0 2)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -0)
-			)
-		)
-		(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_eez-open_eez-kicad-libraries/FUSE_3561.STEP"
-			(offset
-				(xyz -6.3 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 -0 90)
-			)
-		)
-		(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_eez-open_eez-kicad-libraries/FUSE_3561.STEP"
-			(offset
-				(xyz 6.3 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 -0 -90)
-			)
-		)
-	)
 	(footprint "PCM_EEZ_passives:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "ca7550c2-edc9-4c04-b530-bce2ce0647fc")
@@ -47713,6 +48230,194 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "PCM_EEZ_SMD:3561_PAD"
+		(layer "F.Cu")
+		(uuid "cea9e936-043f-4fc6-b699-4b85962a30b6")
+		(at 113.5825 99.4)
+		(descr "Fuse holder SMT pad")
+		(tags "0031.8221 ")
+		(property "Reference" "FH3"
+			(at -9.5 -4.1 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "c822705f-8475-4926-93e0-69f1bacaa8ab")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Value" "3561KTR"
+			(at 0 1.27 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "5760330d-5b1d-4229-9061-a6e1605da59a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2982c1e8-ef97-418d-940b-4bbaf9e69163")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "SMD fuse holder"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e982750e-d84e-46cc-8227-63b962063be5")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DigiKey" "36-3561KCT-ND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "884043a1-b278-4ac8-93ae-b63fba4ab572")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" "534-3561KTR"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fcd81c67-245e-44d6-9d3d-c6f7889be7a4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TME" "-"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a05439af-0a4c-48ee-97b4-1365e94c592c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C3205939"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "03f58a43-7518-4aac-b51d-347db97717ea")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Designator" "F2"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "253432b7-a709-4155-8d7a-d800031bf161")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/e97c32bf-f406-4294-8a3d-45b0aae2e3e8/1d4aad79-671d-459b-99fc-d5defa12f209")
+		(sheetname "/Isolated Ch#1, Ch#2/")
+		(sheetfile "Isolated_Ch1_Ch2.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_rect
+			(start -11.95 -3.4)
+			(end 11.95 3.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "b73e1255-7677-4e1c-b076-cc490262475d")
+		)
+		(fp_circle
+			(center -8.500001 -1.905)
+			(end -8.119001 -1.905)
+			(stroke
+				(width 0.508)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "02a6d7fb-b4f2-4152-aff3-2aa83e96377f")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "ca2fbbdc-db9b-44d0-9b8d-42cdcd93d164")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -8.8 0)
+			(size 6 6)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.05)
+			(net "/Isolated Ch#1, Ch#2/AIN2P")
+			(pinfunction "1_1")
+			(pintype "passive")
+			(uuid "07b37894-a951-4c28-abd4-961bcdedf9e4")
+		)
+		(embedded_fonts no)
+		(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_eez-open_eez-kicad-libraries/FUSE_3561.STEP"
+			(offset
+				(xyz -6.3 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 90)
 			)
 		)
 	)
@@ -53755,6 +54460,181 @@
 			)
 		)
 	)
+	(footprint "PCM_EEZ_SMD:3561_PAD"
+		(layer "F.Cu")
+		(uuid "e5cc0eb7-98de-484b-8051-ee8f27d00d0e")
+		(at 113.5825 99.4 180)
+		(descr "Fuse holder SMT pad")
+		(tags "0031.8221 ")
+		(property "Reference" "FH4"
+			(at -9.5 -4.1 180)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "5516fa19-54c6-44fe-a6e5-9f6032b7c350")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Value" "3561KTR"
+			(at 0 1.27 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "755339ef-2cc6-4de2-9ebd-59686d178d5e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "934dc07f-5350-4825-8953-bd291748ce5b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "SMD fuse holder"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "96660236-4390-4336-a615-fc21459bd6c6")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DigiKey" "36-3561KCT-ND"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bb816f0f-b8ff-43c6-88d1-0dd8d26a8a53")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" "534-3561KTR"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3f628160-8620-45a1-afab-3f4ac4c091df")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TME" "-"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d4f6cd18-d2f4-43b2-bf2d-c5999bd0fa0e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C3205939"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b4aecd9c-bc8e-41ea-8042-bdd205f63a10")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/e97c32bf-f406-4294-8a3d-45b0aae2e3e8/5596a6ae-6b9c-4eb5-a8bf-3a3f4d7f3464")
+		(sheetname "/Isolated Ch#1, Ch#2/")
+		(sheetfile "Isolated_Ch1_Ch2.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_rect
+			(start -11.95 -3.4)
+			(end 11.95 3.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "2e98a052-5b72-4036-aaee-53a033afe33f")
+		)
+		(fp_circle
+			(center -8.500001 -1.905)
+			(end -8.119001 -1.905)
+			(stroke
+				(width 0.508)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "83047fce-5ef2-4d5a-bf53-62ddc2b57fe8")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "cb573057-013d-45f0-bfb5-a6464668fa44")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -8.8 0 180)
+			(size 6 6)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.05)
+			(net "Net-(K2C-NC)")
+			(pinfunction "1_1")
+			(pintype "passive")
+			(uuid "79bc4f0e-2e75-4ec8-8671-8b06d0e1fdf8")
+		)
+		(embedded_fonts no)
+		(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_eez-open_eez-kicad-libraries/FUSE_3561.STEP"
+			(offset
+				(xyz -6.3 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 90)
+			)
+		)
+	)
 	(footprint "PCM_EEZ_passives:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "ea4392e8-7c69-4176-81e0-50d5a45dba29")
@@ -55243,6 +56123,360 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "PCM_EEZ_SMD:3561_OUTLINE"
+		(locked yes)
+		(layer "F.Cu")
+		(uuid "f0c06218-ce46-43d6-b60d-e205313fe9b8")
+		(at 113.5825 99.4)
+		(descr "Fuse holder outline")
+		(tags "0031.8221 ")
+		(property "Reference" "F2"
+			(at -12.89 -2.82 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "a7baff24-83ba-43e7-96c4-1ba0faa9ccf1")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Value" "520.618"
+			(at 0 1.27 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "3f26c0f3-1d2b-4b42-afd6-afaa6e2adbe8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "880556d4-e869-48ab-8576-c2114ed8c209")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "fuse holder outline"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "920edb86-fc67-49b2-ad4b-054cb46e815d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DigiKey" "-"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "58eb8818-e6c6-4283-a803-51bc82c1662f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" "-"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3fdcbd6d-8be3-4e98-b8da-c18c0b168567")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TME" "ZKS-1.25A"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "81de3dca-a3e4-49b5-85b8-89fd20143f34")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "-"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b04adf41-1ca4-4638-88d6-82badc8bb57c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Label" "1.25A"
+			(at 12.9 0.03 90)
+			(unlocked yes)
+			(layer "F.SilkS" knockout)
+			(uuid "83c86ef9-b1ce-4772-a52d-2b033cdf5c8f")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(path "/e97c32bf-f406-4294-8a3d-45b0aae2e3e8/bfaa3d99-a75a-4d5f-853b-74e3bdfd551c")
+		(sheetname "/Isolated Ch#1, Ch#2/")
+		(sheetfile "Isolated_Ch1_Ch2.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins)
+			)
+		)
+		(attr smd exclude_from_pos_files)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_rect
+			(start -11.95 -3.4)
+			(end 11.95 3.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "6e922fe6-ecfc-42b6-bc5b-70186c5befcd")
+		)
+		(fp_rect
+			(start -11.95 -3.4)
+			(end 11.95 3.4)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "8be919d5-fd2f-4e70-a3ba-3ddc96273abc")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "134d5b80-cef3-45f9-9089-d4db39957d40")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+		(model "${KICAD7_3RD_PARTY}/3dmodels/com_github_eez-open_eez-kicad-libraries/FUSE_20x5mm.step"
+			(offset
+				(xyz 0 0 2)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
+	)
+	(footprint "PCM_EEZ_SMD:3561_OUTLINE"
+		(locked yes)
+		(layer "F.Cu")
+		(uuid "f28ab31a-f651-4df3-89a5-3d49b72012a9")
+		(at 113.58 122.03)
+		(descr "Fuse holder outline")
+		(tags "0031.8221 ")
+		(property "Reference" "F3"
+			(at -12.84 -2.8 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "de9c3583-aa23-47f4-96ff-28c8d706a2db")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Value" "520.618"
+			(at 0 1.27 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "28c06e2b-5ba4-4f27-8e0c-51f9608383ef")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f3728aca-b92e-4456-baba-7108488d4b8e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "fuse holder outline"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8df20746-0dda-46bc-9db3-ed160a775ddb")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "DigiKey" "-"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2253cea6-7e4b-4929-a447-686bd48bb3ec")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser" "-"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a72f7545-b4d7-4ee1-a265-a4ea894c272f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "TME" "ZKS-1.25A"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ad468759-5a12-4b41-aa7b-c89227470b81")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "-"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "65e4ac65-117e-4edf-99d7-1e1538fa48de")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Label" "1.25A"
+			(at 12.87 0.05 90)
+			(unlocked yes)
+			(layer "F.SilkS" knockout)
+			(uuid "97073602-73b2-486f-960b-627f97a6c569")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(path "/13785374-ffa8-4fff-86e4-702f1a3b8cf6/6ce79a15-ce18-4aca-a88d-2e85636f1707")
+		(sheetname "/AFE Ch#4 (Hi-current)/")
+		(sheetfile "AFE_Ch4_(Hi-current).kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins)
+			)
+		)
+		(attr smd exclude_from_pos_files)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_rect
+			(start -11.95 -3.4)
+			(end 11.95 3.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "23f69220-b963-40d6-b386-11b8f93c9ed7")
+		)
+		(fp_rect
+			(start -11.95 -3.4)
+			(end 11.95 3.4)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "8747faf1-2619-4e2b-99ac-34d52a46dcda")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "9eb18254-5eb3-4c2b-9646-02b566e62670")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+		(model "${KICAD7_3RD_PARTY}/3dmodels/com_github_eez-open_eez-kicad-libraries/FUSE_20x5mm.step"
+			(offset
+				(xyz 0 0 2)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -57113,8 +58347,8 @@
 			(uuid "341799c5-ffda-4c68-8ba1-a5be4d883835")
 		)
 		(pad "1" smd rect
-			(at -3.27 0 180)
-			(size 0.8382 0.508)
+			(at -3.28895 0 180)
+			(size 0.8001 0.5842)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "Net-(K1B-COM)")
 			(pinfunction "1_1")
@@ -57124,8 +58358,8 @@
 			(uuid "070a7995-bf12-485f-8339-1b390b6c4c97")
 		)
 		(pad "1" smd rect
-			(at -2.8 -0.9254 180)
-			(size 1.778 1.3462)
+			(at -2.8 -0.9381 180)
+			(size 1.778 1.3081)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "Net-(K1B-COM)")
 			(pinfunction "1_1")
@@ -57135,8 +58369,8 @@
 			(uuid "dc5b97f1-ed07-466e-a447-b6fd0bf92a37")
 		)
 		(pad "1" smd rect
-			(at -2.8 0.9254 180)
-			(size 1.778 1.3462)
+			(at -2.8 0.9381 180)
+			(size 1.778 1.3081)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "Net-(K1B-COM)")
 			(pinfunction "1_1")
@@ -57159,8 +58393,8 @@
 			(uuid "f9d5a294-8c37-49e3-8447-d864af65157f")
 		)
 		(pad "2" smd rect
-			(at 2.8 -0.9254)
-			(size 1.778 1.3462)
+			(at 2.8 -0.9381)
+			(size 1.778 1.3081)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "/Isolated Ch#1, Ch#2/AIN2N")
 			(pinfunction "2_2")
@@ -57170,8 +58404,8 @@
 			(uuid "7af7a672-bb1f-4a3c-9af0-548815e9e551")
 		)
 		(pad "2" smd rect
-			(at 2.8 0.9254)
-			(size 1.778 1.3462)
+			(at 2.8 0.9381)
+			(size 1.778 1.3081)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "/Isolated Ch#1, Ch#2/AIN2N")
 			(pinfunction "2_2")
@@ -57181,8 +58415,8 @@
 			(uuid "fbd0e4bf-aa28-47f6-aafe-8f3f79f29585")
 		)
 		(pad "2" smd rect
-			(at 3.27 0)
-			(size 0.8382 0.508)
+			(at 3.28895 0)
+			(size 0.8001 0.5842)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "/Isolated Ch#1, Ch#2/AIN2N")
 			(pinfunction "2_2")
@@ -58397,7 +59631,7 @@
 		(layer "F.Fab")
 		(uuid "c4187af5-0c8e-46fa-8d63-192b26f05d03")
 	)
-	(gr_text "EEZ DIB AFE3+ (08/2026 ${project_version})"
+	(gr_text "EEZ DIB AFE3+ (09/2026 ${project_version})"
 		(at 188.7 90.9 0)
 		(layer "F.SilkS")
 		(uuid "5c3a4b2c-0ee5-4cc6-8747-46632342af9b")
@@ -60751,6 +61985,285 @@
 		(net "Net-(K3B-NC)")
 		(uuid "e63c03ca-42c7-464b-99ad-56b17f9bc674")
 	)
+	(via
+		(at 141.43 127.2)
+		(size 0.45)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net "Net-(K4B-COM)")
+		(uuid "04ecfc4f-c8ef-41d1-875e-72859ee2dcfb")
+	)
+	(via
+		(at 125.6 131.3)
+		(size 0.45)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net "Net-(K4B-COM)")
+		(uuid "093bd2fc-6020-4c8d-b26a-a3664cdf804e")
+	)
+	(via
+		(at 125.6 126.2)
+		(size 0.45)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net "Net-(K4B-COM)")
+		(uuid "0a5e6d54-7924-4dc2-82b6-a342c2439aa2")
+	)
+	(via
+		(at 126.2 128)
+		(size 0.45)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net "Net-(K4B-COM)")
+		(uuid "0c0c2bc2-34ef-479b-b7af-d275e980b277")
+	)
+	(via
+		(at 125.6 132.5)
+		(size 0.45)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net "Net-(K4B-COM)")
+		(uuid "0ceedc31-d846-4244-927a-03aee96f9d52")
+	)
+	(via
+		(at 140.83 127.2)
+		(size 0.45)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net "Net-(K4B-COM)")
+		(uuid "0e80572a-55b2-49fe-bfaf-c96cd0b26cd8")
+	)
+	(via
+		(at 146.83 127.2)
+		(size 0.45)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net "Net-(K4B-COM)")
+		(uuid "18480249-0f06-484c-8610-f12645d76599")
+	)
+	(via
+		(at 142.63 127.2)
+		(size 0.45)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net "Net-(K4B-COM)")
+		(uuid "2273112d-7b7d-4e86-a261-b254ff68d60a")
+	)
+	(via
+		(at 125.6 126.8)
+		(size 0.45)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net "Net-(K4B-COM)")
+		(uuid "2e0ebc9c-75d6-4f4a-9dcf-60ba0e59ac31")
+	)
+	(via
+		(at 138.43 127.2)
+		(size 0.45)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net "Net-(K4B-COM)")
+		(uuid "3d8a720a-0309-4c46-8f2a-185f2316ab75")
+	)
+	(via
+		(at 126.2 126.2)
+		(size 0.45)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net "Net-(K4B-COM)")
+		(uuid "51879dd4-ccd0-4e36-af6f-818f4fcb41ed")
+	)
+	(via
+		(at 146.23 127.2)
+		(size 0.45)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net "Net-(K4B-COM)")
+		(uuid "7a9fffef-83da-4f5b-8d4e-3a2006f137bd")
+	)
+	(via
+		(at 145.03 127.2)
+		(size 0.45)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net "Net-(K4B-COM)")
+		(uuid "855e24c3-e944-471e-8fd3-82c7de159b10")
+	)
+	(via
+		(at 145.63 127.2)
+		(size 0.45)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net "Net-(K4B-COM)")
+		(uuid "85c3ade2-14c8-45c1-9b61-0d7c1ca52b22")
+	)
+	(via
+		(at 144.43 127.2)
+		(size 0.45)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net "Net-(K4B-COM)")
+		(uuid "8d6df781-e550-47e6-a9c6-60831d13550a")
+	)
+	(via
+		(at 140.23 127.2)
+		(size 0.45)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net "Net-(K4B-COM)")
+		(uuid "8df72af4-787c-408a-9071-f303449f82d6")
+	)
+	(via
+		(at 126.2 127.4)
+		(size 0.45)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net "Net-(K4B-COM)")
+		(uuid "9cd7e129-c243-4b14-8abb-ed0464e8fdb9")
+	)
+	(via
+		(at 142.03 127.2)
+		(size 0.45)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net "Net-(K4B-COM)")
+		(uuid "9d9336c4-6d34-40f0-9eba-97c0ee609a3c")
+	)
+	(via
+		(at 126.2 132.5)
+		(size 0.45)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net "Net-(K4B-COM)")
+		(uuid "9fea4a7f-e4ca-4da9-bf72-e716c34090aa")
+	)
+	(via
+		(at 125.6 131.9)
+		(size 0.45)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net "Net-(K4B-COM)")
+		(uuid "ab3fd71b-bb03-4d82-8e4d-4db088dee474")
+	)
+	(via
+		(at 126.2 130.7)
+		(size 0.45)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net "Net-(K4B-COM)")
+		(uuid "b43bb540-0cf1-4737-8884-ffe8d7f7cf64")
+	)
+	(via
+		(at 125.6 130.7)
+		(size 0.45)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net "Net-(K4B-COM)")
+		(uuid "b901d1d3-b1a3-40d4-b9e4-f7d58bd4b84c")
+	)
+	(via
+		(at 125.6 127.4)
+		(size 0.45)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net "Net-(K4B-COM)")
+		(uuid "bc367d1b-e888-44ee-9835-0c9d147c802d")
+	)
+	(via
+		(at 143.83 127.2)
+		(size 0.45)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net "Net-(K4B-COM)")
+		(uuid "c25d9330-706e-44ef-8016-32b04794303c")
+	)
+	(via
+		(at 126.2 126.8)
+		(size 0.45)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net "Net-(K4B-COM)")
+		(uuid "c50c6e30-a18a-483f-83ea-dda48a553ac3")
+	)
+	(via
+		(at 139.63 127.2)
+		(size 0.45)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net "Net-(K4B-COM)")
+		(uuid "da70ba34-20e0-4a09-a38c-3d622ed88345")
+	)
+	(via
+		(at 126.2 131.9)
+		(size 0.45)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net "Net-(K4B-COM)")
+		(uuid "e2f7d7d5-6ab1-4cbd-a309-7ba47a174589")
+	)
+	(via
+		(at 139.03 127.2)
+		(size 0.45)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net "Net-(K4B-COM)")
+		(uuid "ea4199b2-235e-4fe6-8013-6e65265a993f")
+	)
+	(via
+		(at 143.23 127.2)
+		(size 0.45)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net "Net-(K4B-COM)")
+		(uuid "eace0f22-09ef-4392-be54-22eb88aa83e6")
+	)
+	(via
+		(at 125.6 128)
+		(size 0.45)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net "Net-(K4B-COM)")
+		(uuid "f20ae59a-6248-45ba-bd28-ef4a65c4de37")
+	)
+	(via
+		(at 126.2 131.3)
+		(size 0.45)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net "Net-(K4B-COM)")
+		(uuid "fa50a6d1-acc6-4d87-b049-7d2c955c0f82")
+	)
 	(segment
 		(start 146.5126 99.3)
 		(end 146.3126 99.5)
@@ -61891,28 +63404,12 @@
 		(uuid "de28ae5a-88ec-4753-9dae-77c16ef13030")
 	)
 	(segment
-		(start 116.34 129.23)
-		(end 116.35 129.22)
-		(width 0.2032)
-		(layer "F.Cu")
-		(net "Net-(R43-Pad1)")
-		(uuid "04ad68ef-af6f-4bb6-acc0-e0e007e6d200")
-	)
-	(segment
 		(start 114.15 128.84)
 		(end 114.15 123.82)
 		(width 1.016)
 		(layer "F.Cu")
 		(net "Net-(R43-Pad1)")
 		(uuid "66082b57-5d3d-47f8-a38f-623ed01d03ba")
-	)
-	(segment
-		(start 115.6825 129.23)
-		(end 116.34 129.23)
-		(width 0.2032)
-		(layer "F.Cu")
-		(net "Net-(R43-Pad1)")
-		(uuid "7a376c96-bf86-49d1-a022-db5ab0b52d43")
 	)
 	(segment
 		(start 116.34 129.23)
@@ -69019,6 +70516,14 @@
 		(uuid "fff230de-64fe-4e86-93c3-aa715aef9093")
 	)
 	(segment
+		(start 97.00365 121.630999)
+		(end 97.45275 121.630999)
+		(width 0.4064)
+		(layer "B.Cu")
+		(net "AIN4P")
+		(uuid "4e6cb7c3-973b-4fdf-894d-c1cd1893aefc")
+	)
+	(segment
 		(start 133.572213 126.301245)
 		(end 133.562013 126.291045)
 		(width 0.254)
@@ -69041,14 +70546,6 @@
 		(layer "F.Cu")
 		(net "Net-(IC13A-+IN)")
 		(uuid "83cbe2c7-c0fa-4e00-944a-3ed2e1866518")
-	)
-	(segment
-		(start 97.00365 121.630999)
-		(end 97.45275 121.630999)
-		(width 0.4064)
-		(layer "B.Cu")
-		(net "AIN4P")
-		(uuid "4e6cb7c3-973b-4fdf-894d-c1cd1893aefc")
 	)
 	(segment
 		(start 174.435 95.33)
@@ -70481,285 +71978,6 @@
 		(layer "F.Cu")
 		(net "Net-(K2B-NO)")
 		(uuid "e60446c5-508d-4969-b835-ecf4f897b54b")
-	)
-	(via
-		(at 141.43 127.2)
-		(size 0.45)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(free yes)
-		(net "Net-(K4B-COM)")
-		(uuid "04ecfc4f-c8ef-41d1-875e-72859ee2dcfb")
-	)
-	(via
-		(at 125.6 131.3)
-		(size 0.45)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(free yes)
-		(net "Net-(K4B-COM)")
-		(uuid "093bd2fc-6020-4c8d-b26a-a3664cdf804e")
-	)
-	(via
-		(at 125.6 126.2)
-		(size 0.45)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(free yes)
-		(net "Net-(K4B-COM)")
-		(uuid "0a5e6d54-7924-4dc2-82b6-a342c2439aa2")
-	)
-	(via
-		(at 126.2 128)
-		(size 0.45)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(free yes)
-		(net "Net-(K4B-COM)")
-		(uuid "0c0c2bc2-34ef-479b-b7af-d275e980b277")
-	)
-	(via
-		(at 125.6 132.5)
-		(size 0.45)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(free yes)
-		(net "Net-(K4B-COM)")
-		(uuid "0ceedc31-d846-4244-927a-03aee96f9d52")
-	)
-	(via
-		(at 140.83 127.2)
-		(size 0.45)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(free yes)
-		(net "Net-(K4B-COM)")
-		(uuid "0e80572a-55b2-49fe-bfaf-c96cd0b26cd8")
-	)
-	(via
-		(at 146.83 127.2)
-		(size 0.45)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(free yes)
-		(net "Net-(K4B-COM)")
-		(uuid "18480249-0f06-484c-8610-f12645d76599")
-	)
-	(via
-		(at 142.63 127.2)
-		(size 0.45)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(free yes)
-		(net "Net-(K4B-COM)")
-		(uuid "2273112d-7b7d-4e86-a261-b254ff68d60a")
-	)
-	(via
-		(at 125.6 126.8)
-		(size 0.45)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(free yes)
-		(net "Net-(K4B-COM)")
-		(uuid "2e0ebc9c-75d6-4f4a-9dcf-60ba0e59ac31")
-	)
-	(via
-		(at 138.43 127.2)
-		(size 0.45)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(free yes)
-		(net "Net-(K4B-COM)")
-		(uuid "3d8a720a-0309-4c46-8f2a-185f2316ab75")
-	)
-	(via
-		(at 126.2 126.2)
-		(size 0.45)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(free yes)
-		(net "Net-(K4B-COM)")
-		(uuid "51879dd4-ccd0-4e36-af6f-818f4fcb41ed")
-	)
-	(via
-		(at 146.23 127.2)
-		(size 0.45)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(free yes)
-		(net "Net-(K4B-COM)")
-		(uuid "7a9fffef-83da-4f5b-8d4e-3a2006f137bd")
-	)
-	(via
-		(at 145.03 127.2)
-		(size 0.45)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(free yes)
-		(net "Net-(K4B-COM)")
-		(uuid "855e24c3-e944-471e-8fd3-82c7de159b10")
-	)
-	(via
-		(at 145.63 127.2)
-		(size 0.45)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(free yes)
-		(net "Net-(K4B-COM)")
-		(uuid "85c3ade2-14c8-45c1-9b61-0d7c1ca52b22")
-	)
-	(via
-		(at 144.43 127.2)
-		(size 0.45)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(free yes)
-		(net "Net-(K4B-COM)")
-		(uuid "8d6df781-e550-47e6-a9c6-60831d13550a")
-	)
-	(via
-		(at 140.23 127.2)
-		(size 0.45)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(free yes)
-		(net "Net-(K4B-COM)")
-		(uuid "8df72af4-787c-408a-9071-f303449f82d6")
-	)
-	(via
-		(at 126.2 127.4)
-		(size 0.45)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(free yes)
-		(net "Net-(K4B-COM)")
-		(uuid "9cd7e129-c243-4b14-8abb-ed0464e8fdb9")
-	)
-	(via
-		(at 142.03 127.2)
-		(size 0.45)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(free yes)
-		(net "Net-(K4B-COM)")
-		(uuid "9d9336c4-6d34-40f0-9eba-97c0ee609a3c")
-	)
-	(via
-		(at 126.2 132.5)
-		(size 0.45)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(free yes)
-		(net "Net-(K4B-COM)")
-		(uuid "9fea4a7f-e4ca-4da9-bf72-e716c34090aa")
-	)
-	(via
-		(at 125.6 131.9)
-		(size 0.45)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(free yes)
-		(net "Net-(K4B-COM)")
-		(uuid "ab3fd71b-bb03-4d82-8e4d-4db088dee474")
-	)
-	(via
-		(at 126.2 130.7)
-		(size 0.45)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(free yes)
-		(net "Net-(K4B-COM)")
-		(uuid "b43bb540-0cf1-4737-8884-ffe8d7f7cf64")
-	)
-	(via
-		(at 125.6 130.7)
-		(size 0.45)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(free yes)
-		(net "Net-(K4B-COM)")
-		(uuid "b901d1d3-b1a3-40d4-b9e4-f7d58bd4b84c")
-	)
-	(via
-		(at 125.6 127.4)
-		(size 0.45)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(free yes)
-		(net "Net-(K4B-COM)")
-		(uuid "bc367d1b-e888-44ee-9835-0c9d147c802d")
-	)
-	(via
-		(at 143.83 127.2)
-		(size 0.45)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(free yes)
-		(net "Net-(K4B-COM)")
-		(uuid "c25d9330-706e-44ef-8016-32b04794303c")
-	)
-	(via
-		(at 126.2 126.8)
-		(size 0.45)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(free yes)
-		(net "Net-(K4B-COM)")
-		(uuid "c50c6e30-a18a-483f-83ea-dda48a553ac3")
-	)
-	(via
-		(at 139.63 127.2)
-		(size 0.45)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(free yes)
-		(net "Net-(K4B-COM)")
-		(uuid "da70ba34-20e0-4a09-a38c-3d622ed88345")
-	)
-	(via
-		(at 126.2 131.9)
-		(size 0.45)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(free yes)
-		(net "Net-(K4B-COM)")
-		(uuid "e2f7d7d5-6ab1-4cbd-a309-7ba47a174589")
-	)
-	(via
-		(at 139.03 127.2)
-		(size 0.45)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(free yes)
-		(net "Net-(K4B-COM)")
-		(uuid "ea4199b2-235e-4fe6-8013-6e65265a993f")
-	)
-	(via
-		(at 143.23 127.2)
-		(size 0.45)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(free yes)
-		(net "Net-(K4B-COM)")
-		(uuid "eace0f22-09ef-4392-be54-22eb88aa83e6")
-	)
-	(via
-		(at 125.6 128)
-		(size 0.45)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(free yes)
-		(net "Net-(K4B-COM)")
-		(uuid "f20ae59a-6248-45ba-bd28-ef4a65c4de37")
-	)
-	(via
-		(at 126.2 131.3)
-		(size 0.45)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(free yes)
-		(net "Net-(K4B-COM)")
-		(uuid "fa50a6d1-acc6-4d87-b049-7d2c955c0f82")
 	)
 	(segment
 		(start 182.674768 112.225343)

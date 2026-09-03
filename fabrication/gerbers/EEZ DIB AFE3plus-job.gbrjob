@@ -3,15 +3,15 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "10.0.5-10.0.5~ubuntu24.04.1"
+      "Version": "10.0.6-10.0.6~ubuntu24.04.1"
     },
-    "CreationDate": "2026-08-25T07:35:14+02:00"
+    "CreationDate": "2026-09-03T10:56:55+02:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "EEZ DIB AFE3plus",
       "GUID": "45455a20-4449-4422-9041-464533706c75",
-      "Revision": "r1B1"
+      "Revision": "r1B2"
     },
     "Size": {
       "X": 126.0533,

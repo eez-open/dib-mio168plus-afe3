@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "${project_name}")
-		(date "2026-09-02")
+		(date "2026-09-03")
 		(rev "${project_version}")
 		(company "${project_creator}")
 		(comment 1 "${project_license}")
@@ -5133,35 +5133,35 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PCM_EEZ_unsorted:Fuse"
+		(symbol "PCM_EEZ_unsorted:Fuse_3651_OUTLINE"
 			(exclude_from_sim no)
-			(in_bom yes)
+			(in_bom no)
 			(on_board yes)
-			(in_pos_files yes)
+			(in_pos_files no)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "F"
-				(at -3.81 1.7145 0)
+				(at 0 1.905 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
-						(size 1.778 1.5113)
+						(size 1.27 1.27)
 					)
-					(justify left bottom)
+					(justify bottom)
 				)
 			)
 			(property "Value" ""
-				(at -3.81 -3.2385 0)
+				(at 0 -1.905 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
-						(size 1.778 1.5113)
+						(size 1.27 1.27)
 					)
-					(justify left bottom)
+					(justify top)
 				)
 			)
-			(property "Footprint" "PCM_EEZ_THT:ZH32"
+			(property "Footprint" "PCM_EEZ_SMD:3561_OUTLINE"
 				(at 0 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5183,7 +5183,7 @@
 					)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "fuse holder outline"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5194,7 +5194,7 @@
 					)
 				)
 			)
-			(property "DigiKey" "732-11370-ND"
+			(property "DigiKey" ""
 				(at 0 -5.08 0)
 				(show_name yes)
 				(do_not_autoplace no)
@@ -5205,7 +5205,7 @@
 					)
 				)
 			)
-			(property "Mouser" "710-696101000002"
+			(property "Mouser" ""
 				(at 0 -7.62 0)
 				(show_name yes)
 				(do_not_autoplace no)
@@ -5216,7 +5216,7 @@
 					)
 				)
 			)
-			(property "TME" "ZH32"
+			(property "TME" ""
 				(at 0 -10.16 0)
 				(show_name yes)
 				(do_not_autoplace no)
@@ -5227,10 +5227,36 @@
 					)
 				)
 			)
-			(symbol "Fuse_1_0"
+			(symbol "Fuse_3651_OUTLINE_0_1"
 				(polyline
 					(pts
-						(xy -2.794 1.0795) (xy -2.794 -1.0795)
+						(xy -1.27 0.635) (xy -1.27 -0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0.635) (xy 1.27 -0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Fuse_3651_OUTLINE_1_1"
+				(polyline
+					(pts
+						(xy 2.54 0.635) (xy 2.54 -0.635)
 					)
 					(stroke
 						(width 0.254)
@@ -5242,7 +5268,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.794 -1.0795) (xy 2.794 -1.0795)
+						(xy 2.54 0.635) (xy -2.54 0.635) (xy -2.54 -0.635) (xy 2.54 -0.635)
 					)
 					(stroke
 						(width 0.254)
@@ -5252,69 +5278,129 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy -2.54 0) (xy 1.524 0)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PCM_EEZ_unsorted:Fuse_3651_PAD"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "FH"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
-					(stroke
-						(width 0.1524)
-						(type solid)
+					(justify bottom)
+				)
+			)
+			(property "Value" "3561KTR"
+				(at 0 -1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
-					(fill
-						(type none)
+					(justify top)
+				)
+			)
+			(property "Footprint" "PCM_EEZ_SMD:3561_PAD"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
 				)
-				(polyline
-					(pts
-						(xy 1.524 0) (xy 1.651 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.651 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
 				)
-				(polyline
-					(pts
-						(xy 2.794 1.0795) (xy -2.794 1.0795)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.794 -1.0795) (xy 2.794 1.0795)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
+			)
+			(property "Description" "SMD fuse holder"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
 				)
+			)
+			(property "DigiKey" "36-3561KCT-ND"
+				(at 0 -7.62 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Mouser" "534-3561KTR"
+				(at 0 -10.16 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "TME" "-"
+				(at 0 -12.7 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C3205939"
+				(at 0 -15.24 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Fuse holder"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Fuse_3651_PAD_1_0"
 				(pin passive line
 					(at -5.08 0 0)
-					(length 2.54)
+					(length 5.08)
 					(name "1"
 						(effects
 							(font
@@ -5330,22 +5416,18 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
+			)
+			(symbol "Fuse_3651_PAD_1_1"
+				(polyline
+					(pts
+						(xy 0 1.27) (xy -2.54 1.27) (xy -2.54 -1.27) (xy 0 -1.27)
 					)
-					(number "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
 					)
 				)
 			)
@@ -10652,143 +10734,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_EEZ_unsorted:Fuse")
-		(at 78.74 91.44 270)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "016717b9-9652-47f8-b9ad-c01b9b872697")
-		(property "Reference" "F2"
-			(at 80.645 90.17 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Value" "3561KTR x2"
-			(at 80.645 92.075 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Footprint" "PCM_EEZ_SMD:3561"
-			(at 76.2 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 78.74 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 78.74 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Comment" "1.25A fuse"
-			(at 80.645 93.98 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-				(justify left top)
-			)
-		)
-		(property "DigiKey" "36-3561KCT-ND"
-			(at 78.74 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser" "534-3561KTR "
-			(at 78.74 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "TME" "-"
-			(at 78.74 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C3205939"
-			(at 78.74 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6f6b5e2c-7f12-414d-97ad-1891df36adf7")
-		)
-		(pin "2"
-			(uuid "faed4331-0c90-43d7-b41e-01366097f59e")
-		)
-		(instances
-			(project "EEZ DIB AFE3plus"
-				(path "/324c4880-14dd-4339-a8ef-63d64f49eee3/e97c32bf-f406-4294-8a3d-45b0aae2e3e8"
-					(reference "F2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_EEZ_unsorted:PCB test point")
 		(at 243.84 63.5 90)
 		(unit 1)
@@ -10799,7 +10744,7 @@
 		(in_pos_files no)
 		(dnp no)
 		(uuid "07453924-4fc6-4311-81a1-95b12848f4be")
-		(property "Reference" "TP2"
+		(property "Reference" "TP1"
 			(at 243.84 61.595 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10916,7 +10861,7 @@
 		(instances
 			(project "EEZ DIB AFE3plus"
 				(path "/324c4880-14dd-4339-a8ef-63d64f49eee3/e97c32bf-f406-4294-8a3d-45b0aae2e3e8"
-					(reference "TP2")
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -11565,6 +11510,140 @@
 			(project "EEZ DIB AFE3plus"
 				(path "/324c4880-14dd-4339-a8ef-63d64f49eee3/e97c32bf-f406-4294-8a3d-45b0aae2e3e8"
 					(reference "#SUPPLY018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_EEZ_unsorted:Fuse_3651_PAD")
+		(at 78.74 91.44 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1d4aad79-671d-459b-99fc-d5defa12f209")
+		(property "Reference" "FH3"
+			(at 81.28 87.6299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3561KTR"
+			(at 81.28 89.535 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_EEZ_SMD:3561_PAD"
+			(at 73.66 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "SMD fuse holder"
+			(at 78.74 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" "36-3561KCT-ND"
+			(at 71.12 91.44 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" "534-3561KTR"
+			(at 68.58 91.44 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME" "-"
+			(at 66.04 91.44 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C3205939"
+			(at 63.5 91.44 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Designator" "F2"
+			(at 76.835 91.44 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+				(justify right)
+			)
+		)
+		(pin "1"
+			(uuid "1222a9c8-6e2a-4591-b3e1-00a22df40bb9")
+		)
+		(instances
+			(project "EEZ DIB AFE3plus"
+				(path "/324c4880-14dd-4339-a8ef-63d64f49eee3/e97c32bf-f406-4294-8a3d-45b0aae2e3e8"
+					(reference "FH3")
 					(unit 1)
 				)
 			)
@@ -12295,7 +12374,7 @@
 		(in_pos_files no)
 		(dnp no)
 		(uuid "4edec6ac-8b37-4445-8a4d-1b7bcfca3093")
-		(property "Reference" "TP4"
+		(property "Reference" "TP3"
 			(at 243.84 122.555 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12412,7 +12491,129 @@
 		(instances
 			(project "EEZ DIB AFE3plus"
 				(path "/324c4880-14dd-4339-a8ef-63d64f49eee3/e97c32bf-f406-4294-8a3d-45b0aae2e3e8"
-					(reference "TP4")
+					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_EEZ_unsorted:Fuse_3651_PAD")
+		(at 78.74 91.44 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5596a6ae-6b9c-4eb5-a8bf-3a3f4d7f3464")
+		(property "Reference" "FH4"
+			(at 81.28 92.075 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "3561KTR"
+			(at 81.28 93.9799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PCM_EEZ_SMD:3561_PAD"
+			(at 83.82 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "SMD fuse holder"
+			(at 78.74 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" "36-3561KCT-ND"
+			(at 86.36 91.44 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" "534-3561KTR"
+			(at 88.9 91.44 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME" "-"
+			(at 91.44 91.44 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C3205939"
+			(at 93.98 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3b1b28ef-1c8f-4185-9aa2-cb3ba8588a9f")
+		)
+		(instances
+			(project "EEZ DIB AFE3plus"
+				(path "/324c4880-14dd-4339-a8ef-63d64f49eee3/e97c32bf-f406-4294-8a3d-45b0aae2e3e8"
+					(reference "FH4")
 					(unit 1)
 				)
 			)
@@ -12648,143 +12849,6 @@
 				(path "/324c4880-14dd-4339-a8ef-63d64f49eee3/e97c32bf-f406-4294-8a3d-45b0aae2e3e8"
 					(reference "K1")
 					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_EEZ_unsorted:Fuse")
-		(at 55.88 91.44 270)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "5f9ec69a-3d98-4823-90f5-9d9ba351b9a8")
-		(property "Reference" "F1"
-			(at 57.785 90.17 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Value" "3561KTR x2"
-			(at 57.785 92.075 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Footprint" "PCM_EEZ_SMD:3561"
-			(at 53.34 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 55.88 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 55.88 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Comment" "10A fuse"
-			(at 57.785 93.98 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-				(justify left top)
-			)
-		)
-		(property "DigiKey" "36-3561KCT-ND"
-			(at 55.88 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser" "534-3561KTR "
-			(at 55.88 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "TME" "-"
-			(at 55.88 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C3205939"
-			(at 55.88 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a722592b-0561-4fb3-93e2-747674aab4e4")
-		)
-		(pin "2"
-			(uuid "5f5e8c7b-a328-4308-918b-8a4c2fbe35d4")
-		)
-		(instances
-			(project "EEZ DIB AFE3plus"
-				(path "/324c4880-14dd-4339-a8ef-63d64f49eee3/e97c32bf-f406-4294-8a3d-45b0aae2e3e8"
-					(reference "F1")
-					(unit 1)
 				)
 			)
 		)
@@ -13349,7 +13413,7 @@
 		(in_pos_files no)
 		(dnp no)
 		(uuid "693007e7-8461-4779-b2aa-be4ccbb6e811")
-		(property "Reference" "TP5"
+		(property "Reference" "TP4"
 			(at 243.84 136.525 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13466,7 +13530,7 @@
 		(instances
 			(project "EEZ DIB AFE3plus"
 				(path "/324c4880-14dd-4339-a8ef-63d64f49eee3/e97c32bf-f406-4294-8a3d-45b0aae2e3e8"
-					(reference "TP5")
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -14673,6 +14737,263 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_EEZ_unsorted:Fuse_3651_PAD")
+		(at 55.88 91.44 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9471f690-1620-446c-bf57-8ba27c723bf9")
+		(property "Reference" "FH1"
+			(at 58.42 87.63 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "3561KTR"
+			(at 58.42 93.98 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PCM_EEZ_SMD:3561_PAD"
+			(at 60.96 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "SMD fuse holder"
+			(at 55.88 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" "36-3561KCT-ND"
+			(at 63.5 91.44 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" "534-3561KTR"
+			(at 66.04 91.44 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME" "-"
+			(at 68.58 91.44 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C3205939"
+			(at 71.12 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3bb1d13e-ede2-4863-aaa4-d17a22b06fbe")
+		)
+		(instances
+			(project "EEZ DIB AFE3plus"
+				(path "/324c4880-14dd-4339-a8ef-63d64f49eee3/e97c32bf-f406-4294-8a3d-45b0aae2e3e8"
+					(reference "FH1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_EEZ_unsorted:Fuse_3651_PAD")
+		(at 55.88 91.44 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "972cf837-0fa7-4694-98b9-dd948e8a04c5")
+		(property "Reference" "FH2"
+			(at 58.42 92.075 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3561KTR"
+			(at 58.42 89.535 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_EEZ_SMD:3561_PAD"
+			(at 50.8 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "SMD fuse holder"
+			(at 55.88 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" "36-3561KCT-ND"
+			(at 48.26 91.44 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" "534-3561KTR"
+			(at 45.72 91.44 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME" "-"
+			(at 43.18 91.44 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C3205939"
+			(at 40.64 91.44 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Designator" "F1"
+			(at 49.53 91.44 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 72 72 1)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "4b2c4c71-f813-4d39-bcfb-65b7cdbe3c8a")
+		)
+		(instances
+			(project "EEZ DIB AFE3plus"
+				(path "/324c4880-14dd-4339-a8ef-63d64f49eee3/e97c32bf-f406-4294-8a3d-45b0aae2e3e8"
+					(reference "FH2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_EEZ_discretes:VOR1142B4")
 		(at 99.06 50.8 270)
 		(unit 1)
@@ -15096,7 +15417,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a3c845d6-6cea-4121-a4c4-47b53e5398d2")
-		(property "Reference" "#SUPPLY024"
+		(property "Reference" "#SUPPLY023"
 			(at 238.76 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -15157,7 +15478,7 @@
 		(instances
 			(project "EEZ DIB AFE3plus"
 				(path "/324c4880-14dd-4339-a8ef-63d64f49eee3/e97c32bf-f406-4294-8a3d-45b0aae2e3e8"
-					(reference "#SUPPLY024")
+					(reference "#SUPPLY023")
 					(unit 1)
 				)
 			)
@@ -16633,6 +16954,136 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_EEZ_unsorted:Fuse_3651_OUTLINE")
+		(at 83.82 81.28 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "bfaa3d99-a75a-4d5f-853b-74e3bdfd551c")
+		(property "Reference" "F2"
+			(at 83.82 80.01 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+			)
+		)
+		(property "Value" "520.618"
+			(at 83.82 83.82 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+			)
+		)
+		(property "Footprint" "PCM_EEZ_SMD:3561_OUTLINE"
+			(at 83.82 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "fuse holder outline"
+			(at 83.82 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" "-"
+			(at 83.82 76.2 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" "-"
+			(at 83.82 73.66 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME" "ZKS-1.25A"
+			(at 83.82 71.12 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "-"
+			(at 83.82 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Label" "1.25A"
+			(at 83.82 84.455 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+				(justify bottom)
+			)
+		)
+		(instances
+			(project "EEZ DIB AFE3plus"
+				(path "/324c4880-14dd-4339-a8ef-63d64f49eee3/e97c32bf-f406-4294-8a3d-45b0aae2e3e8"
+					(reference "F2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_EEZ_passives:C-EU")
 		(at 233.68 119.38 0)
 		(unit 1)
@@ -17134,6 +17585,136 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_EEZ_unsorted:Fuse_3651_OUTLINE")
+		(at 60.96 81.28 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "c680d54b-2428-40cb-adbd-fac216579733")
+		(property "Reference" "F1"
+			(at 60.96 80.01 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+			)
+		)
+		(property "Value" "521.524"
+			(at 60.96 83.82 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+			)
+		)
+		(property "Footprint" "PCM_EEZ_SMD:3561_OUTLINE"
+			(at 60.96 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "fuse holder outline"
+			(at 60.96 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" "-"
+			(at 60.96 76.2 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" "-"
+			(at 60.96 73.66 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME" "ZCM-5A"
+			(at 60.96 71.12 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "-"
+			(at 60.96 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Label" "5A"
+			(at 60.96 84.455 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+				(justify bottom)
+			)
+		)
+		(instances
+			(project "EEZ DIB AFE3plus"
+				(path "/324c4880-14dd-4339-a8ef-63d64f49eee3/e97c32bf-f406-4294-8a3d-45b0aae2e3e8"
+					(reference "F1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_EEZ_unsorted:PCB test point")
 		(at 243.84 73.66 270)
 		(unit 1)
@@ -17144,7 +17725,7 @@
 		(in_pos_files no)
 		(dnp no)
 		(uuid "c733975e-00cf-4c65-bfc1-093b1eb766f7")
-		(property "Reference" "TP3"
+		(property "Reference" "TP2"
 			(at 243.84 75.565 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17261,7 +17842,7 @@
 		(instances
 			(project "EEZ DIB AFE3plus"
 				(path "/324c4880-14dd-4339-a8ef-63d64f49eee3/e97c32bf-f406-4294-8a3d-45b0aae2e3e8"
-					(reference "TP3")
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -17963,7 +18544,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e47ab6db-92c6-4442-a133-963577d19a7f")
-		(property "Reference" "#SUPPLY023"
+		(property "Reference" "#SUPPLY022"
 			(at 238.76 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -18024,7 +18605,7 @@
 		(instances
 			(project "EEZ DIB AFE3plus"
 				(path "/324c4880-14dd-4339-a8ef-63d64f49eee3/e97c32bf-f406-4294-8a3d-45b0aae2e3e8"
-					(reference "#SUPPLY023")
+					(reference "#SUPPLY022")
 					(unit 1)
 				)
 			)

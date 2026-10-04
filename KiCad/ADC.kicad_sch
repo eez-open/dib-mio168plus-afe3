@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "${project_name}")
-		(date "2026-09-03")
+		(date "2026-10-04")
 		(rev "${project_version}")
 		(company "${project_creator}")
 		(comment 1 "${project_license}")
@@ -7793,6 +7793,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 101.6) (xy 165.1 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "163b6144-de22-429f-94ad-b96939ade80e")
+	)
+	(wire
+		(pts
 			(xy 30.48 71.12) (xy 27.94 71.12)
 		)
 		(stroke
@@ -8904,6 +8914,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 93.98) (xy 172.72 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c73c37c-95c2-40a7-b618-c3f8f09a22b5")
+	)
+	(wire
+		(pts
 			(xy 50.8 71.12) (xy 66.04 71.12)
 		)
 		(stroke
@@ -8971,6 +8991,16 @@
 			(type solid)
 		)
 		(uuid "73bf5428-24fe-49aa-ae25-4a0f7eee8ac1")
+	)
+	(wire
+		(pts
+			(xy 165.1 93.98) (xy 165.1 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75113201-fb0f-412a-a43b-55f56d9b581b")
 	)
 	(wire
 		(pts
@@ -9712,6 +9742,16 @@
 			(type solid)
 		)
 		(uuid "b3dc8db6-daa1-48d6-a865-06d692aae07e")
+	)
+	(wire
+		(pts
+			(xy 149.86 99.06) (xy 162.56 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5b6b628-691d-49a2-9a02-17eb441ea9a9")
 	)
 	(wire
 		(pts
@@ -10708,14 +10748,14 @@
 		(uuid "86841421-efbf-4da1-bd9b-a26ffacbd3c5")
 	)
 	(label "~{ADC_CS}"
-		(at 149.86 99.06 180)
+		(at 172.72 93.98 180)
 		(effects
 			(font
 				(size 0.889 0.889)
 			)
 			(justify right bottom)
 		)
-		(uuid "88874212-7de8-41a1-b565-7130d0cde597")
+		(uuid "96af5d39-5701-40ae-b636-407288a6540d")
 	)
 	(label "~{AFE_IOEXP_CS}"
 		(at 208.28 78.74 0)
@@ -12823,6 +12863,84 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_EEZ_symbols:GND")
+		(at 165.1 106.68 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1a5788a0-a9af-4432-8c58-c01014f26ad8")
+		(property "Reference" "#SUPPLY010"
+			(at 165.1 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 167.005 107.315 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 165.1 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7f68caed-ecb5-4f15-ad4a-6be8954d087d")
+		)
+		(instances
+			(project "EEZ DIB AFE3plus"
+				(path "/324c4880-14dd-4339-a8ef-63d64f49eee3/6bbff170-0b54-43f4-9039-15e1a13ed0de"
+					(reference "#SUPPLY010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_EEZ_passives:C-EU")
 		(at 43.18 63.5 180)
 		(unit 1)
@@ -14051,7 +14169,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3645abcb-51e1-4bc1-9c21-b8c7febb093f")
-		(property "Reference" "#SUPPLY012"
+		(property "Reference" "#SUPPLY013"
 			(at 220.98 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -14112,7 +14230,7 @@
 		(instances
 			(project "EEZ DIB AFE3plus"
 				(path "/324c4880-14dd-4339-a8ef-63d64f49eee3/6bbff170-0b54-43f4-9039-15e1a13ed0de"
-					(reference "#SUPPLY012")
+					(reference "#SUPPLY013")
 					(unit 1)
 				)
 			)
@@ -15095,7 +15213,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "533b5be8-82ec-4707-b734-c0d1e3310391")
-		(property "Reference" "#SUPPLY015"
+		(property "Reference" "#SUPPLY016"
 			(at 236.22 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -15156,7 +15274,7 @@
 		(instances
 			(project "EEZ DIB AFE3plus"
 				(path "/324c4880-14dd-4339-a8ef-63d64f49eee3/6bbff170-0b54-43f4-9039-15e1a13ed0de"
-					(reference "#SUPPLY015")
+					(reference "#SUPPLY016")
 					(unit 1)
 				)
 			)
@@ -15506,6 +15624,134 @@
 			(project "EEZ DIB AFE3plus"
 				(path "/324c4880-14dd-4339-a8ef-63d64f49eee3/6bbff170-0b54-43f4-9039-15e1a13ed0de"
 					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_EEZ_unsorted:JP3 shorted")
+		(at 165.1 99.06 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "59f05da9-db2b-4911-bd54-ef4948342dad")
+		(property "Reference" "JP3"
+			(at 167.64 99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 165.1 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_EEZ_SMD:JP3 shorted (0603)"
+			(at 165.1 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 165.1 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" ""
+			(at 165.1 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 165.1 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "TME" ""
+			(at 165.1 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 165.1 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.889 0.889)
+				)
+			)
+		)
+		(pin "NC"
+			(uuid "b0e8221b-defc-4348-9d60-eb7d2c4e184d")
+		)
+		(pin "COM"
+			(uuid "63ceecc1-3074-496e-a873-3a1d358e54c6")
+		)
+		(pin "NO"
+			(uuid "b56f1204-c148-466e-acb5-76f5d154b1aa")
+		)
+		(instances
+			(project "EEZ DIB AFE3plus"
+				(path "/324c4880-14dd-4339-a8ef-63d64f49eee3/6bbff170-0b54-43f4-9039-15e1a13ed0de"
+					(reference "JP3")
 					(unit 1)
 				)
 			)
@@ -16352,7 +16598,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "720073f1-9099-4f87-991e-a1433010fc5a")
-		(property "Reference" "#SUPPLY011"
+		(property "Reference" "#SUPPLY012"
 			(at 203.2 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -16413,7 +16659,7 @@
 		(instances
 			(project "EEZ DIB AFE3plus"
 				(path "/324c4880-14dd-4339-a8ef-63d64f49eee3/6bbff170-0b54-43f4-9039-15e1a13ed0de"
-					(reference "#SUPPLY011")
+					(reference "#SUPPLY012")
 					(unit 1)
 				)
 			)
@@ -20015,7 +20261,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bbf004f2-a5e8-4596-a75b-d492845c9d25")
-		(property "Reference" "#SUPPLY016"
+		(property "Reference" "#SUPPLY017"
 			(at 274.32 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -20076,7 +20322,7 @@
 		(instances
 			(project "EEZ DIB AFE3plus"
 				(path "/324c4880-14dd-4339-a8ef-63d64f49eee3/6bbff170-0b54-43f4-9039-15e1a13ed0de"
-					(reference "#SUPPLY016")
+					(reference "#SUPPLY017")
 					(unit 1)
 				)
 			)
@@ -21134,7 +21380,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d1f5e30b-8ea0-40e0-b9d2-c9f57c4f9666")
-		(property "Reference" "#SUPPLY014"
+		(property "Reference" "#SUPPLY015"
 			(at 226.06 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -21195,7 +21441,7 @@
 		(instances
 			(project "EEZ DIB AFE3plus"
 				(path "/324c4880-14dd-4339-a8ef-63d64f49eee3/6bbff170-0b54-43f4-9039-15e1a13ed0de"
-					(reference "#SUPPLY014")
+					(reference "#SUPPLY015")
 					(unit 1)
 				)
 			)
@@ -21481,7 +21727,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d99f96be-0338-4dc8-b896-e5d67a0489f0")
-		(property "Reference" "#SUPPLY010"
+		(property "Reference" "#SUPPLY011"
 			(at 182.88 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -21542,7 +21788,7 @@
 		(instances
 			(project "EEZ DIB AFE3plus"
 				(path "/324c4880-14dd-4339-a8ef-63d64f49eee3/6bbff170-0b54-43f4-9039-15e1a13ed0de"
-					(reference "#SUPPLY010")
+					(reference "#SUPPLY011")
 					(unit 1)
 				)
 			)
@@ -22496,7 +22742,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f3f2668a-1d01-4708-89be-5afdc2f25377")
-		(property "Reference" "#SUPPLY013"
+		(property "Reference" "#SUPPLY014"
 			(at 220.98 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -22557,7 +22803,7 @@
 		(instances
 			(project "EEZ DIB AFE3plus"
 				(path "/324c4880-14dd-4339-a8ef-63d64f49eee3/6bbff170-0b54-43f4-9039-15e1a13ed0de"
-					(reference "#SUPPLY013")
+					(reference "#SUPPLY014")
 					(unit 1)
 				)
 			)

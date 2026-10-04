@@ -1,4 +1,4 @@
-### Footprint positions - created on 2026-09-03T10:57:15 ###
+### Footprint positions - created on 2026-10-04T18:06:46 ###
 ### Printed by KiCad version 10.0.6-10.0.6~ubuntu24.04.1
 ## Unit = mm, Angle = deg.
 ## Side : top
@@ -92,8 +92,8 @@ IC10      DG212BDQ-T1-E3        TSSOP-16                          164.0450  -129
 IC11      MCP6004-I/ST          PW(R-PDSO-G14)                    180.3400  -125.8594   90.0000  top
 IC12      DG212BDQ-T1-E3        TSSOP-16                          172.3804  -129.3768  -90.0000  top
 IC13      OPA376AIDBVR          SOT23-5L_STM                      134.5120  -127.4848  -90.0000  top
-JP3       10129378-902001BLF    PinHeader_1x02_P2.54mm_Vertical   129.7000  -116.7769    0.0000  top
-JP4       10129378-902001BLF    PinHeader_1x02_P2.54mm_Vertical    95.6300  -129.0143    0.0000  top
+JP4       10129378-902001BLF    PinHeader_1x02_P2.54mm_Vertical   129.7000  -116.7769    0.0000  top
+JP5       10129378-902001BLF    PinHeader_1x02_P2.54mm_Vertical    95.6300  -129.0143    0.0000  top
 K1        IM03DGR               9-1462038-9                       134.2100  -105.5400  180.0000  top
 K2        IM03GR                9-1462038-9                       134.2100   -95.0700  180.0000  top
 K3        IM03GR                9-1462038-9                       153.5000  -128.0900   90.0000  top

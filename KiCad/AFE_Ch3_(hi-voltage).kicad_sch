@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "${project_name}")
-		(date "2026-09-03")
+		(date "2026-10-04")
 		(rev "${project_version}")
 		(company "${project_creator}")
 		(comment 1 "${project_license}")
@@ -8139,7 +8139,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0110845c-0b71-4b3b-bb1d-8e39d5a90fdb")
-		(property "Reference" "#SUPPLY026"
+		(property "Reference" "#SUPPLY027"
 			(at 63.5 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -8200,7 +8200,7 @@
 		(instances
 			(project "EEZ DIB AFE3plus"
 				(path "/324c4880-14dd-4339-a8ef-63d64f49eee3/50163daa-9396-4aa9-ac6d-00f765a20bd3"
-					(reference "#SUPPLY026")
+					(reference "#SUPPLY027")
 					(unit 1)
 				)
 			)
@@ -8726,7 +8726,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "13b84ca6-8f8b-4c5c-87b5-ee7a7eb3b4fb")
-		(property "Reference" "#SUPPLY027"
+		(property "Reference" "#SUPPLY028"
 			(at 101.6 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -8787,7 +8787,7 @@
 		(instances
 			(project "EEZ DIB AFE3plus"
 				(path "/324c4880-14dd-4339-a8ef-63d64f49eee3/50163daa-9396-4aa9-ac6d-00f765a20bd3"
-					(reference "#SUPPLY027")
+					(reference "#SUPPLY028")
 					(unit 1)
 				)
 			)
@@ -9419,7 +9419,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3a0d4257-8dce-4407-a0e8-fb71591ab2cd")
-		(property "Reference" "JP3"
+		(property "Reference" "JP4"
 			(at 50.8 113.665 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9526,7 +9526,7 @@
 		(instances
 			(project "EEZ DIB AFE3plus"
 				(path "/324c4880-14dd-4339-a8ef-63d64f49eee3/50163daa-9396-4aa9-ac6d-00f765a20bd3"
-					(reference "JP3")
+					(reference "JP4")
 					(unit 1)
 				)
 			)
@@ -9678,7 +9678,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "455766a6-3b2e-49b9-bb26-1dfb38074a80")
-		(property "Reference" "#SUPPLY024"
+		(property "Reference" "#SUPPLY025"
 			(at 45.72 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -9739,7 +9739,7 @@
 		(instances
 			(project "EEZ DIB AFE3plus"
 				(path "/324c4880-14dd-4339-a8ef-63d64f49eee3/50163daa-9396-4aa9-ac6d-00f765a20bd3"
-					(reference "#SUPPLY024")
+					(reference "#SUPPLY025")
 					(unit 1)
 				)
 			)
@@ -9756,7 +9756,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4a9b75a7-95f8-4c9f-9252-a3de024da73f")
-		(property "Reference" "#SUPPLY030"
+		(property "Reference" "#SUPPLY031"
 			(at 220.98 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -9817,7 +9817,7 @@
 		(instances
 			(project "EEZ DIB AFE3plus"
 				(path "/324c4880-14dd-4339-a8ef-63d64f49eee3/50163daa-9396-4aa9-ac6d-00f765a20bd3"
-					(reference "#SUPPLY030")
+					(reference "#SUPPLY031")
 					(unit 1)
 				)
 			)
@@ -10521,7 +10521,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7024db65-1c86-4b77-8ec9-516e6c22136e")
-		(property "Reference" "#SUPPLY029"
+		(property "Reference" "#SUPPLY030"
 			(at 157.48 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -10582,7 +10582,7 @@
 		(instances
 			(project "EEZ DIB AFE3plus"
 				(path "/324c4880-14dd-4339-a8ef-63d64f49eee3/50163daa-9396-4aa9-ac6d-00f765a20bd3"
-					(reference "#SUPPLY029")
+					(reference "#SUPPLY030")
 					(unit 1)
 				)
 			)
@@ -11210,7 +11210,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9130576c-90b2-4384-b34e-3ed5cadf1565")
-		(property "Reference" "#SUPPLY028"
+		(property "Reference" "#SUPPLY029"
 			(at 121.92 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -11271,7 +11271,7 @@
 		(instances
 			(project "EEZ DIB AFE3plus"
 				(path "/324c4880-14dd-4339-a8ef-63d64f49eee3/50163daa-9396-4aa9-ac6d-00f765a20bd3"
-					(reference "#SUPPLY028")
+					(reference "#SUPPLY029")
 					(unit 1)
 				)
 			)
@@ -12939,7 +12939,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "deb4f5db-675c-4aca-a503-3b19e588ebc5")
-		(property "Reference" "#SUPPLY025"
+		(property "Reference" "#SUPPLY026"
 			(at 45.72 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -13000,7 +13000,7 @@
 		(instances
 			(project "EEZ DIB AFE3plus"
 				(path "/324c4880-14dd-4339-a8ef-63d64f49eee3/50163daa-9396-4aa9-ac6d-00f765a20bd3"
-					(reference "#SUPPLY025")
+					(reference "#SUPPLY026")
 					(unit 1)
 				)
 			)

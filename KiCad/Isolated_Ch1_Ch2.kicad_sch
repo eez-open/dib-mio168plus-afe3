@@ -10265,7 +10265,7 @@
 		)
 		(uuid "01e8767e-b204-4f48-86f4-fe680357ff9a")
 	)
-	(label "ISEL10#2"
+	(label "ISEL#2"
 		(at 88.9 177.8 0)
 		(effects
 			(font
@@ -10295,7 +10295,7 @@
 		)
 		(uuid "539ec280-bf3c-4362-ae4c-e5d1af13ec2f")
 	)
-	(label "ISEL#2"
+	(label "ISEL5#2"
 		(at 88.9 172.72 0)
 		(effects
 			(font
@@ -10349,7 +10349,7 @@
 			)
 		)
 	)
-	(global_label "ISEL#4"
+	(global_label "ISEL5#4"
 		(shape output)
 		(at 88.9 175.26 0)
 		(fields_autoplaced yes)
@@ -10589,7 +10589,7 @@
 			)
 		)
 	)
-	(global_label "ISEL10#4"
+	(global_label "ISEL#4"
 		(shape output)
 		(at 88.9 180.34 0)
 		(fields_autoplaced yes)

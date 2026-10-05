@@ -7438,7 +7438,7 @@
 				)
 				(uuid "7dd394bd-f294-4f16-827a-280f76c6a65a")
 			)
-			(table_cell "ISEL10A"
+			(table_cell "ISEL5"
 				(exclude_from_sim no)
 				(at 229.235 73.66 0)
 				(size 6.985 2.54)
@@ -7472,7 +7472,7 @@
 				)
 				(uuid "2fa197e9-6ddf-492a-bab5-f5059c47a6f0")
 			)
-			(table_cell "Current 10A"
+			(table_cell "Current 5A"
 				(exclude_from_sim no)
 				(at 202.565 76.2 0)
 				(size 12.065 2.54)
@@ -7780,7 +7780,7 @@
 			)
 		)
 	)
-	(global_label "ISEL10#4"
+	(global_label "ISEL#4"
 		(shape input)
 		(at 213.36 50.8 180)
 		(fields_autoplaced yes)
@@ -7948,7 +7948,7 @@
 			)
 		)
 	)
-	(global_label "ISEL#4"
+	(global_label "ISEL5#4"
 		(shape input)
 		(at 213.36 48.26 180)
 		(fields_autoplaced yes)

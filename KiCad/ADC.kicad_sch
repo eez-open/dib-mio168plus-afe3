@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "${project_name}")
-		(date "2026-10-04")
+		(date "2026-10-05")
 		(rev "${project_version}")
 		(company "${project_creator}")
 		(comment 1 "${project_license}")
@@ -6748,6 +6748,18 @@
 			(justify left bottom)
 		)
 		(uuid "cdbf4e91-ba4c-42ae-93e5-978a2d76b842")
+	)
+	(text "Internal reference: 2.4 V"
+		(exclude_from_sim no)
+		(at 130.81 76.2 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+				(color 132 0 132 1)
+			)
+			(justify left top)
+		)
+		(uuid "ce451700-dc10-4fb6-8a8a-2011996457f3")
 	)
 	(text "+/-2.5 V LDOs"
 		(exclude_from_sim no)

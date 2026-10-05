@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "${project_name}")
-		(date "2026-10-04")
+		(date "2026-10-05")
 		(rev "${project_version}")
 		(company "${project_creator}")
 		(comment 1 "${project_license}")
@@ -7783,7 +7783,7 @@
 	)
 	(text "CH#1 Vin- 7"
 		(exclude_from_sim no)
-		(at 33.655 55.88 0)
+		(at 33.02 43.18 0)
 		(effects
 			(font
 				(size 1.143 1.143)
@@ -7793,9 +7793,9 @@
 		)
 		(uuid "0227d246-fa9a-4473-81dd-9f594ac5a12d")
 	)
-	(text "CH#2 Vin- 3"
+	(text "CH#3 Vin- 3"
 		(exclude_from_sim no)
-		(at 33.655 45.72 0)
+		(at 33.02 53.34 0)
 		(effects
 			(font
 				(size 1.143 1.143)
@@ -7805,9 +7805,9 @@
 		)
 		(uuid "308ca340-598f-4f56-be97-436bbae76d8b")
 	)
-	(text "CH#2 CS+ 2"
+	(text "CH#4 CS+ 2"
 		(exclude_from_sim no)
-		(at 33.655 43.18 0)
+		(at 33.02 55.88 0)
 		(effects
 			(font
 				(size 1.143 1.143)
@@ -7819,7 +7819,7 @@
 	)
 	(text "CH#1 Vin+ 8"
 		(exclude_from_sim no)
-		(at 33.655 58.42 0)
+		(at 33.02 40.64 0)
 		(effects
 			(font
 				(size 1.143 1.143)
@@ -7853,9 +7853,9 @@
 		)
 		(uuid "666d5713-dcdf-4ccd-a314-fe04087a80e9")
 	)
-	(text "CH#2 CS- 1"
+	(text "CH#4 CS- 1"
 		(exclude_from_sim no)
-		(at 33.655 40.64 0)
+		(at 33.02 58.42 0)
 		(effects
 			(font
 				(size 1.143 1.143)
@@ -7893,9 +7893,9 @@
 		)
 		(uuid "815b9cf8-f286-4280-aa08-0f7ae5f91f46")
 	)
-	(text "CH#1 CS+ 6"
+	(text "CH#2 CS+ 6"
 		(exclude_from_sim no)
-		(at 33.655 53.34 0)
+		(at 33.02 45.72 0)
 		(effects
 			(font
 				(size 1.143 1.143)
@@ -7917,9 +7917,9 @@
 		)
 		(uuid "a7712298-a35d-4ad7-8f65-f61fc6f13124")
 	)
-	(text "CH#1 CS- 5"
+	(text "CH#2 CS- 5"
 		(exclude_from_sim no)
-		(at 33.655 50.8 0)
+		(at 33.02 48.26 0)
 		(effects
 			(font
 				(size 1.1176 1.1176)
@@ -7955,9 +7955,9 @@
 		)
 		(uuid "d0d19b54-1fe3-4e2d-9a41-3b1317c5033b")
 	)
-	(text "CH#2 Vin+ 4"
+	(text "CH#3 Vin+ 4"
 		(exclude_from_sim no)
-		(at 33.655 48.26 0)
+		(at 33.02 50.8 0)
 		(effects
 			(font
 				(size 1.143 1.143)

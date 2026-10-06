@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "${project_name}")
-		(date "2026-10-05")
+		(date "2026-10-06")
 		(rev "${project_version}")
 		(company "${project_creator}")
 		(comment 1 "${project_license}")
@@ -4840,6 +4840,186 @@
 								(size 1.27 1.27)
 							)
 						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PCM_EEZ_unsorted:Shunt connector 1x2"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board no)
+			(in_pos_files no)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "M"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "M7582-05"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Shunt connector 1x2"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "DigiKey" "952-2881-ND"
+				(at 0 -10.16 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Mouser" "855-M7582-05"
+				(at 0 -12.7 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "TME" "JUMPER-B"
+				(at 0 -15.24 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C52190654"
+				(at 0 -17.78 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Shunt connector 1x2_1_1"
+				(polyline
+					(pts
+						(xy -2.54 -6.35) (xy -2.54 -1.27) (xy -1.27 -1.27) (xy -1.27 -1.905) (xy 1.27 -1.905) (xy 1.27 -1.27)
+						(xy 2.54 -1.27) (xy 2.54 -6.35) (xy -2.54 -6.35)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 -3.175) (xy -0.635 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -3.81)
+					(mid -0.449 -3.624)
+					(end -0.635 -3.175)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.635 -3.175)
+					(mid 0.449 -3.624)
+					(end 0 -3.81)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -3.175) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.5401 -2.9283) (xy -2.5399 -2.9283)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
 					)
 				)
 			)
@@ -10477,6 +10657,126 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_EEZ_unsorted:Shunt connector 1x2")
+		(at 48.26 76.2 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(in_pos_files no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "52742855-6a57-4084-8b0a-8ba28258433b")
+		(property "Reference" "M2"
+			(at 52.07 78.7399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M7582-05"
+			(at 52.07 81.2799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 48.26 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Shunt connector 1x2"
+			(at 48.26 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" "952-2881-ND"
+			(at 48.26 86.36 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" "855-M7582-05"
+			(at 48.26 88.9 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "TME" "JUMPER-B"
+			(at 48.26 91.44 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C52190654"
+			(at 48.26 93.98 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "EEZ DIB AFE3plus"
+				(path "/324c4880-14dd-4339-a8ef-63d64f49eee3/13785374-ffa8-4fff-86e4-702f1a3b8cf6"
+					(reference "M2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_EEZ_passives:R-EU_4-WIRE")
 		(at 101.6 50.8 0)
 		(mirror y)
@@ -10642,18 +10942,18 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "2N7002"
+		(property "Value" "BSS214NH6327XTSA1"
 			(at 109.855 62.865 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "PCM_EEZ_SMD:SOT103P240X110-3N"
+		(property "Footprint" "PCM_EEZ_SMD:SOT23-3"
 			(at 111.76 67.945 0)
 			(hide yes)
 			(show_name no)
@@ -10686,7 +10986,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "2N7002LT1GOSCT-ND"
+		(property "DigiKey" "BSS214NH6327XTSA1CT-ND"
 			(at 111.76 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -10697,7 +10997,7 @@
 				)
 			)
 		)
-		(property "Mouser" "863-2N7002LT1G"
+		(property "Mouser" "726-BSS214NH6327"
 			(at 111.76 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -10708,7 +11008,7 @@
 				)
 			)
 		)
-		(property "TME" "2N7002LT1G"
+		(property "TME" "BSS214NH6327XTSA1"
 			(at 111.76 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -10730,7 +11030,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C8545"
+		(property "LCSC" "C48543182"
 			(at 111.76 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -12786,18 +13086,18 @@
 				(justify right top)
 			)
 		)
-		(property "Value" "2N7002"
+		(property "Value" "BSS214NH6327XTSA1"
 			(at 109.855 50.165 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.889 0.889)
 				)
 				(justify right top)
 			)
 		)
-		(property "Footprint" "PCM_EEZ_SMD:SOT103P240X110-3N"
+		(property "Footprint" "PCM_EEZ_SMD:SOT23-3"
 			(at 111.76 31.115 0)
 			(hide yes)
 			(show_name no)
@@ -12830,7 +13130,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "2N7002LT1GOSCT-ND"
+		(property "DigiKey" "BSS214NH6327XTSA1CT-ND"
 			(at 111.76 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -12841,7 +13141,7 @@
 				)
 			)
 		)
-		(property "Mouser" "863-2N7002LT1G"
+		(property "Mouser" "726-BSS214NH6327"
 			(at 111.76 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -12852,7 +13152,7 @@
 				)
 			)
 		)
-		(property "TME" "2N7002LT1G"
+		(property "TME" "BSS214NH6327XTSA1"
 			(at 111.76 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -12874,7 +13174,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C8545"
+		(property "LCSC" "C48543182"
 			(at 111.76 43.18 0)
 			(hide yes)
 			(show_name no)

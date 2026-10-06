@@ -1,4 +1,4 @@
-### Footprint positions - created on 2026-10-04T18:06:46 ###
+### Footprint positions - created on 2026-10-06T08:24:31 ###
 ### Printed by KiCad version 10.0.6-10.0.6~ubuntu24.04.1
 ## Unit = mm, Angle = deg.
 ## Side : top
@@ -105,8 +105,8 @@ L4        MLZ1608N100LT000      BEAD0603                          112.7273   -91
 L5        MLZ1608N100LT000      BEAD0603                          103.0890  -113.3500  180.0000  top
 OK1       VOR1142B4             DIL4-SMD                          152.9788   -92.3006   90.0000  top
 OK2       VOR1142B4             DIL4-SMD                          166.0600  -121.5400   90.0000  top
-Q1        2N7002                SOT103P240X110-3N                 114.7440  -116.8496    0.0000  top
-Q2        2N7002                SOT103P240X110-3N                 110.5630  -116.8548    0.0000  top
+Q1        BSS214NH6327XTSA1     SOT23-3                           114.7183  -116.8557  -90.0000  top
+Q2        BSS214NH6327XTSA1     SOT23-3                           110.5630  -116.8548  -90.0000  top
 R1        49R9                  R_0603_1608Metric                 181.8498  -115.8053  180.0000  top
 R2        49R9                  R_0603_1608Metric                 181.8498  -114.2198  180.0000  top
 R3        49R9                  R_0603_1608Metric                 181.8498  -112.2253  180.0000  top

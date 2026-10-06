@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "${project_name}")
-		(date "2026-10-05")
+		(date "2026-10-06")
 		(rev "${project_version}")
 		(company "${project_creator}")
 		(comment 1 "${project_license}")
@@ -7841,7 +7841,7 @@
 		)
 		(uuid "6548e0b8-0e0d-4fe6-975f-76fb908f20a2")
 	)
-	(text "Fixed gain: x2\nVoltage ranges: ±50 V, ±480 V"
+	(text "Fixed gain: x2\nVoltage ranges (calibrated): ±50 V, ±480 V\nFull range: ±66.655 V, ±580.94 V"
 		(exclude_from_sim no)
 		(at 220.98 80.01 0)
 		(effects
@@ -7929,7 +7929,7 @@
 		)
 		(uuid "bbc212c1-9c98-4075-8f8c-c386a8bcda23")
 	)
-	(text "Fixed gain: x8.2\nCurrent ranges: ±1 A (gain x1), ±10 A (gain x2)"
+	(text "Fixed gain: x8.2\nCurrent ranges (calibrated): ±1 A (gain x1), ±5 A (gain x2)\nFull range: ±1.25 A, ±11.363 A"
 		(exclude_from_sim no)
 		(at 220.98 140.97 0)
 		(effects
